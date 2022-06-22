@@ -3,7 +3,6 @@ import glob
 import os.path
 import re
 import shutil
-import sys
 from pathlib import Path
 
 from question import Question
@@ -11,13 +10,14 @@ from question import Question
 if __name__ == '__main__':
 
     # In window,s this path is typically found at "C:\Users\@Username\AppData\Roaming\Anki2\@Username\collection.media"
-    path_to_anki_collection_folder = r"C:\Users\Johannes\AppData\Roaming\Anki2\User 1\collection.media"
+    path_to_anki_collection_folder = r""
+
+    if len(path_to_anki_collection_folder) == 0:
+        raise Exception("Please add the path to the collection.media folder of your Anki installation")
 
     root_path = Path(__file__).parents[1]
     resources_folder_path = root_path.joinpath("resources", "linkedin-skill-assessments-quizzes")
     storage_folder = root_path.joinpath("resources", "csv_files")
-
-    #folder_path = resources_folder_path.joinpath("android")
 
     sub_folders = [f.path for f in os.scandir(resources_folder_path) if f.is_dir()]
 

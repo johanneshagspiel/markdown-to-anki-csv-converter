@@ -15,24 +15,41 @@ This repository contains a script to convert the LinkedIn Skill Assessment Quizz
 
 This repository includes:
 
-- the script itself needed to convert one of [Ebazhanov's](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) markdown files to a .csv file that can be imported into Anki. This conversion
-  - reformats the markdown
-  - moves any image associated to a question into the anki collections folder
-- 
+- the script itself needed to convert all of [Ebazhanov's](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) markdown files into a .csv file that can be imported into Anki. Any images referenced in the markdown files are copied into Anki's collection.media folder and properly referenced in the flashcard. As of this writing, Anki does not support Markdown style code formatting such as `[nums[j] for j in range(n) if bitmask[j] == '1']`. Therefore, the code examples embedded in the flashcards are sometimes hard to read.
+- all of the Markdown file's as ready to import [.csv files](https://github.com/johanneshagspiel/markdown-to-anki-csv-converter/tree/main/resources/csv_files)
 
 ## Tools
 
-| Purpose              | Name                                                                                            |
-|----------------------|-------------------------------------------------------------------------------------------------|
-| Programming language | [Python 3.10]                                                                                   |(
-| Version              | [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install) with Ubuntu |
+| Purpose                | Name                                                         |
+|------------------------|--------------------------------------------------------------|
+| Programming language   | [Python 3.10](https://www.python.org/)                       |
+| Version control system | [Git](https://git-scm.com/)                                  |
 
 ## Installation Process
 
-It is assumed that the users operating system is Windows. 
+To import the .csv files in Anki, it is assumed that you already have installed [Anki](https://apps.ankiweb.net/). 
 
-- Download and install [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) preferably with the Ubuntu 18.04 LTS distribution.
-- To run the shell scripts, start WSL, move into the directory of this repository and execute the scripts with ./{name_of_script}.sh
+Open Anki and go to  `File -> Import` or press `Ctrl + Shift + I` and select the .csv file you want to import. Make sure that you select as type `Basic` and that you toggle the `Allow HTML in fields` option. You will most likely also want to change the name of the deck from `Default`. Now you have imported the .csv file. 
+
+If you want to convert the markdown files for yourself, it is assumed that your operating system is Windows and that you have installed [Python](https://www.python.org/) and [Git](https://git-scm.com/) .
+
+Clone this repository with the following command:
+
+`git clone https://github.com/johanneshagspiel/markdown-to-anki-csv-converter.git`
+
+You will also need [Ebazhanov's markdown files](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes). First go into the resources folder:
+
+`cd resources`
+
+In case there is already a `linkedin-skill-assessments-quizzes` folder, delete it. Now clone Ebazhanov's repository with:
+
+`git clone https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes.git`
+
+Lastly, you need to add the path to the `collection.media` folder of your Anki installation in the main method. Most likely, you can find this directory at:
+
+`"C:\Users\@Username\AppData\Roaming\Anki2\@Username\collection.media"`
+
+Now you can run the main method and convert the Markdown files yourself.
 
 ## Licence
 
