@@ -1,11 +1,11 @@
-<img src=resources/bash_logo.png alt="Bash Logo" width="256" height="108">
+<img src=resources/img/markdown-to-anki-csv-converter_logo.JPG alt="<Markdown-to-Anki-CSV Converter Logo" width="534" height="100">
 
 --------------------------------------------------------------------------------
 [![MIT License](https://img.shields.io/github/license/johanneshagspiel/markdown-to-anki-csv-converter)](LICENSE)
 [![Top Language](https://img.shields.io/github/languages/top/johanneshagspiel/markdown-to-anki-csv-converter)](https://github.com/johanneshagspiel/markdown-to-anki-csv-converter)
 [![Latest Release](https://img.shields.io/github/v/release/johanneshagspiel/markdown-to-anki-csv-converter)](https://github.com/johanneshagspiel/markdown-to-anki-csv-converter/releases/)
 
-# Unix Scripts
+# Markdown-to-Anki-CSV Converter
 
 This repository contains a collection of bash scripts used to get familiar with the basics of a unix based system as well as shell scripting.  
 
@@ -42,4 +42,4 @@ These Unix scripts are published under the MIT licence, which can be found in th
 
 ## References
 
-The logo was taken from [Wikipedia](https://de.m.wikipedia.org/wiki/Datei:Gnu-bash-logo.svg). 
+The LinkedIn logo was taken from [Wikimedia](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/LinkedIn_icon_circle.svg/2048px-LinkedIn_icon_circle.svg.png), [Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png?20190322184628), [Anki](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Anki-icon.svg/1200px-Anki-icon.svg.png)
