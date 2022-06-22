@@ -29,8 +29,9 @@ class Question():
         else:
             question_test = f"<b>{self.question}</b><br>{answer_option_text}"
 
-
-        if len(self.answers) == 1:
+        if len(self.answers) == 0:
+            answer_text ="No answer found"
+        elif len(self.answers) == 1:
             answer_text = self.answers[0]
         else:
             answer_text = "<ul>"

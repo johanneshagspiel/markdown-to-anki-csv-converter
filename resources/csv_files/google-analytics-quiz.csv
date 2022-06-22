@@ -74,5 +74,5 @@
 "<b> You operate a website that has a three-step sign-up process. However, each step of the sign-up process loads at the same URL. If you wanted to assign a unique URL to each step and track it within Google Analytics as a pageview, what would you do?</b><br><ul><li>Use virtual pageviews.</li><li>Configure a campaign URL.</li><li>Use the preview tag.</li><li>Use event tracking.</li></ul>",Use event tracking.
 <b> It is a best practice to always have one of what kind of view?</b><br><ul><li>property</li><li>custom</li><li>segmented</li><li>unfiltered</li></ul>,unfiltered
 <b> You send an email including a link to your website without any UTM parameters. A visitor clicks that link from a secured (https) email platform such as Gmail. What source is shown for that traffic?</b><br><ul><li>Email</li><li>Referral</li><li>(other)</li><li>Direct</li></ul>,Referral
-<b> Which type of goal allows you to specifiy a funnel?</b><br><ul><li>Destination</li><li>Duration</li><li>Pages/Screens per Session</li><li>Event</li></ul>,<ul></ul>
+<b> Which type of goal allows you to specifiy a funnel?</b><br><ul><li>Destination</li><li>Duration</li><li>Pages/Screens per Session</li><li>Event</li></ul>,No answer found
 <b> What is an interaction that causes data to be sent to Analytics?</b><br><ul><li>dimension</li><li>metric</li><li>hit</li><li>tag</li></ul>,hit
