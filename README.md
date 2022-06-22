@@ -7,23 +7,25 @@
 
 # Markdown-to-Anki-CSV Converter
 
-This repository contains a collection of bash scripts used to get familiar with the basics of a unix based system as well as shell scripting.  
+This repository contains a script to convert the LinkedIn Skill Assessment Quizzes from [Ebazhanov](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) which are in the Markdown format into csv files that can be imported into Anki as well as the converted files.
+
+[Anki](https://apps.ankiweb.net/) is a popular open-source flashcard program that follows a spaced-repetition approach so that users can learn topics more effectively in less time.
 
 ## Features
 
-These scripts cover a range of topics such as:
+This repository includes:
 
-- fundamental operations with a unix file system including moving between directories or interacting with files via ls, find, sort or head
-- foundational concepts of shell scripting such as variables, pipelines and console printing
-- some of the most common bash commands such as cut, grep, sed, awk and xargs
+- the script itself needed to convert one of [Ebazhanov's](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) markdown files to a .csv file that can be imported into Anki. This conversion
+  - reformats the markdown
+  - moves any image associated to a question into the anki collections folder
+- 
 
 ## Tools
 
-| Purpose              | Name                                                                                             |
-|----------------------|--------------------------------------------------------------------------------------------------|
-| Programming language | Shell                                                                                            |
-| Unix system          | [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install) with Ubuntu |
-| Shell                | [Bash](https://www.gnu.org/software/bash/)                                                       |
+| Purpose              | Name                                                                                            |
+|----------------------|-------------------------------------------------------------------------------------------------|
+| Programming language | [Python 3.10]                                                                                   |(
+| Version              | [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install) with Ubuntu |
 
 ## Installation Process
 
@@ -32,13 +34,9 @@ It is assumed that the users operating system is Windows.
 - Download and install [Windows Subsystem for Linux (WSL)](https://docs.microsoft.com/en-us/windows/wsl/install-win10) preferably with the Ubuntu 18.04 LTS distribution.
 - To run the shell scripts, start WSL, move into the directory of this repository and execute the scripts with ./{name_of_script}.sh
 
-## Contributors
-
-These scripts were created together with Saru.
-
 ## Licence
 
-These Unix scripts are published under the MIT licence, which can be found in the [LICENSE](LICENSE) file. For this repository, the terms laid out there shall not apply to any individual that is currently enrolled at a higher education institution as a student. Those individuals shall not interact with any other part of this repository besides this README in any way by, for example cloning it or looking at its source code or have someone else interact with this repository in any way.
+This "Markdown-to-Anki-CSV Converter" script is published under the MIT licence, which can be found in the [LICENSE](LICENSE) file. 
 
 ## References
 

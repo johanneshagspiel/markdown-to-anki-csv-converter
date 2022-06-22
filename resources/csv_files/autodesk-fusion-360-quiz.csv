@@ -1,0 +1,27 @@
+"<b> How can you edit a feature?</b><br><ul><li>Select the feature, press Delete, and then create a new feature.</li><li>Right-click the feature and select Edit Feature.</li><li>Keep clicking Undo until the feature is gone.</li><li>Find the feature in the browser, select Remove, and then create a new feature.</li></ul>",Right-click the feature and select Edit Feature.
+<b> Which tool creates a plane normal to a sketch path or edge?</b><br><ul><li>Plane Through Two Edges</li><li>Plane Along Path</li><li>Plane at Angle</li><li>Plane Through Three Points</li></ul>,Plane Along Path
+"<b> Which tool measures the precise distance between two points, and creates dimensions that are parallel to the locations of objects?</b><br><ul><li>Aligned Dimension</li><li>Linear Dimension</li><li>Angular Dimension</li><li>Ordinate Dimension</li></ul>",Aligned Dimension
+<b> How many holes were used in the making of this object?</b><br><br>![image](https://user-images.githubusercontent.com/31204774/130909206-ca109121-ea9b-451c-9099-57cb7724e5b8.png)<br><br><ul><li>1</li><li>2</li><li>3</li><li>4</li><li>5</li><li>6</li><li>7</li><li>8</li></ul>,1
+"<b> In simulation, which constraint prevents movement in a specific direction?</b><br><ul><li>frictionless</li><li>prescribed displacement</li><li>pin</li><li>fixed</li></ul>",fixed
+"<b> In the CAM workspace, which strategy removes a part's interior cavity?</b><br><ul><li>Slot</li><li>2D Pocket</li><li>Bore</li><li>2D Contour</li></ul>",<ul></ul>
+<b> What does the Zebra Analysis tool do?</b><br><ul><li>It applies a metal render.</li><li>It fixes bodies.</li><li>It checks a body's continuity.</li><li>It splits bodies apart.</li></ul>,<ul></ul>
+<b> Which command creates a plane at the midpoint between two faces or work planes?</b><br><ul><li>Midplane</li><li>Plane Tangent to Face at Point</li><li>Offset Plane</li><li>Plane at Angle</li></ul>,<ul></ul>
+<b> Which hole type automatically enters a diameter value based on the type of fastener it will accomodate?</b><br><ul><li>Clearance</li><li>Simple</li><li>Drilled</li><li>Through</li></ul>,Clearance
+"<b> Which workspace creates components made from thin, premade material formed into specific shapes?</b><br><ul><li>Mesh</li><li>Simulation</li><li>Animation</li><li>Sheet Metal</li></ul>",<ul></ul>
+<b> What is required to invite other people into your project folder?</b><br><ul><li>a name</li><li>an email address</li><li>an IP address</li><li>a phone number</li></ul>,an email address
+<b> Which tool connects two joints in a way that the motion of one joint can drive the motion of another joint?</b><br><ul><li>Drive Joints</li><li>As-built Joint</li><li>Motion Study</li><li>Motion Link</li></ul>,<ul></ul>
+<b> Which joint type allows components to translate along two axes and rotate around a single axis?</b><br><ul><li>slider</li><li>revolute</li><li>planar</li><li>pin-slot</li></ul>,planar
+<b> Which view shows a drawing part at an enlarged scale?</b><br><ul><li>detail view</li><li>section view</li><li>base view</li><li>projected view</li></ul>,detail view
+<b> Which file type is not a drawing output?</b><br><ul><li>DWG file</li><li>CSV file</li><li>STEP file</li><li>PDF file</li></ul>,CSV file
+<b> What command do you use to understand the relationship between multiple joints?</b><br><ul><li>Lock</li><li>Animate Joint</li><li>Animate Model</li><li>Motion Link</li></ul>,<ul></ul>
+<b> What translator converts the screen toolpath into language the CNC machine understands?</b><br><ul><li>a post processor</li><li>G-code</li><li>NC-code</li><li>a code processor</li></ul>,a post processor
+<b> Which pattern tool copies objects around a selected axis?</b><br><ul><li>Rectangular Pattern</li><li>Pattern on Path</li><li>Mirror Plane</li><li>Circular Pattern</li></ul>,<ul></ul>
+<b> What is the initial view placed in a drawing called?</b><br><ul><li>base view</li><li>detail view</li><li>section view</li><li>main view</li></ul>,base view
+<b> Which command performs Boolean operations between solid bodies?</b><br><ul><li>Draft</li><li>Press</li><li>Pull</li><li>Combine</li><li>Scale</li></ul>,Combine
+"<b> In the CAM workspace, which strategy removes a part's interior cavity?</b><br><ul><li>2D Contour</li><li>2D Pocket</li><li>Slot</li><li>Bore</li></ul>",<ul></ul>
+<b> What does the Zebra Analysis tool do?</b><br><ul><li>It checks a body's continuity.</li><li>It splits bodies apart.</li><li>It fixes bodies.</li><li>It applies a metal render.</li></ul>,It checks a body's continuity.
+<b> You want to set up studies to test your design and see how it performs under various loads and conditions. Which workspace do you use?</b><br><ul><li>Animation</li><li>Mesh</li><li>Simulation</li><li>Render</li></ul>,Simulation
+<b> Which type of fillet applies two or more radius values to a selected edge?</b><br><ul><li>G2</li><li>Variable Radius</li><li>Chord Length</li><li>Smooth</li></ul>,Variable Radius
+<b> Which tool analyzes a T-spline body and corrects it?</b><br><ul><li>Repair Body</li><li>Convert</li><li>Enable Better Performance</li><li>Make Uniform</li></ul>,<ul></ul>
+<b> Which pattern tool creates copies of objects in one or two directions?</b><br><ul><li>Pattern on Path</li><li>Mirror Plane</li><li>Rectangular Pattern</li><li>Circular Pattern</li></ul>,<ul></ul>
+"<b> Which command shows the movement of the joint only, and does not take into account other grounded joints or any external effects on the joint?</b><br><ul><li>Suppress</li><li>Animate Model</li><li>Drive Joints</li><li>Animate Joint</li></ul>",<ul></ul>
