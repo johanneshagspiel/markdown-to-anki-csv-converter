@@ -35,19 +35,19 @@ If you want to convert the markdown files for yourself, it is assumed that your 
 
 Clone this repository with the following command:
 
-`git clone https://github.com/johanneshagspiel/markdown-to-anki-csv-converter.git`
+    git clone https://github.com/johanneshagspiel/markdown-to-anki-csv-converter.git
 
 You will also need [Ebazhanov's markdown files](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes). First go into the resources folder:
 
-`cd resources`
+    cd resources
 
 In case there is already a `linkedin-skill-assessments-quizzes` folder, delete it. Now clone Ebazhanov's repository with:
 
-`git clone https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes.git`
+    git clone https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes.git
 
 Lastly, you need to add the path to the `collection.media` folder of your Anki installation in the main method. Most likely, you can find this directory at:
 
-`"C:\Users\@Username\AppData\Roaming\Anki2\@Username\collection.media"`
+    C:\Users\@Username\AppData\Roaming\Anki2\@Username\collection.media
 
 Now you can run the main method and convert the Markdown files yourself.
 
