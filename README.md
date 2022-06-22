@@ -7,7 +7,7 @@
 
 # Markdown-to-Anki-CSV Converter
 
-This repository contains a script to convert the LinkedIn Skill Assessment Quizzes from [Ebazhanov](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) which are in the Markdown format into csv files that can be imported into Anki as well as the converted files.
+This repository contains a script to convert the LinkedIn "Skill Assessment Quizzes" from [Ebazhanov](https://github.com/Ebazhanov/linkedin-skill-assessments-quizzes) which are in the Markdown format into csv files that can be imported into Anki as well as [the converted files](https://github.com/johanneshagspiel/markdown-to-anki-csv-converter/tree/main/resources/csv_files).
 
 [Anki](https://apps.ankiweb.net/) is a popular open-source flashcard program that follows a spaced-repetition approach so that users can learn topics more effectively in less time.
 
