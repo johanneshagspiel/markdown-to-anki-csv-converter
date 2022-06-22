@@ -6,7 +6,7 @@ from pathlib import Path
 from question import Question
 
 if __name__ == '__main__':
-    _root = Path(__file__).parents[0]
+    _root = Path(__file__).parents[1]
     _resources_path = _root.joinpath("linkedin-skill-assessments-quizzes")
 
     folder_path = _resources_path.joinpath("git")
