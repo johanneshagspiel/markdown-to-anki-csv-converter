@@ -1,0 +1,234 @@
+[
+    {
+        "front": "<b>Q1. Which permission allows a user to create lists and document libraries, edit pages, apply themes?</b>\n- Edit\n- Contribute\n- Design\n- Approve",
+        "back": "Design"
+    },
+    {
+        "front": "<b>Q2. What happens when a file is deleted in SharePoint?</b>\n- It is permanently deleted.\n- It appears in the second-stage Recycle Bin.\n- It appears in the SharePoint Recycle Bin.\n- It remains on the list, but is marked as deleted.",
+        "back": "It appears in the SharePoint Recycle Bin."
+    },
+    {
+        "front": "<b>Q3. You are creating a new SharePoint subsite. From the following image, which template would you select to create a site that features scorecards, dashboards and access to PerformancePoint Services content?</b>\n- Basic Search Centre\n- Business Intelligence Centre\n- Records Centre\n- Enterprise Search Centre",
+        "back": "Business Intelligence Centre"
+    },
+    {
+        "front": "<b>Q4. You have enabled cloud hybrid search in your organization. What capability does this feature enable?</b>\n- the ability to search across any web app\n- the ability to search across multiple site collections\n- the ability to search both cloud and on-premises SharePoint sites\n- the ability to search SharePoint and OneDrive",
+        "back": "the ability to search both cloud and on-premises SharePoint sites"
+    },
+    {
+        "front": "<b>Q5. A user wants to place a OneDrive document into SharePoint. How can the user accomplish this?</b>\n- 1. In the OneDrive web app, select the file 2. Select Move to from the ribbon 3. Select the destination site 4. Select the destination folder\n- 1. In the OneDrive web app, select the file 2. Select Move to from the ribbon 3. Select the destination site\n- 1. In the OneDrive web app, select the file 2. Select the destination site 3. Select the destination folder 4. Select Move to from the ribbon\n- 1. In the OneDrive web app, select the file 2. Select the destination site 3. Select the destination folder",
+        "back": "1. In the OneDrive web app, select the file 2. Select Move to from the ribbon 3. Select the destination site 4. Select the destination folder"
+    },
+    {
+        "front": "<b>Q6. A user wants to know what options are available when versioning is enabled. Which choice is _not_ a versioning option?</b>\n- Indicate who should see the draft items in this document library.\n- Require documents to be checked out before they can be edited.\n- Open behavior for browser-enabled documents is the default.\n- Require content approval for submitted items.",
+        "back": "Open behavior for browser-enabled documents is the default."
+    },
+    {
+        "front": "<b>Q7. You are building a workflow between applications in a SharePoint site. How do you test a workflow functionality?</b>\n- Allow a workflow to manually start\n- Create a new task list as a part of the workflow\n- Assign security permissions for the workflow\n- Allow a workflow to automatically start",
+        "back": "Allow a workflow to manually start"
+    },
+    {
+        "front": "<b>Q8. In SharePoint what unique feature does a Document Set provide?</b>\n- file templates\n- folder and file permissions\n- versioning\n- folder-assigned metadata",
+        "back": "folder-assigned metadata"
+    },
+    {
+        "front": "<b>Q9. In a SharePoint online subscription, where is a user's identity managed?</b>\n- Windows Server\n- Azure Active Directory\n- Microsoft 365 admin centre\n- Microsoft 365 Security",
+        "back": "Microsoft 365 admin centre"
+    },
+    {
+        "front": "<b>Q10. You want to use powershell to retrieve a list of users that are members of the Viewers group in a SharePoint site. Which command do you use?</b>\n- `Get -SPUserSettingsProviderManager -Web 'https://sharepoint.contoso.com' -Group 'Viewers'`\n- `Get -SPUser 'https://sharepoint.contoso.com' -Group 'Viewers'`\n- `Get -SPUserSettingsProvider -Web 'https://sharepoint.contoso.com' -Group 'Viewers'`\n- `Get -SPUser -Web 'https://sharepoint.contoso.com' -Group 'Viewers'`",
+        "back": "`Get -SPUser -Web 'https://sharepoint.contoso.com' -Group 'Viewers'`"
+    },
+    {
+        "front": "<b>Q11. What is the default state of a document checkout in a SharePoint library?</b>\n- not configured\n- optional\n- required\n- disabled",
+        "back": "required"
+    },
+    {
+        "front": "<b>Q12. Which cloud-based tool can you use to add form responses to a SharePoint list?</b>\n- Forms\n- InfoPath\n- Delve\n- Power Automate",
+        "back": "Power Automate"
+    },
+    {
+        "front": "<b>Q13. You have created a workflow using the default issue tracking app. Unlike the tasks list, items are not being synchronized to Outlook tasks. Which statement explains the cause and remedy?</b>\n- The app is not configured properly through list settings and needs to be re-created\n- The default issue tracking app does not support Outlook synchronization and needs to be customized\n- The SharePoint version is not version 2013 or newer, which is required to support this feature\n- The app is not configured properly through list settings and needs to be modified",
+        "back": "The SharePoint version is not version 2013 or newer, which is required to support this feature"
+    },
+    {
+        "front": "<b>Q14. You are creating a new calendar list item in a SharePoint site. You want all users of this calendar to use the offline sync feature with the Outlook client. What steps do you include when creating instructions for users?</b>\n- 1. In the ribbon, select the Calendar tab. 2. Select the calendar in SharePoint. 3. Select Connect to Outlook 4. Confirm the connection to the calendar.\n- 1. Select the calendar in SharePoint. 2. Select Connect to Outlook. 3. In the ribbon, select the Calendar tab. 4. Confirm the connection to the calendar.\n- 1. Select the calendar in SharePoint. 2. In the ribbon, select the Calendar tab 3. Select Connect to Outlook. 4. Confirm the connection to the calendar.\n- 1. Select the calendar in SharePoint. 2. In the ribbon, select the Calendar tab. 3. Confirm the connection to the calendar. 4. Select Connect to Outlook.",
+        "back": "1. Select the calendar in SharePoint. 2. In the ribbon, select the Calendar tab 3. Select Connect to Outlook. 4. Confirm the connection to the calendar."
+    },
+    {
+        "front": "<b>Q15. When a group-connected site is created in SharePoint who is assigned as the owner?</b>\n- The top-level site owner\n- The group owner\n- The site creator\n- The the SharePoint admin",
+        "back": "The group owner"
+    },
+    {
+        "front": "<b>Q16. Which SharePoint component can use values such as text, choice, currency, and lookup?</b>\n- library\n- calendar\n- RSS Viewer web part\n- list",
+        "back": "list"
+    },
+    {
+        "front": "<b>Q17. What must you do when syncing a document library to the local computer?</b>\n- Enable documents to be available when online.\n- Select Always keep on this device.\n- Sign in to `OneDrive.com`.\n- Sign in to OneDrive.",
+        "back": "Sign in to OneDrive."
+    },
+    {
+        "front": "<b>Q18. What type of SharePoint object is SharePoint library?</b>\n- feature\n- collection\n- application\n- site",
+        "back": "site"
+    },
+    {
+        "front": "<b>Q19. Which SharePoint feature can you activate for items related to litigation, investigation or audit?</b>\n- Metadata navigation and Filtering\n- Content Organizer\n- Following Content\n- Hold",
+        "back": "Hold"
+    },
+    {
+        "front": "<b>Q20. When you create a user in Office365, to which SharePoint permissions group is the user automatically added as a member?</b>\n- Time Site members\n- Time Site visitors\n- Everyone\n- Everyone except external users",
+        "back": "Everyone"
+    },
+    {
+        "front": "<b>Q21. You need to customize the navigation for a site to include a link to a new library. Which area do you need to edit?</b>\n- site template\n- site permissions\n- Quick Launch\n- web part",
+        "back": "site permissions"
+    },
+    {
+        "front": "<b>Q22. Which statement is true about SharePoint site collections?</b>\n- A site collection can exist in multiple databases, however one content database can hold only one site collection.\n- A site collection can exist in only one content database and one content database can hold only one site collection.\n- A site collection can exist in only one content database, however one content database can hold multiple site collections.\n- A site collection can exist in multiple databases and one content database can hold multiple site collections.",
+        "back": "A site collection can exist in only one content database, however one content database can hold multiple site collections."
+    },
+    {
+        "front": "<b>Q23. A user has requested that a group of documents be hidden from a SharePoint site's search capabilities. How do you access this setting?</b>\n- Library settings > Advanced settings\n- Site contents > Edit\n- Site settings > Result types\n- Library setting > Audience targeting settings",
+        "back": "Library settings > Advanced settings"
+    },
+    {
+        "front": "<b>Q24. According to a user, a SharePoint list is performing slowly and search results are not accurate. How can you assist in improving the list?</b>\n- Change item-level permissions.\n- Allow management of content types.\n- Change the list of experience type.\n- Set automatic index management.",
+        "back": "Change item-level permissions."
+    },
+    {
+        "front": "<b>Q25. A new user in your organization needs the most restrictive SharePoint permissions available, with the exception of being able to add, edit and delete lists, view, add, update and delete list items and documents. Which permissions level do you grant the user?</b>\n- Contribute\n- Design\n- Edit\n- Limited",
+        "back": "Edit"
+    },
+    {
+        "front": "<b>Q26. You would like to manage SharePoint using PowerShell. What step must you complete first?</b>\n- `Add-PSSnapin Microsoft.SharePoint.PowerShell`\n- `Get-Command Microsoft.SharePoint.PowerShell`\n- `Add-PSSnapin -Module: \"Microsoft.SharePoint.PowerShell\"`\n- `Get-Command -Module \"Microsoft.SharePoint.PowerShell\"`",
+        "back": "`Add-PSSnapin Microsoft.SharePoint.PowerShell`"
+    },
+    {
+        "front": "<b>Q27. Which command do you use to view all SharePoint site collection with PowerShell?</b>\n- `Get-SPSite -Limit All | Format-Table -property URL,ContentDatabase`\n- `Get-SPSite -Limit All | Format-Table -property URL`\n- `Get-SPWebApplication | Format-Table -property URL,ConnectDatabase`\n- `Get-SPWebApplication | Get-SPSite -Limit All | Format-Table -property URL,ContentDatabase`",
+        "back": "`Get-SPSite -Limit All | Format-Table -property URL`"
+    },
+    {
+        "front": "<b>Q28. When trying to add an External Content app to a SharePoint site, a user receives this message: \"External Content Types are not available. Contact your system administrator.\" What is the most likely issue?</b>\n- The site does not allow for external content.\n- The user's permissions are not correct.\n- The SharePoint External System Events feature is not enabled.\n- SharePoint Business Connectivity Services need to be configured.",
+        "back": "SharePoint Business Connectivity Services need to be configured."
+    },
+    {
+        "front": "<b>Q29. You have implemented a workflow for a document from a template, and have outlined the steps taken to create the workflow. Which order of steps is correct?</b>\n- A\n```markdown\n1. Select the document in SharePoint.\n2. From the ribbon, click Automate > Power Automate > Create a flow.\n3. Select the template to use for the workflow.\n4. Confirm the flow and any accounts to be used.\n5. Configure any specific fields for the workflow.\n```\n- B\n```markdown\n1. From the ribbon, click Automate > Power Automate > Create a flow.\n2. Select the document in SharePoint.\n3. Select the template to use for the workflow.\n4. Confirm the flow and any accounts to be used.\n5. Configure any specific fields for the workflow.\n```\n- C\n```markdown\n1. Select the document in SharePoint.\n2. From the ribbon, click Automate > Power Automate > Create a flow.\n3. Configure any specific fields for the workflow.\n4. Select the template to use for the workflow.\n5. Confirm the flow and any accounts to be used.\n```\n- D\n```markdown\n1. Select the document in SharePoint.\n2. Confirm the flow and any accounts to be used.\n3. From the ribbon, click Automate > Power Automate > Create a flow.\n4. Select the template to use for the workflow.\n5. Configure any specific fields for the workflow.\n```",
+        "back": "A\n```markdown\n1. Select the document in SharePoint.\n2. From the ribbon, click Automate > Power Automate > Create a flow.\n3. Select the template to use for the workflow.\n4. Confirm the flow and any accounts to be used.\n5. Configure any specific fields for the workflow.\n```"
+    },
+    {
+        "front": "<b>Q30. How can you standardize lists (including the data types, the format, and more) within your organization?</b>\n- Create a custom app.\n- Change object permissions.\n- Use a group of site columns.\n- Change user permissions for lists.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q31. How can you stop users from editing list items that other members created?</b>\n- In the list's advanced settings, under Create and edit access, select Create and edit all items.\n- In the list's advanced settings, under Create and edit access, select Create items and edit items that were created by the user.\n- In the list's advanced settings, under Create and edit access, select None.\n- In the list's advanced settings, under Create and edit access, select Create items that were created by the user.",
+        "back": "In the list's advanced settings, under Create and edit access, select Create items and edit items that were created by the user."
+    },
+    {
+        "front": "<b>Q32. What is the easiest way to assign permissions to multiple SharePoint sites for multiple users?</b>\n- by site levels\n- by sites\n- by groups\n- by users",
+        "back": "by groups"
+    },
+    {
+        "front": "<b>Q33. A user wants to be notified when a certain file changes. What can achieve this?</b>\n- an object alert\n- a document alert\n- a site alert\n- a library alert",
+        "back": ""
+    },
+    {
+        "front": "<b>Q34. When a user tries to create a new document in a SharePoint library, the default option is not Microsoft Word. What setting do you need to change in the library?</b>\n- site template\n- document template\n- versioning\n- audience targeting",
+        "back": ""
+    },
+    {
+        "front": "<b>Q35. A SharePoint site document library has become disorganized with numerous folders. How can you disable folder creation without modifying any permissions?</b>\n- :\n```\n1. Library Settings\n2. Advanced Settings\n```\n- :\n```\n1. Site Settings\n2. Manage Site Features\n```\n- :\n```\n1. Library Settings\n2. Audience Targeting Settings\n```\n- :\n```\n1. Site Settings\n2. Site App Permissions\n```",
+        "back": ":\n```\n1. Library Settings\n2. Advanced Settings\n```"
+    },
+    {
+        "front": "<b>Q36. SharePoint lists and libraries have similarities. What differentiates a library from a list?</b>\n- Unlike a library, each column in a list contains data.\n- Unlike a list, each item in a library contains a file.\n- Unlike a library, each item in a list contains a document.\n- Unlike a list, each column in a library contains data.",
+        "back": "Unlike a list, each item in a library contains a file."
+    },
+    {
+        "front": "<b>Q37. To control library submissions in a SharePoint site, you need to implement approvals. Where do you find this setting?</b>\n- document workflow settings\n- document versioning settings\n- document audience targeting settings\n- document validation settings",
+        "back": "document versioning settings"
+    },
+    {
+        "front": "<b>Q38. Which SharePoint feature is an example of a prebuilt application?</b>\n- plan\n- site\n- survey\n- page",
+        "back": "site"
+    },
+    {
+        "front": "<b>Q39. You would like a SharePoint subsite to have a mailbox. While researching configuration options, which statement do you find to be true?</b>\n- a subsite can have a single mailbox\n- a subsite cannot have a mailbox\n- a subsite canhave any number of mailboxes\n- a subsite can have a shared mailbox with the parent site",
+        "back": "a subsite cannot have a mailbox"
+    },
+    {
+        "front": "<b>Q40. A user needs to access a business intelligence reporting dashboard within a SharePoint site. Currently they do not have permission to view any content. Which group can provide the appropriate permissions?</b>\n- Team Site Members\n- Team Site Visitors\n- Excel Serices Viewers\n- Everyone except external users",
+        "back": "Team Site Members"
+    },
+    {
+        "front": "<b>Q41. You are using SharePoint Online. While the modern user experience has improved features, many users are more familiar with the classic experience. As a result, you decide to set the defaults to the classic experience. At what levels can this default be set?</b>\n- tenant, site\n- site collection, tenant\n- library, list, site, site collection\n- library, list",
+        "back": ""
+    },
+    {
+        "front": "<b>Q42. You would like to use a SharePoint list app while traveling. What allows access to the app without directly interacting with SharePoint?</b>\n- PowerApps\n- Forms\n- Power Automate\n- Delve",
+        "back": ""
+    },
+    {
+        "front": "<b>Q43. During the creation of a SharePoint site, permission inheritance was selected. Now the site owner wants to create brand-new permissions. How can the site owner accomplish this?</b>\n- Disable inheritance and set new permissions.\n- Delete inheritance and apply new permissions.\n- Create a new site.\n- Re-create the site in place without inheritance.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q44. Your organization wants everyone to create new documents using specific formats. How can you implement this in SharePoint?</b>\n- Create a workflow that sends all documents to a single document library where a user can convert them to the organization's desired format.\n- Create a custom default document templates as the basis for all new files in the SharePoint document libraries.\n- Create a policy that allows only documents using the organization's desired format to be added to the SharePoint document libraries.\n- Create a flow that converts the formats of all documents in SharePoint to the organization's desired format.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q45. You want to view permission levels for a SharePoint organization. Where can you find the Permission Levels link to view this permissions?</b>\n- in the root site of a site collection\n- in each individual site level\n- in any site content library and site settings\n- in any site via the Site Settings option",
+        "back": ""
+    },
+    {
+        "front": "<b>Q46. You are configuring search options for a SharePoint site. Which statement regarding indexing is true?</b>\n- When a top-level site is excluded from indexing, the remaining site in the collection can still be indexed.\n- When a site is excluded from indexing, the subsites are still indexed.\n- When a site is excluded from indexing, so are the subsites.\n- When a top-level site is excluded from indexing, the entire collection is excluded.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q47. In a SharePoint modern list, which option is not possible?</b>\n- exporting the list to Excel\n- syncing the list to OneDrive\n- connecting the list to Power Automate\n- creating and saving views",
+        "back": "creating and saving views"
+    },
+    {
+        "front": "<b>Q48. While viewing a SharePoint group membership list, what navigation is available to access other SharePoint groups?</b>\n- The Quick Launch toolbar displays links to other groups for easy access.\n- The top navigation menu in SharePoint is updated with links to groups for easy access.\n- The current group membership page provides shortcuts at the bottom of the page to other groups.\n- The Getting Started links are updated with groups for easy access.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q49. A user mentios that a list in one site seems different in another site, although the lists are essentially the same. What settings is causing the discrepancy between the lists?</b>\n- the object permissions\n- the user permissions\n- the list experience settings\n- the site template settings",
+        "back": ""
+    },
+    {
+        "front": "<b>Q50. How can you set up users to add a status option of an item in a document library?</b>\n- Create a flow to automate the updating of the item status.\n- Add a Choice column to the library with a list of status options, and require that the column contain information.\n- Add a column where users can type in the status of the item, and require that the column contain information.\n- Create a flow to add the Choice column each time an item is added to the document library.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q51. You need to build a new SharePoint subsite for your organization. What site template categories are available by default?</b>\n- Collaboration, Enterprise, Publishing\n- Team Site, Blog, Document Center\n- Team Site, Blog, Community Site\n- Community Site, Blog, Developer Site",
+        "back": ""
+    },
+    {
+        "front": "<b>Q52. You have created a SharePoint site using the Publishing Portal template. Which permissions for this site are not found in a collaborative site?</b>\n- owners, readers\n- visitors, managers\n- approvers, designers\n- members, visitors",
+        "back": ""
+    },
+    {
+        "front": "<b>Q53. A user asks you to add a photo repository to a SharePoint site. You inform the user that SharePoint has a prebuilt application that fulfills the need. What type of application is this?</b>\n- Collection\n- Site\n- List\n- Library",
+        "back": ""
+    },
+    {
+        "front": "<b>Q54. You want to allow users to install site add-ins for a SharePoint farm. What must you configure first?</b>\n- an App URL\n- an app request\n- an App store\n- an App Catalog",
+        "back": ""
+    },
+    {
+        "front": "<b>Q55. You are tasked with configuring Business Connectivity Services (BCS) for SharePoint. Which BCS data source uses HTTP, Atom, and JavaScript Object Notation (JSON) to connect to web-based data?</b>\n- SQL Azure\n- Windows Communication Foundation\n- SQL Server\n- Open Data",
+        "back": ""
+    },
+    {
+        "front": "<b>Q56. What is the easiest way to assign permissions to multiple SharePoint sites for multiple users?</b>\n- By Users\n- By Groups\n- By site levels\n- By sites",
+        "back": ""
+    },
+    {
+        "front": "<b>Q57. What information is required to view a secondary team calendar as an overlay with a primary team calendar?</b>\n- team permissions\n- calendar URL\n- team name\n- calendar invite",
+        "back": ""
+    },
+    {
+        "front": "<b>Q58. Which site collection feature allows for documents to be retrieved independent of their current location?</b>\n- Document ID service\n- content type syndication hub\n- Document Sets\n- search engine sitemap",
+        "back": ""
+    }
+]

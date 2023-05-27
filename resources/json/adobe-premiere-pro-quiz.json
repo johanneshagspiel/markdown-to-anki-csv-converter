@@ -1,0 +1,266 @@
+[
+    {
+        "front": "<b>Q1. You open a nested sequence in order to trim the length of a clip. You make the total duration of the clips longer. What happens to the duration of the nest in the main sequence?</b>\n- Nothing, the nest duration remains the same in the original sequence.\n- The duration of the nest changes and an overwrite edit pushes the remaining clips to make room.\n- The clips change speed to match the duration of the nest.\n- The duration of the nest changes and a ripple edit pushes the remaining clips to make room.",
+        "back": "Nothing, the nest duration remains the same in the original sequence."
+    },
+    {
+        "front": "<b>Q2. What is a good reason to use a nested sequence?</b>\n- Nesting improves playback performance.\n- Nesting makes it easier to reduce clutter in the Project panel, saving time and potentially project budget.\n- Nesting allows a single effect to be applied to everything that is inside the nest, like a color correction or a video limiter.\n- Nesting helps Adobe Premiere Pro render faster.",
+        "back": "Nesting allows a single effect to be applied to everything that is inside the nest, like a color correction or a video limiter."
+    },
+    {
+        "front": "<b>Q3. What happens on your hard drive when you create a subclip?</b>\n- Nothing, since a subclip does not create a new media file on your hard drive.\n- A pointer file is created on your hard drive.\n- A new master clip is created on your hard drive and added to the project.\n- A new media file is created next to the original media.",
+        "back": "Nothing, since a subclip does not create a new media file on your hard drive."
+    },
+    {
+        "front": "<b>Q4. Which statement is _false_ regarding exporting media from Adobe Premiere Pro?</b>\n- Adobe Premiere can directly export files.\n- You can encode sequences into one or more formats with Adobe Media Encoder.\n- While using Adobe Media Encoder, you can keep working on the same sequence in Adobe Premiere Pro.\n- When you click Export, Adobe Premiere Pro will encode the file in the background and let you continue editing.",
+        "back": "When you click Export, Adobe Premiere Pro will encode the file in the background and let you continue editing."
+    },
+    {
+        "front": "<b>Q5. While working in Premiere Pro, how can you quickly create a new After Effects composition with settings that match the current sequence?</b>\n- Select File > Adobe Dynamic Link > Import After Effects Composition.\n- Import a project from After Effects and choose Match project size when importing.\n- Select File > Adobe Dynamic Link > New After Effects Composition.\n- Switch to After Effects and manually set up the project for accuracy.",
+        "back": "Select File > Adobe Dynamic Link > New After Effects Composition."
+    },
+    {
+        "front": "<b>Q6. Which is NOT a tag available in the Essential Sound panel?</b>\n- Narration\n- SFX\n- Ambience\n- Music",
+        "back": "Narration"
+    },
+    {
+        "front": "<b>Q7. HSL secondary color correction allows you to adjust which of the following? (Select three items.)</b>\n```markdown\nA. Clarity\nB. Contrast\nC. Saturation\nD. Temperature\nE. Blur\n```\n- B, C, D\n- A, B, C\n- B, D, E\n- A, C, E",
+        "back": "B, C, D"
+    },
+    {
+        "front": "<b>Q8. What is the only panel in which the Rate Stretch tool can modify a clip?</b>\n- Program Monitor panel\n- Source Monitor panel\n- Timeline panel\n- Media Browser panel",
+        "back": "Timeline panel"
+    },
+    {
+        "front": "<b>Q9. What can you do to make the shape layer automatically adjust size as the text layer changes?</b>\n<img src=\"adobe-premiere-pro-quiz_001.png\">\n- Select the Mask with Shape option.\n- Select Responsive Design and Pin To the text layer.\n- Select Responsive Design and Pin To the Video Frame.\n- Use the Align and Transform controls.",
+        "back": "Select the Mask with Shape option."
+    },
+    {
+        "front": "<b>Q10. In which panel do you assemble media in order to create sequence?</b>\n- Timeline panel\n- Media Browser panel\n- Capture panel\n- Source Monitor panel",
+        "back": "Source Monitor panel"
+    },
+    {
+        "front": "<b>Q11. Which panel allows you to modify video effects after they have been applied to a clip?</b>\n- Effects panel\n- Timeline panel\n- Source Monitor panel\n- Effect Controls panel",
+        "back": "Effects panel"
+    },
+    {
+        "front": "<b>Q12. Suppose your clips link to media files stored in multiple locations. You want to have the media files in a single location in their current format. Which option should you choose in the Project Manager?</b>\n- Exclude Unused Clips\n- Consolidate and Transcode\n- Collect Files and Copy to New Location\n- Create New Trimmed Project",
+        "back": "Collect Files and Copy to New Location"
+    },
+    {
+        "front": "<b>Q13. What is the default video transition in Adobe Premiere Pro?</b>\n- film dissolve\n- additive dissolve\n- cross dissolve\n- impact dissolve",
+        "back": "cross dissolve"
+    },
+    {
+        "front": "<b>Q14. Which term describes the algorithm that is used to encode and decode a video file?</b>\n- container\n- format\n- compressor\n- codec",
+        "back": "codec"
+    },
+    {
+        "front": "<b>Q15. You want to save a short portion of a longer clip for easy access. How can you do this?</b>\n<img src=\"adobe-premiere-pro-quiz_002.png\">\n- in the Media Browser, mark in and out points on a clip, and then import.\n- Mark in and out points on the clip in the Program Monitor and select choose Clip > Make Subclip.\n- Mark in and out points on a clip in the Timeline panel and then drag it back into a bin.\n- Mark in and out points on the clip in the Source Monitor and select Clip > Make Subclip.",
+        "back": "Mark in and out points on the clip in the Source Monitor and select Clip > Make Subclip."
+    },
+    {
+        "front": "<b>Q16. What adjustment can help return edge detail to video footage?</b>\n- Intensity\n- Contrast\n- Sharpen\n- Clarity",
+        "back": "Sharpen"
+    },
+    {
+        "front": "<b>Q17. Where can you adjust the duration of a transition?</b>\n- Effects panel\n- Project panel\n- Effect Controls panel\n- Program Monitor panel",
+        "back": "Effect Controls panel"
+    },
+    {
+        "front": "<b>Q18. You are working with a new project and have been editing for two hours. What is the number of backup projects you would expect to find?</b>\n<img src=\"adobe-premiere-pro-quiz_003.png\">\n- 2\n- 12\n- 20\n- 24",
+        "back": "20"
+    },
+    {
+        "front": "<b>Q19. Which panel would you use to browse and import assets for maximum compatibility with Premiere Pro?</b>\n- Library\n- Effects\n- Project\n- Media Browser",
+        "back": "Media Browser\n\n[Reference](https://helpx.adobe.com/in/premiere-pro/how-to/import-with-media-browser.html#:~:text=The%20Media%20Browser%20panel%20should,with%20fragmented%20media%20file%20types.&text=To%20import%20selected%20clips%20into,on%20them%20and%20choose%20Import)"
+    },
+    {
+        "front": "<b>Q20. A transition is set to center aligned. What would be the result of dragging with the tool selected, to the right?</b>\n<img src=\"adobe-premiere-pro-quiz_004.png\">\n- The transition would slide to the right.\n- You would extend only the right side of the transition.\n- You would perform a ripple edit and extend the duration of the first clip.\n- The transition would grow on both sides.",
+        "back": "The transition would slide to the right."
+    },
+    {
+        "front": "<b>Q21. Which application does NOT support Dynamic Link?</b>\n- Adobe Photoshop\n- Adobe Premiere Pro\n- Adobe Audition\n- Adobe After Effects",
+        "back": "Adobe Audition"
+    },
+    {
+        "front": "<b>Q22. Which preference pane includes the Video Transition Default Duration and Audio Transition Default Duration?</b>\n- Media\n- Playback\n- General\n- Timeline",
+        "back": "Timeline"
+    },
+    {
+        "front": "<b>Q23. If an effect has a star next to its icon, what type of effect is it?</b>\n- audio\n- template\n- transition\n- preset",
+        "back": "preset"
+    },
+    {
+        "front": "<b>Q24. How was this clip manipulated using a Curves adjustment?</b>\n<img src=\"adobe-premiere-pro-quiz_005.png\">\n- Hue vs. Luma\n- Saturation vs. Saturation\n- Hue vs. Saturation\n- Luma vs. Saturation",
+        "back": "Hue vs. Luma"
+    },
+    {
+        "front": "<b>Q25. Where is transparency data stored when compositing media?</b>\n- Essential Graphics panel\n- Effects panel\n- alpha channel\n- assembly edit",
+        "back": "Effects panel"
+    },
+    {
+        "front": "<b>Q26. When part of your footage is transparent, where is the transparency information stored in the file?</b>\n- source monitor\n- alpha channel\n- opacity effect\n- alpha effect",
+        "back": "alpha channel"
+    },
+    {
+        "front": "<b>Q27. Which option allows you to reuse previously created render files for an export?</b>\n- Use Previews\n- Use Frame Blending\n- Use Maximum Render Quality\n- Match Sequence Settings",
+        "back": "Use Previews"
+    },
+    {
+        "front": "<b>Q28. In the scenario shown below, you want to extend the end of the red clip in the Timeline and not change the duration of the adjacent clip. Which is the most appropriate trim choice to accomplish this?</b>\n<img src=\"adobe-premiere-pro-quiz_006.png\">\n- Trim In\n- Trim Out\n- Ripple Trim In\n- Ripple Trim Out",
+        "back": "Trim Out"
+    },
+    {
+        "front": "<b>Q29. Which formats does Adobe Media Encoder support? (Select three items.)</b>\n```markdown\nA. GIF\nB. DCP\nC. QuickTime\nD. HEVC\nE. FLV\n```\n- A, B, C\n- A, C, E\n- B, C, D\n- B, D, E",
+        "back": "B, C, D"
+    },
+    {
+        "front": "<b>Q30. Which video file format can you export with Adobe Media Encoder? (Select three items.)</b>\n```markdown\nA. AVCHD\nB. HEVC\nC. Animated GIF\nD. MXF OP1a\nE. M4A\n```\n- A, B, C\n- A, C, E\n- B, C, D\n- B, D, E",
+        "back": "B, D, E"
+    },
+    {
+        "front": "<b>Q31. If you have placed a GPU-accelerated effect on a clip in the Timeline and have not rendered it, what color appears at the top of your Timeline?</b>\n- red\n- blue\n- yellow\n- green",
+        "back": "red"
+    },
+    {
+        "front": "<b>Q32. Which statement is true about the Appearance preferences?</b>\n- The default brightness is the halfway position between darker and lighter.\n- You can set the top bar of windows to a custom accent color.\n- You can adjust the intensity of the Focus Indicator to help easily identify which window is active.\n- You can change the highlight color.",
+        "back": "You can change the highlight color."
+    },
+    {
+        "front": "<b>Q33. What can you tell about this transition?</b>\n<img src=\"adobe-premiere-pro-quiz_007.png\">\n- Premiere will insert white to fill the needed handles.\n- Premiere will insert black to fill the needed handles.\n- There is not enough media (handles) to cover the duration of the transition.\n- The transition is automatically shortened to use only the available media and the area under the diagonal lines will have no transitions applied.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q34. Your project has several sequences that are no longer needed. How would you use the Project Manager to produce a new version of the project that excludes the unwanted sequences?</b>\n- Deselect the unwanted sequences in the Sequence area.\n- Select Create New Trimmed Project.\n- Select Consolidate and Transcode.\n- Choose Collect Files and Copy to New Location.",
+        "back": "Choose Collect Files and Copy to New Location."
+    },
+    {
+        "front": "<b>Q35. You want to take a partial clip that's used in your Timeline and send it to After Effects for additional processing using Dynamic Link. Which method best accomplishes this?</b>\n- Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition.\n- Select the clip in the Timeline and choose File > Adobe Dynamic Link > Replace with After Effects Composition.\n- Select the clip in the Timeline and choose File > Adobe Dynamic Link > New After Effects Composition.\n- Select the clip in the Timeline and choose Edit > Copy. Switch to After Effects and choose Edit > Paste.",
+        "back": "Select the clip in the Timeline and choose File > Adobe Dynamic Link > Import After Effects Composition."
+    },
+    {
+        "front": "<b>Q36. You want to pull down the saturation in just the clouds shown below. Which Curves adjustment makes this easiest?</b>\n<img src=\"adobe-premiere-pro-quiz_008.png\">\n- Hue vs. Saturation\n- RGB Curves\n- Luma vs. Saturation\n- Hue vs. Luma",
+        "back": "Hue vs. Saturation"
+    },
+    {
+        "front": "<b>Q37. Which is a new graphic layer type? (Select three items.)</b>\n```markdown\nA. Logo\nB. Text\nC. Rectangle\nD. Circle\nE. Ellipse\n```\n- A, B, C\n- A, C, E\n- B, C, E\n- B, D, E",
+        "back": ""
+    },
+    {
+        "front": "<b>Q38. Which option can create a color field that automatically adjusts size as you add or subtract from a text layer?</b>\n<img src=\"adobe-premiere-pro-quiz_009.png\">\n- Choose Fill from the Appearance controls.\n- Choose Stroke from the Appearance controls.\n- Choose Background from the Appearance controls.\n- Choose Shadow from the Appearance controls.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q39. If you want to lighten just the darkest areas of an image, which slider should you adjust in the Lumetri effect?</b>\n- Shadows\n- Contrast\n- Midtones\n- Blacks",
+        "back": "Contrast"
+    },
+    {
+        "front": "<b>Q40. Looking at the histogram below, which single adjustment slider could create this change?</b>\n<img src=\"adobe-premiere-pro-quiz_010.png\">\n- Blacks\n- Contrast\n- Whites\n- Exposure",
+        "back": "Contrast"
+    },
+    {
+        "front": "<b>Q41. Under which drop-down menu can you remove effects?</b>\n- Sequence\n- File\n- Edit\n- Clip\n      https://blog.pond5.com/6248-getting-started-with-video-transitions-and-effects-in-premiere-pro/#:~:text=You%20can%20enable%2Fdisable%20effects,left%20of%20the%20effect%20title.",
+        "back": "Clip\n      https://blog.pond5.com/6248-getting-started-with-video-transitions-and-effects-in-premiere-pro/#:~:text=You%20can%20enable%2Fdisable%20effects,left%20of%20the%20effect%20title."
+    },
+    {
+        "front": "<b>Q42. Which adjustment can you use to quickly convert log footage using recommended settings by a camera manufacturer?</b>\n- Creative Look\n- Faded Film\n- Input LUT\n- Intensity",
+        "back": ""
+    },
+    {
+        "front": "<b>Q43. Which Audio Mixer automation mode allows an automation to return to the previous state after any adjustments are made?</b>\n- Touch\n- Latch\n- Write\n- Read\nhttps://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,affects%20the%20entire%20track%20uniformly.",
+        "back": "Read\nhttps://www.premiumbeat.com/blog/audio-automation-in-premiere-pro/#:~:text=Read,affects%20the%20entire%20track%20uniformly."
+    },
+    {
+        "front": "<b>Q44. You want Premiere Pro to create a second instance of your media files and add an additional version at a draft resolution. Which option works best in the ingest settings?</b>\n- Transcode\n- Copy and Create Proxies\n- Create Proxies\n- Copy",
+        "back": ""
+    },
+    {
+        "front": "<b>Q45. If you've imported several time-lapse sequences into your project as image sequences, which option in the Project Manager is most useful for archiving the project?</b>\n- Convert Image Sequences to Clips\n- Convert After Effects Compositions to Clips\n- Include Preview Files\n- Consolidate and Transcode",
+        "back": ""
+    },
+    {
+        "front": "<b>Q46. Which option is enabled to affect the view of the audio waveforms as shown below?</b>\n<img src=\"adobe-premiere-pro-quiz_011.png\">\n- Show Audio Time Units\n- Rectified Audio Waveform\n- Large Audio Waveforms\n- Logarithmic Keyframe Scaling",
+        "back": ""
+    },
+    {
+        "front": "<b>Q47. You want to float the History panel independently to position it on another monitor as a floating window. Which option in the panel's submenu should you select?</b>\n- Undock Panel\n- Undock Frame\n- Maximize Panel\n- Maximize Frame",
+        "back": ""
+    },
+    {
+        "front": "<b>Q48. To quickly arrange the panels in Adobe Premiere Pro for a specific task, what do you use?</b>\n- workspaces\n- layouts\n- panel presets\n- events",
+        "back": "workspaces"
+    },
+    {
+        "front": "<b>Q49. Which statement is true about adaptive audio tracks?</b>\n- Input channel configuration determines channel routing\n- Adaptive tracks are unable to be routed to master track outputs\n- Channel routing is based on master track configuration\n- Adaptive tracks can only be routed using the Audio Mixer",
+        "back": ""
+    },
+    {
+        "front": "<b>Q50. When adjusting a sequence's settings, selecting the Maximum Bit Depth in Adobe Premiere Pro for the video settings option is equivalent to which setting?</b>\n- 4:0:0\n- 4:4:4\n- 4:2:2\n- 4:2:0\nhttps://community.adobe.com/t5/premiere-pro-discussions/what-are-the-best-render-settings-for-8-bit-4-2-0-100-mbps-4k-video/td-p/10695910",
+        "back": "4:2:0\nhttps://community.adobe.com/t5/premiere-pro-discussions/what-are-the-best-render-settings-for-8-bit-4-2-0-100-mbps-4k-video/td-p/10695910"
+    },
+    {
+        "front": "<b>Q51. If your project has elements from an AEP file inside, what should you do to ensure that the project is recognized by the Project Manager?</b>\n- Choose the Convert After Effects Compositions to Clips option\n- Usd the Render and Replace option\n- Switch to After Effects first and choose the Render and Replace option\n- Choose Consolidate and Transcode",
+        "back": ""
+    },
+    {
+        "front": "<b>Q52. Which visual transition fades the end of one clip into the beginning of the next clip?</b>\n- fade in\n- fade out\n- crossfade\n- cross dissolve",
+        "back": "cross dissolve"
+    },
+    {
+        "front": "<b>Q53. Which file formats can be imported into an Adobe Premiere Pro project? (Select three items.)</b>\n```markdown\nA. AI\nB. JPEG\nC. PSD\nD. DNG\nE. PDF\n```\n- A, C, E\n- A, B, C\n- B, D, E\n- B, C, D",
+        "back": ""
+    },
+    {
+        "front": "<b>Q54. After importing items into your project, where do they appear?</b>\n- Project panel\n- Program Monitor panel\n- Source Monitor panel\n- Media Browser panel",
+        "back": "Project panel"
+    },
+    {
+        "front": "<b>Q55. Suppose you want to darken just the sky area in the image shown. Which Curve adjustment makes this easiest</b>\n<img src=\"adobe-premiere-pro-quiz_008.png\">\n- Hue vs. Luma\n- Hue vs. Hue\n- Luma vs. Saturation\n- Hue vs. Saturation",
+        "back": ""
+    },
+    {
+        "front": "<b>Q56. Which bitrate encoding option yields the best balance of quality to file size, but takes longer to encode?</b>\n- VBR, 1 Pass\n- VBR, 2 Pass\n- CBR\n- Use Maximum Render Quality",
+        "back": "Use Maximum Render Quality"
+    },
+    {
+        "front": "<b>Q57. How many output audio tracks can an adaptive audio track be routed to?</b>\n- 4\n- 8\n- 16\n- 32",
+        "back": ""
+    },
+    {
+        "front": "<b>Q58. Which tool lets you easily reposition clips on the Timeline in respect to adjacent clips?</b>\n- Slide tool\n- Rolling Edit tool\n- Ripple Edit tool\n- Slip tool",
+        "back": ""
+    },
+    {
+        "front": "<b>Q59. Which memory card structure format is NOT a dedicated viewing option in the Media Browser?</b>\n- Sony DSLR\n- Canon RAW\n- XDCAM-HD\n- Canon XF",
+        "back": ""
+    },
+    {
+        "front": "<b>Q60. What is NOT an option with the Remove Attributes command?</b>\n- Effects\n- Motion\n- Speed\n- Opacity",
+        "back": ""
+    },
+    {
+        "front": "<b>Q61. Suppose you use font X from Adobe Fonts in your project. What happens when you open a project and font X is missing from the local machine?</b>\n- A substitute is automatically chosen based on your preferences.\n- The font automatically activates as long as there is an internet connection.\n- A warning appears so you can track down the font.\n- Nothing occurs\u2014the graphics appear correct and the font is only needed to edit them.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q62. You have attached a hardware device for adjusting the color of your clips with touch. Where do you configure its preferences?</b>\n- Preferences > Capture\n- Preferences > Audio Hardware\n- Preferences > Device Control\n- Preferences > Control Surface",
+        "back": ""
+    },
+    {
+        "front": "<b>Q63. When importing an XML file, what happens to transitions that Adobe Premiere Pro determines aren't compatible?</b>\n- The transitions are deleted.\n- The transitions are turned into Dip to Color transitions.\n- The import fails.\n- The transitions are turned into cross dissolves.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q64. What would happen if you dropped a transition onto this edit point?</b>\n<img src=\"adobe-premiere-pro-quiz_012.png\">\n- You would get an End at Cut alignment.\n- You would get a Start at Cut alignment.\n- The clip is trimmed and a Center at Cut transition is applied.\n- Your would get a one-frame transition.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q65. Which export format supports inclusion of an alpha channel?</b>\n- MOV\n- MP4\n- MPEG 2 for DVD\n- MXF OP1a",
+        "back": ""
+    },
+    {
+        "front": "<b>Q66. Which user interface item identifies the current frame in the Program Monitor?</b>\n- frame ruler\n- indicator\n- playhead\n- navigator",
+        "back": ""
+    }
+]

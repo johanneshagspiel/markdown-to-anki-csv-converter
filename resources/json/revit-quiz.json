@@ -1,0 +1,62 @@
+[
+    {
+        "front": "> Topics: Colors and Effects, Documents, Interactive, Objects/Graphics/Images, Text",
+        "back": ""
+    },
+    {
+        "front": "<b>Q1. What is it called when a tag with a leader has a drag control where the leader touches the element?</b>\n- Attached End\n- Preferences > Reviewing\n- Preferences > Reading\n- Preferences > Commenting\n[Source](https://quizlet.com/ie/582293749/revit-skills-flash-cards/#:~:text=30.,Free%20End)",
+        "back": "Attached End"
+    },
+    {
+        "front": "<b>Q2. A designer would like to create a new parameter in a schedule that contains a mathematical expression combining two existing fields. What is the process?</b>\n- `Edit Fields > Combined Parameter`\n- `Sorting/Grouping > Grand Totals`\n- `Formatting > Field Formatting > Calculate Totals`\n- `Edit Fields > Calculated Parameter`",
+        "back": "`Edit Fields > Combined Parameter`"
+    },
+    {
+        "front": "<b>Q3. Where can you find a drop-down list of available named reference planes?</b>\n- in the **Properties** palette\n- in the Project Browser\n- on the Options Bar\n- in the **Set Work Plane** dialog box\n[Source](https://www.revithq.com/blogs/tips-tricks-tutorials-and-content/reference-planes-drag-controls)",
+        "back": "in the **Properties** palette"
+    },
+    {
+        "front": "<b>Q4. Some Revit families require a host element to be placed. Which choice is a hosted element?</b>\n- door\n- floor\n- furniture\n- wall",
+        "back": "door"
+    },
+    {
+        "front": "<b>Q5. In what type of view are you _unable_ to create a new level?</b>\n- section view\n- elevation view\n- 3D view\n- plan view",
+        "back": "plan view"
+    },
+    {
+        "front": "<b>Q6. In a model whose units are configured in feet, what would you type to get a liner object to be 100 millimeters long?</b>\n- 100'\n- 100/25.4\n- 100mm\n- 100m",
+        "back": "100/25.4"
+    },
+    {
+        "front": "<b>Q7. A colleague shared an Excel file with you, and you want to display a worksheet that is hidden in it. How can you do that?</b>\n- On the **View** tab, click **New Window**.\n- On the **Review** tab, click **Unhide Sheet**.\n- On the **Home** tab, click **Unhide**.\n- Right-click any worksheet tab and select **Unhide**.",
+        "back": "Right-click any worksheet tab and select **Unhide**."
+    },
+    {
+        "front": "<b>Q8. When sketching a roof by footprint, which option allows an edge of the sketch to be sloped in the final roof?</b>\n- Slope arrow\n- Extend to wall core\n- Defines slope\n- Overhang",
+        "back": "Extend to wall core"
+    },
+    {
+        "front": "<b>Q9. When importing a CAD drawing into a drafting view, how do you remove layers that you do not need?</b>\n- Select the imported CAD drawing, click the Query tool, and then in the dialog that appears, click **Delete**.\n- Select the imported CAD drawing and, on the **Properties** palette, click **Edit Type** > **Delete Layers**.\n- Select the improted CAD drawing, tab to select elements you don't want, and then press Delete.\n- Select the imported CAD drawing, right-click, and select **Delete Layers**.",
+        "back": "Select the imported CAD drawing, click the Query tool, and then in the dialog that appears, click **Delete**."
+    },
+    {
+        "front": "<b>Q10. When working with design option, what _cannot_ be placed in the option sets?</b>\n- hosted components\n- in-place models\n- detail items\n- system families",
+        "back": "hosted components"
+    },
+    {
+        "front": "<b>Q11. In a legend view, where would you find the drop-down list of the families - such as doors, windows, and other components - you want to use as legend components?</b>\n- contextual **Modify** tab on the ribbon\n- Options Bar\n- right-click menu\n- Type Selector",
+        "back": "Options Bar"
+    },
+    {
+        "front": "<b>Q12. While working in Revit, you often need additional lines to help define locations for elements in a mode. You can hide these lines in the appropriate views later, when necessary. What are these extra lines called?</b>\n- detail lines\n- construction lines\n- reference planes\n- reference lines",
+        "back": "reference planes"
+    },
+    {
+        "front": "<b>Q13. What items stay the same size no matter the scale of the view?</b>\n- line weights\n- annotative components with text\n- model surface patterns\n- hosted components",
+        "back": "annotative components with text"
+    },
+    {
+        "front": "<b>Q14. When hard-copy printing, what **Print** dialog option allows you to specify that you want sheet 100 of 100 sheets to be at the bottom of the pile, so that sheet 1 of 100 is on the top of the pile?</b>\n- Sort Sheets Descending Order\n- Reverse Print Order\n- Last Sheet to Bottom\n- Set Sheets to Plot in Reverse",
+        "back": "Reverse Print Order"
+    }
+]

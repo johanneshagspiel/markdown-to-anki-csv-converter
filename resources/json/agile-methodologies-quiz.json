@@ -1,0 +1,550 @@
+[
+    {
+        "front": "<b>Q1. Teams may encounter the need for \"technical\" user stories. Who decides the priority of these?</b>\n- the Product Owner with help from Operations\n- the Tech Lead with help from the Product Owner\n- the Product Owner with help from the Tech Lead\n- the Tech Lead with help from Operations",
+        "back": "the Product Owner with help from the Tech Lead"
+    },
+    {
+        "front": "<b>Q2. What is the Scrum Master's role during the daily stand-up?</b>\n- Congratulate the team on their great work.\n- Stand outside the circle of developers and listen for impediments.\n- The Scrum Master should not attend\u2014this meeting is for developers only.\n- Ask each developer what they did since the last daily standup.",
+        "back": "Stand outside the circle of developers and listen for impediments."
+    },
+    {
+        "front": "<b>Q3. Which factor should not be considered during Sprint Planning?</b>\n- the team's velocity\n- the number of stories in the product backlog\n- the stories that are ready\n- the team's capacity",
+        "back": "the number of stories in the product backlog"
+    },
+    {
+        "front": "<b>Q4. A team member has been showing signs of great personal distress: crying at work, snapping at colleagues, having heated phone conversations. As Team Facilitator, what should you do?</b>\n- Report this at the Sprint Release.\n- Advise the PO as soon as possible. (Old answer: Notify the team member's manager of your observations and ask the manager for help.)\n- Point out the reasons why and collaborate on solutions.\n- Ask the PO to extend the sprint.",
+        "back": "Advise the PO as soon as possible. (Old answer: Notify the team member's manager of your observations and ask the manager for help.)"
+    },
+    {
+        "front": "<b>Q5. Which statement describes the flow of work in the Scaled Agile Framework?</b>\n- It is a \"push\" system.\n- It is \"push\" at the top and \"pull\" at the bottom.\n- It is a \"pull\" system.\n- It is neither \"push\" nor \"pull.\"",
+        "back": "It is neither \"push\" nor \"pull.\""
+    },
+    {
+        "front": "<b>Q6. What is the Product Owner's role in deciding the priority of work in the sprint backlog?</b>\n- None\u2014the Scrum Master should prioritize the work in the sprint backlog.\n- The PO should prioritize the items in the sprint backlog.\n- The developers prioritize work unless they cannot complete it, in which case the PO should prioritize the remaining work.\n- None\u2014the developers should prioritize the work in the sprint backlog.",
+        "back": "None\u2014the developers should prioritize the work in the sprint backlog."
+    },
+    {
+        "front": "<b>Q7. The Scaled Agile Framework advocates that, if you measure only one thing, what should you measure?</b>\n- quality\n- predictability of delivery\n- cost of delay\n- return on investment",
+        "back": "cost of delay"
+    },
+    {
+        "front": "<b>Q8. Why should you apply Weighted Shortest Job First?</b>\n- to maximize the return on investment\n- to determine the economic sequencing of the backlog\n- to visualize queue length\n- to fulfill a commitment to quality",
+        "back": "to determine the economic sequencing of the backlog\n\n[Reference](https://www.scaledagileframework.com/wsjf/) `Weighted Shortest Job First (WSJF) is a prioritization model used to sequence jobs (eg., Features, Capabilities, and Epics) to produce the maximum economic benefit. In a flow-based system, priorities are updated continuously to provide the best economic outcomes. Job sequencing, rather than individual job return on investment, produces the best result. To that end, WSJF is used to prioritize backlogs by calculating the relative CoD and job size (a proxy for the duration).`"
+    },
+    {
+        "front": "<b>Q9. You have classified the features in your backlog according to risk and value. Which features should the development team work on first?</b>\n- low-value and high-risk\n- high-value and high-risk\n- high-value and low-risk\n- low-value and low-risk",
+        "back": "high-value and high-risk\n\n[Reference](https://agilescrumguide.com/blog/files/tag-product-backlog---business-value-and-risk.html) `It is suggested that high business value, high-risk items are worked on first. While that may seem counterintuitive, the earlier this work is done, the sooner the team will move to mitigate the issues and unknowns\u2014leading to a higher quality product. If there's a failure, it will occur early and relatively inexpensively.`"
+    },
+    {
+        "front": "<b>Q10. In the Scaled Agile Framework, what is the role of Enablers?</b>\n- They help extend the Architectural Runway.\n- They connect vision to mission so the organization can be successful.\n- They support team building.\n- They remove the impediments to quality.",
+        "back": "They help extend the Architectural Runway."
+    },
+    {
+        "front": "<b>Q11. Which outcome is not expected of a Sprint Review?</b>\n- The team demonstrates its completed work.\n- The team reflects on how to improve its performance.\n- Items in the backlog may be reprioritized.\n- Stakeholders ask questions about the completed and upcoming backlog items.",
+        "back": "The team reflects on how to improve its performance."
+    },
+    {
+        "front": "<b>Q12. What is not a technique used for splitting user stories?</b>\n- split by line-of-business\n- split compound user stories\n- split by alternative paths\n- split by interface",
+        "back": "split compound user stories"
+    },
+    {
+        "front": "<b>Q13. Who decides what the team will work on?</b>\n- the Scrum Master\n- a self-organizing team\n- the Product Owner\n- the Product Manager",
+        "back": "a self-organizing team"
+    },
+    {
+        "front": "<b>Q14. Which choice is not a Scrum value?</b>\n- focus\n- integrity\n- courage\n- commitment",
+        "back": "integrity"
+    },
+    {
+        "front": "<b>Q15. What should happen if the Product Owner does not accept a story by the end of the iteration?</b>\n- The team does not get credit for the story's points in its velocity calculation.\n- The story should be sliced to reflect the work completed.\n- The acceptance criteria should be adjusted to reflect the work completed.\n- The story should be shown to stakeholders for their feedback.",
+        "back": "The story should be shown to stakeholders for their feedback."
+    },
+    {
+        "front": "<b>Q16. Which statement is not true about the product backlog?</b>\n- It is a list of work items that are behind schedule.\n- The items are maintained in priority order.\n- Anyone on the team can propose an item for it.\n- It includes all of the work to be done.",
+        "back": "It is a list of work items that are behind schedule."
+    },
+    {
+        "front": "<b>Q17. A project has some major risks that the team wants to mitigate. What is the best way to monitor how well this effort is going?</b>\n- risk-based spike\n- risk-adjusted backlog\n- risk velocity chart\n- risk burndown graph",
+        "back": "risk burndown graph"
+    },
+    {
+        "front": "<b>Q18. The VP of Engineering wants to start giving out a \"Team Member of the Sprint\" award to recognize a top performer in each group. What advice should you give this VP?</b>\n- This is unhelpful unless there has been recent employee feedback indicating that people feel underappreciated.\n- This is a good idea as long as a different person is recognized in each sprint.\n- This is a good idea because awards can motivate people to do their best.\n- This is unhelpful because it can destroy the team unity essential to achieving high performance.",
+        "back": "This is unhelpful because it can destroy the team unity essential to achieving high performance."
+    },
+    {
+        "front": "<b>Q19. What is a difference between a team's task board and a Kanban?</b>\n- A Kanban has an explicit rule to limit WIP.\n- A Kanban shows the backlog of work.\n- A Kanban does not use a Definition of Done.\n- A Kanban shows the status of the work items.",
+        "back": "A Kanban has an explicit rule to limit WIP.\n\n[Reference](https://www.lucidchart.com/blog/kanban-vs-scrum#:~:text=Kanban%20vs%20scrum) `Explicit rule applies to scrum team's task board: tasks cannot be added to the scrum board in the middle of a sprint.`"
+    },
+    {
+        "front": "<b>Q20. The team complains that \"things have been falling through the cracks lately.\" What should you do?</b>\n- Ask the team's manager to make role assignments so the team can catch up.\n- Conduct a workshop to identify all of the things that need to be done and see who can help with each.\n- Refer to the team's RACI (Responsible, Accountable, Consulted, Informed) assignments.\n- Meet with the Tech Lead and Product Owner to try to identify what can be done.",
+        "back": "Conduct a workshop to identify all of the things that need to be done and see who can help with each."
+    },
+    {
+        "front": "<b>Q21. In Large-Scale Scrum, what is the recommended ratio of Scrum Masters to teams?</b>\n- One Scrum Master can support up to five teams.\n- Large teams should have two Scrum Masters.\n- There should be one Scrum Master per team.\n- One Scrum Master can support one to three teams.",
+        "back": "One Scrum Master can support one to three teams."
+    },
+    {
+        "front": "<b>Q22. In the Cynefin framework, where are \"best practices\" most appropriate?</b>\n- in the Complex regime\n- in the Complicated regime\n- in the Chaotic regime\n- in the Obvious regime",
+        "back": "in the Obvious regime"
+    },
+    {
+        "front": "<b>Q23. A manager informs you that a developer from another team is between assignments, and she wants to place the developer on your team for a few sprints. What should you do?</b>\n- Explain to the manager that this will be disruptive to the team and ask that another assignment be found.\n- Explain the situation to the team and ask them to go with the flow.\n- Explain the situation to your manager and ask them to resolve it.\n- When the temporary developer shows up, assign them to write documentation.",
+        "back": "Explain to the manager that this will be disruptive to the team and ask that another assignment be found."
+    },
+    {
+        "front": "<b>Q24. The Product Owner complains to you that the team is not working hard enough and they need to increase their velocity by at least 50%. Which action should you not take?</b>\n- Share the feedback from the PO and challenge the team to increase their velocity.\n- Ask the PO to explain the business context to the team.\n- Explain the impact of technical debt to the PO and the benefits of devoting some capacity to reducing it.\n- Hold a Value Stream Mapping workshop to identify and reduce waste.",
+        "back": "Share the feedback from the PO and challenge the team to increase their velocity."
+    },
+    {
+        "front": "<b>Q25. What is the name of the practice in which a cross-functional team collaborates intensively to develop a new product idea?</b>\n- Hackathon\n- Scrum at Scale\n- Innovation and Planning\n- Magnum Focus",
+        "back": "Hackathon"
+    },
+    {
+        "front": "<b>Q26. The team's manager wants to attend the Sprint Retrospective. What should you do?</b>\n- Agree to the manager's request and notify the team.\n- Propose that the manager attend only every other retrospective.\n- Propose a different forum for the manager to meet with the team.\n- Ask the team if it is okay with them that the manager attend.",
+        "back": "Propose a different forum for the manager to meet with the team."
+    },
+    {
+        "front": "<b>Q27. Who is responsible for a Scrum team's performance?</b>\n- the team\n- the Scrum Master\n- the Product Owner\n- the Engineering Manager",
+        "back": "the team"
+    },
+    {
+        "front": "<b>Q28. Which statement concerning small, frequent releases of software is true?</b>\n- The chance for rollback is high.\n- It typically requires a high degree of automation.\n- The administrative costs are high.\n- Backward compatibility may be jeopardized.",
+        "back": "It typically requires a high degree of automation."
+    },
+    {
+        "front": "<b>Q29. What is the activity of clarifying and expanding user stories called?</b>\n- story point estimating\n- Definition of Done\n- user story expansion\n- backlog refinement",
+        "back": "backlog refinement"
+    },
+    {
+        "front": "<b>Q30. Which strategy is preferred for development teams?</b>\n- Optimize for most work done.\n- Maximize output and maximize outcome.\n- Maximize outcome while minimizing output.\n- Optimize for resource utilization.\n`\"\u2026your job is to minimize output, and maximize outcome and impact.\" - Jeff Patton`",
+        "back": "Maximize outcome while minimizing output."
+    },
+    {
+        "front": "<b>Q31. Which statement is true about the actor in a user story?</b>\n- The actor does not have to be a specified role in the solution.\n- There must be multiple personas for each actor.\n- The actor can be the system itself.\n- The system cannot be the actor.",
+        "back": "The actor can be the system itself.\n\n[Reference](https://tcagley.wordpress.com/2015/03/31/the-difference-between-a-persona-and-an-actor/) Actors can be a person, group, or system(s)."
+    },
+    {
+        "front": "<b>Q32. Which statement is true about Agile?</b>\n- Agile requires a high degree of up-front planning.\n- Once the requirements are agreed to, the team can complete work.\n- Agile requires a high degree of discipline.\n- Agile works best when there is no contract.",
+        "back": "Agile requires a high degree of discipline."
+    },
+    {
+        "front": "<b>Q33. Which statement about burndown and burnup charts is not true?</b>\n- Burndown charts show the work remaining to be done.\n- Burnup charts show the work completed.\n- Burndown charts are more useful than burnup charts.\n- Agile project management tools can produce these automatically.",
+        "back": "Burndown charts are more useful than burnup charts."
+    },
+    {
+        "front": "<b>Q34. What is the name for the practice of going to see a process in use at the point of value delivery?</b>\n- Six Sigma\n- Gemba Walk\n- Total Quality Management\n- Kaizen",
+        "back": "Gemba Walk\n\n[Reference](https://en.wikipedia.org/wiki/Gemba#Gemba_walk) The Gemba Walk is an opportunity for staff to stand back from their day-to-day tasks to walk the floor of their workplace to identify wasteful activities."
+    },
+    {
+        "front": "<b>Q35. When the team needs to make a decision, what is the best course of action?</b>\n- Try to achieve concensus.\n- Take a vote and the majority rules.\n- Identify the person who is most knowledgeable and ask them to decide.\n- Let the most senior member of the team decide.",
+        "back": "Try to achieve concensus."
+    },
+    {
+        "front": "<b>Q36. Which action is something the Team Facillitator should NOT do?</b>\n- Embrace servant leadership.\n- Estimate story points.\n- Celebrate successes.\n- Remove impediments",
+        "back": "Estimate story points."
+    },
+    {
+        "front": "<b>Q37. A team needs to do research, design, or prototyping. What is this type of story called?</b>\n- Exploratory spike\n- Backlog refinement\n- Functional decomposition\n- R&D",
+        "back": "Exploratory spike"
+    },
+    {
+        "front": "<b>Q38. Which statement about technical debt is true?</b>\n- Technical debt is another name for bugs\n- It is at the Product Owner's description to allocate effort to reduce technical debt.\n- Adding technical debt should be avoided at all costs.\n- Technical debt is what the Product Owner owes to the developers if they work a lot of overtime to complete the sprint.",
+        "back": "Adding technical debt should be avoided at all costs."
+    },
+    {
+        "front": "<b>Q39. Which statement about estimating is not true?</b>\n- Absolute estimating is more reliable than relative estimating.\n- Relative estimating is more reliable than absolute estimating.\n- In estimating, accuracy is more important than precision.\n- In estimating, the effort is more important than the time required.",
+        "back": "Absolute estimating is more reliable than relative estimating."
+    },
+    {
+        "front": "<b>Q40. Which ceremony should the Product Owner not attend?</b>\n- daily stand-ups\n- Sprint Retrospectives\n- story point estimating\n- code reviews",
+        "back": "code reviews"
+    },
+    {
+        "front": "<b>Q41. Which task is not the Product Owners responsibility?</b>\n- estimating story points\n- refining acceptance criteria\n- giving feedback to developers about the user stories\n- demonstrating the work to stakeholders",
+        "back": "giving feedback to developers about the user stories"
+    },
+    {
+        "front": "<b>Q42. Which choice is `_not_` considered during Sprint Planning?</b>\n- stories that meet the Definition of Done\n- team velocity\n- stories that meet the Definition of Ready\n- team capacity",
+        "back": "stories that meet the Definition of Done"
+    },
+    {
+        "front": "<b>Q43. You have noticed a pattern that the most interesting stories on the Sprint Backlog get started right away, and the least interesting stories languish or don't get done. What should you do?</b>\n- Use a lottery system assign each story.\n- Share your observation with the team and invite them to own and solve the problem.\n- During story point estimation increase the points assigned to the least interesting stories so the team can boost their velocity.\n- Ask the Tech Lead to assign every story to a developer so they all get done efficiently and with accountability.",
+        "back": "Ask the Tech Lead to assign every story to a developer so they all get done efficiently and with accountability."
+    },
+    {
+        "front": "<b>Q44. What Agile practice best supports this principle: \"At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly\"?</b>\n- Sprint Review\n- Sprint Retrospective\n- daily stand-up\n- Sprint Demo",
+        "back": "Sprint Retrospective"
+    },
+    {
+        "front": "<b>Q45. On what are personas typically based?</b>\n- a sponsors or team members' personalities and traits\n- what the developers think is user friendly\n- real people, archetypal users, or composites of multiple users\n- descriptions of the product's functionality and use",
+        "back": "real people, archetypal users, or composites of multiple users"
+    },
+    {
+        "front": "<b>Q46. Which statement describes Shu Ha Ri?</b>\n- It is a library of coding patterns.\n- It is a software testing strategy.\n- It is a standard for interface design.\n- It is a model for skill development and mastery.",
+        "back": "It is a model for skill development and mastery.\n\n[Reference](https://en.wikipedia.org/wiki/Shuhari) Japanese martial art concept which describes the stages of learning to mastery."
+    },
+    {
+        "front": "<b>Q47. What does the Agile Manifesto indicate?</b>\n- Responding to change is more valuable than following a plan.\n- Documenting requirements up front is more valuable than at the end.\n- Following the plan is essential for not going over budget.\n- Contract negotiation should be used to settle disputes.",
+        "back": "Responding to change is more valuable than following a plan.\n\n[Refernce] (https://www.agilealliance.org/agile101/the-agile-manifesto/) Full Manifesto."
+    },
+    {
+        "front": "<b>Q48. What is the main benefit of a working agreement?</b>\n- It specifies core working hours.\n- It clarifies the reporting relationships on the team.\n- It defines the culture that the team aspires to achieve.\n- It compiles everyone's information.",
+        "back": "It defines the culture that the team aspires to achieve."
+    },
+    {
+        "front": "<b>Q49. What is the name of the information radiator that has multiple columns used to visualize the flow of work?</b>\n- Work Flow Indicator\n- Value Stream Map\n- Story Map\n- Kanban Board",
+        "back": "Kanban Board"
+    },
+    {
+        "front": "<b>Q50. Which is the best definition of story points?</b>\n- They are a relative measure of the effort needed to complete a story.\n- They a measure of development time only, test time is considered separately.\n- They are a relative measure of the value of a story.\n- They are a measure of time to complete a story.",
+        "back": "They are a relative measure of the effort needed to complete a story."
+    },
+    {
+        "front": "<b>Q51. What is a Scrum of Scrums?</b>\n- It is technique for two or more teams working together coordinate their efforts.\n- It is another name for the Scrum Master Community of Practice.\n- It is an information radiator used to compare the velocity of several teams.\n- It is the system demo for teams on the same release train.",
+        "back": "It is technique for two or more teams working together coordinate their efforts."
+    },
+    {
+        "front": "<b>Q52. What is the Product Owner's role regarding the product backlog?</b>\n- The PO must identify the intended users of the features on the backlog.\n- The PO is responsible for estimating the size of the total.\n- The PO must identify the dependencies that impact the backlog.\n- The PO decides what to include in the backlog and what to exclude.",
+        "back": "The PO must identify the dependencies that impact the backlog."
+    },
+    {
+        "front": "<b>Q53. Why should a team do refactoring?</b>\n- It assigns developers to other teams in order to eliminate personality conflicts.\n- It improves the functionality of the product,\n- It recalibrates the success criteria for the product in the marketplace.\n- It improves the design, which can lead improved development efficiency and maintainability.",
+        "back": "It improves the design, which can lead improved development efficiency and maintainability."
+    },
+    {
+        "front": "<b>Q54. Which choice is not a benefit generally associated with product demonstrations?</b>\n- Learn about new requirements.\n- Learn feature suitability.\n- Learn about feature usability.\n- Learn about feature estimates.",
+        "back": "Learn about feature estimates."
+    },
+    {
+        "front": "<b>Q55. What is an information radiator?</b>\n- a list of KPIs for the team\n- a list of overdue action items\n- the task board\n- a highly visible display of key performance data",
+        "back": "the task board"
+    },
+    {
+        "front": "<b>Q56. According to the Agile Manifesto, your highest priority is to \\_.</b>\n- minimize change requests\n- satisfy the customer\n- get the job done on time\n- achieve the desired ROI",
+        "back": "satisfy the customer"
+    },
+    {
+        "front": "<b>Q57. Product development organizations sometimes use descriptions of archetypal users and their values so that developers can design the system to meet their needs and wants. What are these descriptions called?</b>\n- actors\n- roles\n- agents\n- personas",
+        "back": "personas"
+    },
+    {
+        "front": "<b>Q58. The Product Owner is focused on testing a new system concept in the marketplace as quickly and inexpensively as possible. What is this first-generation product called?</b>\n- preproduction version\n- focus group demonstrator\n- Generation 1 product\n- minimum viable product",
+        "back": "minimum viable product"
+    },
+    {
+        "front": "<b>Q59. To whom should the Product Owner report?</b>\n- the Quality Manager\n- the Product Manager\n- the Scrum Master\n- the Engineering Manager",
+        "back": "the Product Manager"
+    },
+    {
+        "front": "<b>Q60. What happens in Sprint 0?</b>\n- The team delivers no story points in that sprint.\n- The team does regression testing prior to release to production.\n- The team prepares to work on the product backlog.\n- This is the time to inspect and adapt.",
+        "back": "The team prepares to work on the product backlog."
+    },
+    {
+        "front": "<b>Q61. What does the Definition of Done mean?</b>\n- The story meets the INVEST criteria.\n- The team has completed all of the work in its Sprint.\n- The story has been handed off to the DevOps team.\n- The team has agreed on the criteria for story completion.",
+        "back": "The team has agreed on the criteria for story completion."
+    },
+    {
+        "front": "<b>Q62. Which element is most important when describing your product?</b>\n- its cost\n- its licensing terms and conditions\n- its benefits\n- its features",
+        "back": "its benefits"
+    },
+    {
+        "front": "<b>Q63. Which choice best describes the Team Facilitator?</b>\n- a meeting scheduler\n- a record keeper\n- a project manager\n- an Agile coach",
+        "back": "an Agile coach"
+    },
+    {
+        "front": "<b>Q64. What is the name of the technique that divides a story into smaller pieces?</b>\n- mitosis\n- story slicing\n- disaggregation\n- Divide and Conquer",
+        "back": "disaggregation"
+    },
+    {
+        "front": "<b>Q65. A team member comes to you with a complaint about another team member. What should you do?</b>\n- Bring the complaint to the other person and try to resolve the issue.\n- Ask them to talk to the other person and try to work it.\n- Notify HR of the problem and ask them to handle it.\n- Invite both people a meeting and try mediate the conflict.",
+        "back": "Invite both people a meeting and try mediate the conflict."
+    },
+    {
+        "front": "<b>Q66. What is the forming-storming-norming, performing model of team development known as?</b>\n- the Tuckman model\n- the Standard Team model\n- Moore's Team Framework\n- the Siebert model",
+        "back": "the Tuckman model"
+    },
+    {
+        "front": "<b>Q67. What is the name of the ceremony in which you inspect the work completed during the sprint?</b>\n- Sprint Retrospective\n- Sprint Review\n- Next-Sprint Planning\n- Velocity Confirmation\n`Sprint Retrospective: Reflect on the previous sprint, discuss what\u2019s working well, what could be improved, and how to improve it to be more productive.`",
+        "back": "Sprint Review\n\n[Reference](https://startinfinity.com/product-management-framework/scrum-sprint/sprint-review-vs-sprint-retrospective) `Sprint Review: Discuss what has been accomplished during the sprint and whether the sprint goal has been met.`"
+    },
+    {
+        "front": "<b>Q68. Which choice best describes an Agile Release Train (ART)?</b>\n- continuous delivery\n- comprised of the teams within a program\n- DevOps Center of Excellence\n- Scrum of Scrums",
+        "back": "continuous delivery"
+    },
+    {
+        "front": "<b>Q69. As an Agile coach, what should be your attitude toward your team members individual goals and motivations?</b>\n- Understand them\u2014try align personal motivations with the team's progress toward the project goals.\n- Nurture them-goals are the reason why people want to be at work.\n- Disregard them \u2014 personal views have no bearing on reaching the project goals.\n- Leverage them \u2014 use personal goals encourage team members raise their performance levels.",
+        "back": "Leverage them \u2014 use personal goals encourage team members raise their performance levels."
+    },
+    {
+        "front": "<b>Q70. Which phrase best describes an Agile team?</b>\n- A silo-skilled, self-directed team led by a project manager.\n- A cross-functional, long-lived group without deadlines.\n- A cross-functional, self-organized team with collective accountability.\n- A skilled, temporary team focused on a single project.",
+        "back": "A cross-functional, self-organized team with collective accountability."
+    },
+    {
+        "front": "<b>Q71. Which technique does not help prioritize the backlog?</b>\n- MoSCow\n- Kano\n- WSJF\n- Kaizen",
+        "back": "Kaizen\n\n[Reference](https://pl.wikipedia.org/wiki/Kaizen) oznaczaj\u0105ce japo\u0144sk\u0105 filozofi\u0119 biznesow\u0105 (spos\u00f3b post\u0119powania) ustawicznego polepszania, poprawiania procesu zarz\u0105dzania i produkcji na wszystkich jego szczeblach, z uwzgl\u0119dnieniem m.in. technik biznesu \"just-in-time\"."
+    },
+    {
+        "front": "<b>Q72. What does the Definition of Ready mean?</b>\n- The story has been tested end is ready for release to production.\n- The story is ready to be brought into a sprint.\n- The stakeholders are ready to discuss their requirements for story.\n- The team has completed sprint 0 and is ready to work.",
+        "back": "The story is ready to be brought into a sprint.\n\n[Reference](https://www.scruminc.com/definition-of-ready/) `Definition of Ready means that stories must be immediately actionable. The Team must be able to determine what needs to be done and the amount of work required to complete the User Story.`"
+    },
+    {
+        "front": "<b>Q73. Which is NOT a principle of the Scaled Agile Framework?</b>\n- Centralize decision-making\n- Apply systems thinking\n- Take an economic view\n- Unlock the intrinsic motivation of knowledge workers\n[Source: Underlying principles of SAFe](https://en.wikipedia.org/wiki/Scaled_agile_framework#Underlying_principles_of_SAFe)",
+        "back": "Centralize decision-making"
+    },
+    {
+        "front": "<b>Q74. What is the definition of capacity?</b>\n- It is an inventory of the team's knowledge and skills that is used to plan the work that they do.\n- It is the number of teams that a Team Facilitator can support concurrently.\n- It means the team determines their avalaibility for the next sprint.\n- It is the maximum number of stories that will be allowed in a sprint.",
+        "back": "It is the maximum number of stories that will be allowed in a sprint."
+    },
+    {
+        "front": "<b>Q75. The team is complaining that they send request for clarification to the Product Owner, but these requests go unanswered. What action should you take?</b>\n- If there is a question about story, tell the developers to use their best judgement, avoid delay, and discuss the issue in sprint review.\n- Send a note to the Product Owner saying the delays in completing the work will be their responsibility, not the team's.\n- Develop a service-level agree (SLA) that defines certain response times for different types of request and ask the Product Owner to sign off on it.\n- Schedule a problem-solving session with the Product Owner and the other team members.",
+        "back": "Schedule a problem-solving session with the Product Owner and the other team members."
+    },
+    {
+        "front": "<b>Q76. Which choice is a pillar of Lean?</b>\n- Frequent delivery of working software\n- Respect for people and culture\n- Courage\n- Sustainable pace",
+        "back": "Respect for people and culture\n\n[Reference](https://www.planview.com/resources/guide/lean-principles-101/what-is-lean/#:~:text=The%20Pillars%20of%20Lean) `Two pillars are (1) Continuous Improvement, and (2) Respect for People.`"
+    },
+    {
+        "front": "<b>Q77. Which statement best describes Agile, Lean, and Six Sigma?</b>\n- They are strategies for delivering customer value.\n- They were pioneered by Toyota.\n- They are strategies for discovering what the customer wants.\n- They are derived from statistical process control.\n1. [Reference](https://agilemanifesto.org/principles) - First paragraph clearly points out that Agile is about delivering value to the customer.\n2. [Lean](https://en.wikipedia.org/wiki/Lean_software_development) is a subset of the Agile community and\n3. [Six Sigma](https://en.wikipedia.org/wiki/Six_Sigma) is Agile applied to manufacturing.",
+        "back": "They are strategies for delivering customer value."
+    },
+    {
+        "front": "<b>Q78. What is a user story?</b>\n- A description of what an actor wants to do in order to accomplish a goal\n- A description of archetypal users so the developers can make the solution user-friendly\n- A report from the field about a user's experience with the product\n- The Agile term for a requirement",
+        "back": "The Agile term for a requirement"
+    },
+    {
+        "front": "<b>Q79. What is the expected output of a Planning Poker meeting?</b>\n- The stories were discussed and each had a story point estimate assigned.\n- The team gave feedback to the Product Owner about the acceptance criteria.\n- The team decided what stories should be developed within the same sprint.\n- The team made a preliminary plan for which stories will be completed in the next quarter.",
+        "back": "The stories were discussed and each had a story point estimate assigned."
+    },
+    {
+        "front": "<b>Q80. What is the definition of velocity?</b>\n- The number of story points delivered during a sprint\n- The average waiting time for a story on the sprint backlog\n- The average wait time for a story to move from the product backlog to the sprint backlog\n- The time it takes a developer to complete a story divided by its relative value",
+        "back": "The number of story points delivered during a sprint"
+    },
+    {
+        "front": "<b>Q81. What is most important for a successful Product Owner to understand?</b>\n- The budget for the product.\n- The underlying technology of the product.\n- The development team's strengths and weaknesses.\n- The business context for the product.",
+        "back": "The business context for the product.\n\n[Reference](https://premieragile.com/how-does-a-product-owner-measure-value) `A Scrum Team has 3 roles - Product Owner, Scrum Master and Developers. All 3 roles generate Value in their own contexts; however, it is the Product Owner who maximizes the Value from a product or business context.`"
+    },
+    {
+        "front": "<b>Q82. Which statement about the Agile Manifesto is true?</b>\n- It was written via crowdsourcing and its authors are unknown.\n- It has been translated into dozens of languages and used around the world.\n- It was written in 2001 and is obsolete.\n- It was first published as part of Jim Highsmith's doctoral thesis.",
+        "back": "It has been translated into dozens of languages and used around the world."
+    },
+    {
+        "front": "<b>Q83. The team is not going to complete its Sprint Commitment. As the Team Facilitator, what should you do?</b>\n- Ask the PO to extend the sprint.\n- Advise the PO as soon as possible.\n- Report this at the Sprint Review.\n- Point out the reasons why and collaborate on solutions.",
+        "back": "Point out the reasons why and collaborate on solutions.\n\n[Reference](https://agilemanifesto.org/principles), the last paragraph perfectly informs what an agile developer would do in this situation."
+    },
+    {
+        "front": "<b>Q84. When a user story is further decomposed, what are the elements called?</b>\n- technical tasks\n- actors and actions\n- Who, What, Why\n- threads",
+        "back": "Who, What, Why"
+    },
+    {
+        "front": "<b>Q85. What does collective ownership mean?</b>\n- Every member of the team can make changes to any part of the code as necessary.\n- If someone is at fault, then the whole team is at fault.\n- The team shares equally in the profits that the product generates.\n- The team, not the individuals, receive performance evaluations.",
+        "back": "The team shares equally in the profits that the product generates."
+    },
+    {
+        "front": "<b>Q86. According to the Agile Manifesto, how often should developers and business people work together?</b>\n- as often as needed\n- biweekly\n- daily\n- weekly",
+        "back": "daily"
+    },
+    {
+        "front": "<b>Q87. What do you call the practice of writing a test before the code is written?</b>\n- design for testability\n- test-driven development\n- unit testing\n- test then code",
+        "back": "test-driven development"
+    },
+    {
+        "front": "<b>Q88. What is the term for a team member who is \"T-skilled\"?</b>\n- cross-functional\n- jack-of-all-trades\n- apprentice developer\n- generalizing specialist",
+        "back": "cross-functional"
+    },
+    {
+        "front": "<b>Q89. Which statement is not true about pair programming?</b>\n- It has been discredited because it is too expensive.\n- In pair programming, two developers share one computer and take turns at the keyboard.\n- It is a great way to teach someone who is new to the team.\n- The code produced by two developers who are collaborating is typically higher quality than if they were working alone.",
+        "back": "It has been discredited because it is too expensive."
+    },
+    {
+        "front": "<b>Q90. People with a fixed mindset \\_ .</b>\n- have better focus and longer attention spans\n- are more goal oriented\n- tend to be more resilient\n- are more afraid of failure",
+        "back": "have better focus and longer attention spans"
+    },
+    {
+        "front": "<b>Q91. How can you improve interaction between team members?</b>\n- Move people's workstations around in the team room to create new social possibilities.\n- Ask the team if they would like to do something recreational together and offer to organize it.\n- Tell the team that you see this as a problem and ask them to solve it.\n- Since no one has come to you with a complaint, assume that the limited interaction works for everyone.",
+        "back": "Move people's workstations around in the team room to create new social possibilities."
+    },
+    {
+        "front": "<b>Q92. What is the expected outcome of the daily stand-up meeting?</b>\n- updated status on all of the work\n- team alignment on its plan for the day\n- a list of impediments and priorities\n- a report to the Product Owner of stories ready to be accepted",
+        "back": "team alignment on its plan for the day"
+    },
+    {
+        "front": "<b>Q93. What is the name of the technique in which a story is broken down, input splits the data, and it results in a new output?</b>\n- input-output processing\n- ITIOO story format\n- thin vertical slice\n- structured coding\nITIOO isn't a thing, thin verticle slicing is refering to what work you prioritise, and structured code has nothing to so with stories.",
+        "back": "input-output processing"
+    },
+    {
+        "front": "<b>Q94. What is the term for a team member who is \"T-shaped\"?</b>\n- cross-functional\n- jack-of-all-trades\n- generalizing specialist\n- apprentice developer",
+        "back": "cross-functional\n\n[Reference](https://www.adventureswithagile.com/2017/07/12/heres-thing-t-shaped-people/) `One of the challenges for organisations when they move to Agile ways of working is the often mentioned need to build teams made up of \"T-shaped\" people. This can also be described as a cross-functionality.`"
+    },
+    {
+        "front": "<b>Q95. What is a lean canvas?</b>\n- It is used to decompose solution into epics, features, and stories\n- It is a template for lightweight business plans that makes your assumptions explicit\n- It is a tool to plan future project releases\n- It is a technique for projecting growth in market share.",
+        "back": "It is a template for lightweight business plans that makes your assumptions explicit\n\n[Reference](http://ask.leanstack.com/en/articles/901274-what-is-a-lean-canvas) `1-page business plan template that helps you deconstruct your idea into its key assumptions using 9 basic building blocks.`"
+    },
+    {
+        "front": "<b>Q96. The team is not going to complete its Sprint Commitment. As Team Facilitator, what should you do?</b>\n- advise the PO as soon as possible\n- point out the reasons why and collaborate on solutions\n- report this at the Sprint Review\n- Ask the PO to extend the sprint",
+        "back": "Ask the PO to extend the sprint\n\n[Reference](https://mcqpoint.com/question/what-happens-when-all-the-sprint-items-cannot-be-completed/) `non verified answer - extend, otherwise goes to backlog`"
+    },
+    {
+        "front": "<b>Q97. Which of these traits is most important for being an effective Team Facilitator?</b>\n- being self-aware\n- being extroverted\n- having type A personality (def not this :P)\n- being someone who takes charge",
+        "back": "being self-aware\n\n[Reference](https://www.globalknowledge.com/us-en/course/87262/agile-team-facilitation-icp-atf/) `non verified answer - A facilitator is someone who helps a group identify common objectives and then offers group processes to achieve defined outcomes while maintaining neutrality. A skilled facilitator consciously embodies self-awareness, self-management, and bias management, while conveying openness and enthusiasm. `"
+    },
+    {
+        "front": "<b>Q98. When is the best time to update the team's burndown chart?</b>\n- before the Sprint Retospective\n- after the daily stand-up\n- before the daily Scrum\n- before quarterly planning",
+        "back": "before the daily Scrum"
+    },
+    {
+        "front": "<b>Q99. What is an Empathy Map?</b>\n- It is a team-building technique used to increase productivity.\n- It is a tool used by organizations for competitive intelligence.\n- It is a retrospective technique used to improve team morale.\n- It is a collaborative tool used to gain deeper insights into customers.",
+        "back": "It is a collaborative tool used to gain deeper insights into customers."
+    },
+    {
+        "front": "<b>Q100. Which work descriptions are not written in the language of users?</b>\n- tasks\n- epics\n- stories\n- features",
+        "back": "stories"
+    },
+    {
+        "front": "<b>Q101. The team has an incomplete story at the end of the sprint and wants to claim partial credit for the work completed. What should you do?</b>\n- Ask the Product Owner to accept the storyy with the promise that the team will complete it in the next sprint\n- Ask them to slice the story to reflect the work done and the work to be donef\n- Ask the product owner to revise the acceptance criteria so it can be accepted and counted\n- explain that, in Agile, working software is the primary measure of progress. Then help...",
+        "back": "Ask the product owner to revise the acceptance criteria so it can be accepted and counted"
+    },
+    {
+        "front": "<b>Q102. When planning a meeting, which action is most important?</b>\n- clarifying the expected outcome\n- taking notes\n- inviting the Project Manager\n- making sure everyone speaks",
+        "back": "clarifying the expected outcome"
+    },
+    {
+        "front": "<b>Q103. You are facilitating a meeting and, unexpectedly, a key person doesn't attend. What should you do?</b>\n- Hold the meeting and update the person who could not attend later.\n- Ask the person who could not attend to reschedule the meeting based on their availability.\n- Ask all meeting participants what they want to do about the one person's absence\n- Reschedule the meeting for when all necessary people can attend",
+        "back": "Ask all meeting participants what they want to do about the one person's absence"
+    },
+    {
+        "front": "<b>Q104. What is Open Space?</b>\n- a design concept for team rooms\n- a room for teams to demo their work\n- a placeholder in the code body for the future functionality\n- a meeting format where participants create and manage the agenda",
+        "back": "a meeting format where participants create and manage the agenda"
+    },
+    {
+        "front": "<b>Q105. Which choice is not an expected benefit of refactoring?</b>\n- Refactoring can reduce the effort for future development\n- Refactoring is used to fix bugs\n- Refactoring improves the design of the system\n- Refactoring improves the maintainability of the code",
+        "back": "Refactoring is used to fix bugs"
+    },
+    {
+        "front": "<b>Q106. In the Scaled Agile Framework, consecutive iterations are grouped together into a PI. What is a PI?</b>\n- Project Increment\n- Portfolio Increment\n- Product Increment\n- Program Increment",
+        "back": "Program Increment\n\n[Reference](https://www.scaledagileframework.com/program-increment/) `A Program Increment (PI) is a timebox during which an Agile Release Train (ART) delivers incremental value in the form of working, tested software and systems. PIs are typically 8 \u2013 12 weeks long.`"
+    },
+    {
+        "front": "<b>Q107. How can you improve interaction between team members?</b>\n- Move people's workstation around in the team room to create new social possibilites\n- Since no one has come to you with a compliant, assume that the limited interaction works for everyone\n- Ask the team if they would like to do something recreational together and offer to organize it\n- Tell the team that you see this as a problem and ask them to solve it",
+        "back": "Ask the team if they would like to do something recreational together and offer to organize it"
+    },
+    {
+        "front": "<b>Q108. Which scale is typically used for Planning Poker?</b>\n- less than 1 hour, 1 to 4 hours, 4 to 8 hours, 8 to 24 hours, more than 24 hours\n- 2, 4, 6, 8, 10\n- XS, S, M, L, XL\n- 1, 2, 3, 4, 5, 8, 13, 20",
+        "back": "1, 2, 3, 4, 5, 8, 13, 20"
+    },
+    {
+        "front": "<b>Q109. You are the Scrum Master and, having just facilitated a meeting, you're reflecting on ways to improve. What skill are you displaying?</b>\n- being self-aware\n- being extroverted\n- having type A personality\n- being someone who takes charge",
+        "back": "being self-aware"
+    },
+    {
+        "front": "<b>Q110. What background information is most important for a successful Product Owner to understand?</b>\n- The budget for the product.\n- The underlying technology of the product.\n- The development team's strengths and weaknesses.\n- The business context for the product.\nIt's the same as Q81, just slightly differently phrased question.",
+        "back": "The business context for the product.\nIt's the same as Q81, just slightly differently phrased question."
+    },
+    {
+        "front": "<b>Q111. You are facilitating a meeting to decompose user stories and, unexpectedly, a development team member cannot attend. What should you do?</b>\n- Hold the meeting and update the person who could not attend later.\n- Ask the person who could not attend to reschedule the meeting based on their availability.\n- Ask all meeting participants what they want to do about the one person's absence\n- Reschedule the meeting for when all necessary people can attend",
+        "back": "Ask all meeting participants what they want to do about the one person's absence"
+    },
+    {
+        "front": "<b>Q112. As the Scrum Master, you've observed that team members are more comforatble communicating via instant messaging than through direct conversions. How can you encourage conversation between team members?</b>\n- Move people's workstation around in the team room to create new social possibilities.\n- Since no one has come to you with a complaint, assume that the limited conversation works for everyone.\n- Tell the team that you see this as a problem and ask them to solve it.\n- Ask the team if they can think of ways to increase direct converstaion.",
+        "back": "Since no one has come to you with a complaint, assume that the limited conversation works for everyone."
+    },
+    {
+        "front": "<b>Q113. What is the expected outcome of the Daily Scrum meeting?</b>\n- updated status on all of the work\n- team alignment on its plan for the day\n- a list of impediments and priorities\n- a report to the Product Owner of stories ready to be accepted",
+        "back": "team alignment on its plan for the day"
+    },
+    {
+        "front": "<b>Q114. In Agile, which of the following options is a high priority?</b>\n- Comprehensive documentation\n- Processes and tools\n- Contract negotiation\n- Working software",
+        "back": "Working software\n\n[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.`"
+    },
+    {
+        "front": "<b>Q115. What types of environments work best for Agile principles?</b>\n- It works great in static environments.\n- It works great in dynamic environments.\n- It works great in customer environments.\n- Agile has been proven to not work in any good environment.",
+        "back": "It works great in dynamic environments.\n\n[Reference](https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/) `The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches. It works great in dynamic environments where there is a potential for changing or evolving requirements.`"
+    },
+    {
+        "front": "<b>Q116. What does being a Cross-Functional team mean?</b>\n- That every team in the organization has a particular specialism\n- That each team member has their own specialism\n- That all the skills necessary exist within the team\n- That teams can communicate effectively",
+        "back": "That all the skills necessary exist within the team"
+    },
+    {
+        "front": "<b>Q117. What is a PBI?</b>\n- Product Before Increment\n- Project Billing Information\n- Productive Backlog Increment\n- Product Backlog Item",
+        "back": "Product Backlog Item"
+    },
+    {
+        "front": "<b>Q118. Which of the following scrum events is dedicated to process improvement?</b>\n- The sprint planning\n- The daily scrum\n- The sprint retrospective\n- The sprint review",
+        "back": "The sprint retrospective"
+    },
+    {
+        "front": "<b>Q119. For a month-long sprint, the time-box for a sprint retrospective is **\\_**.</b>\n- 3 hours\n- 6 hours\n- 8 hours\n- 1 hour",
+        "back": "3 hours"
+    },
+    {
+        "front": "<b>Q120. Which type of Kanban diagram shows the number of issues in each of the states?</b>\n- burn down chart\n- control chart\n- burn up chart\n- cumulative flow",
+        "back": "burn down chart"
+    },
+    {
+        "front": "<b>Q121. Which of the following statements about a Kanban control chart is false?</b>\n- The light blue shaded area is the standard deviation.\n- The green dots are the issues themselves.\n- The control chart works best when the tasks that you're tracking are of different sizes.\n- The blue line is the rolling average cycle time.",
+        "back": "The control chart works best when the tasks that you're tracking are of different sizes."
+    },
+    {
+        "front": "<b>Q122. What does EBM consider in Managerial Decisions?</b>\n- Productivity and ethical concerns\n- Circumstance and ethical concerns\n- Circumstances and financial concerns\n- Moral and ethical concerns",
+        "back": "Circumstance and ethical concerns"
+    },
+    {
+        "front": "<b>Q123. Stacey's process complexity model shows us that agile thinking is best **\\*\\***\\_\\_\\_**\\*\\***.</b>\n- When there is high complexity\n- When there is high certainty\n- Regardless of complexity or certainty\n- When there is low certainty and complexity",
+        "back": "Regardless of complexity or certainty"
+    },
+    {
+        "front": "<b>Q124. What is a DEEP product backlog?</b>\n- Detailed Appropriately, Emergent, Elegant & Prioritized\n- Detailed Adequately, Emergent, Estimated & Prioritized\n- Detailed Appropriately, Emanant, Estimated & Prioritized\n- Detailed Appropriately, Emergent, Estimated & Prioritized",
+        "back": "Detailed Appropriately, Emergent, Estimated & Prioritized"
+    },
+    {
+        "front": "<b>Q125. Which Jira feature provides an overview of multiple projects?</b>\n- roll-up boards\n- code integration\n- task automation\n- reporting",
+        "back": "roll-up boards"
+    },
+    {
+        "front": "<b>Q126. Which of the following elements is not a pillar of Scrum?</b>\n- adaptation\n- transparency\n- sustainability\n- inspection",
+        "back": "sustainability"
+    },
+    {
+        "front": "<b>Q127. What aspects of the product is the Product Owner responsible for?</b>\n- Guiding the Development Team on the product\n- Managing and owning the backlog\n- All of the choices are correct\n- The product itself",
+        "back": "All of the choices are correct"
+    },
+    {
+        "front": "<b>Q128. In Scrum, at the end of each sprint, there is a **\\_** meeting in which the team receives and gives feedback on their processes and their performance.</b>\n- retrospective\n- review\n- reflection\n- sprint",
+        "back": "retrospective"
+    },
+    {
+        "front": "<b>Q129. In the INVEST acronym for user stories, what does the \"V\" stand for?</b>\n- valuable\n- verifiable\n- veracity\n- voluminous",
+        "back": "valuable"
+    },
+    {
+        "front": "<b>Q130. Having a mindset focused on growth and opportunity is healty for Agile team members. How can you display a growth mindset?</b>\n- See challenges as opportunities\n- Point out the failures of others\n- Quit while you're ahed\n- Celebrate only when you succeed",
+        "back": "See challenges as opportunities"
+    },
+    {
+        "front": "<b>Q131. Which statement about the Agile Manifesto is true?</b>\n- It was written via crowdsourcing and its authors are unknown\n- It was written in 2001 and is obsolete.\n- It was written in response to documentation-heavy software development project practices.\n- It was first published as part of Jim Highsmith's doctoral thesis.",
+        "back": "It was written in response to documentation-heavy software development project practices.\n\n[Reference](https://agilemanifesto.org/history.html) `\"(...)others sympathetic to the need for an alternative to documentation driven, heavyweight software development processes convened.\" [First paragraph]`"
+    },
+    {
+        "front": "<b>Q132. Progress toward a sprint goal is in jeopardy becauseyou have not received sales data. What should you do?</b>\n- Be sure to mention the issue in the next Scrum\n- Share the problem with your team to see if they can create a solution\n- Work around the issue until the last responsible moment to solve it\n- Check the Product Owner's schedule and book time for a meeting",
+        "back": "Share the problem with your team to see if they can create a solution"
+    },
+    {
+        "front": "<b>Q133. When is the best time to review the team's burndown chart?</b>\n- after the daily stand-up\n- before the Sprint Retrospective\n- before the Daily Scrum\n- before quarterly planning",
+        "back": "before the Sprint Retrospective"
+    },
+    {
+        "front": "<b>Q134. Which statement about the actor in a user story can be true?</b>\n- The system cannot be the actor\n- There must be multiple personas for each actor\n- The actor can be the system itself\n- The actor does not have to be a specified role in the solution",
+        "back": "The actor can be the system itself"
+    },
+    {
+        "front": "<b>Q135. Which choice is not a recognized framework for scaling Agile?</b>\n- LeSS\n- DA\n- SAFe\n- DUN\n[Source](https://www.digite.com/blog/scaled-agile-frameworks/)",
+        "back": "DUN\n[Source](https://www.digite.com/blog/scaled-agile-frameworks/)"
+    },
+    {
+        "front": "<b>Q136. Where are teams most likely to find the first signs of potential problems?</b>\n- Daily Scrums\n- Sprint Demos\n- Retrospectives\n- Sprint Planning",
+        "back": "Sprint Planning"
+    },
+    {
+        "front": "<b>Q137. When working with a Scrum team, who is chiefly responsible for ensuring that the project delivers value?</b>\n- Product Owner\n- Development Team\n- Scrum Master\n- Quality Assurance\n[Source](https://www.atlassian.com/agile/scrum/roles) `\"The scrum master is the role responsible for gluing everything together and ensuring that scrum is being done well. In practical terms, that means they help the product owner define value, `**`the development team deliver the value`**`, and the scrum team to get to get better.\"`",
+        "back": "Development Team"
+    }
+]

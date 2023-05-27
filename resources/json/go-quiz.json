@@ -1,0 +1,282 @@
+[
+    {
+        "front": "<b>Q1. What do you need for two functions to be the same type?</b>\n- They should share the same signatures, including parameter types and return types.\n- They should share the same parameter types but can return different types.\n- All functions should be the same type.\n- The functions should not be a first class type.\n[User defined function types in Go (Golang)](https://golangbyexample.com/user-defined-function-type-go/)",
+        "back": "They should share the same signatures, including parameter types and return types."
+    },
+    {
+        "front": "<b>Q2. What does the `len()` function return if passed a UTF-8 encoded string?</b>\n- the number of characters\n- the number of bytes\n- It does not accept string types.\n- the number of code points\n[Length of string in Go (Golang)](https://golangbyexample.com/length-of-string-golang/).",
+        "back": "the number of bytes"
+    },
+    {
+        "front": "<b>Q3. Which is _not_ a valid loop construct in Go?</b>\n- [x]\n```go\n      do { ... } while i < 5\n```\n- [ ]\n```go\n      for _,c := range \"hello\" { ... }\n```\n- [ ]\n```go\n      for i := 1; i < 5; i++ { ... }\n```\n- [ ]\n```go\n      for i < 5 { ... }\n```",
+        "back": "\n**Explanation:** Go has only `for`-loops"
+    },
+    {
+        "front": "<b>Q4. How will you add the number 3 to the right side?</b>\n```go\nvalues := []int{1, 1, 2}\n```\n- [ ]\n```go\n      values.append(3)\n```\n- [ ]\n```go\n      values.insert(3, 3)\n```\n- [ ]\n```go\n      append(values, 3)\n```\n- [x]\n```go\n      values = append(values, 3)\n```",
+        "back": "\n**Explanation:** slices in GO are immutable, so calling `append` does not modify the slice"
+    },
+    {
+        "front": "<b>Q5. What is the value of `Read`?</b>\n```go\nconst (\n  Write = iota\n  Read\n  Execute\n)\n```\n- 0\n- 1\n- 2\n- a random value\n[IOTA in Go (Golang)](https://golangbyexample.com/iota-in-golang/)",
+        "back": "1"
+    },
+    {
+        "front": "<b>Q6. Which is the _only_ valid import statement in Go?</b>\n- [ ]\n```go\n      import \"github/gin-gonic/gin\"\n```\n- [ ]\n```go\n      import \"https://github.com/gin-gonic/gin\"\n```\n- [ ]\n```go\n      import \"../template\"\n```\n- [x]\n```go\n      import \"github.com/gin-gonic/gin\"\n```\n[Import in GoLang](https://golangdocs.com/import-in-golang)",
+        "back": ""
+    },
+    {
+        "front": "<b>Q7. What would happen if you attempted to compile and run this Go program?</b>\n```go\npackage main\nvar GlobalFlag string\nfunc main() {\n  print(\"[\"+GlobalFlag+\"]\")\n}\n```\n- It would not compile because `GlobalFlag` was never initialized.\n- It would compile and print `[]`.\n- It would compile and print nothing because `\"[\" +nil+\"]\"` is also `nil`.\n- It would compile but then panic because `GlobalFlag` was never initialized.\n1. [variables](https://golangbyexample.com/variables-in-golang-complete-guide/) in Go have initial values. For string type, it's an empty string.\n2. [Go Playground](https://play.golang.org/p/TaRIzuD-nxC)",
+        "back": "It would compile and print `[]`."
+    },
+    {
+        "front": "<b>Q8. From where is the variable `myVar` accessible if it is declared outside of any functions in a file in package `myPackage` located inside module `myModule`?</b>\n- It can be accessed anywhere inside `myPackage`, not the rest of myModule.\n- It can be accessed by any application that imports `myModule`.\n- It can be accessed from anywhere in `myModule`.\n- It can be accessed by other packages in `myModule` as long as they import `myPackage`",
+        "back": "It can be accessed anywhere inside `myPackage`, not the rest of myModule.\n\n**Explanation**: to make the variable available outside of `myPackage` change the name to `MyVar`.\nSee also an example of [Exported names](https://tour.golang.org/basics/3) in the Tour of Go."
+    },
+    {
+        "front": "<b>Q9. How do you tell `go test` to print out the tests it is running?</b>\n- `go test`\n- `go test -x`\n- `go test --verbose`\n- `go test -v`\n[test package](https://pkg.go.dev/cmd/go/internal/test)",
+        "back": "`go test -v`\n[test package](https://pkg.go.dev/cmd/go/internal/test)"
+    },
+    {
+        "front": "<b>Q10. This code printed `{0, 0}`. How can you fix it?</b>\n```go\ntype Point struct {\n  x int\n  y int\n}\nfunc main() {\n  data := []byte(`{\"x\":1, \"y\": 2}`)\n  var p Point\n  if err := json.Unmarshal(data, &p); err != nil {\n    fmt.Println(\"error: \", err)\n  } else {\n    fmt.Println(p)\n  }\n}\n```\n- use `json.Decoder`\n- Pass a pointer to `data`\n- Make `X` and `Y` exported (uppercase)\n- Use field tags\n1. [How to Parse JSON in Golang?](https://www.geeksforgeeks.org/how-to-parse-json-in-golang/)\n2. [Go Playground](https://play.golang.org/p/RdL6y3Zv8ke)",
+        "back": "Make `X` and `Y` exported (uppercase)"
+    },
+    {
+        "front": "<b>Q11. What does a `sync.Mutex` block while it is locked?</b>\n- all goroutines\n- any other call to lock that `Mutex`\n- any reads or writes of the variable it is locking\n- any writes to the variable it is locking\n1. [Mutex in GoLang](https://golangdocs.com/mutex-in-golang), sync.Mutex locks so only one goroutine at a time can access the locked variable.\n2. [sync.Mutex](https://go.dev/tour/concurrency/9)",
+        "back": "any reads or writes of the variable it is locking"
+    },
+    {
+        "front": "<b>Q12. What is an idiomatic way to pause execution of the current scope until an arbitrary number of goroutines have returned?</b>\n- Pass an `int` and `Mutex` to each and count when they return.\n- Loop over a `select` statement.\n- Sleep for a safe amount of time.\n- `sync.WaitGroup`",
+        "back": "`sync.WaitGroup`\n\n**Explanation:** this is exactly what `sync.WaitGroup` is designed for - [Use sync.WaitGroup in Golang](https://nanxiao.me/en/use-sync-waitgroup-in-golang/)"
+    },
+    {
+        "front": "<b>Q13. What is a side effect of using `time.After` in a `select` statement?</b>\n- It blocks the other channels.\n- It is meant to be used in select statements without side effects.\n- It blocks the `select` statement until the time has passed.\n- The goroutine does not end until the time passes.\n> Note: it doesn't block `select` and does not block other channels.\n1. [time.After() Function in Golang With Examples](https://www.geeksforgeeks.org/time-after-function-in-golang-with-examples/)\n2. [How can I use 'time.After' and 'default' in Golang?](https://stackoverflow.com/questions/39212333/how-can-i-use-time-after-and-default-in-golang)\n3. [Go Playground example](https://go.dev/play/p/WojTrG1ywRK)",
+        "back": "The goroutine does not end until the time passes.\n> Note: it doesn't block `select` and does not block other channels.\n1. [time.After() Function in Golang With Examples](https://www.geeksforgeeks.org/time-after-function-in-golang-with-examples/)\n2. [How can I use 'time.After' and 'default' in Golang?](https://stackoverflow.com/questions/39212333/how-can-i-use-time-after-and-default-in-golang)\n3. [Go Playground example](https://go.dev/play/p/WojTrG1ywRK)"
+    },
+    {
+        "front": "<b>Q14. What is the select statement used for?</b>\n- executing a function concurrently\n- executing a different case based on the type of a variable\n- executing a different case based on the value of a variable\n- executing a different case based on which channel returns first\n[Select statement in GoLang](https://golangdocs.com/select-statement-in-golang)",
+        "back": "executing a different case based on which channel returns first\n[Select statement in GoLang](https://golangdocs.com/select-statement-in-golang)"
+    },
+    {
+        "front": "<b>Q15. According to the Go documentation standard, how should you document this function?</b>\n```go\nfunc Add(a, b int) {\n        return a + b\n}\n```\n- A\n  ```go\n  // Calculate a + b\n  // - a: int\n  // - b: int\n  // - returns: int\n  func Add(a, b int) {\n          return a + b\n  }\n  ```\n- B\n  ```go\n  // Does a + b\n  func Add(a, b int) {\n          return a + b\n  }\n  ```\n- C\n  ```go\n  // Add returns the sum of a and b\n  func Add(a, b int) {\n          return a + b\n  }\n  ```\n- D\n  ```go\n  // returns the sum of a and b\n  func Add(a, b int) {\n          return a + b\n  }\n  ```",
+        "back": "C\n  ```go\n  // Add returns the sum of a and b\n  func Add(a, b int) {\n          return a + b\n  }\n  ```\n\n**Explanation:** documentation block should start with a function name\n[Comments in Go](https://exercism.org/tracks/go/concepts/comments)"
+    },
+    {
+        "front": "<b>Q16. What restriction is there on the type of `var` to compile this `i := myVal.(int)?`</b>\n- `myVal` must be an integer type, such as `int`, `int64`, `int32`, etc.\n- `myVal` must be able to be asserted as an `int`.\n- `myVal` must be an interface.\n- `myVal` must be a numeric type, such as `float64` or `int64`.",
+        "back": "`myVal` must be an interface.\n\n**Explanation**: This kind of type casting (using `.(type)`) is used on interfaces only.\n1. [this example](https://tutorialedge.net/golang/snippets/type-casting-interface-to-string-go/)\n2. [Primitive types are type-casted differently](https://golangdocs.com/type-casting-in-golang)\n3. [Go Playground](https://play.golang.org/p/TXF_JBvThp6)\n4. [Type assertions](https://go.dev/tour/methods/15)"
+    },
+    {
+        "front": "<b>Q17. What is a channel?</b>\n- a global variable\n- a medium for sending values between goroutines\n- a dynamic array of values\n- a lightweight thread for concurrent programming\n[Channels](https://tour.golang.org/concurrency/2)",
+        "back": "a medium for sending values between goroutines"
+    },
+    {
+        "front": "<b>Q18. How can you make a file build only on Windows?</b>\n- Check runtime.GOOS.\n- Add a // +build windows comment anywhere in the file.\n- Add a \\_ prefix to the file name.\n- Add a // +build windows comment at the top of the file.\n1. [How to use conditional compilation with the go build tool, Oct 2013](https://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool)\n2. [go commands Build constraints](https://pkg.go.dev/cmd/go#hdr-Build_constraints)\n> `//go:build windows`\n> \"Go versions 1.16 and earlier used a different syntax for build constraints, with a \"// +build\" prefix. The gofmt command will add an equivalent //go:build constraint when encountering the older syntax.\"",
+        "back": "Add a // +build windows comment at the top of the file.\n1. [How to use conditional compilation with the go build tool, Oct 2013](https://dave.cheney.net/2013/10/12/how-to-use-conditional-compilation-with-the-go-build-tool)\n2. [go commands Build constraints](https://pkg.go.dev/cmd/go#hdr-Build_constraints)\n> `//go:build windows`\n> \"Go versions 1.16 and earlier used a different syntax for build constraints, with a \"// +build\" prefix. The gofmt command will add an equivalent //go:build constraint when encountering the older syntax.\""
+    },
+    {
+        "front": "<b>Q19. What is the correct way to pass this as a body of an HTTP POST request?</b>\n```go\ndata := \"A group of Owls is called a parliament\"\n```\n- [ ]\n```go\n  resp, err := http.Post(\"https://httpbin.org/post\", \"text/plain\", []byte(data))\n```\n- [ ]\n```go\n      resp, err := http.Post(\"https://httpbin.org/post\", \"text/plain\", data)\n```\n- [x]\n```go\n      resp, err := http.Post(\"https://httpbin.org/post\", \"text/plain\", strings.NewReader(data))\n```\n- [ ]\n```go\n      resp, err := http.Post(\"https://httpbin.org/post\", \"text/plain\", &data)\n```\n1. [net/http#Client.Post](https://pkg.go.dev/net/http#Client.Post)\n2. [http.Post Golang example](https://dev.to/ramu_mangalarapu/httppost-golang-example-5jp)",
+        "back": ""
+    },
+    {
+        "front": "<b>Q20. What should the idiomatic name be for an interface with a single method and the signature `Save() error`?</b>\n- Saveable\n- SaveInterface\n- ISave\n- Saver\n[Effective Go, Interface names](https://golang.org/doc/effective_go#interface-names)",
+        "back": "Saver\n[Effective Go, Interface names](https://golang.org/doc/effective_go#interface-names)"
+    },
+    {
+        "front": "<b>Q21. A `switch` statement **\\_** its own lexical block. Each `case` statement **\\_** an additional lexical block</b>\n- does not create; creates\n- does not create; does not create\n- creates; creates\n- creates; does not create\n[Go Language Core technology (Volume one) 1.5-scope](https://topic.alibabacloud.com/a/go-language-core-technology-volume-one-15-font-colorredscopefont_1_38_30923325.html)\nRelevant excerpt from the article:\n> _The second if statement is nested inside the first, so a variable declared in the first if statement is visible to the second if statement. There are similar rules in switch: Each case has its own lexical block in addition to the conditional lexical block._",
+        "back": "creates; creates"
+    },
+    {
+        "front": "<b>Q22. What is the default case sensitivity of the JSON `Unmarshal` function?</b>\n- The default behavior is case insensitive, but it can be overridden.\n- Fields are matched case sensitive.\n- Fields are matched case insensitive.\n- The default behavior is case sensitive, but it can be overridden.\n[encoding/json#Unmarshal](https://pkg.go.dev/encoding/json#Unmarshal)\nRelevant excerpt from the article:\n> _To unmarshal JSON into a struct, Unmarshal matches incoming object keys to the keys used by Marshal (either the struct field name or its tag), preferring an exact match but also accepting a case-insensitive match. By default, object keys which don't have a corresponding struct field are ignored (see Decoder.DisallowUnknownFields for an alternative)._",
+        "back": "The default behavior is case insensitive, but it can be overridden."
+    },
+    {
+        "front": "<b>Q23. What is the difference between the `time` package\u2019s `Time.Sub()` and `Time.Add()` methods?</b>\n- Time.Add() is for performing addition while Time.Sub() is for nesting timestamps.\n- Time.Add() always returns a later time while time.Sub always returns an earlier time.\n- They are opposites. Time.Add(x) is the equivalent of Time.Sub(-x).\n- Time.Add() accepts a Duration parameter and returns a Time while Time.Sub() accepts a Time parameter and returns a Duration.\n1. [time#Time.Add](https://pkg.go.dev/time#Time.Add)\n2. [time#Time.Sub](https://pkg.go.dev/time#Time.Sub)",
+        "back": "Time.Add() accepts a Duration parameter and returns a Time while Time.Sub() accepts a Time parameter and returns a Duration.\n1. [time#Time.Add](https://pkg.go.dev/time#Time.Add)\n2. [time#Time.Sub](https://pkg.go.dev/time#Time.Sub)"
+    },
+    {
+        "front": "<b>Q24. What is the risk of using multiple field tags in a single struct?</b>\n- Every field must have all tags to compile.\n- It tightly couples different layers of your application.\n- Any tags after the first are ignored.\n- Missing tags panic at runtime.\n1. [Example Code / b29r0fUD1cp](https://play.golang.org/p/b29r0fUD1cp)\n2. [How To Use Struct Tags in Go](https://www.digitalocean.com/community/tutorials/how-to-use-struct-tags-in-go)",
+        "back": "It tightly couples different layers of your application."
+    },
+    {
+        "front": "<b>Q25. Where is the built-in recover method useful?</b>\n- in the main function\n- immediately after a line that might panic\n- inside a deferred function\n- at the beginning of a function that might panic",
+        "back": "inside a deferred function\n\n[Example of Recover Function in Go (Golang)](https://golangbot.com/panic-and-recover/#recoveringfromapanic)\nRelevant excerpt from the article:\n> _Recover is useful only when called inside deferred functions. Executing a call to recover inside a deferred function stops the panicking sequence by restoring normal execution and retrieves the error message passed to the panic function call. If recover is called outside the deferred function, it will not stop a panicking sequence._"
+    },
+    {
+        "front": "<b>Q26. Which choice does _not_ send output to standard error?</b>\n- `println(message)`\n- `log.New(os.Stderr, \"\", 0).Println(message)`\n- `fmt.Errorf(\"%s\\n\", message)`\n- `fmt.Fprintln(os.Stderr, message)`\n1. [func println](https://pkg.go.dev/builtin#println): writes the result to _standard error_.\n2. [func New](https://pkg.go.dev/log#New): func New(out io.Writer, prefix string, flag int) \\*Logger; the out variable _sets the destination_ to which log data will be written.\n3. [func Errorf](https://pkg.go.dev/fmt#Errorf): Errorf formats according to a format specifier and _returns the string_ as a value.\n4. [func Fprintln](https://pkg.go.dev/fmt#Fprintln): func Fprintln(w io.Writer, a ...any) (n int, err error); Fprintln formats using the default formats for its operands and _writes to w_.",
+        "back": "`fmt.Errorf(\"%s\\n\", message)`"
+    },
+    {
+        "front": "<b>Q27. How can you tell Go to import a package from a different location?</b>\n- Use a proxy.\n- Change the import path.\n- Use a replace directive in go.mod.\n- Use a replace directory.\n1. [Call your code from another module](https://go.dev/doc/tutorial/call-module-code): chapter 5., `go mod edit -replace example.com/greetings=../greetings`.\n2. [go.mod replace directive](https://go.dev/doc/modules/gomod-ref#replace)",
+        "back": "Use a replace directive in go.mod."
+    },
+    {
+        "front": "<b>Q28. If your current working directory is the top level of your project, which command will run all its test packages?</b>\n- `go test all`\n- `go run --all`\n- `go test .`\n- `go test ./...`\n1. [Example of testing in Go (Golang)](https://pkg.go.dev/testing)\n2. [Example of cmd in Go (Golang)](https://pkg.go.dev/cmd/go)\nRelevant excerpt from the article:\n> _Relative patterns are also allowed, like \"go test ./...\" to test all subdirectories._",
+        "back": "`go test ./...`\n1. [Example of testing in Go (Golang)](https://pkg.go.dev/testing)\n2. [Example of cmd in Go (Golang)](https://pkg.go.dev/cmd/go)\nRelevant excerpt from the article:\n> _Relative patterns are also allowed, like \"go test ./...\" to test all subdirectories._"
+    },
+    {
+        "front": "<b>Q29. Which encodings can you put in a string?</b>\n- any, it accepts arbitary bytes\n- any Unicode format\n- UTF-8 or ASCII\n- UTF-8\n1. [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)\nRelevant excerpt from the article:\n> _In short, Go source code is UTF-8, so the source code for the string literal is UTF-8 text._\n2. [Example of encoding in Go (Golang)](https://pkg.go.dev/golang.org/x/text/encoding)\nRelevant excerpt from the article:\n> _Package encoding defines an interface for character encodings, such as Shift JIS and Windows 1252, that can convert to and from UTF-8._",
+        "back": "UTF-8\n1. [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)\nRelevant excerpt from the article:\n> _In short, Go source code is UTF-8, so the source code for the string literal is UTF-8 text._\n2. [Example of encoding in Go (Golang)](https://pkg.go.dev/golang.org/x/text/encoding)\nRelevant excerpt from the article:\n> _Package encoding defines an interface for character encodings, such as Shift JIS and Windows 1252, that can convert to and from UTF-8._"
+    },
+    {
+        "front": "<b>Q30. How is the behavior of `t.Fatal` different inside a `t.Run`?</b>\n- There is no difference.\n- t.Fatal does not crash the test harness, preserving output messages.\n- t.Fatal stops execution of the subtest and continues with other test cases.\n- t.Fatal stops all tests and contains extra information about the failed subtest.\n1. [Reference:](https://go.dev/play/p/gtne3iRL9AX)\n2. [testing package in Go](https://pkg.go.dev/testing), the relevant excerpt from the article:\n> `Fatal` is equivalent to `Log` followed by `FailNow`.\n> `Log` formats its arguments using default formatting, analogous to `Println`, and records the text in the error log.\n> `FailNow` marks the function as having failed and **stops its execution by calling `runtime.Goexit` (which then runs all deferred calls in the current goroutine). Execution will continue at the next test or benchmark.** `FailNow` must be called from the goroutine running the test or benchmark function, not from other goroutines created during the test. Calling `FailNow` does not stop those other goroutines.\n> `Run` runs `f` as a subtest of `t` called name. It runs `f` in a separate goroutine and blocks until `f` returns or calls `t.Parallel` to become a parallel test. Run reports whether `f` succeeded (or at least did not fail before calling `t.Parallel`).\n> Run may be called simultaneously from multiple goroutines, but all such calls must return before the outer test function for t returns.",
+        "back": "t.Fatal stops execution of the subtest and continues with other test cases."
+    },
+    {
+        "front": "<b>Q31. What does `log.Fatal` do?</b>\n- It raises a panic.\n- It prints the log and then raises a panic.\n- It prints the log and then safely exits the program.\n- It exits the program.",
+        "back": "It prints the log and then safely exits the program.\n\n[Example of func Fatal in Go (Golang)](https://pkg.go.dev/log#Fatal)\nRelevant excerpt from the article:\n> _`Fatal` is equivalent to `Print()` followed by a call to `os.Exit(1)`._"
+    },
+    {
+        "front": "<b>Q32. Which is a valid Go time format literal?</b>\n- \"2006-01-02\"\n- \"YYYY-mm-dd\"\n- \"y-mo-d\"\n- \"year-month-day\"\n[func Time in Go](https://pkg.go.dev/time#pkg-constants)\nRelevant excerpt from the article:\n```text\nYear: \"2006\" \"06\"\nMonth: \"Jan\" \"January\" \"01\" \"1\"\nDay of the week: \"Mon\" \"Monday\"\nDay of the month: \"2\" \"_2\" \"02\"\nDay of the year: \"__2\" \"002\"\nHour: \"15\" \"3\" \"03\" (PM or AM)\nMinute: \"4\" \"04\"\nSecond: \"5\" \"05\"\nAM/PM mark: \"PM\"\n```",
+        "back": "\"2006-01-02\""
+    },
+    {
+        "front": "<b>Q33. How should you log an error (err)</b>\n- `log.Error(err)`\n- `log.Printf(\"error: %v\", err)`\n- `log.Printf(log.ERROR, err)`\n- `log.Print(\"error: %v\", err)`",
+        "back": "`log.Printf(\"error: %v\", err)`\n\n**Explanation:** There is defined neither _log.ERROR_, nor _log.Error()_ in [log package in Go](https://pkg.go.dev/log); `log.Print()` arguments are handled in the manner of `fmt.Print()`; `log.Printf()` arguments are handled in the manner of `fmt.Printf()`."
+    },
+    {
+        "front": "<b>Q34. Which file names will the `go test` command recognize as test files?</b>\n- any that starts with `test`\n- any files that include the word `test`\n- only files in the root directory that end in `_test.go`\n- any that ends in `_test.go`\n1. [Test packages in go command in Go](https://pkg.go.dev/cmd/go#hdr-Test_packages): _'Go test' recompiles each package along with any files with names matching the file pattern \"\\*\\_test.go\"._\n2. [Add a test in Go](https://go.dev/doc/tutorial/add-a-test)",
+        "back": "any that ends in `_test.go`\n1. [Test packages in go command in Go](https://pkg.go.dev/cmd/go#hdr-Test_packages): _'Go test' recompiles each package along with any files with names matching the file pattern \"\\*\\_test.go\"._\n2. [Add a test in Go](https://go.dev/doc/tutorial/add-a-test)"
+    },
+    {
+        "front": "<b>Q35. What will be the output of this code?</b>\n```go\nch := make(chan int)\nch <- 7\nval := <-ch\nfmt.Println(val)\n```\n- 0\n- It will deadlock\n- It will not compile\n- 2.718\n[Go Playground share](https://go.dev/play/p/SQlfg8YSEOz), output:\n```text\nfatal error: all goroutines are asleep - deadlock!\ngoroutine 1 [chan send]:\nmain.main()\n /tmp/sandbox2282523250/prog.go:7 +0x37\nProgram exited.\n```",
+        "back": "It will deadlock"
+    },
+    {
+        "front": "<b>Q36. What will be the output of this program?</b>\n```go\nch := make(chan int)\nclose(ch)\nval := <-ch\nfmt.Println(val)\n```\n- It will deadlock\n- It will panic\n- 0\n- NaN\n[Go Playground share](https://go.dev/play/p/DjXq9wzJm5M), output:\n```text\n0\nProgram exited.\n```",
+        "back": "0"
+    },
+    {
+        "front": "<b>Q37. What will be printed in this code?</b>\n```go\nvar stocks map[string]float64 // stock -> price\nprice := stocks[\"MSFT\"]\nfmt.Printf(\"%f\\n\", price)\n```\n- 0\n- 0.000000\n- The code will panic\n- NaN\n[Go Playground share](https://go.dev/play/p/CjdHskV1xq1), output:\n```text\n0.000000\nProgram exited.\n```",
+        "back": "0.000000"
+    },
+    {
+        "front": "<b>Q38. What is the common way to have several executables in your project?</b>\n- Have a cmd directory and a directory per executable inside it.\n- Comment out main.\n- Use build tags.\n- Have a pkg directory and a directory per executable inside it.\n1. [stackoverflow](https://stackoverflow.com/questions/9985559/organizing-a-multiple-file-go-project/51942843#51942843)\n2. [medium](https://medium.com/@benbjohnson/structuring-applications-in-go-3b04be4ff091)\n3. [medium](https://medium.com/golang-learn/go-project-layout-e5213cdcfaa2)",
+        "back": "Have a cmd directory and a directory per executable inside it."
+    },
+    {
+        "front": "<b>Q39. How can you compile main.go to an executable that will run on OSX arm64 ?</b>\n- Set GOOS to **arm64** and GOARCH to **darwin**.\n- Set GOOS to **osx** and GOARCH to **arm64**.\n- Set GOOS to **arm64** and GOARCH to **osx**.\n- Set GOOS to **darwin** and GOARCH to **arm64**.\n[documentation](https://pkg.go.dev/cmd/go#hdr-Build_constraints)",
+        "back": "Set GOOS to **darwin** and GOARCH to **arm64**.\n[documentation](https://pkg.go.dev/cmd/go#hdr-Build_constraints)"
+    },
+    {
+        "front": "<b>Q40. What is the correct syntax to start a goroutine that will `print Hello Gopher!`?</b>\n- `go(fmt.Println(\"Hello Gopher!\"))`\n- `go func() { fmt.Println(\"Hello Gopher!\") }`\n- `go fmt.Println(\"Hello Gopher!\")`\n- `Go fmt.Println(\"Hello Gopher!\")`",
+        "back": "`go fmt.Println(\"Hello Gopher!\")`\n\n[Example of start a goroutine](https://go.dev/play/p/KGgnAWpZMrS)"
+    },
+    {
+        "front": "<b>Q41. If you iterate over a map in a for range loop, in which order will the key:value pairs be accessed?</b>\n- in pseudo-random order that cannot be predicted\n- in reverse order of how they were added, last in first out\n- sorted by key in ascending order\n- in the order they were added, first in first out",
+        "back": "in pseudo-random order that cannot be predicted\n\n[Reference](https://go.dev/ref/spec#:~:text=The%20iteration%20order%20over%20maps%20is%20not%20specified)"
+    },
+    {
+        "front": "<b>Q42. What is an idiomatic way to customize the representation of a custom struct in a formatted string?</b>\n- There is no customizing the string representation of a type.\n- Build it in pieces each time by calling individual fields.\n- Implement a method `String()` string\n- Create a wrapper function that accepts your type and outputs a string.",
+        "back": "Implement a method `String()` string\n\n[Reference](https://go.dev/doc/effective_go#printing)"
+    },
+    {
+        "front": "<b>Q43. How can you avoid a goroutine leak in this code?</b>\n```go\nfunc findUser(ctx context.Context, login string) (*User, error) {\n    ch := make(chan *User)\n    go func() {\n            ch <- findUserInDB(login)\n    }()\n    select {\n    case user := <-ch:\n            return user, nil\n    case <-ctx.Done():\n            return nil, fmt.Errorf(\"timeout\")\n    }\n}\n```\n- Use a sync.WaitGroup.\n- Make ch a buffered channel.\n- Add a default case to the select.\n- Use runtime.SetFinalizer.",
+        "back": "Make ch a buffered channel.\n\n[Reference](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)\nRelevant excerpt from the article:\n> _The simplest way to resolve this leak is to change the channel from an unbuffered channel to a buffered channel with a capacity of 1. Now in the timeout case, after the receiver has moved on, the Goroutine will complete its send by placing the \\*User value in the channel then it will return._"
+    },
+    {
+        "front": "<b>44. What will this code print?</b>\n```go\nvar i int8 = 120\ni += 10\nfmt.Println(i)\n```\n- -126\n- 0\n- NaN\n- 130\n[Go Playground example](https://go.dev/play/p/T31_JuFioaC), output:\n```text\n-126\nProgram exited.\n```",
+        "back": "-126"
+    },
+    {
+        "front": "<b>45. Given the definition of worker below, what is the right syntax to start a start a goroutine that will call worker and send the result to a channel named ch?</b>\n```go\nfunc worker(m Message) Result\n```\n- [ ]\n```go\ngo func() {\n    r := worker(m)\n    ch <- r\n}\n```\n- [ ]\n```go\ngo func() {\n    r := worker(m)\n    r -> ch\n} ()\n```\n- [x]\n```go\ngo func() {\n    r := worker(m)\n    ch <- r\n} ()\n```\n- [ ]\n```go\ngo ch <- worker(m)\n```\n[Go Playground example](https://go.dev/play/p/96j7tuQKF50)",
+        "back": ""
+    },
+    {
+        "front": "<b>Q46. In this code, which names are exported?</b>\n```go\npackage os\ntype FilePermission int\ntype userID int\n```\n- FilePermission\n- none of these answers\n- FilePermission and userID\n- userID",
+        "back": "FilePermission\n\n[Reference 1](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)\n\n[Reference 2](https://go.dev/tour/basics/3)"
+    },
+    {
+        "front": "<b>Q47. Which of the following is correct about structures in Go?</b>\n- Structure is another user defined data type available in Go programming, which allows you to combine data items of different kinds.\n- Structures are used to represent a record\n- To define a structure, you must use type and struct statements.\n- All of the above",
+        "back": "All of the above"
+    },
+    {
+        "front": "<b>Q48. What does the built-in `generate` command of the Go compiler do?</b>\n- It provides subcommands `sql`, `json`, `yaml`, and switches `--schema` and `--objects` to generate relevant code.\n- It looks for files with names that end with `_generate.go`, and then compiles and runs each of these files individually.\n- It scans the projects source code looking for `//go:generate` comments, and for each such comment runs the terminal command it specifies.\n- It has subcommands `mocks` and `tests` to generate relevant `.go` source files.\n[Generate Go files by processing source](https://pkg.go.dev/cmd/go#hdr-Generate_Go_files_by_processing_source)",
+        "back": "It scans the projects source code looking for `//go:generate` comments, and for each such comment runs the terminal command it specifies."
+    },
+    {
+        "front": "<b>Q49. Using the time package, how can you get the time 90 minutes from now?</b>\n- `time.Now().Add(90)`\n- `time.Now() + (90 * time.Minute)`\n- `time.Now() + 90`\n- `time.Now().Add(90 * time.Minute)`\n[func (Time) Add example](https://pkg.go.dev/time#example-Time.Add)",
+        "back": "`time.Now().Add(90 * time.Minute)`\n[func (Time) Add example](https://pkg.go.dev/time#example-Time.Add)"
+    },
+    {
+        "front": "<b>Q50. A program uses a channel to print five integers inside a goroutine while feeding the channel with integers from the main routine, but it doesn't work as is. What do you need to change to make it work?</b>\n- Add a `close(ch)` immediately after `wg.Wait()`.\n- Add a second parameter to `make(chan, int)`, e.g. `make(chan int, 5)`.\n- Remove the use of unnecessary `WaitGroup` calls, e.g. all lines that start with `wg`.\n- Move the 7-line goroutine immediately after `wg.Add(1)` to a line immediately before `wg.Wait()`.",
+        "back": "Add a second parameter to `make(chan, int)`, e.g. `make(chan int, 5)`.\n\n[Reference](https://www.ardanlabs.com/blog/2018/11/goroutine-leaks-the-forgotten-sender.html)\nRelevant excerpt from the article:\n> _The simplest way to resolve this leak is to change the channel from an unbuffered channel to a buffered channel with a capacity of 1. Now in the timeout case, after the receiver has moved on, the Goroutine will complete its send by placing the \\*User value in the channel then it will return._"
+    },
+    {
+        "front": "<b>Q51. After importing `encoding/json`, how will you access the `Marshal` function?</b>\n- `encoding.json.Marshal`\n- `encoding/json.Marshal`\n- `Marshal`\n- `json.Marshal`\n[encoding/json#Marshal example](https://pkg.go.dev/encoding/json#example-Marshal)",
+        "back": "`json.Marshal`\n[encoding/json#Marshal example](https://pkg.go.dev/encoding/json#example-Marshal)"
+    },
+    {
+        "front": "<b>Q52. What are the two missing segments of code that would complete the use of `context.Context` to implement a three-second timeout for this HTTP client making a GET request?</b>\n```go\npackage main\nimport (\n        \"context\"\n        \"fmt\"\n        \"net/http\"\n)\nfunc main() {\n        var cancel context.CancelFunc\n        ctx := context.Background()\n        // #1: <=== What should go here?\n        req, _ := http.NewRequest(http.MethodGet,\n                \"https://linkedin.com\",\n                nil)\n        // #2: <=== What should go here?\n        client := &http.Client{}\n        res, err := client.Do(req)\n        if err != nil {\n                fmt.Println(\"Request failed:\", err)\n                return\n        }\n        fmt.Println(\"Response received, status code:\",\n                res.StatusCode)\n}\n```\n- [ ]\n```go\n      ctx.SetTimeout(3*time.Second)\n      req.AttachContext(ctx)\n```\n- [x]\n```go\n      ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel()\n      req = req.WithContext(ctx)\n```\n- [ ]\n```go\n      ctx, cancel = context.WithTimeout(ctx, 3*time.Second); defer cancel() #2: req.AttachContext(ctx)\n```\n- [ ]\n```go\n      ctx.SetTimeout(3*time.Second)\n      req = req.WithContext(ctx)\n```\n1. [context#WithTimeout](https://pkg.go.dev/context#WithTimeout)\n2. [net/http#Request.WithContext](https://pkg.go.dev/net/http#Request.WithContext)",
+        "back": ""
+    },
+    {
+        "front": "<b>Q53. If you have a struct named Client defined in the same .go file as the statement, how do you export a variable with a default value so the variable is accessible by other packages?</b>\n- [ ]\n  ```go\n  let Default := new Client()\n  ```\n- [ ]\n  ```go\n  public default = &Client()\n  ```\n- [x]\n  ```go\n  var Default = &Client{}\n  ```\n- [ ]\n  ```go\n  export default := new Client{}\n  ```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q54. This program outputs `{Master Chief Spartan Protagonist Halo}`. How would you get it to output `Master Chief - a Spartan - is the Protagonist of Halo` instead?</b>\n```go\npackage main\nimport \"fmt\"\ntype Character struct{\n        Name  string\n        Class string\n        Role  string\n        Game  string\n}\nfunc main() {\n        mc := Character{\n                Name: \"Master Chief\",\n                Class: \"Spartan\",\n                Role: \"Protagonist\",\n                Game: \"Halo\",\n        }\n        fmt.Println(mc)\n}\n```\n- A\n  ```go\n  // Replace\n  // fmt.Println(mc)\n  // with this:\n  fmt.Printf(\"(?P<Name>) - a (?P<Class>) - is the (?P<Role>) of (?P<Game>)\", mc)\n  ```\n- B\n  ```go\n  // Replace\n  // fmt.Println(mc)\n  // with this:\n  fmt.Println(mc, func(c Character) string {\n        return c. Name + \" - a \" + c.Class + \" - is the \" + c.Role + \" of \" + c.Game\n  })\n  ```\n- C\n  ```go\n  // add this to the package `main`\n  func (c Character) String() string {\n        return fmt.Sprintf(\"%s - a %s - is the %s of %s\", c.Name, c.Class, c.Role,c.Game)\n  }\n  ```\n- D\n  ```go\n   // add this to the package `main`\n  func (c Character) OnPrint() {\n        fmt.Println(\"{{c.Name}} - a {{c.Class}} - is the {{c.Role}} of {{c.Game}}\")\n  }\n  ```\n1. [fmt#Stringer](https://pkg.go.dev/fmt#Stringer)",
+        "back": "C\n  ```go\n  // add this to the package `main`\n  func (c Character) String() string {\n        return fmt.Sprintf(\"%s - a %s - is the %s of %s\", c.Name, c.Class, c.Role,c.Game)\n  }\n  ```"
+    },
+    {
+        "front": "<b>Q55. How would you implement a working `Append()` method for `Clients`?</b>\n```go\npackage main\ntype Client struct {\n  Name string\n}\ntype Clients struct {\n  clients []*Client\n}\nfunc main() {\n  c:= &Clients{clients.make([]*Client,0)}\n  c.Append(&Client{Name: \"LinkedIn API})\n}\n```\n- A\n  ```go\n  func (cc *Clients) Append(c *Client) {\n    cc.clients = append(cc.clients, c)\n  }\n  ```\n- B\n  ```go\n  func (cc *Clients) Append(c *Client) {\n    cc.append(c)\n  }\n  ```\n- C\n  ```go\n  func (cc Clients) Append(c Client) {\n    cc.clients = append(cc.clients, c)\n  }\n  ```\n- D\n  ```go\n  func (cc *Clients) Append(c Client) {\n    cc.clients.append(c)\n  }\n  ```",
+        "back": "A\n  ```go\n  func (cc *Clients) Append(c *Client) {\n    cc.clients = append(cc.clients, c)\n  }\n  ```"
+    },
+    {
+        "front": "<b>Q56. How would you recover from a `panic()` thrown by a called function without allowing your program to fail assuming your answer will run in the same scope where your function call will experience the panic?</b>\n- Wrap the function call in an anonymous function with a return type of `panic`, remembering to invoke the anonymous function by suffixing it with `()` then introspecting the returned `panic` instance to handle the error.\n- Use `try{ ... }` to wrap the code calling the function and then handle the error within the `catch{ ... }`.\n- Use `defer func { ... }()` before the function call with the error and then handle the panic inside the anonymous function.\n- Prefix the function call with `@` to force return the panic as an `error` value and then handle the error just as you would an `error` returned by any function.",
+        "back": "Use `defer func { ... }()` before the function call with the error and then handle the panic inside the anonymous function."
+    },
+    {
+        "front": "<b>Q57. What will this code print?</b>\n```go\nvar n int\nfmt.Println (n)\n```\n- 0\n- nil\n- a random value\n- 1\n> This is because in Go, when a variable is declared but not explicitly initialized, it is assigned a default [zero value](https://go.dev/tour/basics/12) based on its type. For integers like n, the zero value is 0.",
+        "back": "0"
+    },
+    {
+        "front": "<b>Q58. When creating a formatted string, which verb should you use to call the String () string method of a custom type?</b>\n- %s\n- %b\n- %v\n- %string\n> In Go, the %s verb is used to format a string. When used with a custom type that has a String() method defined, the String() method will be automatically called and its return value will be used in the formatted string.",
+        "back": "%s"
+    },
+    {
+        "front": "<b>Q59. Which is not a valid value for layout when calling time. Now ( ) . Format ( layout)?</b>\n- time.REC3339\n- \"1970-01-01\"\n- \"Jan 2nd 2006\"\n- time.Kitchen\n> The time.Kitchen constant is not a valid value for layout when calling time.Now().Format(layout). The time.Kitchen constant is used to format a time value in a 12-hour clock format with seconds, such as 3:04:05PM.",
+        "back": "time.Kitchen\n> The time.Kitchen constant is not a valid value for layout when calling time.Now().Format(layout). The time.Kitchen constant is used to format a time value in a 12-hour clock format with seconds, such as 3:04:05PM."
+    },
+    {
+        "front": "<b>Q60. How would you signal to the Go compiler that the Namespace struct must implement the JSONConverter interface? This question assumes the answer would be included in the same package where Namespace is declared.</b>\n- var_JSONConverter = nil. (\\*Namespace)\n- var_JSONConverter = (\\*Namespace) (nil)\n- type Namespace struct {\n      implements JSONConverter\n      // The rest of the struct declaration goes here\n      }\n- type Namespace struct {\n      JSONConverter\n      // The rest of the struct declaration goes here\n      }\n> This syntax creates a variable \\_ with the type of JSONConverter and assigns to it a value of (\\*Namespace)(nil). This essentially checks that the Namespace struct satisfies the JSONConverter interface by ensuring that it can be assigned to a variable of type JSONConverter.",
+        "back": "var_JSONConverter = (\\*Namespace) (nil)"
+    },
+    {
+        "front": "<b>Q61. Which statement about typing and interfaces is false?</b>\n- A method signature is the combination of a method name and the type(s) of its declared parameter(s) and return value(s).\n- A struct must explicitly declare using the implements keyword that its instances can be used wherever a variable, parameter, and/or\n      return value is typed for the declared interface.\n- An interface declares a list of methods and their signatures that a type must implement to be compatible with values typed for that interface.\n- Variable, parameters, and return values must be \"typed\" as one of 1) a built-in type, 2) a type alias, 3) a derived type, 4) a composite type, or\n5. an interface.\n> # In Go, a type automatically satisfies an interface if it implements all the methods of that interface. There is no need to explicitly declare that a struct implements an interface using a specific keyword.",
+        "back": "A struct must explicitly declare using the implements keyword that its instances can be used wherever a variable, parameter, and/or\n      return value is typed for the declared interface."
+    },
+    {
+        "front": "<b>Q62. How would you complete this program to generate the specified output, assuming the SQL table</b>\n```go\n===[Output]================\n1: &{GameId:1 Title:Wolfenstein YearReleased:1992}\n2: &{GameId:2 Title:Doom YearReleased:1993}\n3: &{GameId:3 Title:Quake YearReleased:1996}\n===[main.go]================\npackage main\nimport (\n        \"database/sql\"\n        \"fmt\"\n        _ \"github.com/go-sql-driver/mysql\"\n        \"log\"\n)\ntype Game struct {\n        GameId       int\n        Title        string\n        YearReleased int\n}\nfunc main() {\n        conn, err := sql.Open(\"mysql\",\n                \"john_carmack:agiftw!@tcp(localhost:3306)/idsoftware\")\n        if err != nil {\n                panic(err)\n        }\n        defer func() { _ = conn.Close() }()\n        results, err := conn.Query(\"SELECT game_id,title,year_released FROM games;\")\n        if err != nil {\n                panic(err)\n        }\n        defer func() { _ = results.Close() }()\n        // #1 <=== What goes here?\n        for results.Next() {\n                var g Game\n                // #2 <=== What goes here?\n                if err != nil {\n                        panic(err)\n                }\n                // #3 <=== What goes here?\n        }\n        for i, g := range games {\n                fmt.Printf(\"%d: %+v\\n\", i, g)\n        }\n}\n```\n- [ ]\n```go\n#1: games := make([]*Game, results.RowsAffected())\n#2: g, err = results.Fetch()\n#3: games[results.Index()] = &g\n```\n- [ ]\n```go\n#1: games := []Game{}\n#2: g, err = results.Fetch()\n#3: games = append(games,g)\n```\n- [ ]\n```go\n#1: games := map[int]Game{}\n#2: err = results.Scan(&g)\n#3: games[g.GameId] = g\n```\n- [x]\n```go\n#1: games := make(map[int]*Game, 0)\n#2: err = results.Scan(&g.GameId, &g.Title, &g.YearReleased)\n#3: games[g.GameId] = &g\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q63. Fill in the blanks</b>\n1.  Test files in Go must **\\_**.\n2.  Individual tests are identified by **\\_**.\n3.  You can run subtests by **\\_\\_**.\n4.  You log the error and mark the test failed by **\\_**.\n- be stored in a `/test/`subdirectory of that package\n      <br/>functions accepting a `testing.Tester` parameter\n      <br/>writing functions with names matching `^Subtest`\n      <br/>calling `testing.AssertionFailed`\n- end in `_test.go`\n      <br/>function names matching `^Test[A-Z]`\n      <br/>calling `t.Run()`\n      <br/>calling `t.Errorf()`\n- begin with `test_`\n      <br/>functions matching `[a-z]Test$`\n      <br/>calling `testing.Subtest()`\n      <br/>allowing `testing.Assert()` to fail its assertion\n- be stored in `/test/` root subdirectory for the project\n      <br/>functions accepting a `testing.Test` parameter\n      <br/>passing closures to `testing.AddSubtest()`\n      <br/>returning an `error` from the function",
+        "back": "end in `_test.go`\n      <br/>function names matching `^Test[A-Z]`\n      <br/>calling `t.Run()`\n      <br/>calling `t.Errorf()`"
+    },
+    {
+        "front": "<b>Q64. Which type is a rune an alias for?</b>\n- char\n- byte\n- int32\n- string\n1. [Strings, bytes, runes and characters in Go](https://go.dev/blog/strings)\nRelevant excerpt from the article:\n> _The Go language defines the word rune as an alias for the type int32, so programs can be clear when an integer value represents a code point._",
+        "back": "int32"
+    },
+    {
+        "front": "<b>Q65. When can you use the := syntax to assign to multiple variables? For example:</b>\n```go\nx, err := myFunc()\n```\n- if it at least has not been declared in that lexical block\n- at all times, as it will overwrite existing variables\n- if no variables of those names is accessible\n- if none of the variables exist in that lexical block\n1. [Short variable declarations](https://go.dev/ref/spec#Short_variable_declarations)",
+        "back": "if it at least has not been declared in that lexical block"
+    },
+    {
+        "front": "<b>Q66. How can You view the profiler output in cpu.pprof in the broswer?</b>\n- go pprof -to SVG cpu.prof\n- go tool pprof -http=:8080 cpu.pprof (true)\n- go tool pprof cpu.pprof\n- go tool trace cpu.pprof\n ",
+        "back": "go tool pprof -http=:8080 cpu.pprof (true)"
+    },
+    {
+        "front": "<b>Q67. When does a variable of type interface{} evaluate to nil?</b>\n- It has been assingned a dynamic type whose value is nil.  (true)\n- It has been explicitly set to nil.\n- It has not been assigned a dynamic type.\n- It can not evaluate to nil.",
+        "back": "It has been assingned a dynamic type whose value is nil.  (true)"
+    },
+    {
+        "front": "<b>Q68. What value does a string variable hold if it has been allocated but not assigned?</b>\n- nil\n- undefined\n- null\n- \"\"\n> If a string variable has been allocated but not assigned a value, its default value is an empty string \"\". In Go, uninitialized string variables are automatically assigned the zero value for their respective type, which for strings is an empty string.",
+        "back": "\"\"\n> If a string variable has been allocated but not assigned a value, its default value is an empty string \"\". In Go, uninitialized string variables are automatically assigned the zero value for their respective type, which for strings is an empty string."
+    },
+    {
+        "front": "<b>Q69. Which built-in function is used to stop a program from continuing?</b>\n- panic\n- There is no such function.\n- raiseException\n- exit\n> The built-in function used to stop a program from continuing is `panic()`. When `panic()` is called, it triggers a panic, which stops the normal execution flow of the program and begins panicking. If the panic is not recovered, the program terminates.",
+        "back": "panic"
+    },
+    {
+        "front": "<b>Q70. What will the output be?</b>\n```go\na,b := 1, 2\nb,c:= 3, 4\nfmt.Println(a, b, c)\n```\n- 1 3 4\n- 1 2 3\n- 1 2 4\n- It will not compile.\n[Go Playground Example](https://go.dev/play/p/qUI50GNGWTq)",
+        "back": "1 3 4"
+    }
+]

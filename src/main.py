@@ -1,8 +1,13 @@
 import json
+
+from src.Anki_Deck_Manipulator import Anki_Deck_Manipulator
 from src.Anki_Web_Helper import Anki_Web_Helper
 from src.Conversion_Assistant import Conversion_Assistant
 
 if __name__ == '__main__':
+
+    ca = Conversion_Assistant()
+    ca.convert_markdown_to_markdown()
 
     deck_list = [("agile-methodologies-quiz", "Agile_Methodology_Quiz"),
                  ("git-quiz", "Git_Quiz"),
@@ -14,8 +19,6 @@ if __name__ == '__main__':
                  ("scala-quiz", "Scala_Quiz"),
                  ("spring-framework-quiz", "Spring_Quiz")]
 
-    ca = Conversion_Assistant()
-    ca.convert_markdown_to_csv()
-
+    adm = Anki_Deck_Manipulator()
     for file_name, deck_name in deck_list:
-        ca.compare_new_to_old_csv(file_name=file_name, current_deck_name=deck_name)
+        adm.add_new_json_to_deck(file_name=file_name, current_deck_name=deck_name)

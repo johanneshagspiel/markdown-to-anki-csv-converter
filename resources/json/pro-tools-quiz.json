@@ -1,0 +1,66 @@
+[
+    {
+        "front": "<b>Q1. You want to change the meter of your song from 4/4 to 3/4 at bar 36. What Event menu option would you select to find Change meter?</b>\n- Event > Time Operations\n- Event > Event Operations\n- Event > Renumber Bars\n- Event > Tempo Operations",
+        "back": "Event > Time Operations"
+    },
+    {
+        "front": "<b>Q2. you want to connect clips on more than one track to move and copy the clips as a unit. How can you achieve this?</b>\n- Select all clips and make a clip group with Clip > Group\n- Recalculate the waveform overview\n- Select File > Export clips as files\n- Make a bounce of all clips and import it back to another track",
+        "back": "Select all clips and make a clip group with Clip > Group"
+    },
+    {
+        "front": "<b>Q3. Besides being able to go into record while playback is happening, what is another benefit of the punch record modes?</b>\n- You are conserving disk space.\n- Pro Tools is discretely recording all audio from the moment you hit play, even before you are actively recording.\n- The audio is higher quality in punch record mode than in loop record mode.\n- Pro Tools automatically auto-tunes incoming audio.",
+        "back": "Pro Tools is discretely recording all audio from the moment you hit play, even before you are actively recording."
+    },
+    {
+        "front": "<b>Q4. What kind of track does this image show?</b>\n<img src=\"pro-tools-quiz_image01.jpeg\">\n- an audio track\n- a video track\n- a MIDl track\n- an instrument track",
+        "back": "an instrument track"
+    },
+    {
+        "front": "<b>Q5. You want to look at all your alternate playlists stacked vertically under your track. How can you do this?</b>\n- Neither of these answers is correct.\n- Select playlists in the track view selector.\n- Select Edit > Playlists.\n- Both of these answers are correct.",
+        "back": "Neither of these answers is correct."
+    },
+    {
+        "front": "<b>Q6. Can you copy and paste volume automation from one track to another?</b>\n- Yes, it is just like audio or MIDI.\n- Yes, but you will lose breakpoints.\n- No, you cannot.\n- No, you can copy and paste only in advanced editing mode.",
+        "back": "Yes, it is just like audio or MIDI."
+    },
+    {
+        "front": "<b>Q7. What color-coding preference do you select to make the playlist regions shown below have different colors?</b>\n<img src=\"pro-tools-quiz_image02.jpeg\">\n- Select Track Type under Default Track Color Coding, and select Track Color under Default Clip Color Coding.\n- Keep Always Display Marker Colors selected.\n- Select None under Default Track Color Coding, and select Clip List Color under Default Clip Color Coding.\n- No special preference is necessary. Playlist view automatically color-codes a variety of colors to playlisted clips.",
+        "back": "No special preference is necessary. Playlist view automatically color-codes a variety of colors to playlisted clips."
+    },
+    {
+        "front": "<b>Q8. What does Cut Time do in the Event > Time Operations menu?</b>\n- It makes the end of the session timeline shorter.\n- None of these answers is correct.\n- It removes a timeline selection across all tracks and closes the gap.\n- It changes 4/4 tempo to 2/4.",
+        "back": "It removes a timeline selection across all tracks and closes the gap."
+    },
+    {
+        "front": "<b>Q9. You used Save As to save your session to a location outside the session folder on a mobile hard drive. When you tried to open the session on a different computer, all the files were offline. Why did this happen?</b>\n- You did not select the Add audio files box in the Save As dialog box.\n- Your mobile drive is corrupt.\n- The other computer needs to be updated to the latest version of Pro Tools.\n- Save As saves only the .ptx session file, and does not include or move the associated audio files folder.",
+        "back": "Save As saves only the .ptx session file, and does not include or move the associated audio files folder."
+    },
+    {
+        "front": "<b>Q10. How can you edit the All group?</b>\n- You have to be in a 24-bit session.\n- Find it in the group ID and edit it just like any other group.\n- You cannot edit the All group.\n- Select Preferences > Edit All Group.",
+        "back": "You cannot edit the All group."
+    },
+    {
+        "front": "<b>Q11. In the image shown, why did the Batch Fades window appear?</b>\n<img src=\"pro-tools-quiz_image03.jpeg\">\n- Batch Fades was selected from the Edit menu.\n- Batch Fade mode was selected in the preferences.\n- All of these answers are correct.\n- More than one region was selected before the fade was initiated.",
+        "back": "More than one region was selected before the fade was initiated."
+    },
+    {
+        "front": "<b>Q12. Does the Audio Volume track view selector on an instrument track have any effect on the MIDl events in the track?</b>\n- Yes, it controls the velocity of the MIDl events.\n- No, it is simply a control for the instrument playback volume.\n- It does, but only when the Conductor Track is enabled.\n- Yes, it controls the modulation wheel information of the MIDl events.",
+        "back": "No, it is simply a control for the instrument playback volume."
+    },
+    {
+        "front": "<b>Q13. In the image shown, what does 3.5 dB signify on the bass clip?</b>\n<img src=\"pro-tools-quiz_image04.png\">\n- The bass clip has a total dynamic range of 3.5 dB.\n- The bass clip has 3.5 dB of clip gain applied.\n- The bass clip is 3.5 below absolute zero on a digital scale\n- The track volume is up 3.5 dB.",
+        "back": "The bass clip has 3.5 dB of clip gain applied."
+    },
+    {
+        "front": "<b>Q14. When would you create a MIDl track?</b>\n- to enable higher sample rate audio recording\n- to communicate with another studio outside your current Wi-Fi network\n- to play an attached hardware sampler instrument from a MIDl sequence on your track\n- to initiate an advanced surround sound mix",
+        "back": "to play an attached hardware sampler instrument from a MIDl sequence on your track"
+    },
+    {
+        "front": "<b>Q15. You want to connect clips on more than one track to move and copy the clips as a unit. How can you achieve this?</b>\n- Make a bounce of all clips and import it back to another track.\n- Select File > Export Clips as Files.\n- Select all clips and make a clip group with Clip > Group.\n- Recalculate the waveform overview.",
+        "back": "Select all clips and make a clip group with Clip > Group."
+    },
+    {
+        "front": "<b>Q16. What is the difference between Bus 1-2 and Bus 3-4?</b>\n<img src=\"pro-tools-quiz_image05.png\">\n- Bus 3-4 is lower in volume.\n- Bus 1-2 is in expanded sends view, while Bus 3-4 is not.\n- Bus 1-2 is a special pre-fader send.\n- Bus 1-2 is a VCA track.",
+        "back": "Bus 1-2 is in expanded sends view, while Bus 3-4 is not."
+    }
+]

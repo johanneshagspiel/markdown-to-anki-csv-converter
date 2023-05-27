@@ -1,0 +1,210 @@
+[
+    {
+        "front": "<b>Q1. Which type cast preserves the mathematical value in all cases?</b>\n- i64 as i32\n- usize as u64\n- i32 as i64\n- f64 as f32",
+        "back": "i32 as i64"
+    },
+    {
+        "front": "<b>Q2. What do the vertical bars represent here?</b>\n```rust\nstr::thread::spawn(|| {\n    println!(\"LinkedIn\");\n});\n```\n- a closure\n- a thread\n- a future\n- a block",
+        "back": "a closure\n\n[reference](https://doc.rust-lang.org/book/ch13-01-closures.html#refactoring-with-closures-to-store-code)"
+    },
+    {
+        "front": "<b>Q3. Which choice is not a scalar data type?</b>\n- integer\n- float\n- boolean\n- tuple",
+        "back": "tuple"
+    },
+    {
+        "front": "<b>Q4. **\\_** cannot be destructured.</b>\n- Traits\n- Tuples\n- Enums\n- Structs",
+        "back": "Traits\n\n[reference](https://rust-lang.github.io/rfcs/2909-destructuring-assignment.html)"
+    },
+    {
+        "front": "<b>Q5. Which `cargo` command checks a program for error without creating a binary executable?</b>\n- cargo --version\n- cargo init\n- cargo build\n- cargo check",
+        "back": "cargo check"
+    },
+    {
+        "front": "<b>Q6. The term _box_ and related phrases such as _boxing a value_ are often used when relating to memory layout. What does _box_ refer to?</b>\n- It's creating a pointer on the heap that points to a value on the stack.\n- It's creating a pointer on the stack that points to a value on the heap.\n- It's creating a memory guard around values to prevent illegal access.\n- It's an abstraction that refers to ownership. \"Boxed\" values are clearly labelled.",
+        "back": "It's creating a pointer on the stack that points to a value on the heap."
+    },
+    {
+        "front": "<b>Q7. What is an alternative way of writing `slice` that produces the same result?</b>\n```rust\n...\nlet s = String::form(\"hello\");\nlet slice = &s[0..2];\n```\n- let slice = &s[len + 2];\n- let slice = &s[len - 2];\n- let slice = &s.copy(0..2);\n- let slice = &s[..2];",
+        "back": "let slice = &s[..2];"
+    },
+    {
+        "front": "<b>Q8. Using the `?` operator at the end of an expression is equivalent to **\\_**.</b>\n- a match pattern that branches into True or False\n- calling ok_error()\n- calling panic!()\n- a match pattern that may result an early return",
+        "back": "a match pattern that may result an early return"
+    },
+    {
+        "front": "<b>Q9. Which is valid syntax for defining an array of i32 values?</b>\n- Array<i32>::with_capacity(10)\n- [i32]\n- Array<i32>::new(10)\n- [i32; 10]",
+        "back": "[i32; 10]"
+    },
+    {
+        "front": "<b>Q10. What syntax is required to take a mutable reference to T, when used within a function argument?</b>\n```rust\nfn increment(i: T) {\n    // body elided\n}\n```\n- \\*mut T\n- mut ref T\n- mut &T\n- &mut T",
+        "back": "&mut T"
+    },
+    {
+        "front": "<b>Q11. The smart pointers Rc and Arc provide reference counting. What is the API for incrementing a reference count?</b>\n- .add()\n- .incr()\n- .clone()\n- .increment()",
+        "back": ".clone()\n\n[reference](https://doc.rust-lang.org/book/ch15-04-rc.html)"
+    },
+    {
+        "front": "<b>Q12. What happens when an error occurs that is being handled by the question mark (?) operator?</b>\n- The error is reported and execution continues.\n- An exception is raised. The effect(s) of the exception are defined by the error! macro.\n- The program panics immediately.\n- Rust attempts to convert the error to the local function's error type and return it as Result::Err. If that fails, the program panics.",
+        "back": "Rust attempts to convert the error to the local function's error type and return it as Result::Err. If that fails, the program panics."
+    },
+    {
+        "front": "<b>Q13. Which comment syntax is not legal?</b>\n- `/*`\n- `#`\n- `//!`\n- `//`",
+        "back": "`#`"
+    },
+    {
+        "front": "<b>Q14. In matching patterns, values are ignored with \\_.</b>\n- `.ignore()`\n- `an underscore (_)`\n- ..\n- skip",
+        "back": ".."
+    },
+    {
+        "front": "<b>Q15. Defining a \\_ requires a lifetime parameter.</b>\n- function that ends the lifetime of one of its arguments\n- struct that contains a reference to a value\n- function with a generic argument\n- struct that contains a reference to a boxed value\n[Rust book reference](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html#lifetime-annotations-in-struct-definitions)",
+        "back": "struct that contains a reference to a value"
+    },
+    {
+        "front": "<b>Q16. Which example correctly uses std::collections::HashMap's Entry API to populate counts?</b>\n```rust\nuse std::collections::HashMap;\nfn main() {\n    let mut counts = HashMap::new();\n    let text = \"LinkedIn Learning\";\n    for c in text.chars() {\n        // Complete this block\n    }\n    println!(\"{:?}\", counts);\n}\n```\n- [ ]\n```rust\nfor c in text.chars() {\n    if let Some(count) = &mut counts.get(&c) {\n        counts.insert(c, *count + 1);\n    } else {\n        counts.insert(c, 1);\n    };\n}\n```\n- [x]\n```rust\nfor c in text.chars() {\n    let count = counts.entry(c).or_insert(0);\n    *count += 1;\n}\n```\n- [ ]\n```rust\nfor c in text.chars() {\n    let count = counts.entry(c);\n    *count += 1;\n}\n```\n- [ ]\n```rust\nfor c in text.chars() {\n    counts.entry(c).or_insert(0).map(|x| x + 1);\n}\n```",
+        "back": "\n[reference](https://doc.rust-lang.org/std/collections/hash_map/struct.HashMap.html#method.entry)"
+    },
+    {
+        "front": "<b>Q17. Which fragment does not incur memory allocations while writing to a \"file\" (represented by a Vec<u8>)?</b>\n```rust\nuse std::collections::HashMap;\nfn main() -> Result<(), Box<dyn std::error::Error>> {\n    let mut v = Vec::<u8>::new();\n    let a = \"LinkedIn\";\n    let b = 123;\n    let c = '\ud83e\uddc0';\n    // replace this line\n    println!(\"{:?}\", v);\n    Ok(())\n}\n```\n- :\n```rust\nwrite!(&mut v, \"{}{}{}\", a, b, c)?;\n```\n- :\n```rust\nv.write(a)?;\nv.write(b)?;\nv.write(c)?;\n```\n- :\n```rust\nv.write(a, b, c)?;\n```\n- :\n```rust\nv.write_all(a.as_bytes())?;\nv.write_all(&b.to_string().as_bytes())?;\nc.encode_utf8(&mut v);\n```\n1. [Answered in rust user forum](https://users.rust-lang.org/t/formatting-and-writing-to-a-file-without-malloc-or-locks/52295/9)\n2. [reference](https://doc.rust-lang.org/std/macro.write.html)",
+        "back": ":\n```rust\nwrite!(&mut v, \"{}{}{}\", a, b, c)?;\n```"
+    },
+    {
+        "front": "<b>Q18. Does the `main` function compile? If so, why? If not, what do you need to change?</b>\n```rust\nfn main() {\n    let Some(x) = some_option_value;\n}\n```\n- The code does not compile. `let` statements require a refutable pattern. Add `if` before `let`.\n- The code compiles. `let` statements sometimes require a refutable pattern.\n- The code does not compile. `let` statements requires an irrefutable pattern. Add `if` before `let`.\n- The code compiles. `let` do not require a refutable pattern.",
+        "back": "The code does not compile. `let` statements requires an irrefutable pattern. Add `if` before `let`."
+    },
+    {
+        "front": "<b>Q19. Which statement about lifetimes is false?</b>\n- Lifetimes were redundantly specified in previous version of Rust.\n- Lifetimes are specified when a struct is holding a reference to a value.\n- Lifetimes are specified when certain values must outlive others.\n- Lifetimes are always inferred by the compiler.",
+        "back": "Lifetimes are always inferred by the compiler."
+    },
+    {
+        "front": "<b>Q20. When used as a return type, which Rust type plays a similar role to Python's `None`, JavaScript's `null`, or the `void` type in C/C++?</b>\n- `!`\n- `None`\n- `Null`\n- `()`",
+        "back": "`()`"
+    },
+    {
+        "front": "<b>Q21. To convert a `Result` to an `Option`, which method should you use?</b>\n- `.as_option()`\n- `.ok()`\n- `.to_option()`\n- `.into()`",
+        "back": "`.ok()`"
+    },
+    {
+        "front": "<b>Q22. Which statement about the `Clone` and `Copy` traits is false?</b>\n- `Copy` is enabled for primitive, built-in types.\n- Without `Copy`, Rust applies move semantics to a type's access.\n- When using `Clone`, copying data is explicit.\n- Until a type implements either `Copy` or `Clone`, its internal data cannot be copied.",
+        "back": "`Copy` is enabled for primitive, built-in types.\n\n[ref from stack overflow](https://stackoverflow.com/questions/41413336/do-all-primitive-types-implement-the-copy-trait)"
+    },
+    {
+        "front": "<b>Q23. Why does this code _not_ compile?</b>\n```rust\nfn returns_closure() -> dyn Fn(i32) -> i32 {\n    |x| x + 1\n}\n```\n- The returned `fn` pointer and value need to be represented by another trait.\n- Closures are types, so they cannot be returned directly from a function.\n- Closures are types and can be returned only if the concrete trait is implemented.\n- Closures are represented by traits, so they cannot be a return type.\n[Rust book reference](https://doc.rust-lang.org/book/ch19-05-advanced-functions-and-closures.html#returning-closures)",
+        "back": "Closures are represented by traits, so they cannot be a return type.\n[Rust book reference](https://doc.rust-lang.org/book/ch19-05-advanced-functions-and-closures.html#returning-closures)"
+    },
+    {
+        "front": "<b>Q24. What smart pointer is used to allow multiple ownership of a value in various threads?</b>\n- `Arc<T>`\n- `Box<T>`\n- Both `Arc<T>` and `Rc<T>` are multithread safe.\n- `Rc<T>`\n[Rust book reference](https://doc.rust-lang.org/book/ch16-03-shared-state.html?highlight=arc%3CT%3E#atomic-reference-counting-with-arct)",
+        "back": "`Arc<T>`"
+    },
+    {
+        "front": "<b>Q25. Which types are _not_ allowed within an enum variant's body?</b>\n- zero-sized types\n- structs\n- trait objects\n- floating-point numbers",
+        "back": "trait objects\n\n[Reference](https://doc.rust-lang.org/reference/types/trait-object.html)"
+    },
+    {
+        "front": "<b>Q26. Which statement about this code is true?</b>\n```rust\nfn main() {\n    let c = 'z';\n    let heart_eyed_cat = '\ud83d\ude3b';\n}\n```\n- Both are character literals.\n- `heart_eyed_cat` is an invalid expression.\n- `c` is a string literal and `heart_eyed_cat` is a character literal.\n- Both are string literals.",
+        "back": "Both are character literals.\n\n[Reference](https://doc.rust-lang.org/std/primitive.char.html)"
+    },
+    {
+        "front": "<b>Q27. Your application requires a single copy of some data type T to be held in memory that can be accessed by multiple threads. What is the thread-safe wrapper type?</b>\n- `Mutex<Arc<T>>`\n- `Rc<Mutex<T>>`\n- `Arc<Mutex<T>>`\n- `Mutex<Rc<T>>`\n[Rust book reference](https://doc.rust-lang.org/book/ch16-03-shared-state.html#atomic-reference-counting-with-arct)",
+        "back": "`Arc<Mutex<T>>`"
+    },
+    {
+        "front": "<b>Q28. Which idiom can be used to concatenate the strings `a`, `b`, `c`?</b>\n```rust\nlet a = \"a\".to_string();\nlet b = \"b\".to_string();\nlet c = \"c\".to_string();\n```\n- `String::from(a,b,c)`\n- `format!(\"{}{}{}\", a, b, c)`\n- `concat(a,b,c)`\n- `a + b + c`",
+        "back": "`format!(\"{}{}{}\", a, b, c)`"
+    },
+    {
+        "front": "<b>Q29. In this function. what level of access is provided to the variable `a`?</b>\n```rust\nuse std::fmt::Debug;\nfn report<T:Debug>(a: &T) {\n    eprintln!(\"info: {:?}\", a);\n}\n```\n- print\n- read-only\n- read/write\n- debug",
+        "back": "read-only"
+    },
+    {
+        "front": "<b>Q30. Which choice is _not_ valid loop syntax?</b>\n- `loop`\n- `for`\n- `while`\n- `do`",
+        "back": "`do`"
+    },
+    {
+        "front": "<b>Q31. How do you construct a value of `Status` that is initialized to `Waiting`?</b>\n```rust\nenum Status {\n    Waiting,\n    Busy,\n    Error(String),\n}\n```\n- `let s = Enum::new(Status::Waiting);`\n- `let s = new Status::Waiting;`\n- `let s = Status::Waiting;`\n- `let s = Status::new(Waiting);`",
+        "back": "`let s = Status::Waiting;`"
+    },
+    {
+        "front": "<b>Q32. Which statement about enums is false?</b>\n- Enums are useful in matching patterns.\n- Option is an enum type.\n- Enum variants can have different types with associated data.\n- the term _enum_ is short for _enummap_",
+        "back": "the term _enum_ is short for _enummap_"
+    },
+    {
+        "front": "<b>Q33. What does an underscore (\\_) indicate when used as pattern?</b>\n- It matches everything.\n- It matches underscores.\n- It matches any value that has a length of 1.\n- It matches nothing.",
+        "back": "It matches everything."
+    },
+    {
+        "front": "<b>Q34. What is a safe operation on a `std::cell:UnsafeCell<T>`?</b>\n- A `&mut T` reference is allowed. However it may not cpexists with any other references. and may be created only in single-threaded code.\n- `UnsafeCell<T>` provides thread-safety. Therefore, creating `&T` references from multiple threads is safe.\n- The only safe operation is the `.get()` method, which returns only a raw pointer.\n- Non. `UnsafeCell<T>` only allows code that would otherwise need unsafe blocks to be written in safe code.",
+        "back": "The only safe operation is the `.get()` method, which returns only a raw pointer.\n\n[Reference](https://doc.rust-lang.org/stable/std/cell/struct.UnsafeCell.html)"
+    },
+    {
+        "front": "<b>Q35. Generics are useful when you **\\_**.</b>\n- need to reduce code duplication by concretizing values and restricting parameters in functions\n- need to reduce code duplication by abstracting values further, such as in function parameters\n- need a supertrait\n- are not sure if you need a specific kind of trait",
+        "back": "need to reduce code duplication by abstracting values further, such as in function parameters"
+    },
+    {
+        "front": "<b>Q36. How do you create a Rust project on the command-line?</b>\n- cargo new\n- rustup init\n- cargo start\n- rust new-project",
+        "back": "cargo new"
+    },
+    {
+        "front": "<b>Q37. Calling.clone() **\\_**.</b>\n- deeply copies heap data and clones ownership\n- clones the pointer to the heap\n- clones the heap data onto the stack\n- deeply copies heap and stack",
+        "back": "clones the pointer to the heap\n\n[Reference](https://doc.rust-lang.org/std/rc/)"
+    },
+    {
+        "front": "<b>Q38. what is one of the roles of the let keyword?</b>\n```rust\nlet text = String::new(\"LinkedIn\");\n```\n- Create a text object.\n- Assign a mutable value.\n- request to borrow a string.\n- Assign an immutable value.",
+        "back": "request to borrow a string.\n\n[Reference](https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html)"
+    },
+    {
+        "front": "<b>Q39. How is a new enum initialized?</b>\n```rust\nenum Option_i32 {\n    Some(i32),\n    None,\n}\n```\n- let integer = Option_i32::Some(5);\n- let integer = Option_i32.new(Some(5))\n- let integer = Option_i32::New::(Some(5))\n- let integer = Option_i32.init()",
+        "back": "let integer = Option_i32::Some(5);\n\n[Reference](https://doc.rust-lang.org/rust-by-example/custom_types/enum.html)"
+    },
+    {
+        "front": "<b>Q40. What are the main difference between const and static?</b>\n- They can be used interchangeably, but const only supports primitive types while static must be used for structs and user-defined types.\n- They can be used interchangeably, but const values are compiled at compile time.\n- Values defined with const live in the stack, while static values live on the heap.\n- Values defined with const can be copied to wherever they are needed, whereas static values remain in a fixed place in memory.",
+        "back": "Values defined with const can be copied to wherever they are needed, whereas static values remain in a fixed place in memory.\n\n[Reference](https://stackoverflow.com/questions/52751597/what-is-the-difference-between-a-constant-and-a-static-variable-and-which-should)"
+    },
+    {
+        "front": "<b>Q41. Which Rust data type represents a signed integer that has the same width as a pointer of the compile target's CPU?</b>\n- i64\n- int64\n- isize\n- int",
+        "back": "isize\n\n[Reference](https://www.lurklurk.org/effective-rust/use-types.html)"
+    },
+    {
+        "front": "<b>Q42. When are supertraits needed?</b>\n- when a trait is needed for multiple structs\n- when a trait depends on another trait\n- only when a generic trait is used\n- when a metatrait is needed to use another trait",
+        "back": "when a trait depends on another trait\n\n[Reference](https://doc.rust-lang.org/rust-by-example/trait/supertraits.html)"
+    },
+    {
+        "front": "<b>Q43. Which types are legal for x to be in this snippet?</b>\n```rust\nif x {\n    println!(\"ok\");\n}\n```\n- every type that implements the std::cmp::Truth trait\n- only the primitive bool type\n- both bool and u8 (which is how bool is implemented under the hood)\n- bool and std::sync::atomic::AtomicBool",
+        "back": "only the primitive bool type\n\n[Reference](https://doc.rust-lang.org/book/ch03-05-control-flow.html#if-expressions)"
+    },
+    {
+        "front": "<b>Q44. How do you access the married data in this struct?</b>\n```rust\nstruct person = Person {\n    height: u64,\n    weight: u64,\n    married: bool\n}\n```\n- person.getMarried()\n- person[married]\n- person.value(married)\n- person.married",
+        "back": "person.married\n\n[Reference](https://doc.rust-lang.org/book/ch05-01-defining-structs.html#accessing-fields-of-a-struct)"
+    },
+    {
+        "front": "<b>Q45. To mark a function as visible to other crates, what do you need to do to its definition?</b>\n- Add the public keyword.\n- Add the pub keywork.\n- Begin the function's name with a capital letter.\n- Remove the private keyword.",
+        "back": "Add the pub keywork.\n\n[Reference](https://doc.rust-lang.org/reference/visibility-and-privacy.html)"
+    },
+    {
+        "front": "<b>Q46. Which choice is a compound data type?</b>\n- char\n- tuple\n- bool\n- i32",
+        "back": "tuple\n\n[Reference](https://doc.rust-lang.org/book/ch03-02-data-types.html#compound-types)"
+    },
+    {
+        "front": "<b>Q47. How could you make this function compile?</b>\n```rust\nfn main() {\n    let x = 5;\n    println!(\"The value of x is: {}\", x);\n    x = 6;\n    println!(\"The value of x is: {}\", x);\n}\n```\n- Use x only once in a println!() statement.\n- Place curly brackets around let x = 5.\n- Add const to let x = 6.\n- Add mut to let x = 5.",
+        "back": "Add mut to let x = 5.\n\n[Reference](https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html)"
+    },
+    {
+        "front": "<b>Q48. Using .unwrap() will \\_.</b>\n- let you choose the expected panic error message\n- call panic! if there is an error or absence of value\n- unwrap the value inside an unsafe wrapper\n- return the error inside Ok()",
+        "back": "call panic! if there is an error or absence of value\n\n[Reference](https://doc.rust-lang.org/std/result/enum.Result.html#method.unwrap)"
+    },
+    {
+        "front": "<b>Q49. When should the panic! macro be called instead of using std::result::Result?</b>\n- when there is a way to encode the information in types used\n- when your code is expected to end in a good state\n- when the situation is considered unrecoverable\n- when valid values are passed on the code",
+        "back": "when the situation is considered unrecoverable\n\n[Reference](https://doc.rust-lang.org/book/ch09-00-error-handling.html)"
+    },
+    {
+        "front": "<b>Q50. Which statement about arrays is true?</b>\n- [<T>; size of array] can initialize arrays.\n- Indexing, such as array.0, accesses elements in arrays.\n- A data structure for collections can contain different types of values.\n- Arrays are useful when you want to allocate data on the heap and then on the stack.",
+        "back": "[<T>; size of array] can initialize arrays.\n\n[Reference](https://doc.rust-lang.org/stable/rust-by-example/primitives/array.html)"
+    },
+    {
+        "front": "<b>Q51. How would you select the value 2.0 from this tuple?</b>\n```rust\nlet pt = Point2D(-1.0, 2.0)\n```\n- pt[1]\n- pt(1)\n- pt.iter().nth(1)\n- pt.1",
+        "back": "pt.1\n\n[Reference](https://doc.rust-lang.org/rust-by-example/primitives/tuples.html)"
+    },
+    {
+        "front": "<b>Q52. When writing tests, which macro should you use to assert equality between two values?</b>\n- assert_eq!()\n- assert_equal!()\n- is_equals!()\n- assert!()",
+        "back": "assert_eq!()\n\n[Reference](https://doc.rust-lang.org/std/macro.assert_eq.html)"
+    }
+]

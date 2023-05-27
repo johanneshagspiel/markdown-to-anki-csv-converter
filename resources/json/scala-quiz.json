@@ -1,0 +1,242 @@
+[
+    {
+        "front": "<b>Q1. Scala bytecode can run on top of Java VM. What is the fundamental difference between Java object.clone() and Scala object.copy()?</b>\n- One is a Java object, the other is a Scala object.\n- clone() will copy class structures but not the data, while copy() will also copy data into new objects.\n- There is no difference.\n- copy() allows you to change values during the copying process; clone() does not.",
+        "back": "copy() allows you to change values during the copying process; clone() does not."
+    },
+    {
+        "front": "<b>Q2. What value does this code return?</b>\n```scala\nval m1 = Map(\"a\"->1,\"b\"->2,\"c\"->3)\nm1(\"a\")\n```\n- a\n- 2\n- b\n- 1",
+        "back": "1"
+    },
+    {
+        "front": "<b>Q3. What is one way to avoid low-level parallelization details?</b>\n- monads\n- literal functions\n- partially applied functions\n- parallel collections",
+        "back": "parallel collections"
+    },
+    {
+        "front": "<b>Q4. What do you use in ScalaTest to see a detailed diagram of error messages when a test fails?</b>\n- ArgumentExceptions\n- AssertionException\n- DiagrammedAssertions\n- JUnit",
+        "back": "DiagrammedAssertions"
+    },
+    {
+        "front": "<b>Q5. What data type would you use to store an immutable collection of objects that contain a fixed number of varying types?</b>\n- Array\n- ImmutableCollection\n- List\n- Tuple",
+        "back": "Tuple"
+    },
+    {
+        "front": "<b>Q6. After defining a function in the interpreter, Scala returns the following. What does the `()` indicate?</b>\n```\nmyfnc: ()Unit\n```\n- The function has no side effects.\n- The function takes no parameters.\n- The function returns no value.\n- Returning unit types to the function is a closures.",
+        "back": "The function returns no value."
+    },
+    {
+        "front": "<b>Q7. What type of number is 1234.e5?</b>\n- hexadecimal\n- short\n- floating point\n- long",
+        "back": "floating point"
+    },
+    {
+        "front": "<b>Q8. When you convert a map to a list using the `toList` method of the map, the result will be of which type?</b>\n- `List[(String, String)]`\n- `List[(Array, Array)]`\n- `List[(Collection, Collection)]`\n- `List`",
+        "back": "`List`"
+    },
+    {
+        "front": "<b>Q9. What type of object does this code create?</b>\n```\nval x = (1234, \"Active\")\n```\n- List\n- Map\n- Tuple\n- Array",
+        "back": "Tuple"
+    },
+    {
+        "front": "<b>Q10. Which is a subclass of all classes?</b>\n- AnyVal\n- AnyRef\n- Method\n- Null\n[Null in Scala Standard library](https://www.scala-lang.org/api/current/scala/Null.html). The question is a bit incorrect - Null is a subtype of every type _except those of value classes_",
+        "back": "Null\n[Null in Scala Standard library](https://www.scala-lang.org/api/current/scala/Null.html). The question is a bit incorrect - Null is a subtype of every type _except those of value classes_"
+    },
+    {
+        "front": "<b>Q11. For the for-yield construct, is the scope separate between for-body and yield-body?</b>\n- Yes and no. It is different depending on the for construct and what it does.\n- Yes, because the for section does not expose its scope.\n- No, because for-yield shares the same scope, even though they are within separate curly braces.\n- Yes, because they are within different curly braces.",
+        "back": "No, because for-yield shares the same scope, even though they are within separate curly braces.\n\n**Example**: yield-body has access to the `e` variable from the for-body\n```scala\nval a = Array(1, 2, 3, 4, 5)\nfor {\n     e <- a if e > 2\n} yield e\n```"
+    },
+    {
+        "front": "<b>Q12. What is one way to implement pattern matching on methods?</b>\n- using regex\n- using monads\n- using string matching\n- using case classes\nNote: ambiguous question, it's not clear what kind of [pattern matching](https://docs.scala-lang.org/tour/pattern-matching.html) is meant here.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q13. What is the value of z after executing this code?</b>\n```\nval y = List('a','b')\nval z = y::List('c')\n```\n- List(a,b,c)\n- List(List(a, b), c)\n- List(c,a,b)\n- List(c,List(a,b))",
+        "back": "List(List(a, b), c)"
+    },
+    {
+        "front": "<b>Q14. What term is used to specify a precondition?</b>\n- assert\n- require\n- precondition\n- mustHave",
+        "back": "assert"
+    },
+    {
+        "front": "<b>Q15. Which Scala type may throw an exception or a successfully computed value, and is commonly used to trap and propagate errors?</b>\n- `scala.util.ExceptionHandling`\n- `scala.Catch.Throw`\n- `scala.exception.TryFinally`\n- `scala.util.Try`\n[scala.util.Try](https://www.scala-lang.org/api/current/scala/util/Try.html)",
+        "back": "`scala.util.Try`\n[scala.util.Try](https://www.scala-lang.org/api/current/scala/util/Try.html)"
+    },
+    {
+        "front": "<b>Q16. What is the data type of y after this code is executed?</b>\n```\nval y = (math floor 3.1415 * 2)\n```\n- short\n- double\n- int\n- bigInt",
+        "back": "double"
+    },
+    {
+        "front": "<b>Q17. When using pattern matching, which character matches on any object?</b>\n- `%`\n- `_`\n- `^`\n- `-`\n[Pattern Matching](https://docs.scala-lang.org/tour/pattern-matching.html)",
+        "back": "`_`"
+    },
+    {
+        "front": "<b>Q18. You have created an array using val. Can you change the value of any element of the array\u2014and why or why not?</b>\n- Yes, the reference to the array is immutable, so the location that the array points to is immutable. The values in the array are mutable.\n- The 0th element is immutable and cannot be modified. All other elements can be modified.\n- Yes, val does not make arrays immutable.\n- No, val makes the array and values of the array immutable.",
+        "back": "Yes, the reference to the array is immutable, so the location that the array points to is immutable. The values in the array are mutable.\n\n**Explanation**:\n```scala\nval a1 = Array(1, 2, 3)\na1{1} = 3 // OK\na1 = Array(1, 3, 3) // error: reassignment to val\n```"
+    },
+    {
+        "front": "<b>Q19. What is the output of this function?</b>\n```scala\ndef main () {\n     var a = 0\n     for (a<-1 until 5){println(a)}\n```\n- 1,2,3,4,5\n- 0,1,2,3,4\n- 1,2,3,4\n- 2,3,4,5",
+        "back": "1,2,3,4"
+    },
+    {
+        "front": "<b>Q20. What do you call objects with immutable state?</b>\n- singletons\n- stationary objects\n- functional objects\n- fixed objects",
+        "back": "functional objects\n\n**Note:** singletons may have mutable state"
+    },
+    {
+        "front": "<b>Q21. You have written a Scala script. How would you access command-line arguments in the script?</b>\n- use array named args\n- use tuple named args\n- use numbered variables with a _ prefix for example _ 1, _ 2, _ 3\n- use numbered variables with a $ prefix - for example $1, $2, $3",
+        "back": "use array named args"
+    },
+    {
+        "front": "<b>Q22. What does this code return? `val x = 3; if (x > 2) x = 4 else x = x*2`</b>\n- 4\n- an error\n- 6\n- 3",
+        "back": "an error"
+    },
+    {
+        "front": "<b>Q23. Which statement returns a success or a failure indicator when you execute this code?</b>\n`val MyFuture = Future {runBackgroundFunction() }`\n- myFuture.onComplete\n- myFuture(status)\n- myFuture.Finished\n- complete(myFuture)",
+        "back": "myFuture.onComplete"
+    },
+    {
+        "front": "<b>Q24. To denote a parameter that may be repeated, what should you place after type?</b>\n- `%`\n- `&`\n- `_`\n- `-`",
+        "back": "`-`"
+    },
+    {
+        "front": "<b>Q25. What is called when a superclass has more than one subclass in Scala?</b>\n- polyinheritance\n- multilevel inheritance\n- multimode inheritance\n- hierarchical inheritance",
+        "back": "hierarchical inheritance"
+    },
+    {
+        "front": "<b>Q26. One way to improve code reliability is to use `__` , which will evaluate a condition and return an error if the condition is violated.</b>\n- packages\n- polymorphisms\n- assertions\n- traits",
+        "back": "assertions"
+    },
+    {
+        "front": "<b>Q27. Which statement about if-else-if-else statements is true?</b>\n- If the first else-if does not succeed, then no other else-ifs are tested.\n- If an else-if does not succeed, then none of the remaining else-if statements or elses will be tested.\n- All else-if statements are tested in all cases.\n- If an else-if succeeds, then none of the remaining else-if statements or elses will tested.",
+        "back": "If an else-if succeeds, then none of the remaining else-if statements or elses will tested."
+    },
+    {
+        "front": "<b>Q28. What do you call the process of changing the definition of an inherited method?</b>\n- recursive methods\n- currying methods\n- redefining methods\n- overriding methods",
+        "back": "overriding methods"
+    },
+    {
+        "front": "<b>Q29. To denote a parameter that may be repeated, what should you place after the type?</b>\n- `_`\n- `*`\n- `%`\n- `&`\n[Repeated Parameters in Scala](https://www.baeldung.com/scala/repeated-parameters)",
+        "back": "`*`"
+    },
+    {
+        "front": "<b>Q30. What is the code below equivalent to?</b>\n```scala\nmyClass.foreach(println _)\n```\n- `myClass.foreach(println ())`\n- `myClass.foreach(print NIL)`\n- `myClass.loop(println ())`\n- `myClass.foreach(x => println(x))`",
+        "back": "`myClass.foreach(x => println(x))`"
+    },
+    {
+        "front": "<b>Q31. What is an advantage of an immutable object?</b>\n- Immutable objects use less memory than their mutable counterparts.\n- Immutable objects do not require error handling.\n- Immutable objects can be used in classes, mutable objects cannot.\n- Immutable objects are threadsafe.",
+        "back": "Immutable objects are threadsafe."
+    },
+    {
+        "front": "<b>Q32. You want to create an iteration loop that tests the condition at the end of the loop body. Which iteration would you use?</b>\n- do-while loop\n- while loop\n- for loop\n- do-until loop",
+        "back": "do-while loop"
+    },
+    {
+        "front": "<b>Q33. What can you use to make querying a database more efficient, by avoiding the need to parse the SQL string every time a query is executed from Scala?</b>\n- database driver\n- connection\n- prepared statement\n- SQL view\n[PreparedStatement from Java](https://docs.oracle.com/javase/8/docs/api/java/sql/PreparedStatement.html) which is also used in Scala",
+        "back": "prepared statement"
+    },
+    {
+        "front": "<b>Q34. Which is _not_ a member of the collections hierarchy?</b>\n- Set\n- Seq\n- Hash\n- Map",
+        "back": "Hash"
+    },
+    {
+        "front": "<b>Q35. Which term makes the contents of packages available without prefixing?</b>\n- use\n- include\n- import\n- assertion",
+        "back": "import"
+    },
+    {
+        "front": "<b>Q36. If you wanted to find the remainder after division, what operator would you use?</b>\n- %\n- DIV\n- //\n- /",
+        "back": "%"
+    },
+    {
+        "front": "<b>Q37. What are defined inside a class definition?</b>\n- method\n- fields and methods\n- fields, methods, and packages\n- fields",
+        "back": "fields and methods"
+    },
+    {
+        "front": "<b>Q38. What defines methods and fields that can then be reused by mixing into classes?</b>\n- singleton\n- assertion\n- trait\n- monad",
+        "back": "trait"
+    },
+    {
+        "front": "<b>Q39. When do you need to explicitly state the return type in a function definition?</b>\n- when the function has no side effects\n- when the function returns a Unit type\n- when the function is recursive\n- when the function has side effects",
+        "back": "when the function is recursive"
+    },
+    {
+        "front": "<b>Q40. Why would you make a field private?</b>\n- so only methods in the same file can access the field\n- so only methods in the same package can access the field\n- so only methods in the same class could access the field\n- so only methods defined in a Java class can access the field",
+        "back": "so only methods in the same class could access the field"
+    },
+    {
+        "front": "<b>Q41. What's the difference between `.equals` and `==`?</b>\n- They do the exact same thing\n- `==` won't work on objects\n- `==` cannot be applied to `String`\n- `==` is a wrapper of `.equals()` and checks for nulls\n[Source:](https://www.programmersought.com/article/3717957705/)",
+        "back": "`==` is a wrapper of `.equals()` and checks for nulls\n[Source:](https://www.programmersought.com/article/3717957705/)"
+    },
+    {
+        "front": "<b>Q42. What is denotes the intersection between two sets?</b>\n- ||\n- &&\n- &\n- %\n[Source:](https://docs.scala-lang.org/overviews/collections/sets.html)",
+        "back": "&"
+    },
+    {
+        "front": "<b>Q43. What do you call a function defined in a block?</b>\n- private function\n- block function\n- local function\n- method\nA function defined within a block of code, such as within a method or another function, is called a local function. This is because it is only visible and accessible within the scope of the block in which it is defined, and is not accessible outside of that block.",
+        "back": "local function"
+    },
+    {
+        "front": "<b>Q44. What do you call a Scala method that is parametrized by type as well as by value?</b>\n- multimode method\n- polymorphic method\n- closure\n- collection method",
+        "back": ""
+    },
+    {
+        "front": "<b>Q45. What type of exception is thrown when a precondition is violated?</b>\n- IllegalArgumentException\n- NumberFormatException\n- NullPointerExcepetion\n- MalformedParameterException",
+        "back": "IllegalArgumentException"
+    },
+    {
+        "front": "<b>Q46. In scala what is precondition?</b>\n- a constraint on where a method may be called from\n- a constraint on values passed to a methode constructor\n- a class of predifined error messages\n- a class of Boolean operators",
+        "back": "a class of predifined error messages"
+    },
+    {
+        "front": "<b>Q47. What would you change in this code to make it execute in parallel?</b>\n```\n val myNums = (1 to 500).toList\n list.map(_ + 1)\n```\n- Change **list.map** to **list.par.map.**\n- Change **toList** to **toListPar**\n- Change **val** to **val.par**\n- Change **toList** to **toParallelList**",
+        "back": "Change **list.map** to **list.par.map.**"
+    },
+    {
+        "front": "<b>Q48. What is a free variable?</b>\n- a variable defined outside a function\n- a variable referenced in a function that is not assigned a value by that function\n- a variable that has a global scope\n- a variable defined in a class and available to all methods in that class",
+        "back": "a variable defined outside a function"
+    },
+    {
+        "front": "<b>Q49. What's the best way to execute code in the background in a separate thread?</b>\n- AltThread\n- AltFuture\n- AltProcess\n- Future",
+        "back": "Future"
+    },
+    {
+        "front": "<b>Q50. What value does this code return?</b>\n```scala\nx= List(1,2,4); x(1)?\n```\n- (1,2,4)\n- 1\n- Nil\n- 2",
+        "back": "2"
+    },
+    {
+        "front": "<b>Q51. Which data type does Scala use instead of null for optional values?</b>\n- Nil\n- Option\n- Singleton\n- Collection\nIn Scala, the Option data type is used instead of null for optional values. It is a container that can either hold a value or be empty, and it is used to represent the presence or absence of a value. This makes it safer to work with than using null, as it eliminates the risk of null pointer exceptions.",
+        "back": "Option"
+    },
+    {
+        "front": "<b>Q52. What is equivalent to this code?</b>\n```val a = \"baz\"\ns\"Foo $a?\"\n```\n- \"Foo \" + a + \"?\"",
+        "back": "\"Foo \" + a + \"?\""
+    },
+    {
+        "front": "<b>Q53. Which expression is one way to iterate over a collection and generate a collection of each iteration's result?</b>\n- for-yield\n- for-collect\n- for-collect until\n- collectuntil\n- for-yield is one way to iterate over a collection and generate a collection of each iteration's result. The for loop with the yield keyword is used to iterate over a collection and generate a new collection with the results of each iteration.",
+        "back": "for-yield"
+    },
+    {
+        "front": "<b>Q54. Which statement accesses the third element of an array named foo?</b>\n- foo[2]\n- foo(3)\n- foo[3]\n- foo(2)\n- In many programming languages, arrays are indexed starting at 0, so the first element of the array is at index 0, the second element is at index 1, and so on. Therefore, to access the third element of an array named \"foo\", you would use the index 2 (since the array is indexed starting at 0). This can be done using the syntax foo[2] or foo(2) depending on the programming language. In some languages like Java, you can use foo[2] or foo[3] to access the third element.",
+        "back": "foo[2]"
+    },
+    {
+        "front": "<b>Q55. What data type would you use to store an immutable collection of objects when you don't know how many members will be in the collection?</b>\n- Tuple\n- List\n- Object\n- Array\n- You would use a List data type to store an immutable collection of objects when you don't know how many members will be in the collection. Lists are indexed collections of elements that can be accessed by their position in the list, and they are commonly used to store collections of items that need to be processed in order. Additionally, Lists are immutable, which means that their elements cannot be modified once they have been created, making them ideal for use cases where data integrity is important.",
+        "back": "List"
+    },
+    {
+        "front": "<b>Q56. From where do all classes in Scala inherit?</b>\n- AnyRef\n- AnyColl\n- AnyVal\n- AnyClass\n- All classes in Scala inherit from the AnyRef class by default. AnyRef is the base class for all reference types in Scala, and it is equivalent to the java.lang.Object class in Java. AnyVal is the base class for all value types in Scala, and Any is the base class for all types in Scala.",
+        "back": "AnyRef"
+    },
+    {
+        "front": "<b>Q57. In Scala, what is a precondition?</b>\n- A class of boolean operators\n- A class of predefined error messages\n- A constraint on values passed to a method or constructor\n- A constraint on where a method may be called from\n- A precondition in Scala is a constraint on the input values passed to a method or constructor, specifying the conditions that must be met for the method or constructor to execute correctly. It is used to check the validity of input values before the method or constructor is executed, and can be used to ensure that the method or constructor is called with the correct arguments.",
+        "back": "A constraint on values passed to a method or constructor"
+    },
+    {
+        "front": "<b>Q58. Which code sample will print the integers 1 through 4, each on a separate line?</b>\n- for(i <- 0 to 4) println(i)\n- for(i <- 0 to 3) println(i+1)\n- for(i <- 1 to 8 if i < 5) println(i)\n- for(i <- 1 to 4) println(i)\n- The correct answer is for(i <- 0 to 3) println(i+1) because it will start the iteration from 0 and end at 3, incrementing the value by 1 each time and printing it.",
+        "back": "for(i <- 0 to 3) println(i+1)"
+    },
+    {
+        "front": "<b>Q59. Which operator should you use to take the intersection of two sets?</b>\n- &\n- ||\n- &&\n- %\n- The & or intersect method can be used to take the intersection of two sets in Scala.",
+        "back": "&"
+    },
+    {
+        "front": "<b>Q60. Which data type does Scala use instead of null for optional values?</b>\n- Nil\n- Option\n- Singleton\n- Collection\n- In Scala, the Option data type is used instead of null for optional values. It is a container that can either hold a value or be empty, and it is used to represent the presence or absence of a value. This makes it safer to work with than using null, as it eliminates the risk of null pointer exceptions.",
+        "back": "Option"
+    }
+]

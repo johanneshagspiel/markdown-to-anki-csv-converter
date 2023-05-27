@@ -1,0 +1,138 @@
+[
+    {
+        "front": "<b>Q1. How do you rename a template step?</b>\n- click the name and type over it\n- highlight the step and, in the menu bar, select Rename step.\n- at the top-right corner of the step card, click the small ellipsis and select Rename\n- from the flow's detail page, in the menu var, click Rename.",
+        "back": "at the top-right corner of the step card, click the small ellipsis and select Rename"
+    },
+    {
+        "front": "<b>Q2. If you create the flow directly in Microsoft Teams, who can use the flow?</b>\n- only members of the specific team channel in which you created the flow\n- only people with whom you specifically share the flow\n- anyone in your team\n- anyone in your organization",
+        "back": "only members of the specific team channel in which you created the flow"
+    },
+    {
+        "front": "<b>Q3. You are using a scheeduled flow to copy information from one databse to another. What is an important caveat to keep in your mind?</b>\n- All field names in both DB must match exactly and there must be the same number of records in each DB\n- you must alays create a loop to verify your data has been successfully copied\n- Power automate does not support two-way synchronization, so changes made in the destination are not copied back to the source.\n- you can copy data only between DBs in the same environment.",
+        "back": "All field names in both DB must match exactly and there must be the same number of records in each DB"
+    },
+    {
+        "front": "<b>Q4. The flow pictured saves new email attachments in SharePoint, adds a row to Excel to document the file save, and sends a message to TEAMS. What is the proper placement of steps B, D, and E?</b>\n<img src=\"microsoft-power-automate-quiz_Q01.png\">\n- B, D and E belong inside C in the order listed.",
+        "back": "B, D and E belong inside C in the order listed."
+    },
+    {
+        "front": "<b>Q5. Why would you use geofencing with Power Automate?</b>\n- to create areas within a business where flows do not process\n- to trigger automated flow when a device enters or exists a defined area\n- to create flows that process whenever an emplotee moves from one region to another\n- to create instant flows that sends a user's current location with the push of a button\n[source](https://powerusers.microsoft.com/t5/Power-Automate-Cookbook/Power-Automate-flow-Location-Trigger-Geofence-Workout-tracking/td-p/426650)",
+        "back": "to trigger automated flow when a device enters or exists a defined area"
+    },
+    {
+        "front": "<b>Q6. What is a necessary requirement to using a flow template?</b>\n- must have access to all connectors used in the flow\n- must have Power Automate installed on your mobile device\n- must have permission from template owner\n- must have access to OneDrive\n[source]'MT: lame qns, template are pre-set flows available freely for use. PA will have already been installed so not an issue. OneDrive is not specified so a non issue. Connectors include all nodes of the flow, including repos such as OneDrive, or SharePoint etc.'",
+        "back": "must have access to all connectors used in the flow"
+    },
+    {
+        "front": "<b>Q7. What is the purpose of the flow?</b>\n<img src=\"microsoft-power-automate-quiz_Q02.png\">\n- to add events. to an Outlook calender if they are deleted in Google Calender\n- to delete Outlook calender events when they are deleted in Google Calender\n- to send an email if there are discrepancies betweeb Outlook and Google calenders\n- to delete Google calender events when they are deleted in Outlook",
+        "back": "to delete Outlook calender events when they are deleted in Google Calender"
+    },
+    {
+        "front": "<b>Q8. Which choice is an example of using an automated trigger?</b>\n- a flow that starts when a mobile button is pushed\n- a flow that starts when a new record is added to a SharePoint list\n- a flow that starts when users request approval for documents\n- a flow that starts at a specified time\n[source](https://docs.microsoft.com/en-us/power-automate/triggers-introduction)",
+        "back": "a flow that starts when a new record is added to a SharePoint list"
+    },
+    {
+        "front": "<b>Q9. How do you make a flow available to a single team channel in Microsoft Teams?</b>\n- in the channel, click 'Add a tab' and select 'Flow', then share flow with matching user group\n- create a new channel called 'Shared Teams Flows' and post a link in the team chat\n- you cannot restrict users at the channel level\n- share the flow only with the users in the channel, then advise them to add the URL to their list of saved links in Teams.\n[source](https://powerautomate.microsoft.com/en-us/blog/introducing-the-flow-tab-in-teams-and-new-teams-triggers/#:~:text=To%20get%20started%2C%20navigate%20to,choosing%20Install%2C%20followed%20by%20Save.)\n'navigate to the Strategy and Planning team in Teams and add the Flow tab to the General channel.'",
+        "back": "in the channel, click 'Add a tab' and select 'Flow', then share flow with matching user group"
+    },
+    {
+        "front": "<b>Q10. What is the difference between Delay and Delay until actions?</b>\n- Delay until postpones an action until a specific date and time\n- Delay until postpones an action until a field condition is reached in a loop (wrong)\n- Delay postpones an action by a specific number of minutes (can be day, week etc)\n- Delay postpones an action to give users time to input information (wrong)\n[source](https://d365demystified.com/2020/06/17/pause-a-flow-using-delay-and-delay-until-power-automate/)",
+        "back": "Delay until postpones an action until a specific date and time"
+    },
+    {
+        "front": "<b>Q11. In the context of Power Automate, what is a solution?</b>\n- a flow thats created specifically to be shared with an entire organization\n- a flow that prcesses more than 7% of the time\n- a portable container for flows that enables you to move and share them between environments\n- a flow used to calculate numerical values\n[source] (https://docs.microsoft.com/en-us/power-platform/alm/solution-concepts-alm)",
+        "back": "a portable container for flows that enables you to move and share them between environments"
+    },
+    {
+        "front": "<b>Q12. what expression allows you to get details about the current workflow instance at run time?</b>\n- workflow()\n- details()\n- workflowDetails()\n- runDetails()",
+        "back": "workflow()"
+    },
+    {
+        "front": "<b>Q13. What are the prerequisites for creating solutions?</b>\n- Office 365 admins status - shared outside an organization\n- Common Data Service and an environment with version 9.1.0.267 or later\n- an enterprise license for Msft Office 365\n- certification in Msft Power Platform\n[source](https://docs.microsoft.com/en-us/power-automate/overview-solution-flows)",
+        "back": "Common Data Service and an environment with version 9.1.0.267 or later"
+    },
+    {
+        "front": "<b>Q14. you want to update multiple items in an excel spreadsheet with information from multiple email messages. How can you do this in a single flow?</b>\n- create auto flow that triggers when email received, add Update Excel action, then re-add it as many times as needed.\n- create instant flow that updates a single record, then select multiple emails in your inox and start the flow from the menu bar\n- Add and Apply to each loop after the Get email actio, then add another action to write the records to Excel\n- create scheduled flow that triggers when u submit a request, adda acondition that defines the info to extracted, add an Update Excel action and change the Advanced settings to repeat as needed.",
+        "back": "Add and Apply to each loop after the Get email actio, then add another action to write the records to Excel"
+    },
+    {
+        "front": "<b>Q15. What control would you use to build parallel branches of conditional logic based on a single value?</b>\n<img src=\"microsoft-power-automate-quiz_Q03.png\">\n- Apply to each\n- Scope\n- Condition\n- Switch",
+        "back": "Apply to each"
+    },
+    {
+        "front": "<b>Q16. How do you modify a flow notifying your manager that you are working remotely to show your actual location?</b>\n- Using the appropriate template, modify the trigger so that it references your actual location instead of your profile information\n- Using the appropriate template, modify the action that calls your Office 365 profile so that it references your actual location instead of your system information\n- Using the appropriate template, modify the action that emails your manager to include the Dynamic ContentManual > Full address in the email body\n- Using the appropriate template, modify the action that emails your manager to include your location in the email body by manually entering it",
+        "back": "Using the appropriate template, modify the action that emails your manager to include the Dynamic ContentManual > Full address in the email body"
+    },
+    {
+        "front": "<b>Q17. How can you create an instant flow that requires user input?</b>\n- Start an instant flow with a manual trigger, then add conditions that include the needed input\n- Start an instant flow with a manual trigger. On the edit screen, click the manual trigger step and then click Add item\n- Search for a manual trigger with input items in the button connector list\n- Start the flow with the add input trigger, then add the manual button action after that",
+        "back": "Start an instant flow with a manual trigger. On the edit screen, click the manual trigger step and then click Add item"
+    },
+    {
+        "front": "<b>Q18. By default, the Apply to each action runs sequentially. How can you change this to run in parallel?</b>\n- In the top-right corner of the card, click the small ellipsis and select Settings. Then turn on the Concurrency control setting\n- In the top-right corner of the card, click the small ellipsis and select Settings. Then turn on run parallel setting\n- In the top right corner of the card, click the small ellipsis and select Run Parallel\n- This cannot be changed",
+        "back": "In the top-right corner of the card, click the small ellipsis and select Settings. Then turn on the Concurrency control setting"
+    },
+    {
+        "front": "<b>Q19. How do you share a button flow from the mobile app?</b>\n- On your mobile device, from the button section in Power Automate, tap the small ellipsis to the lower right of the button, then select Share button. When prompted, enter their user information\n- On your mobile device, from the button section in Power Automate, tap the small ellipsis to the lower right of the button, then select Invite others. When prompted, enter their user information\n- Button flows need to be created by users individually, not shared - otherwise, notifications sent by them would look as if they were coming from you\n- From Power automate online, select the flow from your My flows list, and click the share icon to make them an owner so they can modify flow information",
+        "back": "On your mobile device, from the button section in Power Automate, tap the small ellipsis to the lower right of the button, then select Invite others. When prompted, enter their user information"
+    },
+    {
+        "front": "<b>Q20. What can you use to process PDF forms and extract data for use in flows created with Power Automate?</b>\n- AI builder\n- Microsoft Forms connector\n- process PDF template for Power Automate\n- PDF connector",
+        "back": "AI builder"
+    },
+    {
+        "front": "<b>Q21. Can flows that have been created outside of a solution be shared in a solution?</b>\n- Yes, but only system admins have the ability to move flows into solutions after they are created\n- Yes, flows can be easily imported into solutions\n- It is entirely dependent on the type of flow - for instance, instant flows cannot but most automated flows can.\n- No, to be shared as part of a solution, they need to be created within the solution",
+        "back": "Yes, flows can be easily imported into solutions"
+    },
+    {
+        "front": "<b>Q22. You are using a scheduled flow to copy information from one database to another. what is an important caveat to keep in mind?</b>\n- Power automate does not support two-way synchronization, so changes made in the destination are not copied back to the source\n- you can copy data only between databases in the same environment\n- All field names in both database must match exactly and there must be the same number of records in each database\n- You must always create a loop to verify your data has been successfully copied",
+        "back": "All field names in both database must match exactly and there must be the same number of records in each database"
+    },
+    {
+        "front": "<b>Q23. How do you share a template in Power Automate?</b>\n- In the menu bar of the detail page for any succesfully run flow, click Submit as template\n- Share tempaltes the same way you share flows: by selecting them in your My flows list and licking Share in the menu bar\n- Zip the template file and email it to templates@powerautomate.com\n- Export the template and post it to the Microsoft Power Automate site",
+        "back": "In the menu bar of the detail page for any succesfully run flow, click Submit as template"
+    },
+    {
+        "front": "<b>Q24. Flows 1 and 2 both result in emails being sent. Is the difference between the flows Send email action steps significaton, and if so, why?</b>\n- Yes. Number 2 will send the email from microsoft@powerapps.com; number 1 will send the email from your Outlook email address\n- There is no significant difference between them\n- Yes. Number 1 will permit more user inputs to be added to the message\n- Yes. Number 2 will prompt the user to enter the email address to the recipient before it is sent",
+        "back": "Yes. Number 2 will send the email from microsoft@powerapps.com; number 1 will send the email from your Outlook email address"
+    },
+    {
+        "front": "<b>Q25. You are automating this suggestion review process: When a new suggestion is added to an SharePoint list, a staffer emails every member of the review committee, asking them to approve the suggestion. The staffer updates SharePoint as replies are received. A suggestion is approved or rejected when at least four of the seven committee members have approved or rejected it. In addition to Start and Wait for an approval, which components will be needed for your flow?</b>\n    A. Send an email\n    B. Parallel branch\n    C. Delay until\n    D. Approvals - start an approval\n    E. SharePoint - when an item is created or modified\n- B,D\n- A,B,D,E\n- B,D,E\n- A,B,C,D",
+        "back": "A,B,C,D"
+    },
+    {
+        "front": "<b>Q26. Whit whom can you share flows?</b>\n- people on the same Office 365 team as you\n- fellow SharePoint site collection memebers\n- anyone in your organization and beyond\n- people in your department",
+        "back": "anyone in your organization and beyond"
+    },
+    {
+        "front": "<b>Q27. What control would you use to stop a flow?</b>\n- Do until\n- Terminate\n- Scope\n- Switch",
+        "back": "Terminate"
+    },
+    {
+        "front": "<b>Q28. Can you create nested conditions? If yes, how?</b>\n- Yes. Add another set of conditions into the Yes/No results of an existing condition.\n- Yes. Add another set of conditions after the resulting actions.\n- No. You can have only one set of conditions per flow.\n- It depends on the action. For instance, you cannot have multiple conditions if you are updating SharePoint records.",
+        "back": "Yes. Add another set of conditions into the Yes/No results of an existing condition."
+    },
+    {
+        "front": "<b>Q29. What control would you use to build parallel branches of conditional logic based on a single value?</b>\n<img src=\"microsoft-power-automate-quiz_Q01.png\">\n- Apply to each\n- Scope\n- Switch\n- Condition",
+        "back": "Switch"
+    },
+    {
+        "front": "<b>Q30. In this flow, what is required for dynamic content to be available for use in the Email step?</b>\n<img src=\"microsoft-power-automate-quiz_Q30.png\">\n- Recipient of email must have edit rights to the SharePoint library.\n- User must be owner of the SharePoint library.\n- The SharePoint site and library must be specified.\n- File must be in a folder inside the SharePoint library.",
+        "back": "File must be in a folder inside the SharePoint library."
+    },
+    {
+        "front": "<b>Q31. What is a business process flow?</b>\n- Business process flows are automatically generated from business process flow charts in Microsoft Visio.\n- Business process flows define a set of steps that guide people through a process to a desired outcome.\n- Accounting departments use business process flows to report on regular operations.\n- You can use business process flows to create routines that will automatically process business maintenance tasks, such as system backups.",
+        "back": "Business process flows define a set of steps that guide people through a process to a desired outcome."
+    },
+    {
+        "front": "<b>Q32. What rights do you give to other people with whom you share a flow directly from Power Automate?</b>\n- You give them the rights to use the flow only.\n- You give them the rights to use, edit, share, or delete the flow.\n- You give them the rights to use the flow, but you can extend the rights to edit or share for specific people.\n- You give them the rights to edit or share the flow.",
+        "back": "You give them the rights to use the flow, but you can extend the rights to edit or share for specific people."
+    },
+    {
+        "front": "<b>Q33. Who can use the Power Automate mobile app?</b>\n<img src=\"microsoft-power-automate-quiz_Q30.png\">\n- Anyone who already has a Power Automate account can install and use the mobile app.\n- Anyone who purchases a Power Automate mobile license can install and use the mobile app.\n- The Power Automate app can be installed and used on mobile devices that are linked to Office 365 enterprise licenses.\n- Anyone can install and use the Power Automate app on an Android or iOS device.",
+        "back": "Anyone can install and use the Power Automate app on an Android or iOS device."
+    },
+    {
+        "front": "<b>Q34. You want a flow that sends an email if a new spreadsheet is added to a SharePoint library. What is the correct order for the steps shown?</b>\n<img src=\"microsoft-power-automate-quiz_Q34.png\">\n- A, B, D, E, C\n- C, B, A, E, D\n- D, A, E, B, C\n- C, A, B, D, E",
+        "back": "C, B, A, E, D"
+    }
+]

@@ -1,0 +1,298 @@
+[
+    {
+        "front": "<b>Q1. Which statement is not an advantage of robotic process automation (RPA)?</b>\n- Bots are more creative than humans\n- Bots do no need to take time off\n- Bots improve efficiency\n- Bots can eliminate human errors",
+        "back": "Bots are more creative than humans"
+    },
+    {
+        "front": "<b>Q2. What effect does a contra asset account have on a balance sheet?</b>\n- A contra asset is not an accounting term\n- A contra asset has a credit balance and therefore a negative effect on total assets\n- A contra asset with a positive balance will increase overall liabilities\n- A contra asset has a debit balance and therefore a positive effect on total assets",
+        "back": "A contra asset has a credit balance and therefore a negative effect on total assets"
+    },
+    {
+        "front": "<b>Q3. Internal controls may be preventative, detective, corrective, or directive. Which is a detective control?</b>\n- data backups\n- physical inventory check\n- employee background checks\n- physical locks on inventory warehouse",
+        "back": "physical inventory check"
+    },
+    {
+        "front": "<b>Q4. On March 15, a business receives an invoice from the power company for utilities used in February. The retailer pays the invoice on April 1. The business uses accrual-based accounting. Which month should the business recognize the expense?</b>\n- April\n- March\n- no record required\n- February",
+        "back": "February"
+    },
+    {
+        "front": "<b>Q5. Which choice is a general guideline for adequate separation of duties to prevent both fraud and error?</b>\n- A person who has control over an asset should not safeguard that asset.\n- A person who has temporary or permanent custody of an asset should not account for that asset.\n- A person who has record-keeping responsibility should not make journal entries.\n- A person who has operational responsibility should not authorize transactions for the area.",
+        "back": "A person who has record-keeping responsibility should not make journal entries."
+    },
+    {
+        "front": "<b>Q6. What does the cost of a unit of product under absorption costing method consist of?</b>\n- direct materials, direct and indirect labor, and fixed overhead\n- direct materials, indirect labor, and variable and fixed overhead\n- direct materials, direct labor, and both variable and fixed overhead\n- direct materials, direct and indirect labor, and variable overhead",
+        "back": "direct materials, direct labor, and both variable and fixed overhead"
+    },
+    {
+        "front": "<b>Q7. Which answer best describes accruals and deferrals?</b>\n- Accruals are past cash receipts and payments, while deferrals are expected future cash receipts and payments.\n- Both accruals and deferrals are both expected future cash receipts and payments.\n- Accruals are expected future cash receipts and payments, while deferrals are past cash receipts and payments.\n- Both accruals and deferrals are not expected past cash receipts and payments.",
+        "back": "Accruals are expected future cash receipts and payments, while deferrals are past cash receipts and payments."
+    },
+    {
+        "front": "<b>Q8. What do you call a situation where more than one person collaborates to circumvent existing internal controls?</b>\n- assigned responsibility\n- segregation of duties\n- fraud prevention\n- collusion",
+        "back": "collusion"
+    },
+    {
+        "front": "<b>Q9. Which is not an example of an internal control activity?</b>\n- review of manufacturing plan\n- segregation of duties\n- bank reconciliations\n- approval process\n[source] `'MT: bank recons are a internal control, checking to see if figures match. Approval by different level of authorities help to prevent unathorized transactions - so its a control too. segregate duties also ensures that.`",
+        "back": "review of manufacturing plan"
+    },
+    {
+        "front": "<b>Q10. Which budgeting approach request justification of all expenditures?</b>\n- zero-based budgeting\n- master budgeting\n- rolling budgets\n- bottom-up budgeting",
+        "back": "zero-based budgeting"
+    },
+    {
+        "front": "<b>Q11. What does the discontinued operations section of the income statement refer to?</b>\n- disposal of a major product line or major geographical area of operations\n- sale of unused or obsolete equipment and discontinued inventory\n- plant shutdown or decommissioning of a facility\n- net income or loss for products completed and sold",
+        "back": "disposal of a major product line or major geographical area of operations"
+    },
+    {
+        "front": "<b>Q12. How are the three financial statements (income statement, balance sheet, and cash flow statement) linked?</b>\n- Only the assets are reflected in the cash flow statement, and the net income expenses correlate with the liabilities.\n- The net income goes to retained earnings, but the cash flow remains independent.\n- The gross profit goes to retained earning, and the shareholder equity total is added to the cash flow statement\n- The net income goes to the retained earning and to the cash flow statement\n[source]`'MT: odd qns. But it should be net profit \"npat\" flows to retained earnings, and also starts the cashflow statement (so all linked and not independent). Assets are in balance sheet, net income is in income statement. npat goes to retained earnings, not gross profit.`",
+        "back": "The net income goes to the retained earning and to the cash flow statement\n[source]`'MT: odd qns. But it should be net profit \"npat\" flows to retained earnings, and also starts the cashflow statement (so all linked and not independent). Assets are in balance sheet, net income is in income statement. npat goes to retained earnings, not gross profit.`"
+    },
+    {
+        "front": "<b>Q13. Which is not one of the four perspectives of the balanced scorecard?</b>\n- internal business\n- learning and growth\n- quantitative\n- customer",
+        "back": "quantitative"
+    },
+    {
+        "front": "<b>Q14. What would be deducted from the balance per books when doing a bank reconciliation?</b>\n- deposits in transit\n- bank service fees\n- outstanding checks\n- electronic fund transfers/payments",
+        "back": "outstanding checks"
+    },
+    {
+        "front": "<b>Q15. What situation could be the results of the three retails store employees sharing the same cash register?</b>\n- a thorough internal control activity\n- a violation of assignment of responsibility\n- a violation of segregation of duties\n- a support process to avoid fraud",
+        "back": "a violation of assignment of responsibility"
+    },
+    {
+        "front": "<b>Q16. A firm has $1,000 in debt and $3,000 in assets. What is the firm's debt-to-equity ratio?</b>\n- 3\n- 2\n- 0.5\n- 0.33",
+        "back": "0.33"
+    },
+    {
+        "front": "<b>Q17. An external auditor is required to be independent when performing</b>\n- all attestation services\n- all professional services (wrong ans, includes consulting)\n- all tax services\n- all consulting engagements (wrong ans)",
+        "back": "all attestation services\n\n[Reference](https://www.ispartnersllc.com/blog/defining-attestation-assurance-auditing/)\n`'MT: tough qns, ambiguous options. Attest = validate audit data gathered. Consulting is less regulatory/ restrictive, = how to increase pie sales, versus audit/attestation = why you reported more pies in your fridge than we observed. Tax is grey, usually has to be internal audt committee approved or fees disclosed etc. but there are exceptions.'`"
+    },
+    {
+        "front": "<b>Q18. Proper segregation of functional responsibilities calls for separation of</b>\n- custody, payment, and recording\n- authorization, custody, and execution\n- authorization, custody, and recording\n- custody, execution, and payment",
+        "back": "authorization, custody, and recording\n\n[Reference](https://oacp.upenn.edu/audit/audit101/internal-controls-guidance/operational-internal-controls/)"
+    },
+    {
+        "front": "<b>Q19. What does the degree of operating leverage represent?</b>\n- how much the value of capital assets will change in response to a change in sales\n- how much the operating income of a company will change in response to a change in sales\n- the valuation of assets to determine how much additional debt the company can borrow\n- how much the sales of a company will change in response to a change in operating income",
+        "back": "how much the operating income of a company will change in response to a change in sales\n\n[Reference]`'High operating leverage means a firm has a relatively fixed, and usually high cost base. So additional sales would incrementally drive more profits because those sales do not need to incur more costs to generate (like a factory, versus factory workers)'`"
+    },
+    {
+        "front": "<b>Q20. Which characteristic would concern an auditor about the risk of material misstatements arising from fraudulent financial reporting?</b>\n- limited employee turnover within the accounting and finance department\n- management's disregard of regulations and regulatory authorities\n- regularly reported bank reconciliations, including deposits in transit\n- capital assets sold at a loss before being depreciated fully\n[source]`'MT: regular bank recons and loyal employees are +ve. Nothing wrong with assets sold at lost before fully depreciated, like you can sell a plane at a loss even before it has been \"fully used\".`",
+        "back": "management's disregard of regulations and regulatory authorities"
+    },
+    {
+        "front": "<b>Q21. An employee who makes a sale, ships the goods, and bills the customer violates which control activity?</b>\n- assignment of responsibility\n- audit verification\n- segregation of duties\n- review and reconciliation",
+        "back": "segregation of duties\n\n[Reference](https://oacp.upenn.edu/audit/audit101/internal-controls-guidance/operational-internal-controls/)"
+    },
+    {
+        "front": "<b>Q22. What trait distinguishes auditors from accountants?</b>\n- The auditor can interpret accounting principles applicable to the country in which the client operates.\n- The auditor has extensive education beyond what is required for an accountant\n- The auditor can adapt to a rapidly changing profession.\n- The auditor has expertise in the gathering and interpretation of audit evidence.\n[source]`'MT: auditors are focused on gathering and interpreting audit evidence in specific sectors. Both auditors and accountants would be familiar to the principles that the client operates in'`",
+        "back": "The auditor has expertise in the gathering and interpretation of audit evidence.\n[source]`'MT: auditors are focused on gathering and interpreting audit evidence in specific sectors. Both auditors and accountants would be familiar to the principles that the client operates in'`"
+    },
+    {
+        "front": "<b>Q23. What is the purpose of an operational audit?</b>\n- assessing the company's compliance with environmental laws and regulations\n- evaluating whether the organization is meeting the metrics set by management in order to achieve the goals and objectives set forth by the board of directors\n- assessing the organization's control mechanisms for overall efficiency and reliability\n- evaluating compliance with applicable laws, regulations, policies, and procedures",
+        "back": "evaluating whether the organization is meeting the metrics set by management in order to achieve the goals and objectives set forth by the board of directors"
+    },
+    {
+        "front": "<b>Q24. Which statement is false?</b>\n- The balanced scorecard aligns an organization's operational activities with its mission.\n- The balanced scorecard focuses on four primary areas: financial, customer, internal process, and learning and growth. (def true)\n- The balanced scorecard measures, tracks, and reports on a balance of qualitative and financial data and metrics. (def true)\n- The balanced scorecard ensures the organization's profitability aligns with director compensation and dividend expectations.",
+        "back": "The balanced scorecard ensures the organization's profitability aligns with director compensation and dividend expectations.\n\n[Reference](http://www.managerialaccounting.org/Balanced%20Scorecard.htm)\n`'MT: BSC is on improving efficiency - deliver goals and how to measure that quantitatively or qualitatively. Nothing to do with how to compensate'`"
+    },
+    {
+        "front": "<b>Q25. Which choice is not a component of internal control?</b>\n- information and communication\n- risk mitigation\n- monitoring\n- control environment",
+        "back": "risk mitigation"
+    },
+    {
+        "front": "<b>Q26. What is the difference between the cost of an asset and the accumulated depreciation for that asset?</b>\n- depreciation value\n- prepaid asset\n- depreciation expense\n- book value",
+        "back": "book value"
+    },
+    {
+        "front": "<b>Q27. A company budgeted 1,200 washers, but only 1,000 are produced. It costs $10 to produce a widget. What is the materials variance?</b>\n- 200\n- 2000\n- 350\n- 20",
+        "back": "200"
+    },
+    {
+        "front": "<b>Q28. Who does an audit committee report to?</b>\n- external auditors\n- senior management\n- board of directors\n- union of employee representatives",
+        "back": "external auditors"
+    },
+    {
+        "front": "<b>Q29. A business purchased office equipment by issuing a one-year note payable. The entire amount of the note is due at the end of one year. How do you record this transaction?</b>\n- Debt asset, credit equity\n- Debt liablity, credit asset.\n- Debit asset, credit liability\n- Debit equity, credit asset.\n[source]`'MT answer - its Debit equipment (asset), Credit notes payable (liability). To +/- assets, need to dr/cr, inverse is true for liabilities. Long-form journal entry is: Borrow cash - Dr cash, Cr notes payable, then for equipment purchase - Dr equipment, Cr cash'`",
+        "back": "Debit asset, credit liability"
+    },
+    {
+        "front": "<b>Q30. Which section of a financial annual report describes the corporation's accounting methods?</b>\n- Notes to the financial statements\n- An auditor's report\n- Listing of the stockholders\n- Management discussion and analysis",
+        "back": "Notes to the financial statements"
+    },
+    {
+        "front": "<b>Q31. What does \"independence\" mean in auditing?</b>\n- being an advocate for all clients\n- not being dependent on a client's fee\n- having only indirect financial interests in the auditee\n- taking an unbiased viewpoint",
+        "back": "taking an unbiased viewpoint\n\n[Reference](https://www.icaew.com/technical/trust-and-ethics/ethics/auditor-independence#:~:text=Auditor%20independence%20refers%20to%20the,and%20in%20an%20objective%20manner.)"
+    },
+    {
+        "front": "<b>Q32. What would cause a bank to increase a depositor's account?</b>\n- collecting a note receivable\n- paying a note payable\n- NSF checks (\"non sufficient funds\")\n- service changes\n[source]`'MT: depositor account os a liability to the bank - bank owes the money to depositor. bank collects a notes receivable from client means reducing client's cash/ deposits. Similar if NSF means the cheque owner does not have enough funds to transfer funds into the client's deposits, so theres no change in deposits.'`",
+        "back": "paying a note payable"
+    },
+    {
+        "front": "<b>Q33. Which statement about current liabilities is true?</b>\n- Current liabilities are obligations owed after a 12-month period.\n- Current liabilities should be included under long-term liabilities.\n- Current liabilities are obligations owed over 5 years.\n- Current liabilities are obligations due within a year.",
+        "back": "Current liabilities are obligations due within a year.\n\n[Reference](https://www.investopedia.com/terms/c/currentliabilities.asp)\n`Current liabilities are a company's short-term financial obligations that are due within one year or within a normal operating cycle.`"
+    },
+    {
+        "front": "<b>Q34. How do variable costs and fixed costs act within the relevant range?</b>\n- Variable costs per unit remain constant and fixed costs per unit vary.\n- Fixed costs per unit remain constant and variable costs per unit vary.\n- Both total variable costs and total fixed costs vary.\n- Both total variable costs and total fixed costs remain constant.",
+        "back": "Variable costs per unit remain constant and fixed costs per unit vary.\n\n[Reference](https://www.investopedia.com/ask/answers/032515/what-difference-between-variable-cost-and-fixed-cost-economics.asp)\n`While variable costs tend to remain flat, the impact of fixed costs on a company's bottom line can change based on the number of products it produces.`"
+    },
+    {
+        "front": "<b>Q35. Which answer can be defined as an investment center's contribution margin less the fixed costs that are traceable to the investment center?</b>\n- net income\n- residual income\n- segment margin\n- return on investment (ROI)",
+        "back": "segment margin\n\n[Reference](https://qsstudy.com/segment-margin-differs-contribution-margin-explain/)\n`Contribution Margin = Sales Revenue \u2013 Variable Costs`\n`Segment Margin = Segment\u2019s Contribution Margin \u2013 Fixed Costs traced to the Segment`"
+    },
+    {
+        "front": "<b>Q36. If an auditor is expected to detect the overstatement of sales, what should the auditor trace transactions from?</b>\n- customer purchase orders to the sales journal\n- cash receipts to the purchase orders\n- sales journal to the shipping documents\n- shipping documents to the cash receipts",
+        "back": "sales journal to the shipping documents\n\n[Reference](https://homework.study.com/explanation/which-audit-procedure-is-most-effective-in-testing-credit-sales-for-overstatement-1-trace-a-sample-of-postings-from-the-sales-journal-to-the-sales-account-in-the-general-ledger-2-vouch-a-sample-recorded-sales-from-the-sales-journal-to-shipping-docum.html)\n`Which audit procedure is most effective in testing credit sales for overstatement?`\n`Vouch a sample recorded sales from the sales journal to shipping documents.`"
+    },
+    {
+        "front": "<b>Q37. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?</b>\n- profitability analysis\n- cost-benefit analysis\n- life-cycle costing\n- activity analysis\nI put cost-benefit analysis, but I'm not sure. I think it could be life-cycle costing as well.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q38. When independent auditors are able to maintain their actual independence, it is referred to as independence in \\_\\_\\_\\_.</b>\n- fact\n- appearance\n- totality\n- trust",
+        "back": "fact\n\n[Reference](https://www.journalofaccountancy.com/issues/2001/apr/independenceandpublicperceptionwhyweneedtocare.html)\n`In Accounting Series Release no. 269, the SEC defined independence in fact and independence in appearance as separate but equally necessary factors in establishing the auditor\u2019s objectivity and integrity when certifying financial statements filed with the commission by an issuer of securities. Few would debate that independence in fact\u2014that is, that the auditor is actually unbiased\u2014is absolutely essential to the validity of an audit.`"
+    },
+    {
+        "front": "<b>Q39. When applying a cost-volume-profit analysis (CVP), certain assumptions must be respected. Which answer is _not_ one of these assumptions?</b>\n- The unit sales price will remain constant.\n- Actual unit variable cost will vary over the production range.\n- The cost behavior is expressed as intersecting straight lines.\n- The unit fixed cost will decrease.",
+        "back": "Actual unit variable cost will vary over the production range.\n\n[Reference](https://en.wikipedia.org/wiki/Cost%E2%80%93volume%E2%80%93profit_analysis#Assumptions)\n> CVP assumes the following:\n>\n> - Constant sales price;\n> - Constant variable cost\n> - Constant total fixed cost\n> - Units sold equal units produced.\n>\n> These are simplifying, largely linearizing assumptions, which are often implicitly assumed in elementary discussions of costs and profits."
+    },
+    {
+        "front": "<b>Q40. Which statement about a perpetual inventory system is true?</b>\n- FIFO cost of goods sold will be the same as in a periodic inventory system.\n- Average costs are based entirely on unit cost simple averages.\n- LIFO cost of goods sold will be the same as in a periodic inventory system.\n- A new average is calculated under the average cost method after each sale.\nI'm not 100% sure on this.",
+        "back": "A new average is calculated under the average cost method after each sale.\nI'm not 100% sure on this.\n\n[Reference](https://www.investopedia.com/terms/p/perpetualinventory.asp)\n> Perpetual inventory is a method of accounting for inventory that records the sale or purchase of inventory immediately through the use of computerized point-of-sale systems and enterprise asset management software."
+    },
+    {
+        "front": "<b>Q41. Which type of business would be most likely to use a job order costing system?</b>\n- an electric car producer\n- a wood milling company\n- a beverage manufacturer\n- a law firm specializing in injury law",
+        "back": "a law firm specializing in injury law\n\n[Reference](https://www.indeed.com/career-advice/career-development/job-order-costing-system)\n> Since lawyers and accountants work with different clients on unique accounts, many will use a job order costing system to track how much time and resources were used for each customer."
+    },
+    {
+        "front": "<b>Q42. Assigning indirect costs to specific jobs is completed by **\\_**.</b>\n- allocating to manufacturing overhead account\n- using the manufacturing cost incurred\n- applying a predetermined overhead rate\n- applying indirect costs to work in process\nI'm not 100% sure on this.",
+        "back": "applying a predetermined overhead rate\n\n[Reference](https://smallbusiness.chron.com/ways-allocate-indirect-cost-73462.html)\n> Indirect cost rate calculations can be determined by dividing an indirect cost by a cost object, such as sales revenues or square footage."
+    },
+    {
+        "front": "<b>Q43. Which is an assurance engagement?</b>\n- compilation\n- network installation\n- audit\n- review",
+        "back": "audit\n\n[Reference](https://www.wikiaccounting.com/what-is-the-objective-of-assurance-engagement/)"
+    },
+    {
+        "front": "<b>Q44. What is conversion cost the sum of?</b>\n- direct materials cost + administration cost\n- direct materials cost + manufacturing overhead cost\n- direct materials cost + marketing cost\n- direct labor cost + manufacturing overhead cost",
+        "back": "direct labor cost + manufacturing overhead cost\n\n[Reference](https://smallbusiness.chron.com/calculate-beginning-inventory-conversion-costs-20581.html)"
+    },
+    {
+        "front": "<b>Q45. Under a perpetual inventory system, merchandise is purchased on account. What is the correct journal entry for this purchase?</b>\n- Debit merchandise inventory. credit accounts payable.\n- Debit purchases, credit cash.\n- Debit purchase returns, credit cost of goods sold.\n- Debit merchandise inventory, credit cash.",
+        "back": "Debit merchandise inventory, credit cash.\n\n[Reference](https://homework.study.com/explanation/using-a-perpetual-inventory-system-the-buyer-s-journal-entry-to-record-the-return-of-merchandise-purchased-on-account-includes-a-credit-to-the-cost-of-goods-sold-b-credit-to-accounts-payable-c-credit-to-purchase-returns-d-credit-to-inven.html#:~:text=Answer%20and%20Explanation%3A,and%20accounts%20payable%20was%20credited.)"
+    },
+    {
+        "front": "<b>Q46. Which is not a task usually associated with activity-based costing (ABC)?</b>\n- applying an activity rate for each cost pool\n- identitying specific cost drivers\n- appropriately allocating overhead costs to cost pools\n- applying a single cost rate across processes",
+        "back": "appropriately allocating overhead costs to cost pools\n\n[Reference](https://homework.study.com/explanation/which-of-the-following-tasks-is-not-normally-associated-with-an-abc-costing-system-a-calculation-of-pool-rates-b-identification-of-cost-pools-c-preparation-of-allocation-matrices-d-identification-of-cost-drivers.html#:~:text=Answer%20and%20Explanation%3A,Preparation%20of%20allocation%20matrices.)"
+    },
+    {
+        "front": "<b>Q47. What is true when the units in ending inventory increase during the year?</b>\n- Net income is higher for absorption costing than for variable costing.\n- Net income is identical for absorption costing and for variable costing.\n- There's no relationship between net income and the costing approach.\n- Net income is lower for absorption costing than for variable costing.",
+        "back": "There's no relationship between net income and the costing approach."
+    },
+    {
+        "front": "<b>Q48. When independent auditors are able to maintain their actual independence, itis referred to as independence in\\_\\_.</b>\n- trust\n- totaiity\n- appearance\n- fact",
+        "back": "totaiity"
+    },
+    {
+        "front": "<b>Q49. What is the formal method of analysis applied by management to identify appropriate cost drivers and effects on the costs of production?</b>\n- cost-benefit analysis\n- life-cycte costing\n- profitability analysis\n- activity analysis",
+        "back": "activity analysis\n\n[Reference](https://www.chegg.com/homework-help/questions-and-answers/formal-method-analysis-used-managers-identify-appropriate-cost-drivers-effects-costs-makin-q74105384)"
+    },
+    {
+        "front": "<b>Q50. When do you expect to apply job costing over process costing?</b>\n- when the costs are easily traced to a specific product\n- when costs are accumulated by department\n- when the value of work in process is based on assigning standard costs\n- when each product batch is exactly the same as the prior batch",
+        "back": "when the costs are easily traced to a specific product\n\n[Reference](https://www.tutorialspoint.com/differentiate-between-job-costing-and-process-costing)"
+    },
+    {
+        "front": "<b>Q51. Robinson Hotels is trying to predict its utility costs. It has five years of data, including monthly utility cost, monthly occupancy rates, and average monthly temperature. What tool or technique can Robinson Hotels use to predict or estimate its future utility costs?</b>\n- segment report\n- regression analysis\n- time series analysis\n- net present value",
+        "back": "regression analysis"
+    },
+    {
+        "front": "<b>Q52. What does an inventory-turnover ratio measure?</b>\n- the current value of the inventory\n- the number of times inventory was sold during the period\n- how it compares with the industry average\n- whether the company can maintain the same inventory levels compared to industry averages",
+        "back": ""
+    },
+    {
+        "front": "<b>Q53. A company earned a gross profit of $4,000,000 and had net sales of $12,000,000. What is the gross margin and what does the result imply to the reviewer?</b>\n- The 3.33% gross margin represents for every dollar in sales, the company spends $0.9667 to produce the product sold.\n- The question does not provide sufficient information to offer a proper calculation.\n- The 3.33% gross margin represents for every dollar in sales, the company spends $0.0667 to produce the product sold.\n- The 3.33% gross margin represents for every dollar in sales, the company spends $0.0333 to produce the product sold.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q54. What type of cost changes in proportion to a company's production volume?</b>\n- conversion cost\n- indirect cost\n- variable cost\n- fixed cost",
+        "back": "variable cost"
+    },
+    {
+        "front": "<b>Q55. What do you call the benefit sacrificed when one option is chosen over another?</b>\n- opportunity cost\n- indirect cost\n- sunk cost\n- differential cost",
+        "back": "opportunity cost"
+    },
+    {
+        "front": "<b>Q56. The actual price of a widget is $10 and the budgeted price is $7. What is the price variance for 1,000 widgets?</b>\n- $3,000\n- $1,000\n- $3\n- $1,700\n> Actual Cost = $10 per widget\n> Budgeted Cost = $7 per widget\n> Quantity = 1,000 widgets\nPrice Variance = (Actual Cost - Budgeted Cost) x Quantity\nPrice Variance = ($10 - $7) x 1,000\nPrice Variance = $3 x 1,000\nPrice Variance = $3,000\nTherefore, the price variance for 1,000 widgets is $3,000.",
+        "back": "$3,000"
+    },
+    {
+        "front": "<b>Q57. What is the major financial accounting report system used outside of the United States?</b>\n- the metric system\n- TREE\n- GAAP\n- IFRS",
+        "back": "IFRS"
+    },
+    {
+        "front": "<b>Q58. What type of audit evidence would be considered the weakest type?</b>\n- oral evidence\n- physical examination\n- confirmation\n- documentary evidence",
+        "back": ""
+    },
+    {
+        "front": "<b>Q59. Permanent accounts are on what financial statement?</b>\n- cash flow statement\n- income statement\n- balance sheet\n- shareholder equity statement",
+        "back": "balance sheet"
+    },
+    {
+        "front": "<b>Q60. The cost of alternative X is $25,000 and the cost of alternative Y is $20,000. What do you call the $5,000 cost difference?</b>\n- essential cost\n- additional cost\n- differential cost\n- sunk cost",
+        "back": "differential cost"
+    },
+    {
+        "front": "<b>Q61. What is the purpose of a master budget?</b>\n- to demonstrate to management the level of sales the company will achieve\n- to provide shareholders and the board of directors confidence in management's abilities\n- to give management an opportunity to compile all of the other operational budgets once they are completed\n- to provide management with a high-level overview of the company finances and be a central planning tool",
+        "back": ""
+    },
+    {
+        "front": "<b>Q62. What is true about an internal control system?</b>\n- An internal control system is not effective until the human error is completely eliminated or migrated.\n- Any internal control activities evaluated and adopted by a company should never be evaluated in terms of cost-benefit.\n- Only mid- to large-sized companies and governmental organizations need to ensure proper internal control activities.\n- An internal control system helps a company achieve reliable financial reporting, effective and efficient operations, and compliance with laws and regulations.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q63. According to cost formula Y = $20,000 + $4x, what would be the total cost at an activity level of 15,000 units?</b>\n- $60,000\n- $20,000\n- $35,000\n- $80,000",
+        "back": ""
+    },
+    {
+        "front": "<b>Q64. A company can change to a new accounting principle if management can justify that the change will result in what?</b>\n- more relevant decision-making information\n- lower net income to report for tax purposes\n- changing depreciation methods for higher net income\n- reduced potential for administrative error",
+        "back": ""
+    },
+    {
+        "front": "<b>Q65. Which cost items would be classified as an internal failure cost on a quality costs report?</b>\n- cost of scrap\n- training for assembly line workers\n- patent cost for new product\n- customer returns of defective products",
+        "back": "training for assembly line workers"
+    },
+    {
+        "front": "<b>Q66. What type of audit evidence would most likely be used to verify the existence of fixed assets?</b>\n- oral evidence\n- physical examination\n- confirmation\n- documentary evidence",
+        "back": "physical examination"
+    },
+    {
+        "front": "<b>Q67. What should an auditor do before auditing the balance sheet?</b>\n- Confirm whether probable legal action is disclosed to the auditor.\n- Investigate whether liens on assets are committed as collateral.\n- Determine the client's planned and imminent purchase commitments.\n- Gain a clear and proper understanding of the client's internal control processes.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q68. At McKay Company, machine hours are limited. There is more demand for McKay's products than it can produce due to limited machine hours. To maximize profits, the company should evaluate each product's **\\_**.</b>\n- contribution margin per unit\n- segment margin per unit\n- gross profit per unit\n- contribution margin per machine hour\n> To determine the contribution margin per machine hour, the contribution margin for a product is divided by the number of machine hours required to produce that product. This calculation results in the amount of contribution margin earned for each machine hour used.",
+        "back": "contribution margin per unit"
+    },
+    {
+        "front": "<b>Q69. The asset-turnover ratio calculation measures **\\_**.</b>\n- when the company must decide to purchase assets and what investment is required\n- how much of a company's assets are financed by creditors\n- how often a company must replace existing assets and equipment\n- how efficiently a company uses its assets to generate revenue",
+        "back": "how efficiently a company uses its assets to generate revenue"
+    },
+    {
+        "front": "<b>Q70. What cost is easily traceable to a cost object?</b>\n- indirect\n- fixed\n- variable\n- direct",
+        "back": "direct"
+    },
+    {
+        "front": "<b>Q71. Which value chain element is associated with the cost of staffing a customer support phone line?</b>\n- production and purchases\n- distribution\n- design\n- customer service",
+        "back": "customer service"
+    },
+    {
+        "front": "<b>Q72. Flexible budgets are created to demonstrate how **\\_**.</b>\n- changes in activity levels affect predicted revenue and costs\n- management need to make changes to budget targets following poor performance\n- an inaccurate operational budget results from poor budgeting data\n- current results fully align to budgetary allocations",
+        "back": ""
+    },
+    {
+        "front": "<b>Q73. Which is the appropriate term for an incurred cost that cannot be changed by any decision?</b>\n- opportunity cost\n- previous cost\n- sunk cost\n- variable cost",
+        "back": "sunk cost"
+    },
+    {
+        "front": "<b>Q74. Which factor is most likely to increase an auditor's awareness of possible fraudulent financial reporting?</b>\n- management's complete disclosure of unresolved legal action\n- limited competition in the company's industry resulting in increasing profitability\n- the audit committee's approval of specific accounting methods and principles\n- year-end financial adjustments significantly impacting the financial results",
+        "back": ""
+    }
+]

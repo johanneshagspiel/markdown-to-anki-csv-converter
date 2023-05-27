@@ -1,0 +1,302 @@
+[
+    {
+        "front": "<b>Q1. You are configuring a Wi-Fi base station using DHCP. Which items should you set or change?</b>\n- A\n- Reset administrator password.\n- Set network name.\n- Set network security.\n- Set network password.\n- B\n- Reset administrator password.\n- Set network name.\n- Set network password.\n- C\n- Set network name.\n- Set network password.\n- Assign DNS servers.\n- D\n- Change administrator account name.\n- Set network password.\n- Set network name.\n- Assign DNS servers.",
+        "back": "A\n- Reset administrator password.\n- Set network name.\n- Set network security.\n- Set network password."
+    },
+    {
+        "front": "<b>Q2. Can you connect a DisplayPort monitor to a USB-C port on your computer?</b>\n- Yes. The DisplayPort cable plugs directly into the USB connector.\n- Yes. An adapter or dongle may be required.\n- No. While you can rig a connection, video quality will be poor.\n- No. The two standards are incompatible.",
+        "back": "Yes. An adapter or dongle may be required."
+    },
+    {
+        "front": "<b>Q3. What is the I/O panel?</b>\n- the location where expansion cards can connect to peripherals\n- a cluster of ports and connectors found on the back of the computer case\n- the switches that turn on, sleep, and turn off the computer\n- the portion of the motherboard where non-power cables connect",
+        "back": "a cluster of ports and connectors found on the back of the computer case"
+    },
+    {
+        "front": "<b>Q4. The computer consistently boots into Safe Mode. How would you address this issue?</b>\n- Edit the Registry key that controls the boot sequence.\n- Hold the Shift key as Windows boots.\n- Check the MSCONFIG utility to ensure that Normal boot is selected.\n- Fix the issue in Safe Mode that is causing the system to restart in this mode.",
+        "back": "Fix the issue in Safe Mode that is causing the system to restart in this mode."
+    },
+    {
+        "front": "<b>Q5. Which choice is not a typical adjustment found on a monitor?</b>\n- resolution\n- color temperature\n- contrast\n- brightness",
+        "back": "resolution"
+    },
+    {
+        "front": "<b>Q6. Assuming that the gateway, modem, and switch are separate units, in what order should a small office or home office LAN be restarted?</b>\n- A\n1. Modem\n2. Gateway\n3. Switch\n- B\n1. Modem\n2. Switch\n3. Gateway\n- C\n1. Gateway\n2. Switch\n- The order is not important.",
+        "back": "A\n1. Modem\n2. Gateway\n3. Switch"
+    },
+    {
+        "front": "<b>Q7. A client needs to secure their cafe's wireless network, which is used only by employees. What is the best approach for a finite list of devices?</b>\n- Limit access to specific MAC addresses.\n- Do not broadcast the SSID.\n- Apply a metered connection.\n- Apply a password.",
+        "back": "Limit access to specific MAC addresses."
+    },
+    {
+        "front": "<b>Q8. Which hardware port would not be found on a typical gateway?</b>\n- WAN\n- USB\n- LAN\n- uplink",
+        "back": "uplink"
+    },
+    {
+        "front": "<b>Q9. The recent Windows update introduced some quirks in the system. How can you enter the Windows Recovery Environment to recover from the update?</b>\n- Hold the Shift key when selecting the **Restart** command.\n- Restart in Safe Mode where the Recovery item is located on the Start menu.\n- Press the any key at the boot screen.\n- Go to the Task Manager **Startup** tab.",
+        "back": "Hold the Shift key when selecting the **Restart** command."
+    },
+    {
+        "front": "<b>Q10. Which components are typically found on the motherboard?</b>\n- [x]\n  basic I/O\n  graphics\n  NIC\n  battery\n  expansion slots\n- [ ]\n  basic I/O\n  cooling\n  NIC\n  graphics\n  expansion slots\n- [ ]\n  basic I/O\n  graphics\n  NIC\n  mass storage\n  expansion slots\n- [ ]\n  basic I/O\n  graphics\n  NIC\n  power supply\n  expansion slots",
+        "back": ""
+    },
+    {
+        "front": "<b>Q11. What does the acronym RAID refer to?</b>\n- Repeating Architecture for Internal Drives\n- Recoverable Advanced Integration and Duplication\n- Redundant Array of Independent Disks\n- Replicated Array of Internal Devices",
+        "back": "Redundant Array of Independent Disks"
+    },
+    {
+        "front": "<b>Q12. To which internal component does the illustrated (P1) connector attach?</b>\n<img src=\"it-operations-quiz_Q12.jpg\">\n- motherboard\n- I/O panel\n- power supply\n- primary mass storage",
+        "back": "motherboard"
+    },
+    {
+        "front": "<b>Q13. Your computer boots at very low resolution that cannot be increased through display settings. What is the most likely solution?</b>\n- The connection between the display and the computer is loose.\n- You need to reinstall the display drivers.\n- You need to replace your monitor.\n- Some of your RAM is failing.",
+        "back": "You need to reinstall the display drivers."
+    },
+    {
+        "front": "<b>Q14. To which choice can the wget program be considered similar?</b>\n- tracert\n- netstat\n- ping\n- cURL",
+        "back": "cURL"
+    },
+    {
+        "front": "<b>Q15. Does an incognito window prevent websites from tracking your activity on the web?</b>\n- No. Incognito mode only prevents the site from appearing in your browser history.\n- Yes. Incognito mode encrypts data packets, making it difficult for websites to track your activity.\n- No. Some websites track by ID, and if you sign into a site even in incognito, your activity is known.\n- Yes. Incognito mode blocks all cookies and tracking IDs and suppresses browser history.",
+        "back": "No. Some websites track by ID, and if you sign into a site even in incognito, your activity is known."
+    },
+    {
+        "front": "<b>Q16. What must you confirm before performing a processor upgrade?</b>\n- The new processor is compatible with the current motherboard.\n- The new processor is the same type as the old.\n- The new processor is compatible with the operating system.\n- The new processor fits into the old processor's slot.",
+        "back": "The new processor is compatible with the current motherboard."
+    },
+    {
+        "front": "<b>Q17. Which type of storage has the fastest data access speeds?</b>\n- Secure Sockets Layer drive\n- solid-state drive\n- serial attached storage device\n- SCSI drive",
+        "back": "solid-state drive"
+    },
+    {
+        "front": "<b>Q18. A Bluetooth peripheral is prompting for a passcode to complete the pairing/connection process. What is the peripheral, most likely?</b>\n- keyboard\n- all of these answers\n- mouse\n- headset",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q19. Walt's computer is several years old and he wants to ensure that the system works until he gets a replacement. What should he do first?</b>\n- Run a file check daily.\n- Obtain an extended warranty.\n- Back up his data.\n- Ensure that the system is protected against malware.",
+        "back": "Back up his data."
+    },
+    {
+        "front": "<b>Q20. What is one difference between a drive and media?</b>\n- The drive is where the data is stored and the media is the data itself.\n- A drive is hardware that reads media.\n- These are two terms for the same thing: storage.\n- The terms apply only to removable storage, where the drive is the slot and the media is the thumb drive or media card inserted into the slot.",
+        "back": "A drive is hardware that reads media.\n\n[reference](https://en.wikipedia.org/wiki/Disk_storage): a drive is a device capable of interacting with data recorded on a media; this media can be removable or non-removable."
+    },
+    {
+        "front": "<b>Q21. Mass storage inside a desktop computer case is usually found where?</b>\n- in an expansion slot\n- attached to the front of the case\n- in a drive cage\n- on the motherboard",
+        "back": "in a drive cage"
+    },
+    {
+        "front": "<b>Q22. Which statement about a modular power supply is true?</b>\n- It is built from a cluster of smaller, easier-to-install power supplies.\n- Its power output can be varied to save electricity.\n- Its cables are detachable.\n- It has dedicated power reserved for different computer components.",
+        "back": "Its cables are detachable."
+    },
+    {
+        "front": "<b>Q23. Which program controls the Windows startup sequence?</b>\n- MSCONFIG\n- Task Manager\n- the Computer Management Console\n- the UEFI",
+        "back": "MSCONFIG"
+    },
+    {
+        "front": "<b>Q24. Angela ran a diagnostic that shows an ever-decreasing amount of memory in her computer. What could be the problem?</b>\n- DRAM is failing.\n- A program has a memory leak.\n- There is no problem. It's normal for available memory to decrease the longer you use the system.\n- Another user has signed into the system",
+        "back": "A program has a memory leak."
+    },
+    {
+        "front": "<b>Q25. Which type of power connector is this?</b>\n<img src=\"it-operations-quiz_Q24.png\">\n- Edison\n- Molex\n- SATA\n- PCI",
+        "back": "Molex"
+    },
+    {
+        "front": "<b>Q26. What is the most important thing to do before opening a computer case?</b>\n- Turn off and unplug the computer.\n- Disconnect all of the cables.\n- Close your programs, sign out of your account, and turn off the computer.\n- Ground yourself.",
+        "back": "Turn off and unplug the computer."
+    },
+    {
+        "front": "<b>Q27. On a trackpad, what gesture commonly replaces \"center mouse wheel\" for things like scrolling through documents?</b>\n- pinch outward\n- scroll with thumb instead\n- two-finger swipe\n- force click and drag",
+        "back": "two-finger swipe"
+    },
+    {
+        "front": "<b>Q28. What is the name of the hardware that provides a computer with network access?</b>\n- BIOS\n- RJ-45\n- NIC\n- Router",
+        "back": "NIC"
+    },
+    {
+        "front": "<b>Q29. Networking wire is referred to as **\\_**</b>\n- CAT-5 or CAT-6 Ethernet cable\n- thin pair or twisted pair\n- asynchronous digital (AD) cable\n- coax cable",
+        "back": "CAT-5 or CAT-6 Ethernet cable"
+    },
+    {
+        "front": "<b>Q30. Miguel is working on the computer, and Jen needs to use it for a moment. What can Miguel do to provide for an easy transition?</b>\n- Shut down the system.\n- Sign out.\n- Restart the computer.\n- Let Jen take over.",
+        "back": "Sign out."
+    },
+    {
+        "front": "<b>Q31. A **\\_** allows you to plug computers into a central location to communicate on the same local area network.</b>\n- server\n- layer 2 switch\n- wireless access point\n- firewall",
+        "back": "layer 2 switch\n\n[reference](https://en.wikipedia.org/wiki/Network_switch)"
+    },
+    {
+        "front": "<b>Q32. After plugging in an external 3.5mm microphone, you stop hearing sound from the speakers. What is the most likely source of the problem?</b>\n- You have plugged the microphone into the 3.5mm audio output jack.\n- The sound is muted.\n- The sound card has crashed.\n- The computer has connected to a nearby Bluetooth headset.",
+        "back": "You have plugged the microphone into the 3.5mm audio output jack."
+    },
+    {
+        "front": "<b>Q33. You think that the Internet is down. How can you know for certain?</b>\n- all of these answers.\n- You cannot reach any websites.\n- The power is out.\n- The lights on the modem are off.",
+        "back": "all of these answers."
+    },
+    {
+        "front": "<b>Q34. An application is unresponsive. How can you effectively close it down?</b>\n- Restart the computer.\n- Sign out.\n- Wait or set the application aside until it quits eventually on its own.\n- Use the Task Manager (Windows) or use Force Quit (Mac).",
+        "back": "Use the Task Manager (Windows) or use Force Quit (Mac)."
+    },
+    {
+        "front": "<b>Q35. How can you tell that the website you are visiting is sending and receiving data that has been encrypted?</b>\n- The URL is HTTPS.\n- You are using an incognito window.\n- The site requires a login and password.\n- You can't tell because a website's security settings are not readily apparent in a browser window.",
+        "back": "The URL is HTTPS."
+    },
+    {
+        "front": "<b>Q36. The client/server model best represents **\\_**.</b>\n- multiple hosts interacting with a single computer\n- an application consisting of cooperating programs across the Internet\n- any program run by a user\n- a subscription service on the web",
+        "back": "multiple hosts interacting with a single computer"
+    },
+    {
+        "front": "<b>Q37. The primary mass storage device is divided into two partitions. What would explain this arrangement?</b>\n- There is one partition for the operating system and a separate partition for user data.\n- All drives contain a second partition for the MBR (Master Boot Record).\n- The drive is partitioned to maintain compatibility with older versions of the operating system.\n- The system has two users who are each getting a partition.",
+        "back": "There is one partition for the operating system and a separate partition for user data."
+    },
+    {
+        "front": "<b>Q38. You are replacing a processor. How do you build the processor \"sandwich\", top-down?</b>\n- fan, paste, processor, socket\n- fan, processor, socket\n- fan, paste, processor, paste, socket\n- fan, processor, paste, socket",
+        "back": "fan, paste, processor, socket"
+    },
+    {
+        "front": "<b>Q39. The operating system tells you that a file is busy. What is the fastest way to attempt to make the file un-busy?</b>\n- Run a disk-checking utility.\n- Close open programs.\n- Restart the computer.\n- Review the output of the netstat utility to check for incoming connections to the file.",
+        "back": "Close open programs."
+    },
+    {
+        "front": "<b>Q40. Which service allows clients to work remotely and supplies the clients with an IP address on the same local area network as the offce?</b>\n- DNS\n- FTP\n- VPN\n- HTTP",
+        "back": "VPN"
+    },
+    {
+        "front": "<b>Q41. Al is about to update a software driver. What would be a wise thing to do first?</b>\n- Back up all files.\n- Save data and close programs.\n- Remove the older driver.\n- Sign out of the operating system.",
+        "back": "Back up all files."
+    },
+    {
+        "front": "<b>Q42. What is the process of moving data and programs from an old computer to a new one called?</b>\n- migration\n- An official term does not exist, though it is colloquieally referred to as a \"brain transplant.\"\n- profile transfer\n- account cloning",
+        "back": "migration\n\n[reference](https://en.wikipedia.org/wiki/PC_migration)"
+    },
+    {
+        "front": "<b>Q43. The local network is up, but the computers cannot access the Internet. Your Internet configuration includes a modem, gateway (router), and a switch as separate devices. What should you do?</b>\n- Do nothing. Wait until service is restored.\n- Restart all computers on the network.\n- Restart the gateway (router).\n- Restart the modem.",
+        "back": "Restart the modem."
+    },
+    {
+        "front": "<b>Q44. You notice that a program crashes at a specific time. Which tool can you use in Windows to discover the cause?</b>\n- Task Manager\n- Event Viewer\n- Perfomance Monitor\n- Resource Monitor",
+        "back": "Event Viewer"
+    },
+    {
+        "front": "<b>Q45. While planning a conference at a center in the mountains, you call ahead to ensure that it has broadband Internet access. Which connection type would be an unsuitable choice?</b>\n- DSL\n- fiber optic\n- cable\n- dial-up",
+        "back": "dial-up"
+    },
+    {
+        "front": "<b>Q46. What is a fixed disk</b>\n- mass storage that has been repaired\n- nonremovable mass storage\n- any internal mass storage device\n- any mass storage device that is not a SSD",
+        "back": "nonremovable mass storage"
+    },
+    {
+        "front": "<b>Q47. What are the long-term and short-term categories of storage in a computer?</b>\n- memory and permanent (drive) storage\n- SSD and HDD\n- RAM and ROM\n- standard memory and cache memory",
+        "back": "memory and permanent (drive) storage\n\n[Reference](https://pediaa.com/difference-between-short-term-and-long-term-memory/)"
+    },
+    {
+        "front": "<b>Q48. What is referred to by SSID?</b>\n- Service Set Identifier, a wireless network's name\n- an older security protocol for Wi-Fi networks\n- the server-side ID used to identify devices on a network\n- the MAC address broadcast for a wireless network",
+        "back": "Service Set Identifier, a wireless network's name\n\n[Reference](https://techterms.com/definition/ssid)"
+    },
+    {
+        "front": "<b>Q49. Which is the standard color coding for audio jacks?</b>\n- Gray: microphone / Black: speakers\n- Red: microphone / Green: speakers\n- Green: microphone / Pink: speakers\n- Green: speakers / Pink: microphone",
+        "back": "Green: speakers / Pink: microphone"
+    },
+    {
+        "front": "<b>Q50. Which key assists limited keyboard layouts (such as on a laptop) with accessing the full range of keys?</b>\n- Alt (Windows) or Option (Mac)\n- Meta\n- Fn\n- Shift",
+        "back": "Fn"
+    },
+    {
+        "front": "<b>Q51. You power up your computer and it starts in Safe Mode. What should you do?</b>\n- Restart the computer\n- Work as you normally do until the problem is resolved\n- Reconfigure the startup sequence so that the system starts again normally\n- Determine the cause and address the issue\nIdea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue.",
+        "back": "Determine the cause and address the issue\nIdea behind the answer: let's go for a quick restart to see whether the problem fixes itself or not, then only try to determine the cause and address the issue."
+    },
+    {
+        "front": "<b>Q52. Which security tool can be doubled up to offer additional protection without being redundant?</b>\n- account protection\n- firewall\n- antivirus\n- backup",
+        "back": "backup"
+    },
+    {
+        "front": "<b>Q53. The mouse pointer is behaving erratically. What should you do first?</b>\n- Use the keyboard instead\n- Restart the computer\n- Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface\n- Disassemble the mouse to look for loose parts or corrosion",
+        "back": "Clean the mouse, specifically its optical sensor, and ensure that you are using it on the proper surface"
+    },
+    {
+        "front": "<b>Q54. How many wire pairs are in a CAT-5 cable?</b>\n- 8\n- 4\n- 5\n- 16",
+        "back": "4"
+    },
+    {
+        "front": "<b>Q55. What is the difference between a USB hub and a powered USB hub?</b>\n- The powered hub has a power supply and is suitable for running powered peripherals.\n- A powered USB hub is found on the computer case; all other hubs are non-powered.\n- The powered hub supplies 12V of power, whereas the standard hub only 5V.\n- Powered hubs are external to the computer case.",
+        "back": "The powered hub has a power supply and is suitable for running powered peripherals."
+    },
+    {
+        "front": "<b>Q56. Which user has the smartest approach to online security?</b>\n- Jarred uses a unique password for each site.\n- Jen uses the same password on each site, but with two-factor authentication.\n- Jason uses a unique password for each site along with two-factor authentication.\n- Jackie uses the same password on each site, but with a different user name.",
+        "back": "Jason uses a unique password for each site along with two-factor authentication."
+    },
+    {
+        "front": "<b>Q57. Which is an example of a phishing attach?</b>\n- Yousef sees an onscreen notification indicating that an operating system is pending and instructing him to click a link to continue.\n- After visiting a website, Carla notices that her computer is running slowly.\n- Bob receives an email from his bank, asking him to click a link to verify his account.\n- Ellen's email inbox is flooded with unwanted advertising.",
+        "back": "Bob receives an email from his bank, asking him to click a link to verify his account."
+    },
+    {
+        "front": "<b>Q58. You receive a malware warning regarding a specific file. Which approach should you take to ensure you do not have false positive?</b>\n- Restart in Safe Mode to remove the file.\n- Remove the file.\n- Run a thorough scan to validate the results.\n- Quarantine the file.",
+        "back": "Run a thorough scan to validate the results."
+    },
+    {
+        "front": "<b>Q59. What are the best tools to use for cleaning a computer?</b>\n- Handheld vacuum cleaner, air can, soft flashlight.\n- air can, microfiber cloth, alcohol wipes, flashlight.\n- handheld vacuum cleaner, ammonia, alcohol, microfiber cloth.\n- air can, screwdriver, soft cloth, household cleaner.",
+        "back": "handheld vacuum cleaner, ammonia, alcohol, microfiber cloth."
+    },
+    {
+        "front": "<b>Q60. A computer power supply is measured in \\_.</b>\n- watts\n- hertz\n- amperes\n- volts",
+        "back": "watts"
+    },
+    {
+        "front": "<b>Q61. If you had a 255.255.255.0 subnet mask, how many usable IP addresses would you have for hosts?</b>\n- 24\n- 255\n- 254\n- 256",
+        "back": "254"
+    },
+    {
+        "front": "<b>Q62. Tania was told to address an issue in the UEFI. How is it accessed?</b>\n- by using the System Configuration Utility (MSCONFIG)\n- from the BIOS\n- from the computer's startup menu\n- on the network\n<not duplicate, pls do not delete, the explanation below>",
+        "back": "from the BIOS"
+    },
+    {
+        "front": "<b>Q62. Tania was told to change a setting in the UEFI. How is it accessed?</b>\n- by using the System Configuration Utility (MSCONFIG)\n- from the BIOS\n- from the computer's startup menu\n- on the network\n```\nQ62. Tania was told to address an issue in the UEFI. How is it accessed?\nAnd the answer changed from\n\"from the BIOS\" to\n\"from the computer's startup menu\"\nThe phrase \"to adress an issues in UEFI\" could be interpreted as to alter something about the UEFI. For example, a employee at Asus found that in some cases your not able to adjust how much voltage the CPU can get, that employees has now been tasked with addressing this issue.\nI changed the answer because you would not access the UEFI from the BIOS. Only in rare cases or manufacturing testing experimental stuff, does a system have both UEFI and BIOS.\nTo get to either UEFI or BIOS on a system you usually go via the computer's boot menu or press a certain key to boot straight into that mode.\n```",
+        "back": "from the computer's startup menu"
+    },
+    {
+        "front": "<b>Q63. What is the technical reason why you must properly eject media?</b>\n- File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt.\n- The Storage Inventory Manager (SIM) can lose its drive references, which may corrupt other storage in the system.\n- The drive must receive the eject signal and turn itself off, dropping the DTR signal and indicating the media is safe to remove.\n- The computer must stop the 5-volt signal to media, otherwise the drive may short.",
+        "back": "File I/O is buffered. If you remove the media before the buffer is cleared, files remain open and potentially corrupt."
+    },
+    {
+        "front": "<b>Q64. Which part of the network assigns an IP address?</b>\n- the modem using TCP/IP protocol\n- the gateway/router using DHCP\n- the device's NIC based on the MAC address\n- IP addresses are always assigned manually",
+        "back": "the gateway/router using DHCP"
+    },
+    {
+        "front": "<b>Q65. Expansion cards follow which current interface standard?</b>\n- MCA\n- PCMCIA\n- ISA\n- PCIe",
+        "back": "PCIe"
+    },
+    {
+        "front": "<b>Q66. Which action triggers a UAC warning?</b>\n- all settings changes in Windows\n- any unauthorized access to the computer system\n- an attempt to change a setting with consequences that affect the entire system\n- any action involving the user account, such as a password reset",
+        "back": "an attempt to change a setting with consequences that affect the entire system"
+    },
+    {
+        "front": "<b>Q67. Which choice is not a current mass storage type?</b>\n- SSD\n- MO\n- HDD\n- NVMe",
+        "back": "NVMe"
+    },
+    {
+        "front": "<b>Q68. Which statement most accurately describes the northbridge or host bridge?</b>\n- It is a high priority connection to the processor, also called the Memory Controller Hub.\n- It has been integrated into the southbridge to provide support for the CPU.\n- It is the peripheral and I/O controller, connected to the processor via the southbridge.\n- It provides mathematical and 3D physics support for the CPU in the absence of a GPU.",
+        "back": "It is a high priority connection to the processor, also called the Memory Controller Hub."
+    },
+    {
+        "front": "<b>Q69. Which characters are not allowed in a filename?</b>\n- anything other than a letter, number, or space\n- spaces, periods, and commas\n- `\\, /, :, ?, and *`\n- `!, ^, &, (,), and \"`",
+        "back": "`\\, /, :, ?, and *`"
+    },
+    {
+        "front": "<b>Q70. What is the most direct way to change the desktop background in Windows OS?</b>\n- Alter your user account settings or preferences.\n- Right-click a blank part of the desktop.\n- Run programs full-screen.\n- Use Settings (Windows) or Preferences (Mac).",
+        "back": "Right-click a blank part of the desktop."
+    },
+    {
+        "front": "<b>Q71. Which I/O components are typically found in a chipset on the motherboard?</b>\n- USB, SATA and internal communications\n- display adapter, networking, audio, and basic I/O\n- the processor, RAM, and expansion cards\n- I/O components are not on the motherboard. They are located on the rear of the case",
+        "back": "USB, SATA and internal communications"
+    },
+    {
+        "front": "<b>Q72. What does the acronym RAID refer to?</b>\n- Redudant Array of Independent Disk\n- Repeating Architecture for Internal Drives\n- Recoverable Advanced Integration and Duplication\n- Replicated Array of Internal Devices",
+        "back": "Redudant Array of Independent Disk"
+    },
+    {
+        "front": "<b>Q73. What is an example of a top-level domain (TLD)?</b>\n- NET\n- HTTP\n- //\n- DNS",
+        "back": "NET"
+    },
+    {
+        "front": "<b>Q74. Jan is setting up a coffee shop's wireless network. Given the number of Wi-Fi networks within range, which are the best choices for a 2.4GHz Wi-Fi channel?</b>\n- 3, 6, 9\n- 3, 10, 12\n- 1, 6, 11\n- 1, 2, 8",
+        "back": "1, 6, 11"
+    }
+]

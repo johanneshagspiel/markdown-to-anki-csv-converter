@@ -1,0 +1,438 @@
+[
+    {
+        "front": "<b>Q1. Which feature allows you to copy attributes of selected text and apply them to another selection?</b>\n- Merge Formatting command\n- Copy and Paste Styles command\n- Copy and Paste Attributes command\n- Format Painter tool",
+        "back": "Format Painter tool"
+    },
+    {
+        "front": "<b>Q2. To protect a document from accidental changes, which option should you select from the Protect Document (Windows) or Protect (Mac) menu?</b>\n- Mark as Final.\n- Add a Digital Signature.\n- Encrypt with Password.\n- Always Open Read-Only.",
+        "back": "Always Open Read-Only."
+    },
+    {
+        "front": "<b>Q3. You are finalizing a two-page document. Rather than having Word decide where page 1 ends, you want the next paragraph to begin on the top of page 2. How do you achieve this?</b>\n- Change the bottom margin to your current location.\n- Insert a page break.\n- Press Shift + Enter (Shift + Return).\n- Insert a column break.",
+        "back": "Insert a page break."
+    },
+    {
+        "front": "<b>Q4. How do you insert the content of an existing Word document into your current Word document?</b>\n- Click Layout > Text > Text from File.\n- Click Insert > Text > Building Blocks Organizer.\n- Click Insert > Text > Text from File.\n- Click Insert > Media.",
+        "back": "Click Insert > Text > Text from File."
+    },
+    {
+        "front": "<b>Q5. You want to set a wider inside margin to accommodate binding a document where pages are printed in both sides. Which option should you choose in the Page Setup dialog box?</b>\n- Book Fold.\n- Different Odd & Even Pages.\n- Mirror Margins.\n- Landscape.",
+        "back": "Book Fold.\n\n[Reference](https://support.microsoft.com/en-us/office/create-a-booklet-or-book-in-word-dfd94694-fa4f-4c71-a1c7-737c31539e4a)"
+    },
+    {
+        "front": "<b>Q6. Which feature lets you place a ghosted logo or text behind the regular text on your document?</b>\n- Background.\n- Watermark.\n- Imagemark.\n- Overlay.",
+        "back": "Watermark."
+    },
+    {
+        "front": "<b>Q7. Where do you select the paper size for a document?</b>\n- Design > Size.\n- File > Page Setup.\n- Layout > Size.\n- Layout > Margins.",
+        "back": "Layout > Size."
+    },
+    {
+        "front": "<b>Q8. Which option lets you mark your favorite templates for quick reuse in the future?</b>\n- Drag to Home tab.\n- Add to chooser.\n- Pin to list.\n- Mark as favorite.",
+        "back": "Pin to list."
+    },
+    {
+        "front": "<b>Q9. You want to add a caption to a table. Which tab contains this option?</b>\n- Insert\n- Design\n- References\n- Layout",
+        "back": "References"
+    },
+    {
+        "front": "<b>Q10. How can you change the appearance of an entire table in a single step?</b>\n- Apply a table style.\n- Apply a graphic style.\n- Right-click a table and choose a new style.\n- Apply a cell style.",
+        "back": "Apply a table style."
+    },
+    {
+        "front": "<b>Q11. Which option does the Find and Replace feature **NOT** support?</b>\n- Whole Word Only.\n- Replace All.\n- Check Spelling.\n- Match Case.",
+        "back": "Check Spelling."
+    },
+    {
+        "front": "<b>Q12. Which statement best describes how a bookmark is used in a Word document?</b>\n- A bookmark is a hyperlink where the label is automatically generated.\n- A bookmark works in conjunction with hyperlinks to allow you to quickly jump to a specific location in your document.\n- A bookmark is a link in your document that can give you quick access to webpages, files, and other locations within your document.\n- A bookmark is a color-coded graphic that appears in the navigation pane for easy access to a specific location in your document.",
+        "back": "A bookmark works in conjunction with hyperlinks to allow you to quickly jump to a specific location in your document."
+    },
+    {
+        "front": "<b>Q13. What is **NOT** an option when inviting a colleague to collaborate on a document?</b>\n- including a personalized message\n- giving the collaborator the option to edit a document\n- setting the collaborator's access to view only\n- granting administrator access",
+        "back": "granting administrator access"
+    },
+    {
+        "front": "<b>Q14. You split a document into three sections. What happens if you change the margins in the first section?</b>\n- The document reverts back to a single section with the new margin settings.\n- The new margin settings are applied to all of the sections.\n- The new margin settings are applied to the second and third sections.\n- The new margin settings are applied to just the first section.",
+        "back": "The new margin settings are applied to just the first section."
+    },
+    {
+        "front": "<b>Q15. Which ribbon tab includes commands to add various types of objects or media to your document?</b>\n- Insert\n- File\n- Layout\n- Design",
+        "back": "Insert"
+    },
+    {
+        "front": "<b>Q16. What type of page is useful at the front of a large document, to identify the document title, author, and other metadata?</b>\n- cover page\n- blank page\n- master page\n- table of contents page",
+        "back": "cover page"
+    },
+    {
+        "front": "<b>Q17. What happens in this SmartArt object when you press the Delete key?</b>\n<img src=\"microsoft-word-quiz_001.png\">\n- The boxes resize to maintain the same overall height.\n- The object is deleted and a hole is left behind.\n- The text merges with the second box.\n- The gaps between the boxes close and the boxes remain the same size.",
+        "back": "The boxes resize to maintain the same overall height."
+    },
+    {
+        "front": "<b>Q18. What happens in this SmartArt diagram when you delete the selected object?</b>\n<img src=\"microsoft-word-quiz_001.png\">\n- The text from the deleted box merges with the next box's text.\n- The selected object is deleted and the spacing is preserved where the object was.\n- The remaining objects resize to maintain the same overall height.\n- The gaps between the objects close and the objects remain the same size.",
+        "back": "The remaining objects resize to maintain the same overall height."
+    },
+    {
+        "front": "<b>Q19. Which command builds an overview of document contents based on applied headings styles?</b>\n- Manage Sources\n- Cross-Reference\n- Insert Index\n- Table of Contents",
+        "back": "Table of Contents"
+    },
+    {
+        "front": "<b>Q20. Which statistic does the Word Count feature **NOT** collect?</b>\n- paragraphs\n- lines\n- page breaks\n- characters (no spaces)",
+        "back": "page breaks"
+    },
+    {
+        "front": "<b>Q21. What is the default view when you open a document or create a new document?</b>\n- Print Layout view\n- Draft view\n- Edit view\n- Web Layout view",
+        "back": "Print Layout view"
+    },
+    {
+        "front": "<b>Q22. You are working on a local copy of a document when Word unexpectedly closes. After you relaunch Word, how can you find the most recently saved version of the document?</b>\n- Click Open > Recent and select Recover Unsaved Documents.\n- Click File > Options > Recover Unsaved Documents.\n- Click File > Open > Recent > Documents.\n- Click File > Recent > Recover Unsaved Documents.\nExplanation:\nSolutions found in Office2019:  \nFile -> Open -> Recent -> Recover Unsaved Documents  \nFile -> Info -> Manage Document -> Recover Unsaved Documents  \nRead carefully. It's not about recovering, but only the last recent file!",
+        "back": "Click File > Open > Recent > Documents."
+    },
+    {
+        "front": "<b>Q23. Which object type can you _not_ insert into a Word document from the **Insert** tab?</b>\n- a sketch\n- a symbol\n- a 3D model\n- an equation",
+        "back": "a sketch"
+    },
+    {
+        "front": "<b>Q24. What Microsoft Word feature lets you capture a portion of your screen to be used as an image in your document?</b>\n- Screen Clipping\n- Screen Grab\n- Screen Capture\n- none of these answers",
+        "back": "Screen Clipping"
+    },
+    {
+        "front": "<b>Q25. You want to create a shortcut that replaces an acronym that you type with the acronym's full text-for example, replacing `\"/mt\"` with `\"Microsoft Teams\"`. What Word feature do you use to create this shortcut?</b>\n- Replace All\n- AutoFormat As You Type\n- Find and Replace\n- AutoCorrect Options",
+        "back": "AutoCorrect Options\n\n**Explanation:** The keyword here is creating a \"shortcut\" which is set with the Autocorrect Options by navigating to File -> Options -> Proofing -> AutoCorrect Options -> Replace text as you type."
+    },
+    {
+        "front": "<b>Q26. Your document contains two columns of content with a vertical line between the columns, as shown. From where can you delete the line?</b>\n<img src=\"microsoft-word-quiz_003.png\">\n- Insert > Text\n- Columns dialog box\n- Insert > Line > Vertical\n- Insert > Line > Remove",
+        "back": "Columns dialog box\n\n**Explanation:** Layout -> Columns -> More columns -> Line between"
+    },
+    {
+        "front": "<b>Q27. When you crop an image in a document, what happens to the image and the overall document file size?</b>\n- The cropped parts of the image are hidden and the overall file size increases.\n- The cropped parts of the image are removed and the overall file size does not change.\n- The cropped parts of the image are hidden and the overall file size does not change.\n- The cropped parts of the image are removed and the overall file size decreases.",
+        "back": "The cropped parts of the image are hidden and the overall file size does not change."
+    },
+    {
+        "front": "<b>Q28. When you are typing in a paragraph and reach the end of the line, Word automatically starts a new line for you. What is this feature called?</b>\n- line wrap\n- word wrap\n- a new line return\n- a soft return",
+        "back": "word wrap"
+    },
+    {
+        "front": "<b>Q29. You want to create an organizational chart. Which SmartArt category should you choose?</b>\n- Pyramid\n- Relationship\n- Hierarchy\n- Matrix",
+        "back": "Hierarchy"
+    },
+    {
+        "front": "<b>Q30. When you insert page numbers, which position is **NOT** an option?</b>\n- page margins\n- inset\n- current position\n- bottom of page",
+        "back": "inset"
+    },
+    {
+        "front": "<b>Q31. How can you quickly move an insertion point up to the start of the previous paragraph?</b>\n- Press Ctrl+Up Arrow (Windows) or Command+Up Arrow (Mac).\n- Press Ctrl+Page Up (Windows) or Command+Page Up (Mac).\n- Press Ctrl+Left Arrow (Windows) or Command+Left Arrow (Mac).\n- Press Alt+Left Arrow (Windows) or Option+Left Arrow (Mac).",
+        "back": "Press Ctrl+Up Arrow (Windows) or Command+Up Arrow (Mac)."
+    },
+    {
+        "front": "<b>Q32. You send a document to two clients for review, and each client returns a separate, edited version of the document. How do you most efficiently review their feedback?</b>\n- Click **Review > Accept**.\n- Turn on **Track Changes**.\n- Click **Review > Compare**.\n- Click **Review > Smart Lookup**.",
+        "back": "Click **Review > Compare**."
+    },
+    {
+        "front": "<b>Q33. What is the difference between a footnote and an endnote?</b>\n- Footnotes use Arabic numerals and endnotes use letters.\n- A footnote is placed in the page footer, and an endnote is placed on a blank page at the end of the document.\n- A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document.\n- An endnote always appears on the bottom of the same page that it references.",
+        "back": "A footnote is placed at the bottom of the page, and an endnote is placed at the end of the document."
+    },
+    {
+        "front": "<b>Q34. Which formatting option was used to create the effect shown below?</b>\n<img src=\"microsoft-word-quiz_004.png\">\n- Drop Cap\n- Subscript\n- Small Caps\n- Superscript",
+        "back": "Subscript"
+    },
+    {
+        "front": "<b>Q35. What Word building block uses headings to help users identify the contents of a document?</b>\n- table of contents\n- page break\n- cover page\n- index",
+        "back": "table of contents"
+    },
+    {
+        "front": "<b>Q36. You have been reviewing a Word document using Track Changes. There are still changes that need to be reviewed, but you cannot see them. Why is this? (Select all that apply.)</b>\n```\nA. Display for Review is set to No Markup.\nB. Track changes has been turned off.\nC. Display for Review is set to Original.\nD. Inserts and Deletions and Formatting are turned off in Show Markup.\n```\n- A, C, D\n- A, B\n- D\n- A, C",
+        "back": "A, B"
+    },
+    {
+        "front": "<b>Q37. You are coordinating the update of your company's 10-chapter operations manual. You begin by saving each chapter as a separate document. What Word feature can you use to manage all of these chapter documents?</b>\n- the Organizer\n- master document\n- outline view\n- versioning",
+        "back": "master document"
+    },
+    {
+        "front": "<b>Q38. Which is a benefit of using heading styles to format a report?</b>\n- You can reformat all headings by changing style sets.\n- You can navigate from heading to heading in the Navigation pane.\n- all of these answers\n- You can easily generate a table of contents.",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q39. You need to add a trademark symbol to a new product name. How can you accomplish this? (Select two items.)</b>\n    A. Type \"(TM)\".\n    B. On Windows: On the **Insert** tab, in the **Symbols** group, select **Symbol**. From the symbols gallery, select the trademark symbol, then   click **Insert**.\n    On Mac: On the **Insert** tab, click **Advanced Symbol > Special Characters**, select **Trademark**, and click **Insert**.\n    C. On the **Insert** Tab, in the **Illustrations** group, select **Icons**. From the icons gallery, select the **Signs and Symbols** category. Then select the trademark symbol and click **Insert**.\n    D. Type \"(R)\".\n- B and D\n- A and B\n- B and C\n- A and D\n**Hint:**\n(TM) : Unregistered trademark symbol  \n(R): Registered trademark symbol",
+        "back": "A and B"
+    },
+    {
+        "front": "<b>Q40. You are reformatting a professional document that you created previously using manual formatting. In your document, first-level headings are formatted with Arial 11 Bold. What is the fastest way to create and apply a Heading 1 style using these properties?</b>\n- In the **Styles** task pane, click **New Style** and select **Arial 11 Bold**.\n- Hold the Ctrl key (Windows) or Command key (Mac) and click the **Format Painter**. Then select **New Style**.\n- On Windows: Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.On Mac: With the **style** pane open, highlight a Heading 1 in the document, then in the style pane drop-down for Heading 11, select Update to Match Selection.\n- Select the text, right-click to display the formatting bar, and select **Styles > Copy**.",
+        "back": "On Windows: Select one of the first level headings. Right-click **Heading 1** and update it to match the selection.On Mac: With the **style** pane open, highlight a Heading 1 in the document, then in the style pane drop-down for Heading 11, select Update to Match Selection."
+    },
+    {
+        "front": "<b>Q41. You are typing text in two columns. When you reach the end of a paragraph in column 1, you want to start the next paragraph in column 1 on the next page. What type of break should you insert at this point?</b>\n- next page section break\n- continuous section break\n- column break\n- page break",
+        "back": "page break"
+    },
+    {
+        "front": "<b>Q42. You want to capture all the content and design elements in your current document, so you can use them as a starting point when creating new documents. To do so, save the current document as **\\_**.</b>\n- a template file\n- a PDF\n- an OpenDocument Text file\n- a Rich Text Format file",
+        "back": "a template file"
+    },
+    {
+        "front": "<b>Q43. Which file format best preserves formatting and allows editing when a Word document is transferred to another application?</b>\n- XML Paper Specification (XPS)\n- OpenDocument Text (ODT)\n- Rich Text Format (RTF)\n- plain text (TXT)",
+        "back": "Rich Text Format (RTF)"
+    },
+    {
+        "front": "<b>Q44. How can you break a table into two parts?</b>\n- Use the Split Table command.\n- Press Shift + Enter (Windows) or Sift + Return (Mac).\n- Use the Section Break command.\n- Use the Split Cells command.",
+        "back": "Use the Split Table command.\n\n**Explanation:** Tables Layout tab -> Merge group -> Split Table"
+    },
+    {
+        "front": "<b>Q45. What can you **NOT** create from a Word document?</b>\n- a Word macro-enabled document\n- a plain text file\n- a multipage website\n- a Word 2003 XML document",
+        "back": "a multipage website\n\n**Explanation:** Each Word document can be saved as a Web Page."
+    },
+    {
+        "front": "<b>Q46. How can you add a manual line break to a paragraph?</b>\n- Press Enter twice (Windows) or Return twice (Mac).\n- Press Alt+Enter (Windows) or Option+Return (Mac).\n- Press Enter (Windows) or Return (Mac).\n- Press Shift+Enter (Windows) or Shift+Return (Mac)",
+        "back": "Press Shift+Enter (Windows) or Shift+Return (Mac)"
+    },
+    {
+        "front": "<b>Q47. You want to repeat an element (such as the date) on all pages of the document. Which options should you choose?</b>\n- Insert > Header & Footer\n- Insert > Text\n- Design > Header & Footer\n- View > Header & Footer",
+        "back": "Insert > Header & Footer"
+    },
+    {
+        "front": "<b>Q48. You want to repeat an element (such as the date) at the bottom of all pages of a document. Which option should you choose?</b>\n- Insert > Text\n- View > Header & Footer\n- Design > Footer\n- Insert > Footer",
+        "back": "Insert > Footer"
+    },
+    {
+        "front": "<b>Q49. A document has been shared with you from your colleague's OneDrive library. They have given only you editing access. What can you do with this document?</b>\n- Share the document with others.\n- Assume ownership of the document.\n- Remove access from another user.\n- Coauthor the document with your colleague.",
+        "back": "Share the document with others."
+    },
+    {
+        "front": "<b>Q50. In the image below, what do the red bars next to the text indicate?</b>\n<img src=\"microsoft-word-quiz_002.png\">\n- Draw tools were used in these areas.\n- Changes were made to these areas.\n- Comments were added to these areas.\n- none of these answers",
+        "back": "Changes were made to these areas."
+    },
+    {
+        "front": "<b>Q51. What formatting must you use to use both portrait and landscape pages in the same Word document?</b>\n- templates\n- page\n- columns\n- sections",
+        "back": "sections"
+    },
+    {
+        "front": "<b>Q52. Which option does the Find and Replace feature **NOT** support?</b>\n- Match Punctuation\n- Replace All\n- Match Case\n- Whole Word Only",
+        "back": "Match Punctuation"
+    },
+    {
+        "front": "<b>Q53. What is the name of the text effect that displays a large capital letter at the beginning of a paragraph?</b>\n- superscript\n- drop cap\n- subscript\n- small caps",
+        "back": "drop cap"
+    },
+    {
+        "front": "<b>Q54. You need to document a procedure. Which paragraph format is best to help readers follow the sequence of instructions?</b>\n- line numbers\n- numbered list\n- columns\n- bulleted list",
+        "back": "numbered list"
+    },
+    {
+        "front": "<b>Q55. How can you adjust which data in a table is used when creating a chart?</b>\n- Click the Select Data button.\n- Click the Refresh Data button.\n- Click the Switch Row/Column button.\n- Click the Edit Data button.",
+        "back": "Click the Edit Data button."
+    },
+    {
+        "front": "<b>Q56. You want to be able to edit your Word document simultaneously with other Word users in your organization. Which save location should you select in the Save As dialog box?</b>\n    A. OneDrive\n    B. SharePoint document library\n    C. Google Drive\n    D. DropBox\n- A\n- A, B, C, D\n- A, B, C\n- A or B",
+        "back": "A or B"
+    },
+    {
+        "front": "<b>Q57. Why is it important to use alternative text for objects in your document?</b>\n- Adding alternative text to an object is one way to apply a caption to an object.\n- It allows you to display the text in a language other than the default language-for example, English to French, French to German.\n- It helps a user with a visual impairment who is using a screen reader understand the content of the object.\n- It enables you to provide another explanation of the object, in case the user does not understand what the object is.",
+        "back": "It helps a user with a visual impairment who is using a screen reader understand the content of the object.\n\n[Reference](https://support.microsoft.com/en-us/office/add-alternative-text-to-a-shape-picture-chart-smartart-graphic-or-other-object-44989b2a-903c-4d9a-b742-6a75b451c669)"
+    },
+    {
+        "front": "<b>Q58. What is a benefit of using sections in a Microsoft Word document?</b>\n- You can restrict printing for specific document sections.\n- You can apply unique formatting to each section.\n- You can collaborate on specific sections with other authors.\n- You can restrict access to each section individually.",
+        "back": "You can apply unique formatting to each section.\n\n[Reference](https://support.microsoft.com/en-us/office/insert-delete-or-change-a-section-break-0eeae2d6-b906-42d3-a1bd-7e77ca8ea1f3)"
+    },
+    {
+        "front": "<b>Q59. How can you tell if a colleague is coauthoring a document at the same time as you? (Select all that apply.)</b>\n    A. Colleague's name appears in the Share panel.\n    B. Colleague's picture appears in the upper-right corner of the ribbon.\n    C. A banner notification pops up as the colleague edits the document.\n    D. A flag icon with the colleague's name appears where their edit is being made.\n- A, B, C\n- B, C, D\n- A, B, D\n- A, C, D",
+        "back": "A, C, D\n\n[Reference](https://support.microsoft.com/en-us/office/coauthor-documents-anywhere-ed0cf685-f619-4d54-9c42-a61c8795c87f)"
+    },
+    {
+        "front": "<b>Q60. When you insert a picture into a document, what happens to the picture?</b>\n- Word stretches the photo to fill the page.\n- Word scales the image to the largest size possible to fit within the height or width of the page.\n- Word converts the photo's file format.\n- Word analyzes and corrects the image for tone and color.",
+        "back": "Word scales the image to the largest size possible to fit within the height or width of the page.\n\n[Reference link](https://support.microsoft.com/en-us/office/insert-pictures-3c51edf4-22e1-460a-b372-9329a8724344)"
+    },
+    {
+        "front": "<b>Q61. When working with Track Changes, what is the difference between Simple Markup and all Markup?</b>\n- Simple Markup shows the final version without inline markups; All Markups shows the final version with inline markups.\n- Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.\n- Simple Markup shows the revisions of one selected author in the Review pane; All Markup shows the revisions of all authors with inline markups.\n- Simple Markup shows the final version with inline markups; All Markup shows the final version without inline markups.",
+        "back": "Simple Markup shows the markup versions by one selected author; All Markup shows the combined markup version of all authors.\n\n[Reference link](https://support.microsoft.com/en-us/office/video-track-changes-and-show-markup-3faf8a07-26ed-4b76-b6a0-43cca013e6d3)"
+    },
+    {
+        "front": "<b>Q62. You're finalizing a document that contains some high-resolution images. You want to reduce the picture size while ensuring image quality is adequate for online viewing. What is a best-practice approach?</b>\n- Review the images and crop as needed. Compress the images. Save the document and then compress the entire document.\n- Replace the images with lower-resolution images. Save the document and then compress it.\n- Review the images and crop as needed. Then compress the images and delete cropped areas.\n- Review the images and crop as needed. Save document and then compress it.",
+        "back": "Review the images and crop as needed. Then compress the images and delete cropped areas.\n\n[Reference link](https://support.microsoft.com/en-us/topic/reduce-the-file-size-of-a-picture-in-microsoft-office-8db7211c-d958-457c-babd-194109eb9535)"
+    },
+    {
+        "front": "<b>Q63. Before you send a document to an external client, you must remove personal information--including document author names, comments, and hidden text--from the doc. What tool can help you locate and clean up these details?</b>\n- Accessibility Checker\n- Check Compatibility\n- Manage Document\n- Document Inspector",
+        "back": "Document Inspector\n\n[Reference](https://support.microsoft.com/en-us/topic/remove-hidden-data-and-personal-information-by-inspecting-documents-presentations-or-workbooks-356b7b5d-77af-44fe-a07f-9aa4d085966f#:~:text=Click%20File%20%3E%20Info%20%3E%20Remove%20Personal,from%20the%20document%20check%20box.)"
+    },
+    {
+        "front": "<b>Q64. What chart type cannot be used for more than one data series?</b>\n- Pie\n- Column\n- Line\n- Bar",
+        "back": "Pie"
+    },
+    {
+        "front": "<b>Q65. In the image below, where do you click to hide comments when a document prints?</b>\n![image](https://i.imgur.com/JjdzceL.png?raw=png)\n- A\n- B\n- C\n- D",
+        "back": "B"
+    },
+    {
+        "front": "<b>Q66. Which page orientation should you select to accommodate a wide chart or table?</b>\n- Tall\n- Portrait\n- Wide\n- Landscape",
+        "back": "Landscape"
+    },
+    {
+        "front": "<b>Q67. What is the first step in sharing a document that is currently saved on your local hard drive?</b>\n- Get a sharing link for the document.\n- Create a new document in OneDrive.\n- Upload the document to OneDrive.\n- Send an invitation to the document.",
+        "back": "Upload the document to OneDrive."
+    },
+    {
+        "front": "<b>Q68. You are working in another application and want to move text into a Word document. How can you do it?</b>\n- Export the text from the other application as a Word document.\n- Use the Insert command and select the Word document.\n- Select the text and save it as Word document.\n- Use the Clipboard to copy and paste text into the Word document.",
+        "back": "Use the Insert command and select the Word document."
+    },
+    {
+        "front": "<b>Q69. What is typically created as the first page of a document and contains information such as the document title and author?</b>\n- cover page\n- master page\n- blank page\n- table of contents page",
+        "back": "cover page"
+    },
+    {
+        "front": "<b>Q70. Before publishing a document, you want to identify issues that may make it difficult for people with disabilities to read. which feature should you use?</b>\n- check Accessibility\n- inspect document\n- check compatibility\n- protect document",
+        "back": "check Accessibility\n\n[Reference](https://support.microsoft.com/en-us/office/improve-accessibility-with-the-accessibility-checker-a16f6de0-2f39-4a2b-8bd8-5ad801426c7f)"
+    },
+    {
+        "front": "<b>Q71. After selecting the entire document, what is the quickest way to find out how many paragraphs there are in your current Word document?</b>\n- From the start of the document, hold down the Ctrl (Windows) or Command (Mac) key, and press the Down Arrow key repeatedly, counting each paragraph as you go.\n- Click File > Properties > Content to display file information, including the number of paragraphs.\n- On the status bar, select Word Count to display file information, including the number of paragraphs.\n- Click File > Info > Inspect Document to display file information, including the number of paragraphs.",
+        "back": "On the status bar, select Word Count to display file information, including the number of paragraphs."
+    },
+    {
+        "front": "<b>Q72. You want to be able to read one page in your document while editing another page in the same document. What's the most efficient way to do this with only one monitor?</b>\n- On the View tab of the ribbon, click Split.\n- Save a duplicate copy of your document, then view both documents side by side.\n- On the Insert tab of the ribbon, create a bookmark for the location that you want to read.\n- On the View tab of the ribbon, click New Window.",
+        "back": "On the View tab of the ribbon, click Split."
+    },
+    {
+        "front": "<b>Q73. What is the purpose of adding alternative text (alt text) to an image in your document?</b>\n- Alt text improves accessibility in your document.\n- all of these answers\n- Alt text describes what appears in the image.\n- Screen readers read the text aloud for users with visual impairments.",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q74. You are inserting several images in a document and need to include descriptive information about them. Numbering the images will also make it easier to reference them in the associated document text. Which command can help you set this up?</b>\n- Insert Footnote\n- Insert Citation\n- Insert Caption\n- Insert Table of Figures",
+        "back": "Insert Caption"
+    },
+    {
+        "front": "<b>Q75. You want an image to move with the surrounding text as you make changes to the document. Which option should you select?</b>\n- In Line with Text\n- With Text Wrapping\n- Behind Text\n- Through",
+        "back": "With Text Wrapping"
+    },
+    {
+        "front": "<b>Q76. You want to place a triangle shape on your page. Where do you find the shape?</b>\n- On the Insert tab, click SmartArt.\n- On the Insert tab, click Shapes and look in the Rectangles & Triangles section.\n- On the Insert tab, click Icons.\n- On the Insert tab, click Shapes and look in the Basic Shapes section.",
+        "back": "On the Insert tab, click Shapes and look in the Basic Shapes section."
+    },
+    {
+        "front": "<b>Q77. When printing multiple copies of a document, which option groups consecutive pages together, making them easier to distribute?</b>\n- Collated\n- Print One-Sided\n- Uncollated\n- Print on Both Sides",
+        "back": "Collated"
+    },
+    {
+        "front": "<b>Q78. You are sharing your computer screen to collaborate on a document. Which view should you use to minimize the ribbon and give your document the most screen space?</b>\n- Read Mode (Windows) or Focus (Mac)\n- Draft view\n- Web Layout view\n- Outline view",
+        "back": "Read Mode (Windows) or Focus (Mac)"
+    },
+    {
+        "front": "<b>Q79. You want a different header and footer to appear on alternating pages. Which option should you choose?</b>\n- Different Odd & Even Pages\n- Insert Alt Header/Footer\n- Display on Odd Pages Only\n- Different First Page",
+        "back": "Different Odd & Even Pages"
+    },
+    {
+        "front": "<b>Q80. When you start a new, blank document, you usually end up changing the font to Arial 11.5 point. How can you make these settings the default for this and all future new documents?</b>\n- Open any document, change your font settings, and save as a template.\n- Create a macro that will change all fonts to Arial 11.5 point.\n- In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.\n- In a new, blank document, make your font changes and then save your document as a template.",
+        "back": "In a new, blank document, from the Font dialog box, make your changes and set as default for All documents based on the Normal template.\n\n[Reference](https://support.microsoft.com/en-us/office/change-the-default-font-in-word-2f50603b-9886-47e4-a483-48ac5ab80163)"
+    },
+    {
+        "front": "<b>Q81. You inserted a picture into a brochure, and you want to cut down on the background to focus only on the main part of the image. How can you accomplish this?</b>\n- Right-click the picture and select **Crop**.\n- In **Picture Tools**, select **Remove Background**.\n- In **Picture Tools**, select **Picture Effects**.\n- Right-click the picture and select **Size and Position**.",
+        "back": "In **Picture Tools**, select **Remove Background**."
+    },
+    {
+        "front": "<b>Q82. The form you are creating includes a field where users can either pick from a list of choices you provide, or type in a different entry. Which control type should you use?</b>\n- SmartArt\n- drop-down list\n- combo box\n- check box",
+        "back": "combo box"
+    },
+    {
+        "front": "<b>Q83. There is a circle shape in your document. Which of the shape's style can you format?</b>\n- all of these answers\n- Outline\n- Effects\n- Fill",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q84. A word theme is composed of settings for which document attributes?</b>\n- fonts and paragraph spacing\n- colors, fonts, paragraph spacing, and effects\n- colors, fonts, and paragraph spacing\n- colors, fonts, and effects",
+        "back": "colors, fonts, and effects"
+    },
+    {
+        "front": "<b>Q85. When using the Compare function, the differences between two documents are outlined **\\_**.</b>\n- in red\n- on the most recent of the two documents\n- on the original document\n- on a third document",
+        "back": "in red"
+    },
+    {
+        "front": "<b>Q86. You have inserted a picture in your Word document, and you want to ensure that users with visual impairments can access the picture. How can you do this?</b>\n- Insert an object.\n- Insert a caption.\n- Insert AutoText.\n- Insert alt text.",
+        "back": "Insert alt text."
+    },
+    {
+        "front": "<b>Q87. You are creating a company newsletter. The first page has three columns, and the second page will need four columns. How would you do this?</b>\n- Insert a column break at the beginning of the second page.\n- Insert a page break at the end of the first page.\n- Insert a section break at the end of the first page.\n- Insert a text wrapping break at the beginning of the second page.",
+        "back": "Insert a section break at the end of the first page."
+    },
+    {
+        "front": "<b>Q88. You just applied a change from the Design tab of the ribbon, and all of the fonts and formatting in your document changed. What did you change?</b>\n    A. theme\n    B. style set\n    C. default document font\n    D. template\n- D\n- A or B\n- C or D\n- A, B, or C",
+        "back": "A, B, or C"
+    },
+    {
+        "front": "<b>Q89. You want to start a new text section at the current cursor position without adding a new page. Which type of section break should you choose?</b>\n- Continuous\n- Even Page\n- Next Page\n- Odd Page",
+        "back": "Continuous"
+    },
+    {
+        "front": "<b>Q90. Which function allows you to treat multiple objects as a single object for the purpose of manipulating their display or placement within a document?</b>\n- Group\n- Merge\n- Copy\n- Combine",
+        "back": "Group"
+    },
+    {
+        "front": "<b>Q91. Which function turns a document into a webpage?</b>\n- Style\n- Format\n- Translate\n- Transform",
+        "back": "Format"
+    },
+    {
+        "front": "<b>Q92. Which is not a text wrapping option for a picture?</b>\n- justify\n- through\n- behind text\n- tight",
+        "back": "justify"
+    },
+    {
+        "front": "<b>Q93. You are editing a paragraph that begins on one page and ends on the next after selecting the entire paragraph, how can you display it on one page?</b>\n- In paragraph settings, click Indent and Spacing > pagination and select Keep with next\n- In paragraph settings, click Line and Page Break > pagination and select Keep with next\n- In paragraph settings, click Line and Page Break > pagination and select keep lines together\n- In paragraph settings, click Line and Page Break > pagination and select Widow/Orphan control",
+        "back": "In paragraph settings, click Line and Page Break > pagination and select Keep with next"
+    },
+    {
+        "front": "<b>Q94. Double clicking in the left margin will \\_ the paragraph to the right.</b>\n- double indent\n- select\n- delete\n- underline",
+        "back": "select"
+    },
+    {
+        "front": "<b>Q95. When using Track Changes, what formatting indicates that text has been deleted?</b>\n- strikethrough\n- wavy line\n- italic\n- underline",
+        "back": "strikethrough"
+    },
+    {
+        "front": "<b>Q96. What action allows you to quickly access a specific document from your list of saved files?</b>\n- Pin to list\n- Add to chooser\n- Mark as favorite\n- Drag to Home tab",
+        "back": "Mark as favorite"
+    },
+    {
+        "front": "<b>Q97. When you create a macro, you can assign it to a **\\_**. (Select all that apply.)</b>\n    A. keyboard shortcut\n    B. specific user\n    C. style pane\n    D. group on the ribbon\n- D\n- A\n- A, C, D\n- A, B, C",
+        "back": "A\n\n[Reference](https://support.microsoft.com/en-us/office/create-or-run-a-macro-c6b99036-905c-49a6-818a-dfb98b7c3c9c#:~:text=Do%20one%20of%20the%20following,Click%20Button.)"
+    },
+    {
+        "front": "<b>Q98. Both boxes contain a white arrow, but it is visible only in the second box. What command was applied to the second box to make the arrow visible?</b>\n<img src=\"microsoft-word-quiz_Q98.png\">\n- Bring to front\n- WordArt\n- Group\n- Send to back",
+        "back": "Send to back"
+    },
+    {
+        "front": "<b>Q99. Which selecton handle should you drag to rotate the object?</b>\n<img src=\"microsoft-word-quiz_Q99.png\">\n- G\n- E\n- A\n- C",
+        "back": "A"
+    },
+    {
+        "front": "<b>Q100. You and your colleagues are asked to reply to some comments in a documents you have addressed your comments. Which choice is not a good way to indicate that you have taken care of the comments before sending the file to the next person?</b>\n- Insert a new comment\n- Reply to the comment\n- Delete the comment\n- Resolve the comment",
+        "back": "Delete the comment"
+    },
+    {
+        "front": "<b>Q101. What action allow you to quickly access a specific docuemnt from your list of saved file?</b>\n- List\n- Go to file\n- Bookmark\n- Jump",
+        "back": "Bookmark"
+    },
+    {
+        "front": "<b>Q102. Which page orientation should you select to accomdate a wide chart or table?</b>\n- Wide\n- Potrait\n- Landscape\n- None of the above",
+        "back": "Landscape"
+    },
+    {
+        "front": "<b>Q103. For what task can you not use the style inspector?</b>\n- displaying the paragraph formatting at the insertion point\n- resestting or clearing paragraph or text-level formatting\n- recommending style changes for improved accessibility\n- displaying the text-level formatting at the insertion point",
+        "back": "recommending style changes for improved accessibility"
+    },
+    {
+        "front": "<b>Q104. Your industry uses a lot of terminology that is not included in regular dictionaries, so document checking is both inaccurate and laborious. How can you modify Word to make document checking more efficient and accurate?</b>\n- In the Word proofing options, enable Suggest (Windows) or Select (Mac) from main dictionary only\n- Add your terminology to the default Word dictionary\n- In the Word proofing tools, enable checking for both Cliches and Jargon (Windows) or Cliches, colloquialisms and jargon (Mac)\n- Create a custom dictionary that includes your specific terminology",
+        "back": "Create a custom dictionary that includes your specific terminology\n\n[Reference](https://support.microsoft.com/en-us/office/add-or-edit-words-in-a-spell-check-dictionary-56e5c373-29f8-4d11-baf6-87151725c0dc)"
+    },
+    {
+        "front": "<b>Q105. What happens when you resolve a comment?</b>\n- The comment is deleted\n- There is no change to the comment\n- A reply is added to the comment\n- The comment appears dimmed",
+        "back": "The comment appears dimmed"
+    },
+    {
+        "front": "<b>Q106. Using the Styles group in Word lets you quickly **\\_\\_**?</b>\n- apply frames and artistic effects to graphics\n- modify page margins\n- apply a different theme\n- apply styles for heading levels, body text, and titles",
+        "back": "apply styles for heading levels, body text, and titles"
+    },
+    {
+        "front": "<b>Q107. You need to direct a reader from specific text to a related graphic that clarifies the content in another place in your document. Which command can you use to set this up?</b>\n- Citation\n- Table of Contents\n- Cross-Reference\n- Table of Figures",
+        "back": "Cross-Reference"
+    },
+    {
+        "front": "<b>Q108. Which style type should you create in order to control font, font color, tab positions, and line breaks?</b>\n- table\n- hybrid\n- character\n- paragraph",
+        "back": "paragraph\n\n[Reference](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563)\n\n[Reference](https://www.ionos.com/digitalguide/online-marketing/online-sales/word-styles-creating-and-modifying-styles-in-word/)"
+    },
+    {
+        "front": "<b>Q109. What tasks are required to create a template from an existing document?</b>\n    A. Remove content specific to the existing document.\n    B. Create a template folder for the file.\n    C. Save the file as a template(.dotx) file.\n    D. Open the template and use it.\n- A, C\n- A, B, C, D\n- A, B, C\n- B, C, D",
+        "back": "A, C\n\n[Reference](https://techcommunity.microsoft.com/t5/microsoft-365/how-to-use-a-dotx-file/m-p/3497853)\n\n[Reference](https://support.microsoft.com/en-us/office/create-a-template-86a1d089-5ae2-4d53-9042-1191bce57deb)"
+    }
+]

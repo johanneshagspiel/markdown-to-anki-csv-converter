@@ -1,0 +1,290 @@
+[
+    {
+        "front": "<b>Q1. What is this code an example of?</b>\n```swift\nlet val = (Double)6\n```\n- A syntax issue\n- Typecasting\n- Assignment\n- Initialization\nReference: [_The Swift Programming Language: Language Guide: The Basics: Constants and Variables_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID310)",
+        "back": "A syntax issue"
+    },
+    {
+        "front": "<b>Q2. What is the error in this code?</b>\n```swift\nlet x = 5\nguard x == 5 { return }\n```\n- The `guard` is missing the `else`\n- Nothing is wrong\n- The `guard` is missing a `then`\n- The comparison is wrong\nReference: [_The Swift Programming Language: Language Guide: Control Flow: Early Exit_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID525)",
+        "back": "The `guard` is missing the `else`"
+    },
+    {
+        "front": "<b>Q3. What is the raw/underlying type of this enum?</b>\n```swift\nenum Direction {\n  case north, south, east, west\n}\n```\n- There is none\n- `String`\n- `Any`\n- `Int`\nReference: [_The Swift Programming Language: Language Guide: Enumerations: Raw Values_](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID149)",
+        "back": "There is none"
+    },
+    {
+        "front": "<b>Q4. Why is dispatchGroup used in certain situations?</b>\n- It allows multiple synchronous or asynchronous operations to run on different queues.\n- It allows track and control execution of multiple operations together.\n- It allows operations to wait for each other as desired.\n- All of these answers.\nReference: [Apple Developer: Documentation: Dispatch: Dispatch Group](https://developer.apple.com/documentation/dispatch/dispatchgroup)",
+        "back": "All of these answers.\nReference: [Apple Developer: Documentation: Dispatch: Dispatch Group](https://developer.apple.com/documentation/dispatch/dispatchgroup)"
+    },
+    {
+        "front": "<b>Q5. What is this code an example of?</b>\n```swift\nlet val = 5\nprint(\"value is: \\(val)\")\n```\n- String interpolation\n- String compilation\n- Method chaining\n- String concatenation\nReference: [_The Swift Programming Language: Language Guide: Strings and Characters: String Interpolation_](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID292)",
+        "back": "String interpolation"
+    },
+    {
+        "front": "<b>Q6. What are the contents of `vals` after this code is executed?</b>\n```swift\nvar vals = [10, 2]\nvals.sort { (s1, s2) -> Bool in\n  s1 > s2\n}\n```\n- `[10, 2]`\n- `[2, 10]`\n- `nil`\n- This code contains an error\nReference: [Apple Developer: Documentations: Swift: Array: sort()](<https://developer.apple.com/documentation/swift/array/sort()>)",
+        "back": "`[10, 2]`"
+    },
+    {
+        "front": "<b>Q7. What does this code print?</b>\n```swift\ntypealias Thing = [String: Any]\nvar stuff: Thing\nprint(type(of: stuff))\n```\n- `Dictionary<String, Any>`\n- `Dictionary`\n- `Error`\n- `Thing`\nReference: [_The Swift Programming Language: Language Reference: Types: Type Identifier_](https://docs.swift.org/swift-book/ReferenceManual/Types.html#ID447)",
+        "back": "`Dictionary<String, Any>`"
+    },
+    {
+        "front": "<b>Q8. What is the value of y?</b>\n```swift\nlet x = [\"1\", \"2\"].dropFirst()\nlet y = x[0]\n```\n- This code contains an error\n- `1`\n- `2`\n- `nil`\nReference: [Apple Developer: Documentation: Swift: Array: dropFirst(\\_:)](<https://developer.apple.com/documentation/swift/array/dropfirst(_:)>)",
+        "back": "This code contains an error"
+    },
+    {
+        "front": "<b>Q9. What is the value of test in this code?</b>\n```swift\nvar test = 1 == 1\n```\n- `true`\n- `YES`\n- `1`\n- This code contains an error\nReference: [_The Swift Programming Language: Language Guide: Basic Operators: Comparison Operators_](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID70)",
+        "back": "`true`"
+    },
+    {
+        "front": "<b>Q10. What is the value of y?</b>\n```swift\nvar x: Int?\nlet y = x ?? 5\n```\n- `5`\n- `0`\n- `nil`\n- This code contains an error\nReference: [_The Swift Programming Language: Language Guide: Basic Operators: Nil-Coalescing Operators_](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID72)",
+        "back": "`5`"
+    },
+    {
+        "front": "<b>Q11. What is the type of this function?</b>\n```swift\nfunc add(a: Int, b: Int) -> Int { return a+b }\n```\n- `Int`\n- `(Int, Int) -> Int`\n- `Int<Optional>`\n- Functions don't have types.\nReference: [_The Swift Programming Language: Language Guide: Functions: Function Types_](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID174)",
+        "back": "`(Int, Int) -> Int`"
+    },
+    {
+        "front": "<b>Q12. What is the correct way to call this function?</b>\n```swift\nfunc myFunc(_ a: Int, b: Int) -> Int {\n  return a + b\n}\n```\n- `myFunc(5, b: 6)`\n- `myFunc(5, 6)`\n- `myFunc(a: 5, b: 6)`\n- `myFunc(a, b)`\nReference: [_The Swift Programming Language: Language Guide: Functions: Function Argument Labels and Parameter Names_](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID166)",
+        "back": "`myFunc(5, b: 6)`"
+    },
+    {
+        "front": "<b>Q13. The Codable protocol is **\\_**?</b>\n- A combination of `Encodable` and `Decodable`\n- Not a true protocol\n- Required of all classes\n- Automatically included in all classes\nReferences:\n- [Apple Developer: Documentation: Swift: Swift Standard Library: Encoding, Decoding, and Serialization: Codable](https://developer.apple.com/documentation/swift/codable/)\n- [_The Swift Programming Language: Language Guide: Protocols: Protocol Composition_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID282)",
+        "back": "A combination of `Encodable` and `Decodable`"
+    },
+    {
+        "front": "<b>Q14. What is the type of value1 in this code?</b>\n```swift\nlet value1 = \"\\(\"test\".count)\"\n```\n- `String`\n- `Int`\n- `null`\n- `test.count`\nReference: [_The Swift Programming Language: Language Guide: Strings and Characters: String Interpolation_](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID292)",
+        "back": "`String`"
+    },
+    {
+        "front": "<b>Q15. When a function takes a closure as a parameter, when do you want to mark is as escaping?</b>\n- When it's executed after the function returns\n- When it's scope is undefined\n- When it's lazy loaded\n- All of these answers\nReference: [_The Swift Programming Language: Language Guide: Closures: Escaping Closures_](https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID546)",
+        "back": "When it's executed after the function returns"
+    },
+    {
+        "front": "<b>Q16. What's wrong with this code?</b>\n```swift\nclass Person {\n  var name: String\n  var address: String\n}\n```\n- Person has no initializers.\n- Person has no base class.\n- `var name` is not formatted correctly.\n- `address` is a keyword.\nReference: [_The Swift Programming Language: Language Guide: Initialization: Class Inheritance and Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID216)",
+        "back": "Person has no initializers."
+    },
+    {
+        "front": "<b>Q17. What is the value of names after this code is executed?</b>\n```swift\nlet names = [\"Bear\", \"Joe\", \"Clark\"]\nnames.map { (s) -> String in\n  return s.uppercased()\n}\n```\n- `[\"BEAR\", \"JOE\", \"CLARK\"]`\n- `[\"B\", \"J\", \"C\"]`\n- `[\"Bear\", \"Joe\", \"Clark\"]`\n- This code contains an error.",
+        "back": "`[\"Bear\", \"Joe\", \"Clark\"]`"
+    },
+    {
+        "front": "<b>Q18. What describes this line of code?</b>\n```swift\nlet val = 5\n```\n- A constant named val of type `Int`\n- A variable named val of type `item`\n- A constant named val of type `Number`\n- A variable named val of type `Int`\nReference: [_The Swift Programming Language: Language Guide: The Basics: Type Safety and Type Inference_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)",
+        "back": "A constant named val of type `Int`"
+    },
+    {
+        "front": "<b>Q19. What is the error in this code?</b>\n```swift\nextension String {\n  var firstLetter: Character = \"c\" {\n    didSet {\n      print(\"new value\")\n    }\n  }\n}\n```\n- Extensions can't add properties.\n- Nothing is wrong with it.\n- `didSet` takes a parameter.\n- `c` is not a character.\nReference: [_The Swift Programming Language: Language Guide: Extensions: Computed Properties_](https://docs.swift.org/swift-book/LanguageGuide/Extensions.html#ID152)",
+        "back": "Extensions can't add properties."
+    },
+    {
+        "front": "<b>Q20. didSet and willSet are examples of **\\_**?</b>\n- Property observers\n- Key properties\n- All of these answers\n- `newOld` value calls\nReference: [_The Swift Programming Language: Language Guide: Properties_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID262)",
+        "back": "Property observers"
+    },
+    {
+        "front": "<b>Q21. What is wrong with this code?</b>\n```swift\nself.callback = {\n  self.attempts += 1\n  self.downloadFailed()\n}\n```\n- Use of `self` inside the closure causes retain cycle.\n- You cannot assign a value to a closure in this manner.\n- You need to define the type of closure explicitly.\n- There is nothing wrong with this code.\nReference: [_The Swift Programming Language: Language Guide: Automatic Reference Counting: Strong Reference Cycles for Closures_](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID56)",
+        "back": "Use of `self` inside the closure causes retain cycle."
+    },
+    {
+        "front": "<b>Q22. How many values does vals have after this code is executed?</b>\n```swift\nvar vals = Set<String> = [\"4\", \"5\", \"6\"]\nvals.insert(\"5\")\n```\n- Three\n- Four\n- Eight\n- This code contains an error.\nReference: [_The Swift Programming Language: Language Guide: Collection Types: Sets_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID484)",
+        "back": "This code contains an error.\nReference: [_The Swift Programming Language: Language Guide: Collection Types: Sets_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID484)"
+    },
+    {
+        "front": "<b>Q23. How can you avoid a strong reference cycle in a closure?</b>\n- Use a capture list to set class instances of `weak` or `unowned`.\n- You can't, there will always be a danger of strong reference cycles inside a closure.\n- Initialize the closure as read-only.\n- Declare the closure variable as `lazy`.\nReference: [_The Swift Programming Language: Language Guide: Automatic Reference Counting_](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#ID56)",
+        "back": "Use a capture list to set class instances of `weak` or `unowned`."
+    },
+    {
+        "front": "<b>Q24. What is wrong with this code?</b>\n```swift\nif let s = String.init(\"some string\") {\n  print(s)\n}\n```\n- This `String` initializer does not return an optional.\n- String does not have an initializer that can take a `String`.\n- `=` is not a comparison.\n- Nothing is wrong with this code.\nReference: [_The Swift Programming Language: Language Guide: The Basics: Optionals_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID330)",
+        "back": "This `String` initializer does not return an optional."
+    },
+    {
+        "front": "<b>Q25. Which code snippet correctly creates a typealias closure?</b>\n- `typealias CustomClosure = () -> ()`\n- `typealias CustomClosure { () -> () }`\n- `typealias CustomClosure -> () -> ()`\n- `typealias CustomClosure -> () {}`\nReference: [_The Swift Programming Language: Language Reference: Declarations: Type Alias Declaration_](https://docs.swift.org/swift-book/ReferenceManual/Declarations.html#grammar_typealias-declaration)",
+        "back": "`typealias CustomClosure = () -> ()`"
+    },
+    {
+        "front": "<b>Q26. How do you reference class members from within a class?</b>\n- `self`\n- `instance`\n- `class`\n- `this`\nReference: [_The Swift Programming Language: Language Guide: Methods: Instance Methods_](https://docs.swift.org/swift-book/LanguageGuide/Methods.html#ID235)",
+        "back": "`self`"
+    },
+    {
+        "front": "<b>Q27. All value types in Swift are **\\_** under the hood?</b>\n- Structs\n- Classes\n- Optionals\n- Generics\nReference: [_The Swift Programming Language: Language Guide: Structures and Classes_](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html#ID88)",
+        "back": "Structs"
+    },
+    {
+        "front": "<b>Q28. What is the correct way to add a value to this array?</b>\n```swift\nvar strings = [1, 2, 3]\n```\n- All of these answers\n- `strings.append(4)`\n- `strings.insert(5, at: 1)`\n- `strings += [5]`\nReference: [_The Swift Programming Language: Language Guide: Collection Types: Arrays_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID107)",
+        "back": "All of these answers"
+    },
+    {
+        "front": "<b>Q29. How many times will this loop be executed?</b>\n```swift\nfor i in 0...100 {\n  print(i)\n}\n```\n- 0\n- 101\n- 99\n- 100\nReferences:\n- [_The Swift Programming Language: Language Guide: Control Flow: For-in Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID121)\n- [_The Swift Programming Language: Language Guide: Basic Operators: Range Operators_](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID73)",
+        "back": "101"
+    },
+    {
+        "front": "<b>Q30. What can AnyObject represent?</b>\n- An instance of any class\n- An instance of function type\n- All of these answers\n- An instance of an optional type\nReference: [_The Swift Programming Language: Language Guide: Type Casting: Type Casting for Any and AnyObject_](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID342)",
+        "back": "An instance of any class"
+    },
+    {
+        "front": "<b>Q31. What is the value of t after this code is executed?</b>\n```swift\nlet names = [\"Larry\", \"Sven\", \"Bear\"]\nlet t = names.enumerated().first().offset\n```\n- This code does not compile. / This code is invalid.\n- 0\n- 1\n- Larry\nReferences:\n- [Apple Developer: Documentation: Swift: Array: enumerated()](<https://developer.apple.com/documentation/swift/array/enumerated()>)\n- [Apple Developer: Documentation: Swift: Array](https://developer.apple.com/documentation/swift/array/first)",
+        "back": "This code does not compile. / This code is invalid."
+    },
+    {
+        "front": "<b>Q32. What is the value of test after this code executes?</b>\n```swift\nlet vt = (name: \"ABC\", val: 5)\nlet test = vt.0\n```\n- `ABC`\n- `0`\n- `5`\n- `name`\nReferences:\n- [_The Swift Programming Language: Language Guide: The Basics: Tuples_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID329)\n- [_The Swift Programming Language: Language Reference: Expressions: Primary Expressions: Tuple Expression_](https://docs.swift.org/swift-book/ReferenceManual/Expressions.html#grammar_tuple-expression)",
+        "back": "`ABC`"
+    },
+    {
+        "front": "<b>Q33. What is the base class in this code?</b>\n```swift\nclass LSN: MMM {\n}\n```\n- MMM\n- LSN\n- There is no base class.\n- This code is invalid.\nReference: [_The Swift Programming Language: Language Guide: Inheritance: Subclassing_](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID195)",
+        "back": "MMM"
+    },
+    {
+        "front": "<b>Q34. What does this code print to the console?</b>\n```swift\nvar userLocation: String = \"Home\" {\n  willSet(newValue) {\n    print(\"About to set userLocation to \\(newValue)...\")\n  }\n  didSet {\n    if userLocation != oldValue {\n      print(\"userLocation updated with new value!\")\n    } else {\n      print(\"userLocation already set to that value...\")\n    }\n  }\n}\nuserLocation = \"Work\"\n```\n- `About to set userLocation to Work... userLocation updated with new value!`\n- `About to set userLocation to Work... userLocation already set to that value...`\n- `About to set userLocation to Home... userLocation updated to new value!`\n- `Error`\nReference: [_The Swift Programming Language: Language Guide: Properties: Property Observers_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID262)",
+        "back": "`About to set userLocation to Work... userLocation updated with new value!`"
+    },
+    {
+        "front": "<b>Q35. What must a convenience initializer call?</b>\n- A base class convenience initializer\n- Either a designated or another convenience initializer\n- A designated initializer\n- None of these answers\nReference: [_The Swift Programming Language: Language Guide: Initialization: Class Inheritance and Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID216)",
+        "back": "A designated initializer"
+    },
+    {
+        "front": "<b>Q36. Which object allows you access to specify that a block of code runs in a background thread?</b>\n- DispatchQueue.visible\n- DispatchQueue.global\n- errorExample need to be labeled as `throws`.\n- DispatchQueue.background\nReference: [Apple Developer: Documentation: Dispatch: DispatchQueue](https://developer.apple.com/documentation/dispatch/dispatchqueue/2300077-global)",
+        "back": "DispatchQueue.global"
+    },
+    {
+        "front": "<b>Q37. What is the inferred type of x?</b>\n```swift\nlet x = [\"a\", \"b\", \"c\"]\n```\n- `String[]`\n- `Array<String>`\n- `Set<String>`\n- `Array<Character>`\nReference: [_The Swift Programming Language: Language Guide: Collection Types: Arrays_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID107)",
+        "back": "`Array<String>`"
+    },
+    {
+        "front": "<b>Q38. What is the value of `oThings` after this code is executed?</b>\n```swift\nlet nThings: [Any] = [1, \"2\", \"three\"]\nlet oThings = nThings.reduce(\"\") { \"\\($0)\\($1)\" }\n```\n- 11212three\n- 115\n- 12three\n- Nothing, this code is invalid.\nReference: [Apple Developer: Documentation: Swift: Array: reduce(\\_:\\_:)](<https://developer.apple.com/documentation/swift/array/reduce(_:_:)>)",
+        "back": "12three"
+    },
+    {
+        "front": "<b>Q39. How would you call a function that throws errors and also returns a value?</b>\n- `!try`\n- `try?`\n- `try!`\n- `?try`\nReference: [_The Swift Programming Language: Language Guide: Error Handling: Handling Errors_](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID512)",
+        "back": "`try?`"
+    },
+    {
+        "front": "<b>Q40. What is wrong with this code?</b>\n```swift\nprotocol TUI {\n  func add(x1: Int, x2: Int) -> Int {\n    return x1 + x2\n  }\n}\n```\n- Protocol functions cannot have return types.\n- Protocol functions cannot have implementations.\n- Nothing is wrong with it.\n- `add` is a reserved keyword.\nReference:\n- [_The Swift Programming Language: Language Guide: Protocols: Method Requirements_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID270)\n- [_The Swift Programming Language: Language Guide: Protocols: Protocol Extensions_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID521)",
+        "back": "Protocol functions cannot have implementations."
+    },
+    {
+        "front": "<b>Q41. In this code, what are `wheels` and `doors` examples of?</b>\n```swift\nclass Car {\n  var wheels: Int = 4\n  let doors = 4\n}\n```\n- Class members\n- This code is invalid\n- Class fields\n- Class properties\nReference:\n- [_The Swift Programming Language: Language Guide: Structures and Classes_](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)\n- [_The Swift Programming Language: Language Guide_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID255)",
+        "back": "Class properties\nReference:\n- [_The Swift Programming Language: Language Guide: Structures and Classes_](https://docs.swift.org/swift-book/LanguageGuide/ClassesAndStructures.html)\n- [_The Swift Programming Language: Language Guide_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID255)"
+    },
+    {
+        "front": "<b>Q42. How do you designated a failable initializer?</b>\n- You cannot\n- `deinit`\n- `init?`\n- `init`\nReference:\n- [_The Swift Programming Language: Language Guide: Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID224)\n- [_The Swift Programming Language: Language Guide: Deinitialization_](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html)",
+        "back": "`init?`"
+    },
+    {
+        "front": "<b>Q43. What is printed when this code is executed?</b>\n```swift\nlet dbl = Double.init(\"5a\")\nprint(dbl ?? \".asString()\")\n```\n- `five`\n- `5a`\n- `.asString()`\n- `5`\nReference:\n- [_The Swift Programming Language: Language Guide: Basic Operators: Nil-Coalescing Operator_](https://docs.swift.org/swift-book/LanguageGuide/BasicOperators.html#ID72)\n- [_The Swift Programming Language: Language Guide: Initialization: Failable Initializers_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID224)",
+        "back": "`.asString()`"
+    },
+    {
+        "front": "<b>Q44. In the function below, what are `this` and `toThat` examples of?</b>\n```swift\nfunc add(this x: Int, toThat y: Int) { }\n```\n- None of these answers\n- Local terms\n- Argument labels\n- Parameters names\nReference: [_The Swift Programming Language: Language Guide: Functions_](https://docs.swift.org/swift-book/LanguageGuide/Functions.html#ID166)",
+        "back": "Argument labels"
+    },
+    {
+        "front": "<b>Q45. What is wrong with this code?</b>\n```swift\nfor (key, value) in [1: \"one\", 2: \"two\"] {\n  print(key, value)\n}\n```\n- The interaction source is invalid\n- The interaction variable is invalid\n- There is nothing wrong with this code\n- The comma in the print is misplaced\nReference: [_The Swift Programming Language: Language Guide: Control Flow: For-In Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID121)",
+        "back": "There is nothing wrong with this code"
+    },
+    {
+        "front": "<b>Q46. Which of these choices is associated with unit testing?</b>\n- `XCTest`\n- All of these answers\n- `@testable`\n- `XCTAssert`\nReference:\n- [Apple Developer: Documentation: XCTest: XCTest](https://developer.apple.com/documentation/xctest/xctest)\n- [Apple Developer: Documentation: XCTest: Boolean Assertions: XCTAssert(\\_:\\_:file:line:)](https://developer.apple.com/documentation/xctest/1500669-xctassert)\n- [_The Swift Programming Language: Language Guide: Access Control: Access Levels_](https://docs.swift.org/swift-book/LanguageGuide/AccessControl.html#ID5)",
+        "back": "All of these answers"
+    },
+    {
+        "front": "<b>Q47. In the code below, what is width an example of?</b>\n```swift\nclass Square {\n  var height: Int = 0\n  var width: Int {\n    return height\n  }\n}\n```\n- This code contains error\n- A closure\n- A computed property\n- Lazy loading\nReference:\n- [_The Swift Programming Language: Language Guide: Properties: Stored Properties_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID255)\n- [_The Swift Programming Language: Language Guide: Properties: Computed Properties_](https://docs.swift.org/swift-book/LanguageGuide/Properties.html#ID259)\n- [_The Swift Programming Language: Language Guide: Closures: Trailing Closures_](https://docs.swift.org/swift-book/LanguageGuide/Closures.html#ID102)",
+        "back": "A computed property"
+    },
+    {
+        "front": "<b>Q48. What data type is this an example of?</b>\n```swift\nlet vals = (\"val\", 1)\n```\n- A dictionary\n- A tuple\n- An optional\n- This code contains error\nReference:\n- [_The Swift Programming Language: Language Guide: The Basics_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID329)\n- [_The Swift Programming Language: Language Reference: Types_](https://docs.swift.org/swift-book/ReferenceManual/Types.html#grammar_tuple-type)",
+        "back": "A tuple"
+    },
+    {
+        "front": "<b>Q49. What is wrong with this code?</b>\n```swift\nvar x = 5\nx = 10.0\n```\n- You cannot assign a Double to a variable of type Int\n- `x` is undefined\n- `x` is a constant\n- `x` has no type\nReference: [_The Swift Programming Language: Language Guide: The Basics_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)",
+        "back": "You cannot assign a Double to a variable of type Int"
+    },
+    {
+        "front": "<b>Q50. What will this code print to the console?</b>\n```swift\nvar items = [\"a\": 1, \"b\": 2, \"c\": \"test\"] as [String: Any]\nitems[\"c\"] = nil\nprint(items[\"c\"] as Any)\n```\n- Any\n- test\n- 1,2,3\n- nil\nReferences:\n- [_The Swift Programming Language: Language Guide: Type Casting: Type Casting for Any and AnyObject_](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID342)\n- [_The Swift Programming Language: Language Guide: Collection Types: Dictionaries_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID113)",
+        "back": "nil\nReferences:\n- [_The Swift Programming Language: Language Guide: Type Casting: Type Casting for Any and AnyObject_](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID342)\n- [_The Swift Programming Language: Language Guide: Collection Types: Dictionaries_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID113)"
+    },
+    {
+        "front": "<b>Q51. What is wrong with this code?</b>\n```swift\nlet val = 5.0 + 10\n```\n- There is nothing wrong with this code\n- `val` is a constant and cannot be changed\n- `5.0` and `10` are different types\n- There is no semicolon\nReference: [_The Swift Programming Language: Language Guide: The Basics: Type Safety and Type Inference_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)",
+        "back": "There is nothing wrong with this code"
+    },
+    {
+        "front": "<b>Q52. How many parameters does the initializer for Test have?</b>\n```swift\nstruct Test {\n  var score: Int\n  var date: Date\n}\n```\n- Zero\n- This code contains an error\n- Two\n- Structs do not have initializers\nReference: [_The Swift Programming Language: Language Guide: Initialization_](https://docs.swift.org/swift-book/LanguageGuide/Initialization.html#ID213)",
+        "back": "Two"
+    },
+    {
+        "front": "<b>Q53. What prints to the console when executing this code?</b>\n```swift\nlet x = try? String.init(\"test\")\nprint(x)\n```\n- nil\n- Nothing - this code contains an error\n- Optional(\"test\")\n- test\nReferences:\n- [_The Swift Programming Language: Language Guide: Error Handling: Handling Errors_](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID512)\n- [_The Swift Programming Language: Language Guide: The Basics: Optionals_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID330)",
+        "back": "Optional(\"test\")"
+    },
+    {
+        "front": "<b>Q54. How can you sort this array?</b>\n```swift\nvar vals = [1, 2, 3]\n```\n- `vals.sort { $0 < $1 }`\n- `vals.sort { (s1, s2) in s1 < s2 }`\n- `vals.sort(by: <)`\n- All of these answers\nReference: [Apple Developer: Documentation: Swift: Array: sort()](<https://developer.apple.com/documentation/swift/array/sort()>)",
+        "back": "All of these answers\nReference: [Apple Developer: Documentation: Swift: Array: sort()](<https://developer.apple.com/documentation/swift/array/sort()>)"
+    },
+    {
+        "front": "<b>Q55. DispatchQueue.main.async takes a block that will be</b>\n- Not executed\n- Executed in the main queue\n- None of these answers\n- Executed on the background thread\nReference: [Apple Developer: Documentation: Dispatch: DispatchQueue: async(group:qos:flags:execute:)](https://developer.apple.com/documentation/dispatch/dispatchqueue/2016098-async)",
+        "back": "Executed in the main queue"
+    },
+    {
+        "front": "<b>Q56. When is deinit called?</b>\n- When a class instance needs memory\n- All of these answers\n- When the executable code is finished\n- When a class instance is being removed from memory\nReference: [_The Swift Programming Language: Language Guide: Deinitialization_](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html)",
+        "back": "When a class instance is being removed from memory\nReference: [_The Swift Programming Language: Language Guide: Deinitialization_](https://docs.swift.org/swift-book/LanguageGuide/Deinitialization.html)"
+    },
+    {
+        "front": "<b>Q57. How do you declare an optional String?</b>\n- `String?`\n- `Optional[String]`\n- `[String]?`\n- `?String`\nReference: [_The Swift Programming Language: Language Guide: The Basics: Optionals_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID330)",
+        "back": "`String?`"
+    },
+    {
+        "front": "<b>Q58. How many times this code will be executed? / How many times will this loop be performed?</b>\n```swift\nfor i in [\"0\", \"1\"] {\n  print(i)\n}\n```\n- One\n- Two\n- Three\n- This code does not compile\nReference: [_The Swift Programming Language: Language Guide: Control Flow: For-In Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID121)",
+        "back": "Two"
+    },
+    {
+        "front": "<b>Q59. What does this code print?</b>\n```swift\nlet names = [\"Bear\", \"Tony\", \"Svante\"]\nprint(names[1] + \"Bear\")\n```\n- 1Bear\n- BearBear\n- TonyBear\n- Nothing, this code is invalid\nReferences:\n- [_The Swift Programming Language: Language Guide: Collection Types: Arrays_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID107)\n- [_The Swift Programming Language: Language Guide: Strings and Characters: Concatenating Strings and Characters_](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID291)",
+        "back": "TonyBear"
+    },
+    {
+        "front": "<b>Q60. What is true of this code?</b>\n```swift\nlet name: String?\n```\n- `name` can hold only a string value.\n- `name` can hold either a string or nil value.\n- Optional values cannot be `let` constants.\n- Only non-empty string variables can be stored in `name`.\nReference: [_The Swift Programming Language: Language Guide: The Basics: Optionals_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID330)",
+        "back": "`name` can hold either a string or nil value."
+    },
+    {
+        "front": "<b>Q61. What is the value of `val` after this code is executed?</b>\n```swift\nlet i = 5\nlet val = i * 6.0\n```\n- This code is invalid.\n- 6\n- 30\n- 0\nReference: [_The Swift Programming Language: Language Guide: The Basics: Type Safety and Type Inference_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID322)",
+        "back": "This code is invalid."
+    },
+    {
+        "front": "<b>Q62. What does this code print?</b>\n```swift\nenum Positions: Int {\n  case first, second, third, other\n}\nprint (Positions.other.rawValue)\n```\n- 3\n- 0\n- other\n- nil\nReference: [_The Swift Programming Language: Language Guide: The Basics: Raw Values_](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID149)",
+        "back": "3"
+    },
+    {
+        "front": "<b>Q63. What is printed to the console when this code is executed?</b>\n```swift\n\"t\".forEach { (char) in\n  print(char)\n}\n```\n- nil\n- Nothing, since the code contains an error\n- t\n- zero\nReferences:\n- [_The Swift Programming Language: Language Guide: Strings and Characters: Working with Characters_](https://docs.swift.org/swift-book/LanguageGuide/StringsAndCharacters.html#ID290)\n- [Apple Developer: Documentation: Swift: String: forEach(\\_:)](<https://developer.apple.com/documentation/swift/string/foreach(_:)>)",
+        "back": "t"
+    },
+    {
+        "front": "<b>Q64. What prints when this code is executed?</b>\n```swift\nlet s1 = [\"1\", \"2\", \"3\"]\n  .filter { $0 > \"0\" }\n  .sorted { $0 > $1 }\nprint(s1)\n```\n- []\n- [\"3\", \"2\", \"1\"]\n- [321]\n- [\"1\", \"2\", \"3\"]\nReferences:\n- [Apple Developer: Documentation: Swift: Swift Standard Library: Collections: Sequence and Collection Protocols: Sequence: filter()](<https://developer.apple.com/documentation/swift/sequence/filter(_:)>)\n- [Apple Developer: Documentation: Swift: Array: sorted()](<https://developer.apple.com/documentation/swift/array/sorted()>)",
+        "back": "[\"3\", \"2\", \"1\"]"
+    },
+    {
+        "front": "<b>Q65. What enumeration feature allows them to store case-specific data?</b>\n- Associated values\n- Integral values\n- Raw values\n- Custom values\nReference: [_The Swift Programming Language: Language Guide: Enumerations: Associated Values_](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html#ID148)",
+        "back": "Associated values"
+    },
+    {
+        "front": "<b>Q66. In the code below, AOM must be a(n)?</b>\n```swift\nclass AmP: MMM, AOM { }\n```\n- Class\n- Protocol\n- Enumeration\n- Struct\nReferences:\n- [_The Swift Programming Language: Language Guide: Inheritance: Subclassing_](https://docs.swift.org/swift-book/LanguageGuide/Inheritance.html#ID195)\n- [_The Swift Programming Language: Language Guide: Protocols: Protocol Syntax_](https://docs.swift.org/swift-book/LanguageGuide/Protocols.html#ID268)",
+        "back": "Protocol"
+    },
+    {
+        "front": "<b>Q67. What is the value of numbers in the code below?</b>\n```swift\nlet numbers = [1, 2, 3, 4, 5, 6].filter { $0 % 2 == 0 }\n```\n- [1, 3, 5]\n- []\n- [2, 4, 6]\n- nil\nReference: [Apple Developer: Documentation: Swift: Swift Standard Library: Collections: Sequence and Collection Protocols: Sequence: filter()](<https://developer.apple.com/documentation/swift/sequence/filter(_:)>)",
+        "back": "[2, 4, 6]"
+    },
+    {
+        "front": "<b>Q68. What is the type of `vals` in this code?</b>\n```swift\nlet vals = [\"a\", 1, \"Hi\"]\n```\n- Array(char)\n- [Any]\n- Array<char>\n- [Generic]\nReference: [_The Swift Programming Language: Language Guide: Type Casting_](https://docs.swift.org/swift-book/LanguageGuide/TypeCasting.html#ID342)",
+        "back": "[Any]"
+    },
+    {
+        "front": "<b>Q69. How can you extract val to `x` in tuple `vt`</b>\n```swift\nlet vt = (name: \"ABC\", val: 5)\n```\n- let x = vt.1\n- All of these answers\n- let x = vt.val\n- let (`_`, x) = vt\nReference: [_The Swift Programming Language: Language Guide: The Basics: Tuples_](https://docs.swift.org/swift-book/LanguageGuide/TheBasics.html#ID329)",
+        "back": "All of these answers"
+    },
+    {
+        "front": "<b>Q70. What is the type of x?</b>\n```swift\nlet x = try? String.init(from: decoder)\n```\n- String\n- String?\n- String!\n- try?\nReference: [_The Swift Programming Language: Language Guide: Error Handling: Handling Errors_](https://docs.swift.org/swift-book/LanguageGuide/ErrorHandling.html#ID512)",
+        "back": "String?"
+    },
+    {
+        "front": "<b>Q71. How many times is this loop executed?</b>\n```swift\nlet loopx = 5\nrepeat {\n  print (loopx)\n} while loopx < 6\n```\n- Six\n- Zero\n- Five\n- Infinite\nReference: [_The Swift Programming Language: Language Guide: Control Flow: While Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID124)",
+        "back": "Infinite\nReference: [_The Swift Programming Language: Language Guide: Control Flow: While Loops_](https://docs.swift.org/swift-book/LanguageGuide/ControlFlow.html#ID124)"
+    },
+    {
+        "front": "<b>Q72. How many values does vals have after this code is executed?</b>\n```swift\nvar vals: Set<String> = [\"4\", \"5\", \"6\"]\nvals.insert(\"5\")\n```\n- This code contains an error.\n- Eight\n- Three\n- Four\nReference: [_The Swift Programming Language: Language Guide: Collection Types: Sets_](https://docs.swift.org/swift-book/LanguageGuide/CollectionTypes.html#ID484)",
+        "back": "Three"
+    }
+]

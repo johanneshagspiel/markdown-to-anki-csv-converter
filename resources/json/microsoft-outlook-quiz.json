@@ -1,0 +1,386 @@
+[
+    {
+        "front": "<b>Q1. What can you set a reminder for in Outlook?</b>\n- all of these answers\n- contacts\n- email messages\n- appointments and meetings",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q2. What is the default permission that other people in your organization have to your calendar?</b>\n- They can view free/busy details only.\n- They can edit.\n- They can view all details.\n- They can view titles and locations.",
+        "back": "They can view free/busy details only.\n\n[Reference](https://support.microsoft.com/en-us/office/share-an-outlook-calendar-with-other-people-353ed2c1-3ec5-449d-8c73-6931a0adab88)"
+    },
+    {
+        "front": "<b>Q3. Your boss sends you an email with a request to set up a meeting and copies all meeting attendees on the message. What is the fastest way to create the calendar appointment</b>\n- Click New Items > New Appointment.\n- Click Calendar > New Meeting, and then copy and paste information as needed.\n- with the email open, click Meeting on the Home ribbon or Message tab.\n- Click Reply All.",
+        "back": "with the email open, click Meeting on the Home ribbon or Message tab."
+    },
+    {
+        "front": "<b>Q4. You are running low on Outlook storage space. How might you address this problem?</b>\n- all of these answers\n- Archive messages you are done with.\n- Save and then remove large attachments from messages\n- Sort by size and then delete large messages.",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q5. Why are read receipts less reliable than delivery receipts?</b>\n```\nA. Users can change their email settings to ignore requests for read receipts.\nB. Users can decline individual requests for read receipts.\nC. Read receipts are expensive, so some organizations turn them off.\n```\n- A and C\n- B and C\n- A and B\n- A,B,and C",
+        "back": "A and C"
+    },
+    {
+        "front": "<b>Q6. What address box should you use if you want to hide message recipients from each other?</b>\n- Bcc\n- to\n- cc\n- From",
+        "back": "Bcc"
+    },
+    {
+        "front": "<b>Q7. You are creating a new email message to Diane and Joey. You need a response from Diane, but are simply informing Joey. How should you address the email?</b>\n- to Diane and Joey\n- to Diane and bcc Joey\n- to Joey and bcc Diane\n- to Diane and cc Joey",
+        "back": "to Diane and cc Joey"
+    },
+    {
+        "front": "<b>Q8. Which choice is not an attachment?</b>\n- a PDF document included with an email\n- a Word document included with an email\n- (\u00c2) a calendar item included with an email\n- a hyperlink included in an email",
+        "back": "a hyperlink included in an email"
+    },
+    {
+        "front": "<b>Q9. You can use a**\\_to indicate that a message requires further action and a**to organize the message.</b>\n- folder; category\n- flag; tag\n- category; flag\n- flag; category",
+        "back": "flag; tag"
+    },
+    {
+        "front": "<b>Q10. You create a task and assign it to Nalia. Nalia reviews the request and declines the assignment. Where is the task now, and who is the owner?</b>\n- The task is nowhere, and no one is the owner.\n- The task is in your task list, and you are the owner.\n- The task is in Nalia's task list, and you are the owner.\n- The task is in Nalia's task list, and Nalia is the owner until she reassigns it to you.",
+        "back": "The task is in your task list, and you are the owner."
+    },
+    {
+        "front": "<b>Q11. What does Outlook automatically point out to you when you are invited to a meeting?</b>\n- if your attendance is mandatory\n- ifthe meeting is high or low priority\n- the amount of time you have between this meeting and your next event\n- if the meeting is adjacent to another event in your calendar",
+        "back": "if your attendance is mandatory"
+    },
+    {
+        "front": "<b>Q12. What appears on your screen whenever a new email arrives?</b>\n- an emoji\n- an alert\n- a notice\n- a bell icon",
+        "back": "an alert"
+    },
+    {
+        "front": "<b>Q13. Some of your inbox folder are used for annual or biannual projects, while others are used for work that is not based on projects. The same is true for your calendars. How can you use archiving to increase your efficiency and minimize the size of your mailbox?</b>\n- Review your folders to determine the age of messages that should auto archive in each folder. Set the most frequent value as the AutoArchive default\n- For each folder, determine whether aged items should be deleted or archived\n- Set individual settings for folders that should be archived, but not using the default settings\n- All of these answers",
+        "back": "All of these answers"
+    },
+    {
+        "front": "<b>Q14. Removing redundant messages can be completed by utilizing what Outlook features?</b>\n- Filter\n- Junk Mail\n- The Delete Key\n- Clean Up Conversation",
+        "back": "Clean Up Conversation"
+    },
+    {
+        "front": "<b>Q15. You have sent several message to a customer and have not received a response. Which option can you use to determine if the message was successfully transmitted to the customer?</b>\n- tracking\n- read receipt\n- delivery receipt\n- out of office",
+        "back": "delivery receipt"
+    },
+    {
+        "front": "<b>Q16. A message on your summary list appears with a paper clip icon and an arrow pointing to the left. What does this indicate?</b>\n- The message has been replied to and contains an attachment\n- The message has been flagged and contains an attachment\n- None of these answers\n- The message has been forwarded and contains an attachment",
+        "back": "The message has been replied to and contains an attachment"
+    },
+    {
+        "front": "<b>Q17. What is a key difference between sending someone your Outlook contact and sending you Outlook business card?</b>\n- Sending the contact is faster because the contact itself has no formatting\n- Sharing a contact is superior because more email systems support Outlook contacts rather than business cards\n- There is no real difference\n- Your business card can be edited to omit personal information such as a home phone",
+        "back": "Your business card can be edited to omit personal information such as a home phone"
+    },
+    {
+        "front": "<b>Q18. You have received an email message with detailed notes that you need to analyze before responding, so you want to save it as a task. What is the best way to create a new task that includes the notes in the body of the task?</b>\n- Right click the email message, drag and drop it on the Tasks icon, and click Copy Here as Task with Attachment\n- Copy and paste the notes into a new task form\n- Drag the email message and drop it on the Tasks icon\n- Right click the email message, drag and drop it on the Tasks icon, and click Move Here as Task with Attachment",
+        "back": "Copy and paste the notes into a new task form"
+    },
+    {
+        "front": "<b>Q19. There are two types of Outlook rules. One is server-based rules, which run for Exchange Server. What are the other kind, which in part or in whole cannot run on Exchange Server, and when do the execute?</b>\n- client-only rules; when Outlook is running\n- Outlook-based rules; when Outlook is running\n- None of these answers\n- Outlook-only rules; when Outlook is offline",
+        "back": "client-only rules; when Outlook is running"
+    },
+    {
+        "front": "<b>Q20. In earlier version of Outlook, you could easily apply a color to messages sent only to you, but the messages on which you were cc'd were still a visual distraction. How might you create an Inbox experience that is more focused than the default Outlook experience?</b>\n- Create a CCd folder, and then create a rule to move all messages where you are on the CC line to that folder\n- Create a rule to move all messages where you are in the CC line to the Deleted Items folder\n- Create a rule to apply conditional formatting to all messages where you are in the CC line\n- Turn on Focused Inbox",
+        "back": "Turn on Focused Inbox"
+    },
+    {
+        "front": "<b>Q21. How can you quickly locate emails with large attachment?</b>\n- Sort the messages by size then filter by **Has: Attachments**\n- Sort the messages by sender\n- Sort the messages by **Has: Attachments** and then filter by **Is: Large**\n- Sort the messages by **Has: Attachments** and then by size",
+        "back": "Sort the messages by **Has: Attachments** and then by size"
+    },
+    {
+        "front": "<b>Q22. What is not a built-in search filter for message folder?</b>\n- Has Attachments\n- Sent to me as Bcc\n- Categorized\n- Not sent directly to me",
+        "back": "Sent to me as Bcc"
+    },
+    {
+        "front": "<b>Q23. You created a meeting for next Friday at 1 p.m., and several invitees have accepted. How do you change only your version of the meeting to 12 p.m. to allow yourself time to set up?</b>\n- You cannot\u2014instead, create a separate appointment for yourself from 12 p.m. to 1 p.m.\n- Double-click the meeting to open its form, change the start timer and close the form.\n- Double-click the meeting to open its form, change the reminder to 1 hour, and click **Save**\n- Open the calendar in Day, Week, or Work Week view and drag the start time to 12 p.m.",
+        "back": "Double-click the meeting to open its form, change the start timer and close the form."
+    },
+    {
+        "front": "<b>Q24. What is the fastest way to find a message sent by Bonnie Bradford that includes an attachment?</b>\n- Search based on sender then filter by Has Attachments\n- Search for \"has:attachments\" and then filter by Bonnie Bradford\n- All of these answers\n- Enter \"Bonnie Bradford attachment\" in the search box",
+        "back": "All of these answers"
+    },
+    {
+        "front": "<b>Q25. When creating color categories for conversations, each category must have a unique \\_\\_\\_\\_\\_</b>\n- color\n- folder\n- name\n- name and color",
+        "back": "name"
+    },
+    {
+        "front": "<b>Q26. Outlook autocompletes email addresses you have used previously, including addresses that you mistyped. How can you remove an incorrect autocomplete suggestion?</b>\n- Search the autocomplete library, select the incorrect suggestion, and then click Delete\n- Close Outlook, reboot your computer, and restart Outlook\n- Wait until the suggestion appears again, then highlight it and press the Delete key\n- Delete the corresponding contact",
+        "back": "Wait until the suggestion appears again, then highlight it and press the Delete key\n\n[Reference](https://support.microsoft.com/en-us/office/manage-suggested-recipients-in-the-to-cc-and-bcc-boxes-with-auto-complete-dbe46e31-c098-4881-8cf7-66b037bce23e)"
+    },
+    {
+        "front": "<b>Q27. What is the key difference between an appointment and a meeting?</b>\n- A meeting includes other invitees or attendees\n- An appointment is automatically marked as busy while a meeting is marked as tentative\n- An appointment can be all day, while a meeting has specific start and end time\n- A meeting has specific start and end times",
+        "back": "A meeting includes other invitees or attendees"
+    },
+    {
+        "front": "<b>Q28. When adding an email account to Outlook, why might you need to enter the server settings manually?</b>\n- You did not write down your password\n- Outlook cannot detect the proper settings for your server automatically\n- You do not have an email server\n- The server is not on the list of Microsoft approved servers",
+        "back": "Outlook cannot detect the proper settings for your server automatically"
+    },
+    {
+        "front": "<b>Q29. You are viewing a date three months in the future, in Month view. You switch to check an email in the same window. When you switch back to the calendar, what will Outlook display?</b>\n- the current month\n- the Month view for a date three months in the future\n- the current date in Day view\n- the current date in Week view",
+        "back": "the current month"
+    },
+    {
+        "front": "<b>Q30. When you @mention a colleague in an email message, what does *not* happen?</b>\n- Your colleague's name is highlighted in the message.\n- The colleague is automatically added to the To line.\n- @ appears next to the colleague's name in the body of the email in your colleague's Inbox.\n- @ appears next to the email in your Sent items folder (Windows) or Sent folder (Mac).",
+        "back": "The colleague is automatically added to the To line."
+    },
+    {
+        "front": "<b>Q31. What is an appropriate use for voting buttons?</b>\n- Asking your supervisor to prioritize a list of tasks\n- Sending customers a three-question survey about a recent service experience\n- Asking your colleagues to choose their favorite lunch spot from a list\n- All of these answers",
+        "back": "Asking your colleagues to choose their favorite lunch spot from a list"
+    },
+    {
+        "front": "<b>Q32. You created a meeting for next Tuesday at 2 PM, and several invitees have accepted. How do you change the meeting so it will begin at 1 PM and last for one hour?</b>\n```\nA. Open the calendar in Day, Week, or Work Week view. Drag the start time to 1 PM and send an update\nB. Double click the meeting to open it, change the start time to 1 PM abd send an update\nC. Some people have already accepted, so you must cancel this meeting and create a new meeting\n```\n- B\n- C\n- A or B\n- A",
+        "back": "A or B"
+    },
+    {
+        "front": "<b>Q33. What permission level allows your delegates to read, create, change, and delete items that *they* created, but not items that *you* created?</b>\n- Reader\n- Author\n- Reviewer\n- Editor",
+        "back": "Author"
+    },
+    {
+        "front": "<b>Q34. Why might you create an additional contacts folder?</b>\n- To store contacts to share with colleagues\n- To avoid exceeding 500 contacts per folder limit\n- To make it faster to search for your contacts\n- All of these answers",
+        "back": "To store contacts to share with colleagues"
+    },
+    {
+        "front": "<b>Q35. When accepting a meeting invitation, what happens if you click \"Do not send a response\"?</b>\n- Outlook will send an email to the meeting organizer on your behalf\n- The meeting organizer will not receive an email with your response, and your response will be recorded\n- The meeting organizer will not receive an email with your response, and your response will not be recorded\n- None of these answers",
+        "back": "The meeting organizer will not receive an email with your response, and your response will be recorded"
+    },
+    {
+        "front": "<b>Q36. What happens to your calendar when you adjust the time scale?</b>\n- You set time constraints for looking events\n- You automatically switch to list view\n- You change the time zone that your calendar uses\n- You change the number of hours visible on the grid",
+        "back": "You change the number of hours visible on the grid"
+    },
+    {
+        "front": "<b>Q37. Which is not a good reason to create a new calendar?</b>\n- To keep track of personal events in a work setting\n- To use a shared calendar with colleagues\n- To isolate meetings and important dates for a project team\n- To have a different view of your calendar",
+        "back": "To have a different view of your calendar"
+    },
+    {
+        "front": "<b>Q38. Under what conditions can you successfully recall a message?</b>\n- Only when the recipient is also using Outlook\n- Only if the email is plain text without attachments\n- If the email si still in your outbox\n- If the email was sent within the past 24 hours",
+        "back": "Only when the recipient is also using Outlook\n\n[Reference](https://support.microsoft.com/en-us/office/recall-or-replace-an-email-message-that-you-sent-35027f88-d655-4554-b4f8-6c0729a723a0)"
+    },
+    {
+        "front": "<b>Q39. What rule can you create in View Settings to color code messages from a particular senderm such as your manager?</b>\n- Format Columns\n- Conditional Formatting\n- Group By\n- By Sender",
+        "back": "Group By"
+    },
+    {
+        "front": "<b>Q40. You have a contact folder for members and you need to track two additional pieces of member information: start date and last renewal. What is the simplest wat to track this information?</b>\n- Export your contacts to Excel, which ash lots of columns; add the data; and then import the contacts back to Outlook\n- Use the Field Chooser to create two new columns of type Date in the folder\n- Create a custom contacts form that includes two text boxes to collect this data\n- All of these answers",
+        "back": ""
+    },
+    {
+        "front": "<b>Q41. You have created a rule to automatically route emails to the Project A folder. Why might you also add Project A to Favorites? (Select all that apply)</b>\n```\nA. To easily see when you have a new message related to Project A\nB. To audit the rule\nC. Because the unread messages count for the Inbox folder will not include Project A\nD. Because you cannot create a search folder for a subfolder\n```\n- A and C\n- A, C, and D\n- A and B\n- B and D",
+        "back": ""
+    },
+    {
+        "front": "<b>Q42. Each \\_ can be assigned two default signatures for \\_ .</b>\n- None of these answers\n- email account; new messages and replies or forwards\n- user; new messages and replies\n- user; new messages and replies or forwards",
+        "back": "email account; new messages and replies or forwards"
+    },
+    {
+        "front": "<b>Q43. While using Focused Inbox, you notice that Outlook sometimes puts important messages from a specific customer on the **Other** tab. How do you fix this for all future messages?</b>\n- Right-click (Windows) or Control+click (Mac) a message that was incorrectly organized and select **Prioritize**.\n- Right-click (Windows) or Control+click (Mac) a message that was incorrectly organized and select **Always Move to Focused**.\n- On the **People** page, open the customer's contact card and assign a **Color Category**.\n- Locate that customer in the **People** page and select the **Focused** check box.",
+        "back": "Right-click (Windows) or Control+click (Mac) a message that was incorrectly organized and select **Always Move to Focused**."
+    },
+    {
+        "front": "<b>Q44. In the Outlook interface shown below, why is the Show as Conversations option grayed out?</b>\n- The Inbox folder is sorted by size.\n- The People peek is open and Sally Kerner's card has focus.\n- Focused Inbox is being used.\n- The People peek is open and has focus.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q45. Suppose you select a message in Focused Inbox and then chose Move to Other, but the message does not move. What is the most likely cause?</b>\n- Clutter is prioritizing the messages.\n- Your mailbox is not ser for random synchronization.\n- The mailbox is offline.\n- The mailbox is a shared mailbox.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q46. For efficiency, how should you save a search that you run frequently?</b>\n- as a search folder (Windows) or Smart Folder (Mac)\n- by typing the search term in the **Search** box, right-clicking, and selecting **Add to Favorites**\n- as a column\n- as a criteria set",
+        "back": "as a search folder (Windows) or Smart Folder (Mac)"
+    },
+    {
+        "front": "<b>Q47. When you compose an email and click the To or Cc button, where does Outlook search first?</b>\n- none of these answers\n- your People list\n- your Outlook Favorites\n- the global address book\n[official docs](https://support.microsoft.com/en-us/office/find-people-and-contacts-f868749b-31a4-4fba-a936-b778cbb8f1cb)",
+        "back": "the global address book\n[official docs](https://support.microsoft.com/en-us/office/find-people-and-contacts-f868749b-31a4-4fba-a936-b778cbb8f1cb)"
+    },
+    {
+        "front": "<b>Q48. What do you call an appointment or meeting that happens on a regular basis?</b>\n- repeating\n- redundant\n- related\n- recurring",
+        "back": "recurring"
+    },
+    {
+        "front": "<b>Q49. Which key, when held down, allows you to select multiple nonadjacent emails?</b>\n- Alt (Windows) or Option (Mac)\n- Shift+Tab\n- Ctrl (Windows) or Command (Mac)\n- Shift",
+        "back": "Ctrl (Windows) or Command (Mac)"
+    },
+    {
+        "front": "<b>Q50. You are inviting five members of your executive staff to an offsite retreat. You need to ensure that they do not share the invitation with others. What should you do before sending the email?</b>\n- Include the text \"No Forward\" in the Bcc field.\n- Turn off the Allow Forwarding option.\n- Prefix the email subject with \"FWD OFF\".\n- Turn on the No Forwarding option.",
+        "back": "Turn off the Allow Forwarding option."
+    },
+    {
+        "front": "<b>Q51. When adding a calendar to view, which is not a valid option?</b>\n- From Internet\n- From Contacts\n- From Address Book\n- From Room List",
+        "back": ""
+    },
+    {
+        "front": "<b>Q52. Which criteria can you select to filter email in the Focused folder?</b>\n- unread status\n- importance\n- message size\n- date received",
+        "back": ""
+    },
+    {
+        "front": "<b>Q53. A meeting reminder showed up and you accidently closed it. What is the best way to bring back the reminder when in Calendar view?</b>\n- Right-click the meeting in the Calendar and select Reminders Window.\n- Close and reopen Outlook\n- On Windows, on the Home tab, click Schedule View. On Mac, click View > Switch to Other.\n- On Windows, on the View tab, click Reminders Window. On Mac, click Windows > Reminders.",
+        "back": "On Windows, on the View tab, click Reminders Window. On Mac, click Windows > Reminders."
+    },
+    {
+        "front": "<b>Q54. You received an email from someone and want to find other emails from this person. Witch method is not a way to see those emails across all folders?</b>\n- Highlight the email in the viewing pane and sort by From,\n- Enter the person's email address into the search box.\n- On the Folder tab, click New Search Folder and select Mail from specific people.\n- Right-click the email and select Find Related > Messages from sender.",
+        "back": "Right-click the email and select Find Related > Messages from sender."
+    },
+    {
+        "front": "<b>Q55. What does the ignore button allow you to do?</b>\n- Flag yourself as unavailable to specific coworkers.\n- Route all future emails from a user directly to the Deleted Items folder.\n- Skip all misspellings of a specific word.\n- Turn off all reminders and notifications.",
+        "back": "Turn off all reminders and notifications."
+    },
+    {
+        "front": "<b>Q56. When you flag an email for follow-up, you are assigning the email a(n) \\_ .</b>\n- importance level\n- priority level\n- category\n- due date",
+        "back": ""
+    },
+    {
+        "front": "<b>Q57. What happens when you drag an email to the Calendar icon?</b>\n- The Archive window opens.\n- Outlook schedule a reminder.\n- Outlook schedule a appointment.\n- The Work Week calendar view opens.",
+        "back": "Outlook schedule a appointment."
+    },
+    {
+        "front": "<b>Q58. In this image, what do you use to move between Mail, Calendar, People and Tasks?</b>\n- Quick Steps\n- Navigation Pane\n- Navigation Bar\n- To-DO Bar",
+        "back": "Navigation Bar"
+    },
+    {
+        "front": "<b>Q59. It is currently the week of April 23. You are viewing the week of May 21 in your Outlook calendar. You switch to email then back to the calendar. Which dates do the calendar display now?</b>\n- the week of May 21\n- the month of April\n- the month of May\n- the week of April 23",
+        "back": "the month of April"
+    },
+    {
+        "front": "<b>Q60. Besides opening an email in a new window, where can you view all the content of a message?</b>\n- in the sidebar\n- in the Information Viewer\n- in Message Preview\n- in the Reading Pane",
+        "back": "in the Reading Pane"
+    },
+    {
+        "front": "<b>Q61. You want to print full-page slides to fill 8.5-by-11-inch paper, but they appear too small in the preview. What is the best way to rectify this?</b>\n- Repeatedly bumo up the scale setting print option until it fills the page in the preview.\n- Change the slide size to standard.\n- Change the scale setting option to 100%.\n- Select the Scale to Fit Paper print option.",
+        "back": "Select the Scale to Fit Paper print option."
+    },
+    {
+        "front": "<b>Q62. You have 15 folders, one of each of your projects. How can you make your most frequently used folders more accessible?</b>\n- Create subcategories for the folders based on frequency of use.\n- Assign the frequently used folders to the same color category.\n- Save the folders to Favorites.\n- Assign each folder a priority number.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q63. You accidentally delete an email from your inbox. How can you retrieve the deleted email?</b>\n- You cannot retrieve a deleted email.\n- Open the Deleted Items folder.\n- Open your computer's Recycle Bin (Windows) or Trash (Mac).\n- Click the Undo button.",
+        "back": "Open the Deleted Items folder."
+    },
+    {
+        "front": "<b>Q64. You are viewing your calendar in Work Week view and see a thin horizontal line running across all days at the 2:30 p.m. position. What does this tell you?</b>\n- Your next appointment is at 2:30 p.m.\n- You have a recurring appointment at 2:30 p.m.on each day of the week.\n- Your calendar is free from 2:30 p.m. on.\n- The current time is 2:30 p.m.",
+        "back": "The current time is 2:30 p.m."
+    },
+    {
+        "front": "<b>Q65. You have a message in your Inbox that has a blue down arrow. What does it mean?</b>\n- The message needs to finish downloading.\n- The sender set the message priority to Low Priority.\n- A rule forwarded the message.\n- The sender is not in your address list.",
+        "back": "The sender set the message priority to Low Priority."
+    },
+    {
+        "front": "<b>Q66. Which Outlook function allows you to filter your emails?</b>\n- Find\n- Move\n- Tag\n- Quick Steps",
+        "back": "Find"
+    },
+    {
+        "front": "<b>Q67. In Outlook, a rule is applied to</b>\n- contacts\n- messages\n- tasks\n- meetings",
+        "back": ""
+    },
+    {
+        "front": "<b>Q68. You want to change the default font used for new messages and in the Notes field in Calendar, Contacts, and Tasks. How do you do this?</b>\n- Change the fonts used for mail in File > Options > Mail > Stationery and Fonts (Windows) or Outlook > Preferences > Fonts (Mac). The fonts used in the Notes field in Calendar, Contacts, and Tasks cannot be changed.\n- Click File > Options > General > Stationery and Fonts (Windows) or Outlook > Preferences > Composing (Mac).\n- Click File > Options > Mail > Stationery and Fonts (Windows) or Outlook > Preferences > Fonts (Mac).\n- Select the desired font in a new message. Outlook will use it for future messages and notes.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q69. What does the Groups section contain in Outlook?</b>\n- Microsoft 365 Groups you are a member of\n- Microsoft 365 Groups across your company\n- Contact Groups across your company\n- Contact Groups you have created",
+        "back": ""
+    },
+    {
+        "front": "<b>Q70. Why are some dates in your calendar shaded, as shown?</b>\n- The calendar view is not displaying properly. Click Reset View to fix it.\n- When you add a category to an appointment, the category color is used as the background color.\n- You have an appointment that ends after midnight.\n- You have an all-day event marked as Busy, Out of Office, or Tentative.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q71. You are having difficulty reading an email due to the small text size. What is the easiest way to make this email more readable?</b>\n- Change your computer's display and resolution settings.\n- Reply to the email, select all, and increase the font size.\n- Use the Zoom button.\n- Change the Message Preview option to the maximum 3 lines setting.",
+        "back": "Use the Zoom button."
+    },
+    {
+        "front": "<b>Q72. You are sending an email to several people, and you want any responses to go to a colleague. How can you set this up?</b>\n- Change the From field to your colleague's email address.\n- Forward the email to the colleague before anyone responds.\n- Click Delivery Options > Have Replies sent to.\n- Include the colleague's email address in the To field.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q73. The commands on which bar are available in all Outlook applications?</b>\n- the Simplified Ribbon\n- To-Do Bar\n- Quick Access Toolbar\n- Navigation Bar",
+        "back": ""
+    },
+    {
+        "front": "<b>Q74. To keep your Inbox folders organized and lean, where should you move old messages?</b>\n- a subfolder\n- a compressed file\n- a file system folder\n- an archive",
+        "back": "an archive\n\n[Reference](https://www.extendoffice.com/documents/outlook/5238-outlook-move-items-older-than.html)"
+    },
+    {
+        "front": "<b>Q75. What happens when you delete a folder that contains emails in Outlook?</b>\n- The folder is emptied and then moved to Deleted Items.\n- You cannot delete a folder until its contents are deleted first.\n- The contents are moved to Deleted Items, and then the empty folder is moved to Deleted Items.\n- The folder and its contents are moved to Deleted Items at the same time.",
+        "back": "The folder and its contents are moved to Deleted Items at the same time."
+    },
+    {
+        "front": "<b>Q76. You are organizing your Outlook folders. For all emails that are sent *directly* to you, they should appear in your Inbox. For all emails on which you are cc'd, they should be automatically hidden for later review. What is the best way to accomplish these goals?</b>\n- Create a Cc'd folder, and then create a rule to move all messages where you are on the cc line to that folder.\n- Create a rule to move all messages where you are in the cc line to the Deleted Items folder.\n- Turn on Focused Inbox.\n- Create a rule to apply conditional formatting to all messages where you are in the cc line.",
+        "back": "Create a Cc'd folder, and then create a rule to move all messages where you are on the cc line to that folder."
+    },
+    {
+        "front": "<b>Q77. What is the easiest way to add the contact of someone who sent you an email?</b>\n- Copy and paste their email address into a new contact form.\n- Right-click the sender's name in the message and select Add to Outlook Contacts (Windows) or Open Outlook contacts (Mac).\n- Double-click the sender's email address in the message and select Add to Outlook Contacts (Windows) or Open Outlook contacts (Mac).\n- # Open the email and press Ctrl+Q (Windows) or Command+Q (Mac).\n- Create a rule to apply conditional formatting to all messages where you are in the cc line.",
+        "back": "Right-click the sender's name in the message and select Add to Outlook Contacts (Windows) or Open Outlook contacts (Mac)."
+    },
+    {
+        "front": "<b>Q78. You created a meeting for next Tuesday at 2 p.m., and several invitees have accepted. How do you change the meeting so it will begin at 1 p.m.?</b>\n    A. Open the calendar in Day, Week, or Work Week view. Drag the start time to 1 p.m. and send an update.\n    B. Double-click the meeting to open it, change the start time to 1 p.m., and send an update.\n    C. Some people have already accepted, so you must cancel this meeting and create a new meeting.\n- A or B\n- B\n- C\n- A",
+        "back": "B"
+    },
+    {
+        "front": "<b>Q79. Which is not valid search criteria when searching for messages in your Inbox?</b>\n- attachments\n- words found in the message itself\n- who sent the email\n- what geographic location the email was sent from",
+        "back": "what geographic location the email was sent from"
+    },
+    {
+        "front": "<b>Q80. You copied several paragraphs of text to the clipboard and want to paste this text into the body of a new task. What is the most efficient way to do this?</b>\n- Click the Task icon and then press Ctrl+V (Windows) or Command+V (Mac).\n- Open a task form using Ctrl+Shift+K (Windows) or Command+Shift+K (Mac), click in the body, and then press Ctrl+V (Windows) or Command+V (Mac).\n- Click the Task icon and, on the Home tab, click New from Clipboard.\n- Click the Task icon and, on the Insert tab, click New Items > More Items > Paste Special.",
+        "back": "Open a task form using Ctrl+Shift+K (Windows) or Command+Shift+K (Mac), click in the body, and then press Ctrl+V (Windows) or Command+V (Mac)."
+    },
+    {
+        "front": "<b>Q81. What is a key difference between flagging a message for follow-up and creating a task from the item?</b>\n- A task will sync with Microsoft To-Do; a flagged email will not.\n- You can set a reminder for a task, but not for a flagged item.\n- A task can be assigned to another person while a flagged item cannot be delegated.\n- The flagged message appears only in the Inbox folder; the task appears in the To-Do bar and task list.",
+        "back": "You can set a reminder for a task, but not for a flagged item."
+    },
+    {
+        "front": "<b>Q82. What allows Outlook to automatically flag, forward, move, tag, and respond to email messages?</b>\n- Rules\n- Quick Parts\n- Categorize\n- Quick Steps",
+        "back": "Rules"
+    },
+    {
+        "front": "<b>Q83. You type an email and click Send, but your internet connection is currently unavailable. Where does Outlook store the unsent email?</b>\n- Outbox\n- Drafts\n- Archive\n- Sent Items",
+        "back": "Outbox"
+    },
+    {
+        "front": "<b>Q84. You have been tasked with inviting 75 people to an event. You do not need to track whether or not they intend to attend. to save time, what should you do?</b>\n- Use mail merge to send the invitations.\n- Turn off Request Responses under Response Options.\n- Add \"NRR (no response required)\" to the subject line.\n- Add all recipients to the Bcc field.",
+        "back": "Turn off Request Responses under Response Options."
+    },
+    {
+        "front": "<b>Q85. You opened an email message and Outlook is not displaying the included pictures. Why is this?</b>\n- Outlook automatically converts email to HTML.\n- Outlook can display only pictures stored in JPG format.\n- Pictures need to be downloaded\n- Outlook cannot show pictures in emails.",
+        "back": "Pictures need to be downloaded"
+    },
+    {
+        "front": "<b>Q86. What does the Work Offline (Windows) or Online/Offline toggle (Mac) do?</b>\n- It stops incoming emails but allows outgoing emails.\n- It allows incoming emails but stops outgoing emails.\n- It disconnects the computer from the network.\n- It disconnects Outlook from the server to stop incoming and outgoing emails.",
+        "back": "It disconnects Outlook from the server to stop incoming and outgoing emails."
+    },
+    {
+        "front": "<b>Q87. Which feature tags a person in an email thread and sends them a flagged message?</b>\n- Permissions\n- Mail Tips\n- Mentions\n- Share",
+        "back": "Mentions"
+    },
+    {
+        "front": "<b>Q88. You want to share a file with collegues via email. Why is it a benefit to embed a link to the file in your email, rather than attach the actual file?</b>\n- It takes up less space in their mailboxes.\n- It takes up less space in your mailbox.\n- It allows better version control of the file..\n- all of these answers",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q89. With the Calendar displayed, on the View tab (Windows) or the Organize tab (Mac), what happens to your calendar when you adjust the Time Scale?</b>\n- You change the time zone that your calendar uses.\n- You automatically switch to list view.\n- You set time constraints for booking events.\n- You change the number of hours visible on the grid.",
+        "back": "You change the number of hours visible on the grid."
+    },
+    {
+        "front": "<b>Q90. What arrangement can you create in **View Settings** (Windows) or **Rules** (Mac) to color code messages from a particular sender?</b>\n- **By Sender**\n- **Format Column** (Windows), or **Rules** then **Format Columns** (Mac)\n- **Group by (Windows), or Rules then Group by (Mac)**\n- **Conditional Formatting** (Windows), or **Rules** then **Categorize** or **Set Category** (Mac)",
+        "back": "**Group by (Windows), or Rules then Group by (Mac)**"
+    },
+    {
+        "front": "<b>Q91. You opened an email message but wherever an image should appear, instead of pictures, Outlook displays a red X followed by a brief text message. Why is this?</b>\n- Outlook cannot show pictures in emails.\n- Outlook can display only pictures stored in JPG format.\n- Outlook automatically converts email to HTML.\n- Pictures were prevented from being automatically downloaded. User may download if desired.",
+        "back": "Pictures were prevented from being automatically downloaded. User may download if desired."
+    },
+    {
+        "front": "<b>Q92. You have a meeting from 2 to 3 p.m. next friday and have been invited to a second meeting in a different bulding starting at 3 p.m.. You want to attend both meetings but need time to get from the first to the second. What is an efficient way to respond to the organizer of the second meeting to allot 30 minutes of travel?</b>\n- [ ]\n- [ ]\n- decline and propose new time\n- tenctative and propose new time",
+        "back": "tenctative and propose new time"
+    },
+    {
+        "front": "<b>Q93. What happens when you try to add new account on Outlook?</b>\n- transmission\n- [ ]\n- [ ]\n- [ ]",
+        "back": "transmission\n- [ ]\n- [ ]\n- [ ]"
+    },
+    {
+        "front": "<b>Q94. When you back up or export your contacts directly from Outlook without using additional applications, what type of file will you export?</b>\n- XLS (Windows) or XLSM (Mac)\n- CSV Windows) or OLM (Mac)\n- TXT\n- DOCX Windows) or DOCM (Mac)",
+        "back": "CSV Windows) or OLM (Mac)\n\n[Reference link](https://www.codetwo.com/admins-blog/export-outlook-contacts/)"
+    },
+    {
+        "front": "<b>Q95. Without leaving the Email page, which is the most efficient way to add the contact of someone who sent you an email?</b>\n- Copy and paste their email address into a new contact form.\n- Open the email and press Ctrl+Q (Windows) or Command + Q (Mac).\n- On Windows, right-click the sender's name in the message and select Add to Outlook Contacts. On Mac, Control+click the sender's name in the message and select Open Outlook contact > Add to Contacts > Save and then Close.\n- Double-click the sender's email address in the message and select Add to Outlook Contacts (Windows) or Open Outlook contacts (Mac).",
+        "back": "Copy and paste their email address into a new contact form."
+    },
+    {
+        "front": "<b>Q96. Why would you change the Outlook setting to **Work Offline**? You can adjust this setting on the Send and Receive tab (Windows) or the **Outlook** menu (Mac).</b>\n- It stops incoming emails but allows outgoing emails.\n- It disconnects the computer from the network to avoid network slowdowns.\n- It allows incoming emails but stops outgoing emails.\n- It disconnects Outlook from the server to stop incoming and outgoing emails to avoid sending or receiving messages while using a slow or unstable connection, or to avoid being charged for connection while traveling.",
+        "back": ""
+    }
+]

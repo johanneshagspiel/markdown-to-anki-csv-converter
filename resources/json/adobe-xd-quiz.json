@@ -1,0 +1,110 @@
+[
+    {
+        "front": "<b>Q1. Where was this `Lock` icon applied?</b>\n<img src=\"adobe-xd-quiz_001.jpg\">\n- in the `Components` panel\n- in the `Layers` panel\n- in the `Property Inspector`\n- in Share mode",
+        "back": "in the `Layers` panel"
+    },
+    {
+        "front": "<b>Q2. In this figure, which value represents the bottom margin of the layout grid?</b>\n<img src=\"adobe-xd-quiz_002.jpg\">\n- 30\n- 20\n- 43\n- 0",
+        "back": "20"
+    },
+    {
+        "front": "<b>Q3. What does clicking the circled icon enable you to do?</b>\n<img src=\"adobe-xd-quiz_003.jpg\">\n- Change the trigger.\n- Choose a destination.\n- Add a new interaction.\n- Add a new state.",
+        "back": "Add a new state."
+    },
+    {
+        "front": "<b>Q4. You want to share your project to a blog or social media. How would you accomplish this?</b>\n- Link to the project from your Creative Cloud account.\n- Use the prototype link.\n- Add the prototype link to a blog.\n- Add your social media accounts to your invitation list.",
+        "back": "Link to the project from your Creative Cloud account."
+    },
+    {
+        "front": "<b>Q5. You need to have a keyboard appear when a text area is tapped. Which action type should you apply?</b>\n- Auto-Animate\n- Overlay\n- Previous Artboard.\n- Transition.",
+        "back": "Overlay"
+    },
+    {
+        "front": "<b>Q6. How do you stop guides from snapping to objects on the artboard?</b>\n- Press Option (Mac) or Alt (Windows) when dragging the guide.\n- Press Command (Mac) or Ctrl (Windows) when dragging the guide.\n- Press the Shift key when dragging the guide.\n- Drag the guide to its location on the artboard.",
+        "back": "Press Command (Mac) or Ctrl (Windows) when dragging the guide."
+    },
+    {
+        "front": "<b>Q7. Your developer notifies you that the left alignment of some the text in a slide in menu is off by 2 pixels. How did the developer catch this?</b>\n- The distance values are shown in the developer's share screen.\n- The developer rolled over them in the developer's share screen.\n- The differing values were noted in the CSS.\n- Artboard guides appear in the developer's share screen.",
+        "back": "The distance values are shown in the developer's share screen."
+    },
+    {
+        "front": "<b>Q8. How can you swap one component for another that is already in the project?</b>\n- Copy the component in the Assets panel, select the component in the project, and paste.\n- Delete the component in the project and drag the new component from the Assets panel\n- Right-click the component you want to replace and select Edit Master in Source Document.\n- Drag the new component from the Assets panel on top of the existing component in the project.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q9. You created a button and converted it to a component in order to make the button interactive. When you open the Component (Master) area in the Property Inspector and click Default State, you notice the button already has one state applied to it. What state is applied?</b>\n- Hover\n- Drag\n- Voice\n- Tap",
+        "back": "Hover"
+    },
+    {
+        "front": "<b>Q10. You have copied an interaction to the clipboard. How would you apply this interaction to multiple objects?</b>\n- Shift-click each object and paste the interaction.\n- Select the artboards and paste the interaction.\n- Select each object and paste the interaction.\n- Marquee the objects and paste the interaction.",
+        "back": "Shift-click each object and paste the interaction."
+    },
+    {
+        "front": "<b>Q11. Device preview requires a \\_</b>\n- mobile device with NFC\n- bluetooth connection\n- USB connection\n- wireless connection",
+        "back": "wireless connection"
+    },
+    {
+        "front": "<b>Q12. Which export setting would you use to create a low-res asset whose size is 50% of the asset on the screen?</b>\n- Designed at 3X\n- Designed for Web\n- Designed at 1X\n- Designed at 2X",
+        "back": ""
+    },
+    {
+        "front": "<b>Q13. What does this wire attached to a component indicate?</b>\n<img src=\"adobe-xd-quiz_004.jpg\">\n- destination.\n- interaction.\n- trigger\n- animation.",
+        "back": "interaction."
+    },
+    {
+        "front": "<b>Q14. What happens when you click this circled icon in the design preview?</b>\n<img src=\"adobe-xd-quiz_005.jpg\">\n- The preview switches to the artboard view.\n- The preview switches to user flow.\n- The preview switches to the developer view.\n- The artboard properties are displayed",
+        "back": "The preview switches to the artboard view."
+    },
+    {
+        "front": "<b>Q15. Which method for bringing Illustrator content into XD is not possible?</b>\n- Drag an Illustrator file (.Al) into an XD project.\n- Copy and paste content from Illustrator to XD.\n- Open an Illustrator file (.Al) in XD to convert it to an XD project.\n- Import an Illustrator file (.Al) into an XD project.",
+        "back": "Copy and paste content from Illustrator to XD."
+    },
+    {
+        "front": "<b>Q16. After completing a project, you deactivated a couple of Adobe fonts. Now you need to make changes to the XD file. How do you reenable the Adobe fonts in XD?</b>\n- Open your Creative Cloud fonts and click Enable.\n- Enable the fonts in your computer's fonts settings.\n- Adobe fonts are automatically reactivated through the Creative Cloud.\n- Relink the fonts to your Creative Cloud library.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q17. You are viewing your project on a Google Pixel and notice the hotspot hints are missing. How would you enable them on the device?</b>\n- Double-tap and select **Enable Hints**\n- In the device preview, select **Enable Hints**\n- In the sharing options, select **Enable Hints**\n- Triple-tap the screen and select **Enable Hints**",
+        "back": "Double-tap and select **Enable Hints**"
+    },
+    {
+        "front": "<b>Q18. What would changing the text in this component affect?</b>\n<img src=\"adobe-xd-quiz_006.png\">\n- the component.\n- only the text in the symbol.\n- only the instance.\n- all copies of the component in XD document",
+        "back": "only the instance."
+    },
+    {
+        "front": "<b>Q19. You are previewing your XD project on an iPhone. How would you browse an artboard on the phone?</b>\n- Triple-tap the screen.\n- Long-press an image and select **Browse Artboards**.\n- Use a drag gesture and select **Browse Artboards**.\n- Double-tap and select **Browse Artboards**.",
+        "back": "Triple-tap the screen."
+    },
+    {
+        "front": "<b>Q20. Component states are **\\_**.</b>\n- added in Design view.\n- interactive versions of a component.\n- customized versions of a component.\n- applied to components.",
+        "back": "applied to components."
+    },
+    {
+        "front": "<b>Q21. You created a Repeat Grid that is to be an image gallery. How would you control the placement of images in the Repeat Grid?</b>\n- Ensure that all images have the same dimensions.\n- Drag individual images into the grid.\n- Ensure that all images are in the same format.\n- Import the images and rearrange them in the Repeat Grid.",
+        "back": "Import the images and rearrange them in the Repeat Grid."
+    },
+    {
+        "front": "<b>Q22. Adobe Experience Design (XD) is marketed as a **\\_\\_\\_** application.</b>\n- [] web design\n- [] screen layout\n- screen prototyping\n- [] mobile design",
+        "back": "screen prototyping\n- [] mobile design"
+    },
+    {
+        "front": "<b>Q23. What is the maximum number of interactions that can be applied to a selected element?</b>\n- [] two\n- [] four\n- three\n- [] one",
+        "back": "three\n- [] one"
+    },
+    {
+        "front": "<b>Q24. Four more artboards for your current XD project have been created in Photoshop. How would you add them to your XD project?</b>\n- Import the .psd into the document.\n- [] Place the .psd into an XD artboard.\n- [] Import one artboard at a time.\n- [] Open the .psd in XD.",
+        "back": "Import the .psd into the document.\n- [] Place the .psd into an XD artboard.\n- [] Import one artboard at a time.\n- [] Open the .psd in XD."
+    },
+    {
+        "front": "<b>Q25. How can you apply a hover and a tap trigger interaction to one object in XD?</b>\n- [] Create multiple duplicate artboards.\n- [] You cannot apply hover and tap interactions to one object.\n- [] Create multiple, layered shapes.\n- Create component states.",
+        "back": "Create component states."
+    },
+    {
+        "front": "<b>Q26. When a menu slides in over the artboard and the artboard blurs, what effect has been applied?</b>\n- background blur\n- [] Darken Blend mode\n- [] color overlay\n- [] object blur",
+        "back": "background blur\n- [] Darken Blend mode\n- [] color overlay\n- [] object blur"
+    },
+    {
+        "front": "<b>Q27. What does a folder icon in the Layers panel indicate?</b>\n-[] a symbol\n-[] a component -[x] a group\n-[] a screen element",
+        "back": ""
+    }
+]

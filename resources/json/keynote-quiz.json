@@ -1,0 +1,82 @@
+[
+    {
+        "front": "<b>Q1. What type of line connects the two shapes shown below?</b>\n<img src=\"keynote-quiz_Q1.png\">\n- custom Pen tool line\n- straight connection line\n- curved connection line\n- angled connection line",
+        "back": ""
+    },
+    {
+        "front": "<b>Q2. Which animation effect controls how an element leaves the screen?</b>\n- Build in\n- Build Order\n- Action\n- Build Out",
+        "back": ""
+    },
+    {
+        "front": "<b>Q3. For the shown below, how can you make the landscape photo fit cleanly within the circle shape?</b>\n<img src=\"keynote-quiz_Q3.png\">\n- Select the photo and the shape, then click **Arrange > Image > Reset Mask**.\n- Select the photo and the shape, then click **Arrange > Image > Mask with Selection**.\n- Copy the photo to your Clipboard and paste it inside of the shape.\n- Select the photo and the shape, then click **Format > Image > Mask with Selection**.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q4. You want a clock and countdown timer to display, only to you, while you're giving your Keynote presentation. How do you configure this?</b>\n- Click **Play > Customize Presenter Display**.\n- Click **Keynote > Preferences**, then select the **Remote** tab.\n- Click **Keynote > Preferences**, then select the **Slideshow** tab.\n- Click **Play > Rehearse Slideshow**.",
+        "back": "Click **Keynote > Preferences**, then select the **Remote** tab."
+    },
+    {
+        "front": "<b>Q5. When presenting a slideshow, how can you proceed to the next slide? (Choose 3 items.)</b>\nA. Press the M key.\nB. Press the P key.\nC. Press the Right Arrow key.\nD. Press the ] key.\nE. Press the Down Arrow key.\n- A, B, D\n- A, B, C\n- B, C, D\n- C, D, E",
+        "back": ""
+    },
+    {
+        "front": "<b>Q6. When you're presenting a Keynote slideshow, how can you display a script or similar information that only you can see?</b>\n- Use the **Outline** view.\n- Click **Insert > Script**.\n- Use the **Comments** view.\n- Use the **Presenter Notes** view.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q7. What type of chart can you manipulate during a presentation to change the information that is displayed?</b>\n- 2D\n- 3D\n- Interactive\n- Live Data",
+        "back": "2D\n3D"
+    },
+    {
+        "front": "<b>Q8. You build a Keynote presentation but decide that you want to give it a new look. What's the easiest way to do this?</b>\n- Click **View > Edit Master Slides**.\n- In the **Format inspector**, click the **Change Master** button.\n- Click **File > Change Theme**.\n- Make a new presentation and copy and paste the content onto new slides.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q9. Which video format is best suited for use with Keynote?</b>\n- MP3\n- MP4\n- AVI\n- FLV",
+        "back": ""
+    },
+    {
+        "front": "<b>Q10. How can you print presenter notes?</b>\n- In the **Print** dialog box, select **Grid**.\n- In the **Print** dialog box, select **Outline**.\n- In the **Print** dialog box, select **Page Attributes**.\n- In the **Print** dialog box, select **Handout**.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q11. What technique was used to transform the circle shown below into the new shape on the right?</b>\n<img src=\"keynote-quiz_Q11.png\">\n- Right-click the shape and select **Make Editable**.\n- Use the Pen tool to customize the shape.\n- Hold down the Option key and click a point.\n- Double-click the shape.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q12. Which animation method creates movement based on the position of an object across two consecutive slides?</b>\n- Object Push\n- Magic Move\n- Move In\n- Fade and Move",
+        "back": ""
+    },
+    {
+        "front": "<b>Q13. How can you invite multiple users to make edits to the same documents?</b>\n- Click **Share > Collaborate with Others**.\n- Click **Share > Send a Copy > Mail**.\n- Click **Share > Use Keynote Live**.\n- Click **Share > Send a Copy > AirDrop**.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q14. How can you fix common image problems with a single click?</b>\n- Click the **Auto** button in the **Adjust** panel.\n- Right-click a photograph and select **Enhance Image**.\n- Click the **Enhance** button in the **Adjustments** panel.\n- Select the **Instant Alpha** option.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q15. How can you create an arrow with different end points?</b>\n- Click Insert > Shape > Double Arrow\n- Click Insert > Line > Line with Arrowhead and customize it in the Style inspector\n- Click Insert > Line > Line with Two Arrowheads and customize it in the Style inspector\n- Click Insert > Shape > Arrow",
+        "back": ""
+    },
+    {
+        "front": "<b>Q16. If you always want to use the same theme when creating a new presentation, how can you set this up?</b>\n- Click Keynote > Preferences > General > Use theme\n- Click Document inspector > Change theme, then triple-click a theme\n- Click Document inspector > Change theme, then right-click a theme and select Default Theme\n- Click Keynote > Preferences > Slideshow > Lock theme",
+        "back": ""
+    },
+    {
+        "front": "<b>Q17. When adding a table to a slide, what are the four table categories you can choose from?</b>\n- Basic, Plain, Advanced, and Sums\n- Headers, Basic, Plain, and Sums\n- Headers, Basic, Custom, and Math\n- Basic, Plain, Colorful, and Sums",
+        "back": ""
+    },
+    {
+        "front": "<b>Q18. When exporting to an animated GIF, which options can you customize? (Select 3 Items)</b>\nA. Resolution\nB. File Format\nC. Frame Rate\nD. Compression\nE. Slides\n- A, B, E\n- A, D, E\n- A, C, E\n- B, C, E",
+        "back": ""
+    },
+    {
+        "front": "<b>Q19. What is the best way to hide the mouse pointer when giving a presentation?</b>\n- Open Keynote Preferences, select the Slideshow tab, and select Show pointer only on slides with links or movies.\n- Click Play > Play Slideshow\n- You cannot hide the mouse cursor, it is always visible.\n- Open Keynote Preferences, select the Slideshow tab, and select Show pointer when using the mouse or trackpad",
+        "back": ""
+    },
+    {
+        "front": "<b>Q20. Which movie format produces the smallest file size for a Keynote presentation?</b>\n- FLV\n- HEVC\n- MP4\n- MOV",
+        "back": ""
+    }
+]

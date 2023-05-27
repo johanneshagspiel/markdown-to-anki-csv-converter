@@ -1,0 +1,338 @@
+[
+    {
+        "front": "<b>Q1. Which Code sample will eventually cause the computer to run out of memory?</b>\n- :\n```c\nwhile(1)\n{\n    char *smallString = (char *) malloc(10);\n}\n```\n- :\n```c\nlong long number = 1;\n    while(1)\n    number *= 2;\n```\n- :\n```c\nwhile(1)\n{\n    char hugeString[1000000L];\n    memset(hugeString, 0, 1000000L);\n}\n```\n- :\n```c\nwhile(1)\n{\n    long *bigArray = (long *) malloc(sizeof(long) * 1000);\n    memset(bigArray, 1000000, 1000);\n    (bigArray);\n}\n```",
+        "back": ":\n```c\nwhile(1)\n{\n    char *smallString = (char *) malloc(10);\n}\n```"
+    },
+    {
+        "front": "<b>Q2. What will this code print on the screen?</b>\n```c\nint f1 (int a, int b)\n{\n    if (a > b)\n    {\n        printf(\"A is greater than B\\n\");\n        return 1;\n    }\n    else\n    {\n        printf(\"B is greater than A\");\n        return 0;\n    }\n}\nmain()\n{\n    if (f1(20,10) || f1(10,20))\n        printf(\"C is fun!\\n\");\n}\n```\n- :\n```\nA is greater then B\nC is fun!\n```\n- :\n```\nA is greater then B\nB is greater then A\nC is fun!\n```\n- :\n```\nA is greater then B\nB is greater then A\n```\n- Nothing is printed on Screen",
+        "back": ":\n```\nA is greater then B\nC is fun!\n```"
+    },
+    {
+        "front": "<b>Q3. What is the name for calling a function inside the same function?</b>\n- recursion\n- subfunction\n- inner call\n- infinite loop",
+        "back": "recursion\n\n[Reference](https://www.cprogramming.com/tutorial/c/lesson16.html)"
+    },
+    {
+        "front": "<b>Q4. What does the declaration of variable c2 demonstrate?</b>\n```c\nmain(){\n    char c1 ='a';\n    char c2 = c1+10;\n}\n```\n- character arithmetic\n- undefined assignment\n- type conversion\n- invalid declaration",
+        "back": "character arithmetic\n\n[Reference](https://tutorialspoint.dev/language/c/character-arithmetic-c-c)"
+    },
+    {
+        "front": "<b>Q5. What is this declaration an example of?</b>\n```c\nstruct s {\n    int i;\n    struct s *s1;\n    struct s *s2;\n};\n```\n- a node\n- a linked list\n- a stack\n- a binary tree",
+        "back": "a node"
+    },
+    {
+        "front": "<b>Q6. Header files are listed using the preprocessing directive #include, and can have one of the following formats: #include &lt;fileA&gt; or #include \"fileB\". What is the difference between these two formats?</b>\n- The preprocessor will try to locate fileA in same directory as the source file, and the fileB in a predetermined directory path.\n- The preprocessor will try to locate fileA in the fixed system directory. It will try to locate fileB in the directory path designated by the -I option added to the command line while compiling the source code.\n- The file using the fileA syntax must be system files, of unlimited number; fileB must be a user file at a maximun of one per source file.\n- The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.",
+        "back": "The preprocessor will try to locate fileA in a predetermined directory path. It will try to locate fileB in the same directory as the source file along with a custom directory path.\n\n[Reference](https://www.geeksforgeeks.org/difference-between-include-and-include-in-c-c-with-examples/#:~:text=The%20difference%20between%20the%20two,be%20included%20in%20the%20code.&text=%23include%20is%20for%20pre%2Ddefined%20header%20files.)"
+    },
+    {
+        "front": "<b>Q7. Using a for loop, how could you write a C code to count down from 10 to 1 and display each number on its own line?</b>\n- :\n```c\nfor (int i = 0; i>=0, i--){\n    printf(\"%d\\n\", i);\n}//end of loop\n```\n- :\n```c\nint i;\nfor (i=1; i<=10; i++){\n    printf(\"%d\", i);\n}\n```\n- :\n```c\nint i = 10;\nwhile (i>0){\n    printf(\"%d\\n\", i);\n    i--;\n}\n```\n- :\n```c\nint i;\nfor (i= 10; i>0; i--){\n    printf(\"%d\\n\", i);\n}// end of loop\n```",
+        "back": ":\n```c\nint i;\nfor (i= 10; i>0; i--){\n    printf(\"%d\\n\", i);\n}// end of loop\n```"
+    },
+    {
+        "front": "<b>Q8. What is not one of the reserved words in standard C?</b>\n- volatile\n- typeof\n- register\n- typedef",
+        "back": "typeof\n\n[Reference](https://www.ibm.com/docs/en/adfz/developer-for-zos/14.2.0?topic=programs-c-reserved-keywords)"
+    },
+    {
+        "front": "<b>Q9. What does the program shown below return?</b>\n```c\nint main(){\n    int a=1, b=2, c=3, d=4;\n    int x = a;\n    if (a>b)\n    if (b<c) x=b;\n    else x=c;\n    return(x);\n}\n```\n- 1\n- 3\n- 2\n- 0",
+        "back": "1"
+    },
+    {
+        "front": "<b>Q10. Using the Union declaration below, how many bytes of memory space will the data of this type occupy?</b>\n```c\nunion Cars {\n    char make[20];\n    char model[30];\n    short year;\n} car;\n```\n- 32\n- 54\n- 30\n- 52",
+        "back": "30"
+    },
+    {
+        "front": "<b>Q11. In this code sample, what is not a problem for C compiler?</b>\n```c\nmain(){\n    constant int PI = 3.14;\n    printf(\"%f\\n\", pi);\n}\n```\n- The value of PI needs to be set to 3.141593, not 3.14\n- The declaration of PI needs to say const, not constant.\n- The data type of PI needs to be float not int.\n- The printf statement needs to use PI, not pi.",
+        "back": "The value of PI needs to be set to 3.141593, not 3.14"
+    },
+    {
+        "front": "<b>Q12. Which is the smallest program to compile and run without errors?</b>\n- main()\n- int main() {return 0;}\n- main() { }\n- main() { ; }",
+        "back": "int main() {return 0;}\n\n[Reference](https://www.beningo.com/150-the-wolrds-shortest-c-program/)"
+    },
+    {
+        "front": "<b>Q13. What is optional in a function declaration?</b>\n- data type of parameters\n- return type of function\n- parameter names\n- number of parameters",
+        "back": "parameter names\n\n[Reference](https://www.cprogramming.com/tutorial/c/lesson4.html)"
+    },
+    {
+        "front": "<b>Q14. C treats all devices, such as the display and the keyboard, as files. Which file opens automatically when a program executes?</b>\n- stdout\n- stdio.h\n- default.h\n- string.h",
+        "back": "stdout"
+    },
+    {
+        "front": "<b>Q15. In which segment does dynamic memory allocation takes place?</b>\n- BSS Segment\n- stack\n- heap\n- data segment",
+        "back": "heap\n\n[Reference](http://www.it.uc3m.es/pbasanta/asng/course_notes/dynamic_memory_heap_en.html#:~:text=The%20dynamic%20memory%20that%20is,reads%20a%20set%20of%20words.)"
+    },
+    {
+        "front": "<b>Q16. Which function do you use to deallocate memory?</b>\n- dalloc()\n- dealloc()\n- release()\n- free()",
+        "back": "free()\n\n[Reference](https://devdocs.io/c/memory/free)\n\n[Reference](https://www.tutorialspoint.com/c_standard_library/c_function_free.htm)"
+    },
+    {
+        "front": "<b>Q17. In C language what are the basic building blocks that are constructed together to write a program?</b>\n- keywords\n- identifiers\n- tokens\n- functions",
+        "back": "tokens\n\n[Reference](https://fresh2refresh.com/c-programming/c-tokens-identifiers-keywords/#:~:text=C%20tokens%20are%20the%20basic,are%20known%20as%20C%20tokens.)"
+    },
+    {
+        "front": "<b>Q18. When is memory for a variable allocated?</b>\n- during the assigment of the variable\n- during the initialization of the variable\n- during the declaration of the variable\n- during the definition of the variable",
+        "back": "during the declaration of the variable\n\n[Reference](https://www.codingame.com/playgrounds/14589/how-to-play-with-pointers-in-c/dynamic-memory-allocation#:~:text=When%20a%20variable%20is%20declared,allocation%20or%20dynamic%20memory%20allocation.)"
+    },
+    {
+        "front": "<b>Q19. C uses the call by value method to pass arguments to functions. How can you invoke the call by reference method?</b>\n- by using pointers\n- by declaring functions separately from defining them\n- by using recursive functions\n- by using global variables",
+        "back": "by using pointers\n\n[Reference](https://www.javatpoint.com/call-by-value-and-call-by-reference-in-c)"
+    },
+    {
+        "front": "<b>Q20. A union allows you to store different `___` in the same `___`.</b>\n- Objects; Structure\n- Variables; Declaration\n- Data types; Memory space\n- Arrays; Header file",
+        "back": "Data types; Memory space"
+    },
+    {
+        "front": "<b>Q21. What is the output of this program?</b>\n```c\nmain() {\n    char c1='a' , c2='A';\n    int i=c2-c1;\n    printf(\"%d\", i);\n}\n```\n- 32\n- Runtime error\n- -32\n- 0",
+        "back": "-32"
+    },
+    {
+        "front": "<b>Q22. What is the difference between scanf() and sscanf() functions?</b>\n- The scanf() function reads data formatted as a string; The sscanf() function reads string input from the screen.\n- The scanf() function reads formatted data from the keyboard; The sscanf() function reads formatted input from a string.\n- The scanf() function reads string data from the keyboard; The sscanf() function reads string data from a string.\n- The scanf() function reads formatted data from a file; The sscanf() function reads input from a selected string",
+        "back": "The scanf() function reads formatted data from the keyboard; The sscanf() function reads formatted input from a string."
+    },
+    {
+        "front": "<b>Q23. What is not a valid command with this declaration?</b>\n```c\nchar *string[20] = { \"one\", \"two\", \"three\"};\n```\n- `printf(\"%c\", string[1][2]);`\n- `printf(\"%s\", string[1][2]);`\n- `printf(\"%s\", string[1]);`\n- `printf(string[1]);`",
+        "back": "`printf(\"%s\", string[1][2]);`"
+    },
+    {
+        "front": "<b>Q24. What is the expression player->name equivalent to?</b>\n- `player.name`\n- `(*player).name`\n- `*player.name`\n- `player.*name`",
+        "back": "`(*player).name`"
+    },
+    {
+        "front": "<b>Q25. Which program will compile and run without errors?</b>\n- :\n```c\nmain() {\n    for(i=0; i<10; i++) ;\n}\n```\n- :\n```c\nmain() {\nint i=0;\n    for(; i<10; i++) ;\n}\n```\n- :\n```c\nmain() {\n    int i;\n    for(i=0; i<j; i++) ;\n}\n```\n- :\n```c\nmain() {\nint i;\n    for (i= 10; i<10; i++)\n}\n```",
+        "back": ":\n```c\nmain() {\nint i=0;\n    for(; i<10; i++) ;\n}\n```"
+    },
+    {
+        "front": "<b>Q26. What does this function call return?</b>\n```c\n1 main() { float x = f1(10, 5); }\n2 float f1(int a, int b) { return (a/b); }\n```\n- 2\n- 2.000000\n- a runtime error\n- a compiler error",
+        "back": "a compiler error"
+    },
+    {
+        "front": "<b>Q27. What does this program create?</b>\n```c\n#include <stdio.h>\nint main() {\n    int *p = NULL;\n    return 0;\n}\n```\n- a runtime error\n- a NULL pointer\n- a compile error\n- a void pointer",
+        "back": "a NULL pointer"
+    },
+    {
+        "front": "<b>Q28. What is an alternative way to write the expression (\\*x).y?</b>\n- There is no equivalent.\n- x->y\n- \\*x->y\n- y->x",
+        "back": "x->y"
+    },
+    {
+        "front": "<b>Q29. Compile time errors are static errors that can be found where in the code?</b>\n- in declarations and definitions\n- in functions and expressions\n- in syntax and semantics\n- in objects and statements",
+        "back": "in declarations and definitions"
+    },
+    {
+        "front": "<b>Q30. File input and output (I/O) in C is heavily based on the way it is done `___`?</b>\n- in Unix\n- in C++\n- in C#\n- in DOS",
+        "back": "in Unix"
+    },
+    {
+        "front": "<b>Q31. What does the strcmp(str1, str2); function return?</b>\n- 0 if str1 and str2 are the same, a negative number if str1 is less than str2, a positive number if str1 is greater than str2\n- true (1) if str1 and str2 are the same, false (0) if str1 and str2 are not the same\n- true (1) if str1 and str2 are the same, NULL if str1 and str2 are not the same\n- 0 if str1 and str2 are the same, a negative number if str2 is less than str1, a positive number if str2 is greater than str1",
+        "back": "0 if str1 and str2 are the same, a negative number if str1 is less than str2, a positive number if str1 is greater than str2"
+    },
+    {
+        "front": "<b>Q32. What is the output of this program?</b>\n```c\nint a=10, b=20;\nint f1(a) { return(a*b); }\nmain() {\nprintf(\"%d\", f1(5));\n}\n```\n- 100\n- 200\n- 5\n- 50",
+        "back": "100"
+    },
+    {
+        "front": "<b>Q33. Which is _not_ a correct way to declare a string variable?</b>\n- `char *string = \"Hello World\";`\n- `char string = \"Hello World\";`\n- `char string[20] = {'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd'};`\n- `char string[] = \"Hello World\";`",
+        "back": "`char string = \"Hello World\";`"
+    },
+    {
+        "front": "<b>Q34. Which choice is an include guard for the header file mylib.h?</b>\n- :\n```c\n#ifdef MYLIB_H\n#undef MYLIB_H\n// mylib.h content\n#endif /* MYLIB_H */\n```\n- :\n```c\n#ifndef MYLIB_H\n#define MYLIB_H\n// mylib.h content\n#endif /* MYLIB_H */\n```\n- :\n```c\n#define MYLIB_H\n#include \"mylib.h\"\n#undef MYLIB_H\n```\n- :\n```c\n#ifdef MYLIB_H\n#define MYLIB_H\n// mylib.h content\n#endif /* MYLIB_H */\n```",
+        "back": ":\n```c\n#ifndef MYLIB_H\n#define MYLIB_H\n// mylib.h content\n#endif /* MYLIB_H */\n```"
+    },
+    {
+        "front": "<b>Q35. How many times does the code inside the while loop get executed in this program?</b>\n```c\nmain(){\n int x=1;\n while(x++<100){\n    x*=x;\n    if(x<10) continue;\n    if(x>50) break;\n }\n}\n```\n- 100\n- 3\n- 5\n- 50",
+        "back": "3"
+    },
+    {
+        "front": "<b>Q36. File input and output (I/O) in C is done through what?</b>\n- syntax-driven components\n- native interfaces\n- system objects\n- function calls",
+        "back": "function calls"
+    },
+    {
+        "front": "<b>Q37. Directives are translated by the?</b>\n- Pre-processor\n- Compiler\n- Linker\n- Editor",
+        "back": "Pre-processor"
+    },
+    {
+        "front": "<b>Q38. The main loop structures in C programming are the for loop, the while loop, and which other loop?</b>\n- do...while\n- for...in\n- repeat...until\n- do...until",
+        "back": "do...while"
+    },
+    {
+        "front": "<b>Q39. By default, C Functions are what type of functions?</b>\n- global\n- static\n- library\n- system",
+        "back": "library"
+    },
+    {
+        "front": "<b>Q40. You have written a function that you want to include as a member of structure a. How is such as structure member defined?</b>\n- :\n```c\nstruct a {\n    void *f1;\n};\n```\n- :\n```c\nstruct a {\n    void (*f1)();\n};\n```\n- :\n```c\nstruct a {\n    *(void *f1)();\n};\n```\n- :\n```c\nstruct a {\n    void *f1();\n};\n```",
+        "back": ":\n```c\nstruct a {\n    void *f1;\n};\n```"
+    },
+    {
+        "front": "<b>Q41. A Stack data structure allows all data operations at one end only, making it what kind of an implementation?</b>\n- FIFO\n- LIFO\n- LILO\n- LOLI",
+        "back": "LIFO"
+    },
+    {
+        "front": "<b>Q42. What does this program display?</b>\n```c\nmain(){\n    char *p = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\";\n    int i;\n    for (i=0;i<5;i++) *p++; *p++;\n    printf(\"%c\",*p++);\n}\n```\n- K\n- M\n- H\n- G",
+        "back": "G"
+    },
+    {
+        "front": "<b>Q43. Describe the relationship between lvalue and rvalue.</b>\n- An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear only on the right-hand side.\n- An lvalue may appear only on the left-hand side of an assignment; an rvalue may appear on either the left-hand or right-hand side.\n- An lvalue and an rvalue may appear on either left-hand or right-hand side of an assignment.\n- An lvalue may appear on the left-hand or right-hand side of an assignment; an rvalue may appear only on the right-hand side.",
+        "back": "An lvalue may appear on the left-hand or right-hand side of an assignment; an rvalue may appear only on the right-hand side."
+    },
+    {
+        "front": "<b>Q44. Which operator is used to access the address of a variable?</b>\n- `%`\n- `**`\n- `*`\n- `&`",
+        "back": "`&`"
+    },
+    {
+        "front": "<b>Q45. Which add function properly returns the updated value of result?</b>\n- :\n```c\nvoid add (int a, int b, int *result)\n{\n    *result = a+b;\n}\nmain()\n{\n    int a = 10;\n    int b = 20;\n    int result = 0;\n    add(a,b,&result);\n}\n```\n- :\n```c\nvoid add (int a, int b, int result)\n{\n    result = a+b;\n}\nmain()\n{\n    int a = 10;\n    int b = 20;\n    int result = 0;\n    add(a,b,result);\n}\n```\n- :\n```c\nvoid add (int a, int b, int *result)\n{\n    result = a+b;\n}\nmain()\n{\n    int a = 10;\n    int b = 20;\n    int result = 0;\n    add(a,b,result);\n}\n```\n- :\n```c\nvoid add (int *a, int *b, int *result)\n{\n    result = a+b;\n}\nmain()\n{\n    int a = 10;\n    int b = 20;\n    int result = 0;\n    add(*a,*b,*result);\n}\n```",
+        "back": ":\n```c\nvoid add (int a, int b, int *result)\n{\n    *result = a+b;\n}\nmain()\n{\n    int a = 10;\n    int b = 20;\n    int result = 0;\n    add(a,b,&result);\n}\n```"
+    },
+    {
+        "front": "<b>Q46. Consider the number of the Fibonacci series below 100: 0,1,1,2,3,5,8,13,21,34,55,89. Which piece of code outputs the sequence?</b>\n- :\n```c\nvoid fibonacci(int a, int b)\n{\n    int c = a+b;\n    if(a>100)\n       return;\n    printf(\"%d\", a);\n    fibonacci(a,b);\n}\nint main()\n{\n    fibonacci(0,1);\n}\n```\n- :\n```c\nvoid fibonacci(int a, int b)\n{\n    int c = a+b;\n    if(a>100)\n       return;\n    printf(\"%d\", b);\n    fibonacci(a,c);\n}\nint main()\n{\n    fibonacci(0,1);\n}\n```\n- :\n```c\nvoid fibonacci(int a, int b)\n{\n    int c = a+b;\n    if(a>100)\n       return;\n    printf(\"%d\", a);\n    fibonacci(b,c);\n}\nint main()\n{\n    fibonacci(0,1);\n}\n```\n- :\n```c\nvoid fibonacci(int a, int b)\n{\n    int c = a+b;\n    if(a>100)\n       return;\n    printf(\"%d\", c);\n    fibonacci(b,c);\n}\nint main()\n{\n    fibonacci(0,1);\n}\n```",
+        "back": ":\n```c\nvoid fibonacci(int a, int b)\n{\n    int c = a+b;\n    if(a>100)\n       return;\n    printf(\"%d\", a);\n    fibonacci(b,c);\n}\nint main()\n{\n    fibonacci(0,1);\n}\n```"
+    },
+    {
+        "front": "<b>Q47. Which is _not_ a storage class specifier?</b>\n- `intern`\n- `extern`\n- `register`\n- `static`",
+        "back": "`intern`\n\n[Reference](https://en.cppreference.com/w/cpp/language/storage_duration)"
+    },
+    {
+        "front": "<b>Q48. Which line of code, after execution, results in `i` having the value of 1?</b>\n- `for(i=1; i<=1; i++);`\n- `for(i=1; i=10; i++);`\n- `for(i=1; i==10; i++);`\n- `for(i=10; i>=1; i--);`",
+        "back": "`for(i=1; i==10; i++);`"
+    },
+    {
+        "front": "<b>Q49. What is the value of variable c at the end of this program?</b>\n```\n1 main() {\n2   int a, b, c;\n3   a=10; b=50;\n4   c=a * b % a;\n5 }\n```\n- 50\n- 5\n- 0\n- 500",
+        "back": "0"
+    },
+    {
+        "front": "<b>Q50. What is _not_ one of the basic data types in C</b>\n- long double\n- unsigned char\n- array\n- float",
+        "back": "array"
+    },
+    {
+        "front": "<b>Q51. What is the member access operator for a structure?</b>\n- ,\n- []\n- .\n- :",
+        "back": "."
+    },
+    {
+        "front": "<b>Q52. What standard data type provides the smallest storage size and can be used in computations?</b>\n- char\n- float\n- int\n- short",
+        "back": "char"
+    },
+    {
+        "front": "<b>Q53. what does the ctype tolower() function do?</b>\n- It returns TRUE for lowercase letters of the alphabet.\n- It ensures that text output uses only ASCII values (0 through 127).\n- It returns FALSE for lowercase letters of the alphabet.\n- It converts an uppercase letter of the alphabet to lowercase.",
+        "back": "It converts an uppercase letter of the alphabet to lowercase."
+    },
+    {
+        "front": "<b>Q54. Void pointer _vptr_ is assigned the address of float variable _g_. What is a valid way to dereference _vptr_ to assign its pointed value to a float variable named _f_ later in the program?</b>\n```c\nfloat g;\nvoid *vptr=&g;\n```\n- `f=(float *)vptr;`\n- `f=*(float *)vptr;`\n- `f=*(float)vptr;`\n- `f=(float)*vptr;`",
+        "back": "`f=*(float *)vptr;`"
+    },
+    {
+        "front": "<b>Q55. The dynamic memory allocation functions are defined in which system header file ?</b>\n- stdio.h\n- stdlib.h\n- limits.h\n- stddef.h",
+        "back": "stdlib.h"
+    },
+    {
+        "front": "<b>Q56. A function is a set of **\\_**.</b>\n- declarations\n- statements\n- variables\n- objects",
+        "back": "statements"
+    },
+    {
+        "front": "<b>Q57. How are static functions different from global functions?</b>\n- Static functions must be declared in advance of being defined.\n- Static functions must be declared is a separate header file.\n- Static functions always return the same value.\n- Static functions can be accessed only in the file where they are declared.",
+        "back": "Static functions can be accessed only in the file where they are declared."
+    },
+    {
+        "front": "<b>Q58. Which code example creates the string \"Hello Mars\" in storage buffer `hello`.</b>\n- :\n```c\n    char hello[25];\n    strcpy(hello, \"Hello \");\n    strcpy(hello, \"Mars\");\n```\n- :\n```c\n    char hello[25];\n    char *p;\n    strcpy(hello, \"Hello World\");\n    p = hello;\n    p +=6;\n    strcpy(p, \"Mars\");\n```\n- :\n```c\n    char *hello;\n    strcpy(hello, \"Hello World\");\n    hello+=6;\n    strcpy(hello, \"Mars\");\n```\n- :\n```c\n    char hello[25];\n    strcpy(hello, \"Hello World\");\n    strcpy(*hello[6], \"Mars\");\n```",
+        "back": ":\n```c\n    char hello[25];\n    char *p;\n    strcpy(hello, \"Hello World\");\n    p = hello;\n    p +=6;\n    strcpy(p, \"Mars\");\n```"
+    },
+    {
+        "front": "<b>Q59. If you use the fopen() function with the \"a\" mode, what happens if the named file doesn't exist?</b>\n- The file is created and opened for reading.\n- The file is created and opened for writing.\n- The fopen() function returns a NULL indicating that the operation has failed.\n- The file is created and opened for both writing and reading",
+        "back": "The file is created and opened for writing.\n\n[Reference](https://www.tutorialspoint.com/c_standard_library/c_function_fopen.htm)"
+    },
+    {
+        "front": "<b>Q60. What does this function return?</b>\n```c\nint fl(int a, int b) { return(a>b?a:b); }\n```\n- compiler error\n- the smaller value of the two passed parameters\n- runtime error\n- the greater value of the two passed parameters",
+        "back": "the greater value of the two passed parameters"
+    },
+    {
+        "front": "<b>Q61. Which option is a valid function name?</b>\n- draw_star()\n- 5times()\n- upper-limit()\n- auto()",
+        "back": "draw_star()"
+    },
+    {
+        "front": "<b>Q62. What is not a valid type definition of a structure that contains x and y coordinates as integers, and that can be used as shown for the variable named point?</b>\n```c\ncoord point;\npoint.x = 9;\npoint.y = 3;\n```\n- :\n```c\nstruct coord{\n    int x;\n    int y;\n};\ntypedef struct coord coord;\n```\n- :\n```c\ntypedef struct coord{\n    int x;\n    int y;\n};\n```\n- :\n```c\ntypedef struct coord{\n    int x;\n    int y;\n} coord;\n```\n- :\n```c\ntypedef struct{\n    int x;\n    int y;\n} coord;\n```",
+        "back": ":\n```c\ntypedef struct coord{\n    int x;\n    int y;\n};\n```"
+    },
+    {
+        "front": "<b>Q63. What is the output of the below program?</b>\n```c\n#include <stdio.h>\n#if X == 3\n    #define Y 3\n#else\n    #define Y 5\n#endif\nint main()\n{\n    printf(\"%d\", Y);\n    return 0;\n}\n```\n- 3\n- 5\n- 3 or 5 depending on input\n- Compile time error",
+        "back": "5"
+    },
+    {
+        "front": "<b>Q64. What do the functions malloc() and calloc() allocate?</b>\n- reallocatged memory\n- static memeory\n- dynamic memory\n- fragmented memory",
+        "back": "dynamic memory\n\n[Reference](https://devdocs.io/c/memory/calloc , https://devdocs.io/c/memory/malloc )"
+    },
+    {
+        "front": "<b>Q65. You need to determine if a string variable is a substring of another string. Which standard C library function do you use?</b>\n- substr(str1, str2);\n- strstr(str1, str2);\n- substring(str1, str2);\n- strspn(str1, str2);",
+        "back": "strstr(str1, str2);\n\n[Reference](https://devdocs.io/c/string/byte/strstr)"
+    },
+    {
+        "front": "<b>Q66. Find the output of the program?</b>\n```c\n#include <stdio.h>\n#define L 10\nint main(){\n    int a =10;\n    switch (a,a<<2){\n        case L:printf(\"a==L\");     break;\n        case L*2 : printf(\"a = L* 2\\n\");     break;\n        case L*4 : printf(\"a = L* 4\\n\");    break;\n        default: printf(\"Error\\n\");\n    }\n}\n```\n- `a=L*2`\n- `a=L`\n- `Error`\n- `a=L*4`",
+        "back": "`a=L*4`\n\n[Reference](https://www.geeksforgeeks.org/left-shift-right-shift-operators-c-cpp/)"
+    },
+    {
+        "front": "<b>Q67. Predict the output of the following code when the **interger** variables x is initialized to 10,y to 2 and z to 0.</b>\n```c\nz = x + y * x + 10 / 2 * x;\nprintf(\"value is =%d\",z);\n```\n- 80\n- 170\n- 31.5\n- 6",
+        "back": "80\n\n[Reference](https://www.informit.com/articles/article.aspx?p=2062174&seqNum=4)"
+    },
+    {
+        "front": "<b>Q68. What will be the output of the following code snippet?</b>\n```c\n#include <stdio.h>\nvoid solve() {\n    int x = 2;\n    printf(\"%d\", (x << 1) + (x >> 1));\n}\nint main() {\n    solve();\n\treturn 0;\n}\n```\n- 5\n- 4\n- 2\n- 1",
+        "back": "5"
+    },
+    {
+        "front": "<b>Q69. What is the output of this program?</b>\n```c\nint a=20, b=10;\nint f1(a) {\n    return(a*b);\n}\nmain() {\n    printf(\"%d\", f1(5));\n}\n```\n- 100\n- 200\n- 5\n- 50",
+        "back": "50"
+    },
+    {
+        "front": "<b>Q70. What is /0 character ?</b>\n- String\n- NULL Character\n- ZERO\n- Variable",
+        "back": "NULL Character\n\n[Reference](<https://www.youth4work.com/Talent/C-Language/Forum/117150-what-is-the-use-of-a-0-character-in-c-language#:~:text=by%20using%20of%20null%20character(%27%5C0%27)%20it%20terminates%20the%20string%20untill%20the%20null%20character%20hit...%20which%20means%20comes%20out%20of%20the%20loop...%20In%20strings%20by%20default%20takes%20the%20null%20charater>)"
+    },
+    {
+        "front": "<b>Q71. What is correct output for follwing code ?1</b>\n```c\n#include&lt;stdio.h&gt;\n#include&lt;conio.h&gt;\nmain()\n{\n     int a=10, b=20;\n     clrscr();\n     printf(\"Before swapping a=%d b=%d\",a,b);\n     a=a+b;\n     b=a-b;\n     a=a-b;\n     printf(\"nAfter swapping a=%d b=%d\",a,b);\n     getch();\n}\n```\n- Before a=10 b=20 , After a=10 b=10\n- Before a=10 b=10 , After a=20 b=10\n- Before a=10 b=20 , After a=20 b=20\n- Before a=10 b=20 , After a=20 b=10",
+        "back": "Before a=10 b=20 , After a=20 b=10"
+    },
+    {
+        "front": "<b>Q72. What is Incorrect option that explain # pragma directive ?</b>\n- #pragma exit allows us to specify functions called upon program exit.\n- This is a preprocessor directive that can be used to turn on or off certain features.\n- #pragma startup don't allows us to specify functions called upon program startup.\n- It is of two types #pragma startup, #pragma exit and pragma warn.",
+        "back": "#pragma startup don't allows us to specify functions called upon program startup."
+    },
+    {
+        "front": "<b>Q73. What will be the output of the following code snippet?</b>\n```c\n#include <stdio.h>\nunion School {\n    int age, rollNo;\n    double marks;\n};\nvoid solve() {\n    union School sc;\n    sc.age = 19;\n    sc.rollNo = 82;\n    sc.marks = 19.04;\n    printf(\"%d\", (int)sizeof(sc));\n}\nint main() {\n    solve();\n\treturn 0;\n}\n```\n- 2\n- 4\n- 8\n- 10",
+        "back": "8"
+    },
+    {
+        "front": "<b>Q74. What will be the output of the following code snippet?</b>\n```c\n#include <stdio.h>\nstruct School {\n    int age, rollNo;\n};\nvoid solve() {\n    struct School sc;\n    sc.age = 19;\n    sc.rollNo = 82;\n    printf(\"%d %d\", sc.age, sc.rollNo);\n}\nint main() {\n    solve();\n\treturn 0;\n}\n```\n- 19 82\n- Compilation Error\n- 82 19\n- None of these",
+        "back": "19 82"
+    },
+    {
+        "front": "<b>Q75. What is the output of the following code snippet?</b>\n```c\nint main() {\n\tint sum = 2 + 4 / 2 + 6 * 2;\n\tprintf(\"%d\", sum);\n\treturn 0;\n}\n```\n- 2\n- 15\n- 16\n- 18",
+        "back": "16"
+    },
+    {
+        "front": "<b>Q76. What does the following declaration mean?</b>\n```\nint (*ptr)[10];\n```\n- ptr is array of pointers to 10 integers\n- ptr is a pointer to an array of 10 integers\n- ptr is an array of 10 integers\n- ptr is an pointer to array",
+        "back": "ptr is a pointer to an array of 10 integers"
+    },
+    {
+        "front": "<b>Q77. What will be the output of the following code snippet?</b>\n```c\n#include <stdio.h>\nvoid change(int,int);\nint main()\n{\n   int a=10,b=20;\n   change(a,b); //calling a function by passing the values of variables.\n   printf(\"Value of a is: %d\",a);\n   printf(\"\\n\");\n   printf(\"Value of b is: %d\",b);\n   return 0;\n}\nvoid change(int x,int y)\n{\n   x=13;\n   y=17;\n}\n```\n- 10,20\n- 10,10\n- 20,20\n- 20,10",
+        "back": "10,20\n\n**Explanation :** The function \"change\" will change the value of x and y only within its own scope, so a and is unaffected."
+    },
+    {
+        "front": "<b>Q78. Choose true or false.When variable is created in C, a memory address is assigned to the variable.</b>\n- True\n- False",
+        "back": "True"
+    },
+    {
+        "front": "<b>Q79. What does the following fragment of C-program print?</b>\n```c\n#include <stdio.h>\nint main()\n{\n    char c[] = \"GATE2011\";\n    char *p = c;\n    printf(\"%s\", p + p[3] -p[1]);\n    return 0;\n}\n```\n- GATE 2011\n- E2011\n- 2011\n- 01",
+        "back": "2011\n\n**Explanation :** char c[ ] = \"GATE2011\";since char \\*p =c it means p represents to the base address of string \u201cGATE2011\u201d SO p[3] is 'E' and p[1] is 'A'. Value of Sub expression p[3] \u2013 p[1] = ASCII value of \u2018E\u2019 \u2013 ASCII value of \u2018A\u2019 = 4. So the expression p + p[3] \u2013 p[1] becomes ( p + 4) And (p+4) represent to base address of string \u201c2011\u201d printf(\u201c%s\u201d, p + p[3] \u2013 p[1]) ; So it will print 2011"
+    },
+    {
+        "front": "<b>Q80. What is the output of the following code snippet?</b>\n```c\nint main() {\n\tint a = 5, b = 6, c;\n\tc = a++ + ++b;\n\tprintf(\"%d %d %d\", a, b, c);\n\treturn 0;\n}\n```\n- 5 6 11\n- 6 7 12\n- 5 6 12\n- 6 6 12",
+        "back": "6 7 12"
+    },
+    {
+        "front": "<b>Q81. What will be the output of the following C program segment?</b>\n```c\nchar inchar = 'A';\nswitch (inchar)\n{\ncase 'A' :\n\tprintf (\"choice A \\n\") ;\ncase 'B' :\n\tprintf (\"choice B \") ;\ncase 'C' :\ncase 'D' :\ncase 'E' :\ndefault:\n\tprintf (\"No Choice\") ;\n}\n```\n- No choice\n- Choice A\n- Choice A\n      Choice B No choice\n- Program gives no output as it is erroneous",
+        "back": "Choice A\n      Choice B No choice"
+    },
+    {
+        "front": "<b>Q82. Which of the following is the correct syntax to print the message in C++ language?</b>\n- Out <<\"Hello world!\n- Cout << Hello world! ;\n- cout <<\"Hello world!\";\n- None of the above",
+        "back": "cout <<\"Hello world!\";"
+    },
+    {
+        "front": "<b>Q83. String variable str1 has the value of \"abc\", and string variable str2 has the value \"xyz\". What are the values of str1 and str2 after this statement is executed?</b>\n```c\nstrcpy(str1, str2);\n```\n- str1: \"xyz\" ; str2: \"xyz\"\n- str1: \"abc\" ; str2: \"xyz\"\n- str1: \"xyz\" ; str2: \"abc\"\n- str1: \"abc\" ; str2: \"abc\"",
+        "back": "str1: \"xyz\" ; str2: \"xyz\""
+    },
+    {
+        "front": "<b>Q84. Which is not one of the basic data types in C?</b>\n- array\n- float\n- long double\n- unsigned char",
+        "back": "array"
+    }
+]

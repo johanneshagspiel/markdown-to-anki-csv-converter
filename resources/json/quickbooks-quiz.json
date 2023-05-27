@@ -1,0 +1,266 @@
+[
+    {
+        "front": "<b>Q1. How can you track sick and vacation time in QuickBooks?</b>\n- Create two deductions called Sick and Vacation. Use these when you pay your employees.\n- You can't track sick and vacation time in QuickBooks. Create an Excel workbook and manually enter employee accruals and uses with each payroll.\n- Set up sick or vacation time as a wage item, then define how QuickBooks should accrue it when you set up your employees.\n- Set up a separate non-posting account for sick and vacation time, and then record sick and vacation time against that account.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q2. You _cannot_ use the Enter Bills > Pay Bills approach to pay what type of bill?</b>\n- rent\n- accounting fees\n- legal services\n- sales taxes",
+        "back": "sales taxes"
+    },
+    {
+        "front": "<b>Q3. What is the easiest way to set up multiple companies, with the same owner, in QuickBooks?</b>\n- Use the Advanced/Detailed Setup to go through the EasyStep Interview for the oldest company, then click File > Add Additional Business at the end of the interview.\n- Set up classes for each company within the parent company file. This will allow you to print financial statements for each company.\n- Purchase a separate QuickBooks license for each company. You will create different icons for each company on your desktop.\n- Use the Advanced/Detailed Setup to go through the EasyStep Interview for each company, creating a separate company file for each.",
+        "back": "Set up classes for each company within the parent company file. This will allow you to print financial statements for each company."
+    },
+    {
+        "front": "<b>Q4. For whom can you create a password during the Advanced/Detailed Setup?</b>\n- the administrator\n- the external accountant\n- no users\n- all users",
+        "back": "the administrator"
+    },
+    {
+        "front": "<b>Q5. In the case of a subscription or monthly fee, what does the batch invoicing process allow you to do?</b>\n- Provide invoices to customers when you are in the field and do not have access to the internet or software.\n- Create recurring invoices for the same customer that will repeat each month.\n- Prefill invoices to simplify the billing process for a bookkeeper or external billing service.\n- Set up multiple customers in a billing group, with the same invoice.",
+        "back": "Create recurring invoices for the same customer that will repeat each month."
+    },
+    {
+        "front": "<b>Q6. When initially setting up a company through the Advanced/Detailed Setup, which information does QuickBooks require you to enter?</b>\n- company name and Chart of Accounts\n- company name, tax ID, and administrator password\n- company name\n- company name and address",
+        "back": "company name"
+    },
+    {
+        "front": "<b>Q7. What does setting up fixed assets in QuickBooks enable you to do?</b>\n- Complete your depreciation schedule for tax purposes.\n- Pay for assets directly from the setup window.\n- Provide the buyer of the asset with proof of purchase.\n- Track larger purchases that you may later sell.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q8. When would the Expenses tab on a payroll liability check be used?</b>\n- to pay an employee's garnishment, such as child support\n- to correct the amount due if an error was detected in a payroll check\n- to add the cost of employee mileage to the payment\n- to enter late fees, penalties, or interest",
+        "back": "to enter late fees, penalties, or interest"
+    },
+    {
+        "front": "<b>Q9. Why would you use the Items tab when entering a bill?</b>\n- to track freight charges separately from the expense account\n- to track expenses\n- to assign a cost to a job or to purchase an inventory item\n- to track credits\nhttps://www.chegg.com/homework-help/questions-and-answers/would-use-items-tab-entering-bill-track-freight-charges-separately-expense-account-b-track-q86659682",
+        "back": "to track expenses"
+    },
+    {
+        "front": "<b>Q10. Why is it good practice to use the Bank Deposit screen to record sales not tracked to individual customers?</b>\n- It allows you to get customer level detail later.\n- It gets the cash into your checking account as quickly as possible.\n- It automates the deposit system, so you don't have to physically go to the bank to complete the deposit.\n- It allows you to record daily \"lump sum\" sales quickly and efficiently.",
+        "back": "It allows you to record daily \"lump sum\" sales quickly and efficiently."
+    },
+    {
+        "front": "<b>Q11. You are running your Profit and Loss report and notice it is on a cash basis rather than an accrual basis. How can you correct this to show the correct basis?</b>\n- You cannot change the basis for just one report.\n- Right-click the basis shown on the right side of the report and change it to Accrual.\n- Double-click the basis and change it to Accrual.\n- In the upper-left corner of the screen, select the Accrual button.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q12. Is it possible to merge two list entries?</b>\n- Yes. From the bottom of the list, click Activities > Combine List Name, and then select the list entries you would like to merge.\n- Yes. You can rename the unwanted list entry to match the name of the list entry you would like to merge into.\n- No. You can delete a list entry, but you cannot merge them.\n- No. You cannot combine or merge two list entries.",
+        "back": "Yes. From the bottom of the list, click Activities > Combine List Name, and then select the list entries you would like to merge."
+    },
+    {
+        "front": "<b>Q13. Can you delete a vendor whom you are no longer using from the list?</b>\n- You can never delete a vendor, but you can make them inactive.\n- Yes, Go to your Vendor Center, select the vendor you would like to delete, and click Edit > Delete.\n- You can delete the vendor only if they are not used in transactions or are part of another list entry, but you can make them inactive.\n- Yes. When you delete the vendor, a box appears asking if you are sure you want to delete. Click Yes and enter the administrator password to continue.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q14. Why is setting a closing date in QuickBooks a good practice?</b>\n- Sensitive data is safeguarded after the close date, since access is password protected.\n- After reports have been printed, changes cannot be made to transactions before the closing date without a password.\n- After the close date, only certain users are allowed to access data for reporting purposes.\n- It does not allow users to look at data after the period has closed.",
+        "back": "After reports have been printed, changes cannot be made to transactions before the closing date without a password."
+    },
+    {
+        "front": "<b>Q15. Why would you clear the Bill Received check box when entering a bill on the Enter Bills screen?</b>\n- You do not plan to pay the bill until closer to the due date.\n- You do not want to print the bill.\n- There is a discrepancy in the bill received and the amount you expected.\n- An inventory item has been received, but you have not received the corresponding bill.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q16. How do you record a debit card purchase in QuickBooks?</b>\n- Wait until you do the bank reconciliation and enter one journal entry for all of your debit card purchases.\n- Use the Enter Bills window to enter the information, then immediately go to the Pay Bills window and prepare the check. Print the check for your records, but you do not need to mail it.\n- Using the Write Checks window, in the No. field, type \"Debit.\" Enter the vendor name and amount in the check area.\n- Prepare a journal entry to debit the expense account of the purchase and credit Cash.",
+        "back": "Use the Enter Bills window to enter the information, then immediately go to the Pay Bills window and prepare the check. Print the check for your records, but you do not need to mail it."
+    },
+    {
+        "front": "<b>Q17. Which two accounts are typically affected by Payroll Items when using the Payroll feature?</b>\n- Payroll Liabilities and Payroll Accruals\n- Payroll Salary and Payroll Taxes\n- Payroll Liabilities and Payroll Expenses\n- Payroll Accruals and Payroll Taxes",
+        "back": "Payroll Liabilities and Payroll Accruals"
+    },
+    {
+        "front": "<b>Q18. You are setting up QuickBooks for the first time for a company that was established in 2001. During the Advanced/Detailed Setup, what should you enter as the start date?</b>\n- Enter \"January 1, 2001\", since the company has been in business since 2001.\n- You don't need to enter a start date. QuickBooks automatically assigned the start date when you created the company.\n- You don't need to enter a start date. QuickBooks will automatically assign it when you begin entering data.\n- The date on which you plan to begin using QuickBooks.",
+        "back": "The date on which you plan to begin using QuickBooks."
+    },
+    {
+        "front": "<b>Q19. What feature lets customers know how long they have to pay you?</b>\n- Terms\n- Estimates\n- Delayed Charges\n- Classes",
+        "back": "Terms"
+    },
+    {
+        "front": "<b>Q20. During the Advanced/Detailed Setup process, you notice there are some accounts you would like to add to your Chart of Accounts that are not on the default list. What is the easiest way to accomplish this?</b>\n- You are not able to add new accounts if you select the default Chart of Accounts.\n- Finish the interview and then add the accounts directly to the Chart of Accounts\n- Click Add New Account during the EasyStep Interview.\n- Click Edit Account during the EasyStep Interview.",
+        "back": "Finish the interview and then add the accounts directly to the Chart of Accounts"
+    },
+    {
+        "front": "<b>Q21. When a customer's deposit is recorded using the Make Deposits window, QuickBooks creates a behind-the-scenes journal entry that will do what?</b>\n- Credit Cash and debit Checking.\n- Debit Cash and credit Checking.\n- Credit Checking and debit Undeposited Funds.\n- Debit Checking and credit Undeposited Funds.",
+        "back": "Debit Checking and credit Undeposited Funds."
+    },
+    {
+        "front": "<b>Q22. How can you move your QuickBooks Desktop company file, with all of your data, to a new computer?</b>\n- Create a portable file and restore it to the new system.\n- Export your company file to Excel from the old computer, then copy this file over to your new computer.\n- Install QuickBooks on the new computer, back up your company file on the old computer, and restore the file to the new system.\n- Condense the data file on the old computer to the drive space. Back up the file and then restore the condensed data file to the new computer.",
+        "back": "Export your company file to Excel from the old computer, then copy this file over to your new computer."
+    },
+    {
+        "front": "<b>Q23. How can you display or print a batch or group of reports quickly?</b>\n- Create a memorized group of reports.\n- Click Batch Reports from the Home Page.\n- Click Reports > Process Multiple Reports.\n- You cannot do this in QuickBooks.",
+        "back": "Click Reports > Process Multiple Reports."
+    },
+    {
+        "front": "<b>Q24. You just hired your first employee. What are the first two steps in QuickBooks to set up your payroll?</b>\n- Sign up for a payroll service and select Setup Payroll Schedules.\n- Sign up for a payroll service and complete the Payroll Setup Interview.\n- Complete the Payroll Setup Interview and add your new employee.\n- Turn on payroll through your preferences and complete the Payroll Setup Interview.",
+        "back": "Sign up for a payroll service and complete the Payroll Setup Interview."
+    },
+    {
+        "front": "<b>Q25. QuickBooks uses a system called double-entry accounting. What does this mean?</b>\n- The Equity and Asset accounts are involved in every transaction.\n- Two different classifications of accounts are part of each entry, so you cannot have an entry going to two different asset accounts.\n- There are at least two accounts involved in each transaction, to include at least one debit and one credit.\n- An Income or Expense account needs to be part of each transaction.",
+        "back": "There are at least two accounts involved in each transaction, to include at least one debit and one credit."
+    },
+    {
+        "front": "<b>Q26. How do you create a loan in QuickBooks?</b>\n- Create a Liability account.\n- Create a Loan account.\n- Use the Loan Manager.\n- Select Banking > Create Loan.",
+        "back": "Select Banking > Create Loan."
+    },
+    {
+        "front": "<b>Q27. How can you edit a collection letter?</b>\n- Click Company > Prepare Letters with Envelopes > Customize Letter Templates.\n- After opening the letter, click Edit Template at the top of the letter.\n- Download the letter to Word, edit it in Word, and save it for future use.\n- You can't. If a stock template doesn't meet your needs, create your own template from scratch.",
+        "back": "After opening the letter, click Edit Template at the top of the letter."
+    },
+    {
+        "front": "<b>Q28. Last month you successfully reconciled your checking account, but when you try to reconcile this month, the beginning balance calculated by QuickBooks is different from the beginning balance according to the bank. What might have happened?</b>\n- Someone changed or deleted a transaction you cleared on the prior reconciliation.\n- Someone added a new transaction and backdated it.\n- Another user changed the beginning balance.\n- The bank may have transposed a number on a check or deposit.",
+        "back": "Someone added a new transaction and backdated it."
+    },
+    {
+        "front": "<b>Q29. Which QuickBooks feature would you use to compare the net profit for each project you perform for the same customer?</b>\n- Jobs\n- Job Types\n- Classes\n- Customer Types",
+        "back": "Customer Types"
+    },
+    {
+        "front": "<b>Q30. Your rent is the same amount each month. What is an easy way to pay this?</b>\n- Click the Automate button when the transaction is on the screen.\n- Click the Schedule button when the transaction is on the screen.\n- On the Home Page, click File > Automate Transaction.\n- Create a memorized transaction.",
+        "back": "On the Home Page, click File > Automate Transaction."
+    },
+    {
+        "front": "<b>Q31. Each partner in a company is compensated based on the net profit of the work they manage. Which QuickBooks feature would you use to track each partner's net profit?</b>\n- Accounts\n- Customer and Vendor Types\n- Classes\n- Groups",
+        "back": "Groups"
+    },
+    {
+        "front": "<b>Q32. If you are tracking sales tax in QuickBooks, where will you find the reports needed to pay the taxing authorities?</b>\n- Tax Liability\n- Sales Reports\n- Sales Tax\n- Vendors and Payables",
+        "back": "Tax Liability"
+    },
+    {
+        "front": "<b>Q33. Why is it important during payroll setup to enter your deposit frequencies?</b>\n- You do not need to enter your deposit frequencies, as QuickBooks enters that information for you automatically.\n- The Pay Scheduled Liabilities list in the Payroll Center will be accurate, so all taxes are paid in a timely manner to avoid late payments or penalties.\n- Most state agencies require this. If deposit frequencies are not set up correctly, a warning will go to the taxing authority.\n- QuickBooks needs this information to automatically make the payments for you on or before the due date.",
+        "back": "The Pay Scheduled Liabilities list in the Payroll Center will be accurate, so all taxes are paid in a timely manner to avoid late payments or penalties."
+    },
+    {
+        "front": "<b>Q34. Time Tracking in QuickBooks _cannot_ be used to complete which task?</b>\n- to track the cost of an employee's gross pay by job\n- to flag when you need more staff for a project\n- to provide the hours an employee worked on a paycheck\n- to invoice a customer for time spent on the job",
+        "back": "to track the cost of an employee's gross pay by job"
+    },
+    {
+        "front": "<b>Q35. What type of data file is used to enter data and transactions?</b>\n- QBX\n- QBW\n- QBB\n- QBM",
+        "back": "QBB"
+    },
+    {
+        "front": "<b>Q36. Your accountant calls and needs to know which version of QuickBooks you are using. What is the easiest way to find out?</b>\n- Press the F2 key (Windows) or select Help > Product Information (Mac) to display the version information.\n- Reopen your QuickBooks file and wait for the version to show up on the opening screen.\n- On the Home Page, select Help and type Version in the search box.\n- Go to `www.quickbooks.com` and view your account details.",
+        "back": "Reopen your QuickBooks file and wait for the version to show up on the opening screen."
+    },
+    {
+        "front": "<b>Q37. After creating your Chart of Accounts, you decide some accounts should be subaccounts. How can you make this change?</b>\n- Click the account to select it, and then click Lists > Chart of Accounts > Make subaccount.\n- Right-click the account and choose Make subaccount.\n- In the Edit Account dialog box, select the Subaccount of check box, and then select the parent account in the drop-down list.\n- You cannot make an account a subaccount once it is part of the Chart of Accounts.",
+        "back": "In the Edit Account dialog box, select the Subaccount of check box, and then select the parent account in the drop-down list."
+    },
+    {
+        "front": "<b>Q38. A customer pays you in full for your product when they order it. Which form should you use to record this transaction in QuickBooks?</b>\n- Receive Payments\n- Invoice\n- Sales Receipt\n- Make Deposit",
+        "back": "Sales Receipt"
+    },
+    {
+        "front": "<b>Q39. When entering a journal entry, the debits do not equal the credits. What will QuickBooks do in this case?</b>\n- Record the transaction as entered.\n- Ask to which account you would like to post the balance.\n- Not allow you to record the transaction.\n- Post the difference to an adjustment account.",
+        "back": "Record the transaction as entered."
+    },
+    {
+        "front": "<b>Q40. What must you do before using the Pay Bills option in QuickBooks?</b>\n- Enter the bill.\n- Create a purchase order.\n- Have funds in your checking account to cover the payment amount.\n- Provide an email address for the vendor so you can send payment confirmation.",
+        "back": "Have funds in your checking account to cover the payment amount."
+    },
+    {
+        "front": "<b>Q41. What is QuickReport in QuickBooks?</b>\n- a QuickBooks report in a graphical format\n- a snapshot of the Profit and Loss report\n- any QuickBooks report\n- a predesigned report that shows more detail about the data you are currently viewing on screen",
+        "back": "a predesigned report that shows more detail about the data you are currently viewing on screen"
+    },
+    {
+        "front": "<b>Q42. After paying a bill in the Pay Bills screen, QuickBooks automatically creates a journal entry behind the scenes that will do what?</b>\n- Debit Cash and credit Accounts Payable.\n- Debit Cash and credit Prepaid Expenses.\n- Credit Cash and debit Accounts Payable.\n- Credit Cash and debit Prepaid Expenses.",
+        "back": "Credit Cash and debit Prepaid Expenses."
+    },
+    {
+        "front": "<b>Q43. What happens when you void an invoice?</b>\n- The invoice number changes to the word Void, and the invoice remains available for reference with a zero balance due.\n- The invoice is removed, and the next invoice will receive the number of the voided invoice.\n- The invoice number can't be used again, and the invoice details cannot be viewed.\n- The invoice number can't be used again, the word Void is added to the memo, and the invoice remains available for reference with a zero balance due.",
+        "back": "The invoice number can't be used again, the word Void is added to the memo, and the invoice remains available for reference with a zero balance due."
+    },
+    {
+        "front": "<b>Q44. Your company manufactures widgets that contain multiple inventory items. What is the best way to manage your inventory?</b>\n- Create a group that contains all of the components of the widget.\n- Create an Inventory Part called Widget, and do a journal entry to adjust inventory manually after each production run.\n- Each time you manufacture a widget, adjust the inventory for each item through the Inventory Adjustments window.\n- Utilize the Inventory Assembly item type.",
+        "back": "Each time you manufacture a widget, adjust the inventory for each item through the Inventory Adjustments window."
+    },
+    {
+        "front": "<b>Q45. What does QuickBooks do with net profit at the beginning of a new year?</b>\n- Subtracts net profit from an Owner's or Shareholder's Equity account.\n- Adds net profit to an Owner's or Shareholder's Equity account.\n- Adds net profit to Stockholder's Equity.\n- Adds net profit to Retained Earnings.",
+        "back": "Adds net profit to Retained Earnings."
+    },
+    {
+        "front": "<b>Q46. Where does QuickBooks get the billable time and costs information when you invoice for time and costs?</b>\n- from the billable costs uploaded from an Excel workbook\n- from the billable time entered on timesheets\n- from you manually entering the line items on the invoice\n- from the billable time entered on timesheets and/or billable costs entered through checks and bills",
+        "back": "from the billable time entered on timesheets and/or billable costs entered through checks and bills"
+    },
+    {
+        "front": "<b>Q47. How can you discount just one item on an invoice for a customer?</b>\n- Create a Discount item and use it on the line immediately after the item you want to discount.\n- Click Add Discount at the top of the invoice and apply it to the correct item.\n- Manually change the Amount field to the discounted total for the item.\n- Create a Discount item and a Subtotal item. Apply the Subtotal, then immediately apply the Discount.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q48. On the Home Page, which tab provides a snapshot of your company finances? And is this snapshot a data dashboard or a task list?</b>\n- Home Page; data dashboard\n- Insights; task list\n- Home Page; task list\n- Insights; data dashboard",
+        "back": ""
+    },
+    {
+        "front": "<b>Q49. What is the preferred style of check to provide to employees on payday?</b>\n- There is no need to provide a pay stub if you are using direct deposit. Employees can ask if they need information in addition to their net pay amount.\n- The standard check, with a paper check stub as backup.\n- The payroll check, which is preprinted with earnings and taxes columns.\n- The voucher check, so they have the net check amount plus all of the information regarding earnings, taxes, and withheld items.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q50. When would you use Progress Invoicing?</b>\n- to invoice items marked as billable as they occur\n- to invoice from an estimate as work is completed\n- to convert a sales receipt to an invoice\n- to automate company cash flow",
+        "back": ""
+    },
+    {
+        "front": "<b>Q51. What is a good way to handle prospective clients?</b>\n- Set the customer as inactive until they are an active customer.\n- Use the Lead Center by clicking Customers > Lead Center.\n- There is no way to differentiate a current customer from a potential customer.\n- Use the Lead Center bv clicking Company > Lead Center.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q52. You wrote a check and later discovered it was for an incorrect amount. What is the best way to handle this, if you know the check will not be cashed?</b>\n- In the account register, select the check and click Edit > Void Check.\n- In the account register, select the check and then click Edit > Delete Check.\n- Create a journal entry for the amount of the check to debit Cash and credit Undeposited Funds. Clear the journal entry and the check when reconciling, to correctly balance your cash account.\n- In the account register, select the check, and then change the amount of the check to -0-",
+        "back": ""
+    },
+    {
+        "front": "<b>Q53. QuickBooks allows users to condense files when the company file becomes too large. What happens when you choose to remove transactions as of a specified date from the Condense Data window?</b>\n- The company start date is changed to the date on which you condensed your data. Make sure to run all reports prior to completing this process.\n- All transactions are removed, allowing you to start fresh. You will need to print all reports before this process and enter beginning balances into your QuickBooks file.\n- All transaction details are removed, but the summary totals are kept in the system, to allow financial statements to be run for prior periods.\n- All transaction data, including payroll data, is removed. This process will correct any entry errors, leaving a clean data file.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q54. How are cash inflows and outflows related to the company's primary business classified?</b>\n- as sales activities on the Profit and Loss report\n- as financing activities on the Statement of Cash Flows\n- as operating activities on the Profit and Loss report\n- as operating activities on the Statement of Cash Flows",
+        "back": ""
+    },
+    {
+        "front": "<b>Q55. During the EasyStep Interview, which features can you turn on and off?</b>\n- Lists. Inventory, and Progress Invoicing\n- Jobs, Payroll, and Lists\n- Sales Taxes, Inventory, and Progress Invoicing\n- Payroll, Lists, and Progress Invoicing",
+        "back": ""
+    },
+    {
+        "front": "<b>Q56. Which report can you use if you suspect someone has changed a transaction?</b>\n- User Entry report\n- Audit Trail report\n- Changed Transaction report\n- Profit and Loss report's drill-down feature",
+        "back": ""
+    },
+    {
+        "front": "<b>Q57. You notice two or more similar names in the Vendor Center that reference the same vendor. What can you do to clean up the vendor list?</b>\n- Merge the similar names into one vendor by renaming the vendors, using the same name for each.\n- Select the vendor in the Vendor Center and, in the lower-left corner, select the box to make the vendor inactive.\n- Collapse the vendors in the Profit and Loss report.\n- Delete the incorrect vendor names in the Vendor Center.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q58. What changes in QuickBooks if you put in a bank account number or any other personally identifiable information?</b>\n- You are required to encrypt your QuickBooks file.\n- You are required to use a more complex password.\n- You are immediately prompted to back up the company file.\n- The ability to use QuickBooks in multi-user mode is disabled.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q59. What account does QuickBooks use to temporarily hold payments you receive from customers before you create your bank deposit?</b>\n- Customer Payments\n- Checks Received\n- Undeposited Funds\n- Cash",
+        "back": ""
+    },
+    {
+        "front": "<b>Q60. Why would you hide or collapse subaccounts on a report?</b>\n- Doing so temporarily hides details, which enables you to focus on values in the parent accounts.\n- Subaccounts cannot be hidden, as they will be lost once the report is collapsed.\n- If you want to email the report, then subaccounts need to be collapsed.\n- Reports can be sent to Excel only in the collapsed format.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q61. A customer purchases goods or services with terms of net 30. How do you record this transaction in QuickBooks?</b>\n- Create a sales order and then create an invoice when payment is due.\n- Create an invoice by going to your Home Page and, in the Customers section, selecting Create Invoices.\n- Create a sales receipt by going to your Home Page and, in the Customers section, selecting Create Sales Receipt.\n- Prepare a journal entry to debit Accounts Receivable and credit Sales, putting the customer name in the description.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q62. What is an effective way to restrict a specific user from being able to change, delete, or add a transaction after reports have been run?</b>\n- Change the fiscal year in the Company Information window.\n- Edit the user's access to restrict their ability to work with transactions.\n- Select Restrict entry after this date for the user.\n- Start a new company file after each fiscal year end.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q63. What is the best way to record a sale when the customer pays at the time of the sale?</b>\n- sales receipt\n- statement\n- Cash Sale journal entry\n- invoice",
+        "back": ""
+    },
+    {
+        "front": "<b>Q64. What sequence of steps is required to process payroll?</b>\n- Enter Time > Pay Employees > Pay Payroll Liabilities > Process Payroll Forms\n- Pav Employees > Process Payroll Forms > Pav Payroll Liabilities\n- Enter Time > Pav Payroll Liabilities > Process Payroll Forms > Print Liabilities Report\n- Pay Employees > Process Payroll Forms > Print Payroll Report",
+        "back": ""
+    },
+    {
+        "front": "<b>Q65. Which accounts are affected when the timesheets function is used in QuickBooks to track employee hours?</b>\n- Employee Balance Detail would be affected.\n- None, because timesheets are non-posting entries.\n- Payroll Expense and Cash in Checking would be affected.\n- Payroll Payable and Payroll Expense would be affected.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q66. What is the purpose of the little diamonds located next to certain list entries?</b>\n- You can click and drag a diamond to move the list entry to a different location on the list.\n- The diamond indicates that the list entry cannot be deleted because it is in use.\n- The diamond indicates that the list entry has open transactions.\n- The diamond indicates that the list entry cannot be moved or deleted because it has open transactions.",
+        "back": ""
+    }
+]

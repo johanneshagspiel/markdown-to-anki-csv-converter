@@ -1,0 +1,186 @@
+[
+    {
+        "front": "<b>Q1. In previous versions of Acrobat, you could mark a comment with a check mark, without having to use a drop-down menu. How can you restore this efficient functionality when using a newer version of Acrobat?</b>\n- Preferences > identity\n- Preferences > Reviewing\n- Preferences > Reading\n- Preferences > Commenting",
+        "back": "Preferences > Commenting"
+    },
+    {
+        "front": "<b>Q2. A PDF containing complex engineering drawings is failing to print completely. The printing device is an older model with a small amount of RAM. What setting might enable you to print the complex file without error?</b>\n- Print as image\n- Auto-orientation\n- Print in grayscale\n- Custom scale",
+        "back": "Print as image"
+    },
+    {
+        "front": "<b>Q3. Your client asks you to export their PDF brochure to multiple formats for various uses. However, you discover that you cannot meet one of their requests. Which is a format to which you CANNOT export?</b>\n- JPEG\n- TIFF\n- EPS\n- SVG",
+        "back": "SVG"
+    },
+    {
+        "front": "<b>Q4. After you finish creating form fields for a complicated form, the client submits a new PDF, with color changes, a new logo, and minor text edits. What is the most efficient way to incorporate the new artwork?</b>\n- Prepare Form\n- Compare Files\n- Edit PDF\n- Organize Pages > Replace",
+        "back": "Organize Pages > Replace"
+    },
+    {
+        "front": "<b>Q5. You need to send a 25 MB legal document to a client. However, their corporate email allows attachments of only 5 MB or fewer. You select File > Save As > Reduced Size PDF. This doesn\u2019t reduce the file size enough, because the file has many photographs. Now you need to subdivide the document into smaller individual files. Where can you go to accomplish this?</b>\n- Tools > Organize Pages > Split Document\n- Tools > Index\n- Tools > Edit PDF > Crop Pages\n- Tools > Optimize PDF",
+        "back": "Tools > Organize Pages > Split Document"
+    },
+    {
+        "front": "<b>Q6. You would like to use Bookmarks to navigate a PDF, but the Bookmarks panel is not available. Why would that panel be unavailable?</b>\n- The PDF does not contain any articles.\n- You are viewing the PDF in a web browser.\n- The file creator did not give the article a title.\n- You are viewing the PDF in Adobe Reader.",
+        "back": "You are viewing the PDF in a web browser."
+    },
+    {
+        "front": "<b>Q7. As you examine large engineering documents, you would like to have the **Marquee Zoom** tool easily available all the time. What is the fastest way to add the **Marquee Zoom** tool to **Common Tools**?</b>\n- Right-click in the toolbar and select **Show Page Navigation Tools**.\n- Right-click in the toolbar and select **Show Page Display Tools**.\n- Right-click in the toolbar and select **Show Select & Zoom**.\n- Right-click in the toolbar and select **Customize Quick Tools**.",
+        "back": "Right-click in the toolbar and select **Show Select & Zoom**."
+    },
+    {
+        "front": "<b>Q8. A person at a printing service provider is having difficulty printing a PDF due to font issues. Where can the person find out which fonts are used in the document?</b>\n- Tools > Action Wizard\n- Tools > Print Production\n- File > Export To > Microsoft Word\n- File > Properties",
+        "back": "File > Properties"
+    },
+    {
+        "front": "<b>Q9. To work more efficiently, you would like to create a shortcut in the tools pane, to the right of the document window, that includes multiple operations, such as Edit PDF, Organize Pages, and Export PDF. Which feature will let you accomplish this?</b>\n- Action Wizard\n- Optimize PDF\n- Create Custom Tool\n- Customize Quick Tools",
+        "back": "Action Wizard"
+    },
+    {
+        "front": "<b>Q10. You are printing a PDF of an instruction manual. On some pages the only content is a video, but you would like a visual representation of the video area in the printed version. Which option in the Print dialog box will ensure that the video areas will print?</b>\n- More Options\n- Document and Markups\n- Advanced > Output\n- Document and Stamps",
+        "back": "Advanced > Output"
+    },
+    {
+        "front": "<b>Q11. In an effort to clean up a PDF form, you wish to align the top edges of a row of five fields. You used the Select tool (black arrow) to drag around the fields to select them all. You want to align all the fields to the top edge of the fifth field. How can you do that?</b>\n- Alt-click (Windows) or Option-Click (Mac) in the fifth field to make it the origin field.\n- Click once more in the fifth field to make it the origin field.\n- Ctrl-click (Windows) or Command-click (Mac) in the fifth field to make it the origin field.\n- Shift-click in the fifth field to make it the origin field.",
+        "back": "Ctrl-click (Windows) or Command-click (Mac) in the fifth field to make it the origin field."
+    },
+    {
+        "front": "<b>Q12. You prefer seeing documents in the single document view, rather than in the tabbed document view. To accomplish this, you went to Edit > Preferences > General, and then cleared the check box for the tabbed preference. However, PDFs are still opening as tabs. How can you resolve this issue?</b>\n- Reboot your computer.\n- Switch from Tools view to Home view.\n- Close any open files, then reopen the files.\n- Restart Acrobat.",
+        "back": "Restart Acrobat."
+    },
+    {
+        "front": "<b>Q13. Using Adobe Sign, you would like to send a document for two colleagues to approve. However, when you attempt to add the document to the files to be sent for signature, that file type is grayed out. What file type is not eligible for Adobe Sign?</b>\n- GIF\n- JPEG\n- BMP\n- PSD",
+        "back": "PSD"
+    },
+    {
+        "front": "<b>Q14. To ensure that users of older versions of Adobe Reader can fill and save forms, you chose File > Save As Other > Reader Extended PDF. Now you need to make further edits to the form. You have not applied any form security to the file, but you see an alert, \"You cannot edit this file as a form due to its security settings.\" What method can you use to edit the form?</b>\n- File > Properties > Custom\n- File > Save a Copy\n- Preferences > Forms\n- File > Properties > Advanced",
+        "back": "File > Properties > Advanced"
+    },
+    {
+        "front": "<b>Q15. Users submitted forms to you via email. Some files are .fdf (forms data format), and some files are .pdf documents. Which method will let you combine all the data into a .csv file?</b>\n- Prepare Form > Fields\n- Prepare Form > Document Actions\n- Prepare Form > Document JavaScripts\n- Prepare Form > More",
+        "back": "Prepare Form > Document JavaScripts"
+    },
+    {
+        "front": "<b>Q16. You turn around the files that you edit fairly quickly, and you edit many files. As a result, the long list of recent files in the Home view has become cumbersome. Where can you customize the number of recent files listed in the Home view?</b>\n- Preferences > Page Display\n- Preferences > Reading\n- Preferences > General\n- Preferences > Documents",
+        "back": "Preferences > Documents"
+    },
+    {
+        "front": "<b>Q17. You are about to submit a client\u2019s PDF to a commercial printer. However, at the last minute, you discover a blemish in one of the images in the PDF, which the client requested that you fix. With no access to the original file, how can you do this?</b>\n- Select **Tools** > **Edit PDF**, right-click the image, and select the **Edit Using** option.\n- Select **Tools** > **Enhance Scans** > **Enhance Camera Image**.\n- Select **Tools** > **Enhance Scans** > **Enhance Scanned Document**.\n- Right-click the image and select **Add Image**.",
+        "back": "Select **Tools** > **Edit PDF**, right-click the image, and select the **Edit Using** option."
+    },
+    {
+        "front": "<b>Q18. You receive a PDF of a manuscript to be printed as an on-demand book. The writer also sent a new, single-page PDF to be added to the manuscript as the book's cover. Where can you go to accomplish this ?</b>\n- Tools > Compare Files\n- Tools > Organize Pages\n- Tools > Edit PDF\n- Tools > Action Wizard",
+        "back": "Tools > Organize Pages"
+    },
+    {
+        "front": "<b>Q19. In the PDF form you are creating for a client, you are asked to create a drop-down field containing the list of states in the United States. The client requests that the field dispaly the instructional text \"Select your state\" as a default choice when the form is opened. How can you ensure that the instructional text is diaplyed by default in the drop-down field?</b>\n- Select the instructional text entry in the Dropdown Properties dialog box.\n- Choose commit Selected Value Immediately in the Dropdown Properties dialog box.\n- Choose Sort Items in the Dropdown Properties dialog box.\n- Choose Format Category > Special in the Dropdown Properties dialog box.",
+        "back": "Select the instructional text entry in the Dropdown Properties dialog box."
+    },
+    {
+        "front": "<b>Q20. To streamline index creation for a collection of academic documents, which option would result in a smaller index and thus faster searching for the user?</b>\n- Structure Tags\n- XMP Fields\n- Custom Properties\n- Stop Words",
+        "back": "Stop Words\n\n[Reference](https://helpx.adobe.com/experience-manager/kb/Stopwordlist.html)"
+    },
+    {
+        "front": "<b>Q21. You create a PDF portfolio, and you would like to add encryption, without having to deal with each individual file. To encrypt a complete portfolio with a certificate, to verify via digital signature, where would you go to start?</b>\n- **Tools > Protect**\n- **Tools > Certificates**\n- **View > Portfolio Cover Sheet**\n- **Tools > Action Wizard**",
+        "back": "**Tools > Action Wizard**"
+    },
+    {
+        "front": "<b>Q22. You must prepare a PDF to meet the accessibility requirements of Section 508 compliance for a government agency. You have determined that there are some problems with the file which prevent it from passing accessibility tests. Where would you go to quickly to those issues and make the PDF accessible?</b>\n- Tools > Edit PDF\n- Tools > Accessibility\n- Tools > Action Wizard\n- Tools > PDF Standards",
+        "back": "Tools > Action Wizard\n\n[Reference](https://helpx.adobe.com/acrobat/using/create-verify-pdf-accessibility.html)"
+    },
+    {
+        "front": "<b>Q23. In a fillable form, you would like the user to be able to enter their own text in a multi-choice form field, if none of the existing choices in the form field are suitable. Which type of form field would provide this option?</b>\n- a list box field\n- a multi-line text field\n- a drop-down field\n- a text field with rich text formatting",
+        "back": ""
+    },
+    {
+        "front": "<b>Q24. A client sent a PDF to be included as a page in a book you are designing. The client misspelled several words in the PDF. The PDF is a scan of text. What can you do to fix the misspelled words?</b>\n- **Tools > Organize Pages**\n- **Tools > Accessibility**\n- **Took > Edit PDF**\n- **File > Export to > Microsoft Word**",
+        "back": ""
+    },
+    {
+        "front": "<b>Q25. You would like to convert a layered Visio file to PDF. However, that option is not available. How can you control the conversion of Visio layers to layers in the exported PDF?</b>\n- Click **Create Layer Set**.\n- Click **Add Layers**.\n- Deselect the **Convert All Pages in Drawing** option.\n- Select **Retain Some Layers in the Selected Page**.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q26. A small section of a 28-page PDF has been updated with new image and given to you as a 3-page PDF. You have both PDFs open in Acrobat. Before you update the 28-page file with the new pages, you need to verify that the text is unchanged. What is the best way to do this?</b>\n- From the 28-page PDF, extract and save the three pages as a new PDF. For each of the two three-page PDFs, choose **File > Export to > Text (Plain).**\n- Arrange the two PDFs in side-by-side windows in Acrobat. Scroll to the first page of the section in the larger PDF, and compare the visually, line by line.\n- Go to **View > Compare Files** and choose **Text Only**. Then, in Settings, edit the **Compare Page Range** field of the larger document so that it is the same three-page range. Then click **Compare**.\n- Select the original text in the 3-page section of the 28-page PDF and copy it to the clipboard. Then, paste it into the new 3-page PDF, replacing all of it text.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q27. You need to send multiple documents to a potential client, and you would like to add security to all of the documents at once. What is the easiest method?</b>\n- Portfolio\n- LiveCycle Rights Management\n- Security Envelope\n- Email Review",
+        "back": ""
+    },
+    {
+        "front": "<b>Q28. You need to reduce the resolution of image content in an existing PDF, while controlling the look of the images. Which option allows you to change the resolution of image content with options?</b>\n- Press-ready PDF\n- Optimized PDF\n- Certified PDF\n- Reader Extended PDF",
+        "back": ""
+    },
+    {
+        "front": "<b>Q29. You plan to post a PDF form online and gather the submitted data in a database. What must you have to do this?</b>\n- A web server which supports Microsoft Access\n- A web server which supports WebDAV and CGI\n- A web server which supports XML and FDF\n- A web server which supports Microsoft Excel",
+        "back": ""
+    },
+    {
+        "front": "<b>Q30. You would like to use a drag-and-drop method to convert multiple selected PDF files from color to greyscale. What feature will allow you to do this?</b>\n- Action Wizard\n- Custom Tool\n- Preflight Droplet\n- Optimize PDF",
+        "back": ""
+    },
+    {
+        "front": "<b>Q31. You would like to view a document in Read Mode, hiding the main toolbar, the Navigation pane, and Tools panel. Which icon in the Page Controls toolbar will change the document view to Read Mode?</b>\n- A\n- B\n- C\n- D",
+        "back": ""
+    },
+    {
+        "front": "<b>Q32. You provide an interactive PDF to a client that you created. The interactive PDF includes multiple embedded videos. However, the client cannot view the videos. What is a reason that the client might be unable to view the video?</b>\n- A browser is not installed.\n- A GIF player is not installed.\n- Flash Player is not installed.\n- QuickTime is not installed.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q33. You make a last-minute change to some text in a client's PDF. When you change the text, the appearance of the corrected text does not match the surrounding text. What might be the cause of this issue?</b>\n \n- The font is embedded in the PDF.\n- The surrounding text is in a locked layer.\n- The font is not embedded in the PDF.\n- The required font is not active on your system. ",
+        "back": "The required font is not active on your system. "
+    },
+    {
+        "front": "<b>Q34. To attach a PDF to an email for a client's approval, you need to considerably reduce the size of the PDF. Which method will give you the most extensive options for reducing file size?</b>\n- File > Save As Other > Reduced Size PDF\n- File > Save As Other > Optimized PDF             \n- File > Export To > Image\n- File > Export To > PostScript",
+        "back": "File > Save As Other > Optimized PDF             "
+    },
+    {
+        "front": "<b>Q35. You are signing a contract with a new client. Rather than using Adobe Sign, the client is requesting that you use the built-in Acrobat Digital Signature feature. You would like to add your written name as part of the digital signature. Where can you accomplish this?</b>\n- [ ]Preferences > Signatures > Identities & Trusted Certificates\n- Preferences > Signatures > Document Timestamping\n- Preferences > Signatures > Verification\n- Preferences > Signatures > Creation and Appearance      ",
+        "back": "Preferences > Signatures > Creation and Appearance      "
+    },
+    {
+        "front": "<b>Q36. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?</b>\n- Edit the image settings in **File > Save As Other > Optimized PDF**.\n- Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.\n- Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.\n- Edit the conversion settings in **File > Export > Image > JPEG**.",
+        "back": "Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**."
+    },
+    {
+        "front": "<b>Q43. You tried to extract and export each photo within a 12-page PDF newsletter to a specific folder as individual JPEGs. Instead of individual images, Acrobat exported each full page as a single JPEG image. How can you achieve an export of indiviudal JPEGs instead?</b>\n- Edit the conversion settings in **File > Export > Image > JPEG**.\n- Turn off the **Extract Pages as Separate Files** checkbox in **Organize Pages > Extract**.\n- Enable the **Export All Images** checkbox in **Tools > Export PDF > Image**.\n- Edit the image settings in **File > Save As Other > Optimized PDF**.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q37. You are trying to find all instances of \"medicine\" in a scientific PDF document. Although you can clearly see the word on at least one page, a search returns no results. What might cause this?</b>\n- The text is redacted.\n- The text is in a locked layer.\n- The PDF has limited permissions.\n- The PDF is a scanned document.          ",
+        "back": "The PDF is a scanned document.          "
+    },
+    {
+        "front": "<b>Q38. You are creating PDFs for a government agency. Which specification in the quote request from the agency contact indicates that the PDFs you submit must meet accessibility guidelines?</b>\n- Section 501c compliance\n- Section 508 compliance           \n- Section 509a compliance\n- Section 510 compliance",
+        "back": "Section 508 compliance           "
+    },
+    {
+        "front": "<b>Q39. In the PDF of a textbook, all of the necessary bookmarks have been created. Later, an editor rearranges the pages in one chapter. What will you have to do to ensure that the bookmarks now link to the correct pages?</b>\n- Set bookmark destination.\n- Select the correct location and choose Go to Bookmark.\n- Re-order the bookmarks in the Bookmarks pane by dragging.\n- Nothing, The bookmarks will still be correct.",
+        "back": "Re-order the bookmarks in the Bookmarks pane by dragging."
+    },
+    {
+        "front": "<b>Q41. To facilitate the entry of common information, such as company name, address, and phone number, you have provided an FDF (forms data format) file for other users in your company to import into forms they've created. However, one user reports that the company name field isn't populated when they import data. Why might the company name field fail to populate in the form they created?</b>\n- The field name is incorrect.\n- The field font size is incorrect.\n- The field is set to multi-line.\n- The field location is incorrect.",
+        "back": "The field name is incorrect."
+    },
+    {
+        "front": "<b>Q42. Before you begin a PDF review, you want to change the default line thickness, line color, fill color, and other settings for the Comment panel's drawing tools. Where do you change these defaults?</b>\n- **Comment panel menu**\n- **Properties Toolbar**\n- **Preferences > Commenting**\n- **Preferences > Reviewing**",
+        "back": ""
+    },
+    {
+        "front": "<b>Q43. In a complex forms document, one field is currently a drop-down list field. However, the client specifies that it should instead be a multi-line text field. How can you do what the client requests?</b>\n- Select the drop-down field and then click the **Dropdown** icon in the secondary toolbar.\n- Right-click the drop-down field and select **Properties** from the context menu.\n- Delete the drop-down field and create a text field in its place.\n- Select the drop-down field and then click **Prepare Form** in the right pane.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q44. A proprietary document is being sent to a new client. You would like to ensure that the client can open the PDF but not change any of the contents. In **Password Security Settings**, what should you choose?</b>\n- Permissions\n- Certificates\n- Document Open\n- Compatibility",
+        "back": ""
+    },
+    {
+        "front": "<b>Q45. Before distributing a document containing proprietary information, you want to make sure that the document content cannot be printed. However, you want to ensure that the text can be read by screen-reading software for any users who have visual impairments. Where can you find the settings that will allow these parameters?</b>\n- **Accessibility > Set Alternate Text**\n- **Tools > Action Wizard**\n- **Accessibility > Reading Options**\n- **Document Properties > Password > Security > Settings**",
+        "back": ""
+    },
+    {
+        "front": "<b>Q46. While customizing the **Quick Tools** toolbar, you would like to add vertical dividers to organize the tools. Which icon in the **Customize Quick Tools** options will enable you to do this?</b>\n- <img src=\"adobe-acrobat-quiz_001.jpg\">\n- <img src=\"adobe-acrobat-quiz_002.jpg\">\n- <img src=\"adobe-acrobat-quiz_003.jpg\">\n- <img src=\"adobe-acrobat-quiz_004.jpg\">",
+        "back": ""
+    }
+]

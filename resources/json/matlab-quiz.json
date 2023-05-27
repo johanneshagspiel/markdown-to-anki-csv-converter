@@ -1,0 +1,314 @@
+[
+    {
+        "front": "<b>Q1. From what distribution does the `rand()` function return value?</b>\n- normal\n- poisson\n- binomial\n- uniform",
+        "back": "uniform"
+    },
+    {
+        "front": "<b>Q2. Based on the code below, c is the \\_ of a.</b>\n```\na = rand(1, 11);\nb = sort(a);\nc = b(1, ceil(end/2));\n```\n- median\n- mode\n- mean\n- margin",
+        "back": "median"
+    },
+    {
+        "front": "<b>Q3. What does the Profiler track?</b>\n- execution time\n- command history\n- errors\n- the value of variables",
+        "back": "execution time"
+    },
+    {
+        "front": "<b>Q4. Which code block contains the correct syntax for a `while` loop?</b>\n- A\n```\na = 0;\ndo\n    a = a + 1;\nwhile a < 5\nend\n```\n- B\n```\na = 0;\nwhile(a < 5)\n    a = a + 1;\n```\n- C\n```\na = 0;\nwhile a < 5:\n    a = a + 1;\n```\n- D\n```\na = 0;\nwhile a < 5\n    a = a + 1;\nend\n```",
+        "back": "D\n```\na = 0;\nwhile a < 5\n    a = a + 1;\nend\n```"
+    },
+    {
+        "front": "<b>Q5. What does `b` contain?</b>\n```\na =\n    19    20    12     0     6\n     6     9    56     0     3\n    46     8     9     8    19\n     9     8     8    19    46\n     1     9    46     6    19\n```\n- A\n```\nb =\n    56     0\n     9     8\n```\n- B\n```\nb =\n     8    19\n    19    46\n```",
+        "back": "A\n```\nb =\n    56     0\n     9     8\n```"
+    },
+    {
+        "front": "<b>Q6. You have written a function `myfun` and want to measure how long it takes to run. Which code segment will return in `t` the time in seconds it takes `myfun` to run?</b>\n- A\n```\nt = cputime(myfun());\n```\n- A\n```\ntic;\nmyfun();\ntoc;\n```\n- C\n```\ntimer.start;\nmyfun()\nt = timer.stop;\n```\n- D\n```\nt = timer(myfun());\n```",
+        "back": "A\n```\ntic;\nmyfun();\ntoc;\n```"
+    },
+    {
+        "front": "<b>Q7. What is `%%` used for?</b>\n- argument placeholder\n- block quotes\n- code sections\n- conversion specifier",
+        "back": "code sections"
+    },
+    {
+        "front": "<b>Q8. what is the `.` character NOT used for?</b>\n- structure field access\n- a decimal point\n- cell array access\n- element-wise operations",
+        "back": "cell array access"
+    },
+    {
+        "front": "<b>Q9. Which function could you use for multiple linear regression?</b>\n- polyval\n- regress\n- solve\n- polyfit",
+        "back": "regress"
+    },
+    {
+        "front": "<b>Q10. For which of these arrays do `mean`, `median`, and `mode` return the same value?</b>\n- [0 1 1 1 2]\n- [1 3 5 5 6]\n- [0 1 1 1 1]\n- [0 0 5 5 5]",
+        "back": "[0 1 1 1 2]"
+    },
+    {
+        "front": "<b>Q11. You are in the middle of a long MATLAB session where you have performed many analyses and made many plots. You run the following commands, yet a figure window doesn't pop up on the top of your screen with your plot. What might be the issue?</b>\n```\nx = [-1:0.1:1];\ny = X.^2;\nplot(x, y)\n```\n- Your plot doesn't plot in a figure window because `figure` was not called immediately in advance.\n- Your `plot` syntax is incorrect.\n- Your plot is in a figure window that was already open, hidden behind other windows on your screen.\n- Your plot was saved to an image file but not displayed.",
+        "back": "Your plot is in a figure window that was already open, hidden behind other windows on your screen."
+    },
+    {
+        "front": "<b>Q12. How do you access the value for the field `name` in structure S?</b>\n- S['name']\n- S.name\n- S('name')\n- S{'name'}",
+        "back": "S.name"
+    },
+    {
+        "front": "<b>Q13. What built-in definition does i have?</b>\n- basic imaginary unit\n- index function\n- infinity\n- index variable",
+        "back": "basic imaginary unit"
+    },
+    {
+        "front": "<b>Q14. Which statement is equivalent to this for loop?</b>\n```\na = [1 2 3; 4 5 6];\nb = zeros(size(a));\nfor i_row = 1:size(a, 1)\n    for i_col = 1:size(a, 2)\n        b(i_row, i_col) = a(i_row, i_col)^2;\n    end\nend\n```\n- b = a\\*a;\n- b = a.^2;\n- b = a^2;\n- b = pow2(a);",
+        "back": "b = a.^2;"
+    },
+    {
+        "front": "<b>Q15. You have plotted values of cosine from -10 to 10 and want to change the x-axis tick marks to every pi, from -3*pi to 3*pi. Which statement will do that?</b>\n- xticks(-3*pi:3.14:3*pi)\n- xticks(-3*pi:pi:3*pi)\n- xticks(linespace(-3*pi(), 3*pi(), pi()))\n- xticks(linespace(-3*pi, 3*pi, pi)",
+        "back": "xticks(-3*pi:pi:3*pi)"
+    },
+    {
+        "front": "<b>Q16. What is the value of `c`?</b>\n```\na = ones(1,3);\nb = 1:3;\nc = conv(a,b)\n```\n- [-1 2 -1]\n- [1 3 6 5 3]\n- 6\n- [1 -2 1]",
+        "back": "[1 3 6 5 3]"
+    },
+    {
+        "front": "<b>Q17. Which function CANNOT be used to randomly sample data?</b>\n- datasample\n- randi\n- resample\n- randperm",
+        "back": "resample"
+    },
+    {
+        "front": "<b>Q18. Which choice is correct syntax for a `switch` statement?</b>\n- A\n```\nx = 7;\nswitch x\n    case 2\n        disp(\"two\");\n    otherwise\n        disp(\"not two\");\nend\n```\n- B\n```\nx = 7;\nswitch x :\n    case 2\n        disp(\"two\");\n    otherwise\n        disp(\"not two\");\nend\n```\n- C\n```\nx = 7;\nswitch x\n    case 2\n        disp(\"two\");\n    else\n        disp(\"not two\");\nend\n```\n- D\n```\nx = 7;\nswitch x\n    case 2\n        disp(\"two\");\n    default\n        disp(\"not two\");\nend\n```",
+        "back": "A\n```\nx = 7;\nswitch x\n    case 2\n        disp(\"two\");\n    otherwise\n        disp(\"not two\");\nend\n```"
+    },
+    {
+        "front": "<b>Q19. What is the result of this code?</b>\n```\na = 1;\nb = 2;\nc = 3;\nd = 4;\ne = c / (~a - b == c - d);\n```\n- Error\n- B\n```\nc =\n    NaN\n```\n- C\n```\nc =\n    Inf\n```\n- D\n```\nc =\n    -0.2500\n```",
+        "back": "C\n```\nc =\n    Inf\n```"
+    },
+    {
+        "front": "<b>Q20. What is true of a handle class object?</b>\n- When you pass a handle object to a function, a new object is made that is independent of the original.\n- All copies of handle objects refer to the same underlying object.\n- Handle object cannot reference one another.\n- Handle object do not have a default `eq` function.",
+        "back": "All copies of handle objects refer to the same underlying object."
+    },
+    {
+        "front": "<b>Q21. Which choice has a different final result in `f10` than the other three?</b>\n- A\n```\nf10 = 1;\nfor i = 1:10\n    f10 = f10 * i;\nend\n```\n- B\n      `f10 = factorial(10)`\n- C\n```MATLAB\nf10 = 1;\ni = 1;\nwhile i <= 10\n    i   = i + 1;\n    f10 = i * f10;\nend\n```\n- D\n      `f10 = prod(1:10)`",
+        "back": "C\n```MATLAB\nf10 = 1;\ni = 1;\nwhile i <= 10\n    i   = i + 1;\n    f10 = i * f10;\nend\n```"
+    },
+    {
+        "front": "<b>Q22. Which choice will NOT give you a 5 x 5 identity matrix?</b>\n- A\n```\na = rand(5);\nround(a * inv(a))\n```\n- B\n      `diag(ones(5, 1))`\n- C\n      `identity(5)`\n- D\n      `eye(5)`",
+        "back": "C\n      `identity(5)`"
+    },
+    {
+        "front": "<b>Q23. Which statement creates this structure?</b>\n```\ndog =\n      name: 'Bindy'\n     breed: 'border collie'\n    weight: 32\n```\n- A\n      `dog = struct('name', 'Bindy'; 'breed', 'border collie'; 'weight', 32);`\n- B\n```\ndog.name   = 'Bindy';\ndog.breed  = 'border collie';\ndog.weight = 32;\n```\n- C\n```\ndog = {\n    'name'  : 'Bindy',\n    'breed' : 'border collie',\n    'weight': 32;\n}\n```\n- D\n```\ndog('name')   = 'Bindy';\ndog('breed')  = 'border collie';\ndog('weight') = 32;\n```",
+        "back": "B\n```\ndog.name   = 'Bindy';\ndog.breed  = 'border collie';\ndog.weight = 32;\n```"
+    },
+    {
+        "front": "<b>Q24. `my_func` is a function as follows. What is the value of `a` at the end of the code beneath?</b>\n```\nfunction a = my_func(a)\n    a = a + 1;\nend\n------------------\na = 0;\nfor i = 1:3\n    my_func(a);\nend\na = my_func(a);\n```\n- 4\n- 3\n- 0\n- 1",
+        "back": "1"
+    },
+    {
+        "front": "<b>Q25. Which statement could create this cell array?</b>\n```\nc =\n    {[\"hello world\"]}    {1\u00d71 cell}    {[\"goodbye\"]}    {1\u00d73 double}\n```\n- c = {\"hello world\" {\"hello\"} \"goodbye\" [1 2 ]};\n- c = {\"hello world\" {\"hello\"} \"goodbye\" {[1 2 3]}};\n- c = {\"hello world\" {\"hello\"} \"goodbye\" [1 2 3]};\n- c = {\"hello world\" {\"hello\" \"hello\"} \"goodbye\" {[1 2 3]}};",
+        "back": "c = {\"hello world\" {\"hello\"} \"goodbye\" [1 2 3]};"
+    },
+    {
+        "front": "<b>Q26. Which choice adds `b` to each row of `a`?</b>\n```\na = ones(4, 4);\nb= [1 2 3 4];\n```\n- a = a + reshape(b, 4, 1);\n- a = a + b';\n- a = a + repmat(b, 4, 1);\n- a = a + [b b b b];",
+        "back": "a = a + repmat(b, 4, 1);"
+    },
+    {
+        "front": "<b>Q27. Which choice replaces all `a`s with `o`s?</b>\n- A\n```\nfor i = 1:length(fruit)\n    fruit{i}(fruit{i} == a) == o;\nend\n```\n- B\n```\nfor i = 1:length(fruit)\n    fruit(i)(fruit(i) == 'a') == 'o';\nend\n```\n- C\n```\nfor i = 1:length(fruit)\n    fruit{i}(fruit{i} == 'a') == 'o';\nend\n```\n- D\n```\nfor i = 1:length(fruit)\n    fruit{i}(fruit{i} == 'a') == 'o';\n```",
+        "back": "C\n```\nfor i = 1:length(fruit)\n    fruit{i}(fruit{i} == 'a') == 'o';\nend\n```"
+    },
+    {
+        "front": "<b>Q28. Which statement returns the roots for the polynomial `x^2 + 2x - 4`?</b>\n- poly([1 2 -4])\n- solve(x^2 + 2x - 4 == 0)\n- polyfit(x^2 + 2x - 4 == 0)\n- roots([1 2 -4])",
+        "back": "roots([1 2 -4])"
+    },
+    {
+        "front": "<b>Q29. Which choice is the proper syntax to append a new elements `a` to the end of 1x 2 dimensional cell array `C`?</b>\n- C = {C a};\n- C = cellcat(C a)\n- C = cat(2, {a}, C)\n- C{end+1}=a",
+        "back": "C{end+1}=a"
+    },
+    {
+        "front": "<b>Q30. You have loaded a dataset of people's heights into a 100 x 1 array called `height`. Which statement will return a 100 x 1 array, `sim_height`, with values from a normal distribution with the same mean and variance as your height data?</b>\n- sim_height = std(height) + mean(height) \\* randn(100, 1);\n- sim_height = mean(height) + std(height) \\* randn(100, 1);\n- sim_height = randn(std(height), mean(height), [100, 1]);\n- sim_height = randn(mean(height), std(height), [100, 1]);",
+        "back": "sim_height = mean(height) + std(height) \\* randn(100, 1);"
+    },
+    {
+        "front": "<b>Q31. Which statement returns a cell array of the strings containing '`burger`' from `menu`?</b>\n`menu = {'hot dog' 'corn dog' 'regular burger' 'cheeseburger' 'veggie burger'}`\n- menu{strfind(menu, 'burger')}\n- menu(strfind(menu, 'burger'))\n- menu{contains(menu, 'burger')}\n- menu(contains(menu, 'burger'))",
+        "back": "menu(contains(menu, 'burger'))"
+    },
+    {
+        "front": "<b>Q32. What is the set of possible values that `a` may contain?</b>\n```\na      = randi(10, [1, 10]);\na(3)   = 11;\na(a>2) = 12;\n```\n- 3, 4, 5, 6, 7, 8, 9, 10, 11, 12\n- 1, 2, 12\n- 2, 11, 12\n- 1, 12",
+        "back": "1, 2, 12"
+    },
+    {
+        "front": "<b>Q33. Which statement is true about the sparse matrices?</b>\n- You can use the `sparse` function to remove empty cells from cell array variables.\n- Sparse matrices always use less memory than their associated full matrices.\n- Mixtures of sparse and full matrices can be combined in all of MATLAB's built-in arithmetic operations.\n- The `sparse` function requires its input to be a full matrix with at least 50% zero elements.",
+        "back": "Sparse matrices always use less memory than their associated full matrices."
+    },
+    {
+        "front": "<b>Q34. Which statement using logical indices will result in an error?</b>\n`a = 1:10;`\n- b = a(a ~= 11)\n- b = a(a == 1)\n- b = a(a>6 && a<9)\n- b = a(a | 1)",
+        "back": "b = a(a>6 && a<9)"
+    },
+    {
+        "front": "<b>Q35. Which statement turns `menu` into the variable `menu_string` below?</b>\n```\nmenu = {'hot dog' 'corn dog' 'regular burger' 'cheeseburger' 'veggie burger'}\nmenu_string =\n    'hot dog\n     corn dog\n     regular burger\n     cheeseburger\n     veggie burger'\n```\n- menu_string = cell2mat(join(menu, newline))\n- menu_string = cell2mat(join(menu, '\\n'))\n- menu_string = join(menu, newline)\n- menu_string = cell2mat(pad(menu))",
+        "back": "menu_string = cell2mat(join(menu, newline))"
+    },
+    {
+        "front": "<b>Q36. Which code snippet sets a new random seed based on the current time and saves the current settings of the random number generator?</b>\n- `rng_settings_curr = rng('shuffle');`\n- B\n```\nrng(time());\nrng_settings_curr = rng();\n```\n- C\n      `rng_settings_curr = rand('shuffle');`\n- D\n```\nrng('shuffle');\nrng_settings_curr = rng();\n```",
+        "back": "`rng_settings_curr = rng('shuffle');`"
+    },
+    {
+        "front": "<b>Q37. You have a matrix `data` in which each column is mono audio recording from a room in your house. You've noticed that each column has a very different mean and when you plot them all on the same graph, the spread across the y axis make it impossible to see anything. You want to subtract the mean from each column. Which code block will accomplish this?</b>\n- `data_nomean = data - repmat(median(data), size(data, 1), 1);`\n- `data_nomean = bsxfun(@minus, data, mean(data));`\n- .\n```\ndata_nomean = zeros(size(data));\nfor i = 1:size(data, 1)\n    data_nomean(i, :) = data(i, :) - mean(data(i, :));\nend\n```\n- .\n      `data_nomean = zscore(data');`",
+        "back": "`data_nomean = bsxfun(@minus, data, mean(data));`"
+    },
+    {
+        "front": "<b>Q38. Which code block results in an array `b` containing the mean values of each array within `C`?</b>\n- .\n```\nb = zeros(1, size(C, 2));\nfor i_C = 1:size(C, 2)\n    b(i_C) = mean(C(i_C));\nend\n```\n- .\n      `b = cellfun(@mean, C);`\n- .\n```\nb = zeros(1, size(C, 1));\nfor i_C = 1:size(C, 1)\n    b(i_C) = mean(C{i_C}(:));\nend\n```\n- .\n      `b = cellfun(@(m) mean(m(:)), C)`",
+        "back": ".\n      `b = cellfun(@(m) mean(m(:)), C)`"
+    },
+    {
+        "front": "<b>Q39. Which statement creates a logical array that is 1 if the element in `passwords` contains a digit and 0 if it does not?</b>\n`passwords = {'abcd' '1234' 'qwerty' 'love1'};`\n- contains(password, '\\d')\n- ~isempty(regexp(passwords, '\\d'))\n- cellfun(@(x) ~isempty(regexp(x, '\\d')), passwords)\n- regexp(passwords, '\\d')",
+        "back": "cellfun(@(x) ~isempty(regexp(x, '\\d')), passwords)"
+    },
+    {
+        "front": "<b>Q40. Which is NOT a function that adds text to a plot?</b>\n- title\n- text\n- label\n- legend",
+        "back": "label"
+    },
+    {
+        "front": "<b>Q41. Which code block most likely produced this graph?</b>\n<img src=\"matlab-quiz_matlab_Q39.jpg\">\n- [ ]\n```\nfigure\nx = rand(10,10);\nr = corrcoef(x);\nsurf(r)\ncolorbar\n```\n- [x]\n```\nfigure\nx = rand(10,10);\nr = corrcoef(x);\nimagesc(r)\ncolorbar\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q42. What kind of files are stored with the .mat extension?</b>\n- figure files\n- script files\n- function files\n- stored variable files",
+        "back": "stored variable files"
+    },
+    {
+        "front": "<b>Q43. You would like to randomly reorder every element in array a and put the result into another array b. Which code is NOT necessary to do that?</b>\n`a = 1:10;`\n- :\n      `b = a(randi(10, 1, 10));`\n- :\n```\nm = perms(a);\ni = randi(factorial(10), 1);\nb = a(m(i, :))\n```\n- :\n```\n[s, j] = sort(rand(10, 1));\nb      = a(i);\n```\n- :\n```\nb = a(randperm(10));\n```",
+        "back": ":\n      `b = a(randi(10, 1, 10));`"
+    },
+    {
+        "front": "<b>Q44. Which statement returns **1** (true)?</b>\n```\na = 'stand'\nb = \"stand\"\n```\n- a == b\n- ischar(b)\n- length(a) == length(b)\n- class(a) == class(b)",
+        "back": "a == b"
+    },
+    {
+        "front": "<b>Q45. Which does E contain?</b>\n```\nC = {'dog' 'cat' 'mouse'}\nD = {'cow' 'piranha' 'mouse'}\nE = setdiff(C,D)\n```\n- E = {'cat'} {'dog'}\n- E = {'mouse'}\n- E = {'cat'} {'cow'} {'dog'} {'piranha'}\n- E =",
+        "back": "E = {'cat'} {'dog'}"
+    },
+    {
+        "front": "<b>Q46. Where in the UI can you see what variables have been created, their values, and their class?</b>\n- Editor\n- command window\n- details\n- workspace",
+        "back": "workspace"
+    },
+    {
+        "front": "<b>Q47. Given the following x and y coordinates, which choice calculates a linear regression for the x and y coordinates, and which plots the points of the x,y data and the regression line on the same graph?</b>\n```\nx = 9.0646 6.4362 7.8266 8.3945 5.6135 4.8186 2.8862 10.9311 1.1908 3.2586\ny = 15.4357 11.0923 14.1417 14.9506 8.7687 8.0416 5.1662 20.5005 1.0978\n```\n- :\n```\ncoeff_line = polyfit(x,y,1)\nx_line = floor(min(x)):0.1:ceil(max(x));\ny_line = polyval(coeff_line,x_line)\nfigure; plot(x,y,'o')\nhold on\nplot(x_linemy_line)\n```\n- :\n```\nfigure\nplot(x,y,'o')\ncoeff_line = polyfit(x,y,1);\nx_line = floor(min(x)):0.1:ceil(max(x));\ny_line = polyval(coeff_line,x_line);\nplot(x_line,y_line)\n```\n- :\n```\nfigure\nplot(x,y)\ncoeff_line = polyfit(x,y,1);\nx_line = floor(min(x)):0.1:ceil(max(x));\ny_line = polyval(coeff_line,x_line);\nhold on; plot(x_line,y_line)\n```\n- :\n```\ncoeff_line = polyfit(x,y,1);\nx_line = floor(min(x)):0.1:ceil(max(x));\ny_line = polyval(coeff_line,x_line);\nfigure; plot(x,y,'o')\nhold on\nplot(x_line,y_line)\n```",
+        "back": ":\n```\ncoeff_line = polyfit(x,y,1)\nx_line = floor(min(x)):0.1:ceil(max(x));\ny_line = polyval(coeff_line,x_line)\nfigure; plot(x,y,'o')\nhold on\nplot(x_linemy_line)\n```"
+    },
+    {
+        "front": "<b>Q48. If you run this piece of code, you will get an error. Why?</b>\n```\na = [0 1 2 3; 4 5 6 7];\na = a^2;\n```\n- You are attempting to multiply a non-square matrix by itself, causing a dimension mismatch.\n- MATLAB does not allow you to square all the elements in the matrix in a single operation.\n- You must use the \\*\\* operator instead of the ^ operator.\n- You cannot square matrices that have a 0 as the first element.",
+        "back": "You are attempting to multiply a non-square matrix by itself, causing a dimension mismatch."
+    },
+    {
+        "front": "<b>Q49. Which command will create a 10-element vector v with values from 1 to 10?</b>\n- v = {1:10}\n- v = [1-10]\n- v = 1:10\n- v = (10)",
+        "back": "v = 1:10"
+    },
+    {
+        "front": "<b>Q50. For a 5 x 5 array, the two subscript index (4,2) indexes the same location as linear index `___`.</b>\n- 7\n- 8\n- 17\n- 9",
+        "back": "9"
+    },
+    {
+        "front": "<b>Q51. What is a difference between global variable and persistent variables?</b>\n- Global variables have a higher performance overhead than persistent variables.\n- Global variables remain in memory after clear all; persistent variables do not.\n- Global variables can be used to cache data in memory; persistent variables cannot.\n- Global variables are accessible outside the function scope; persistent variables are not.",
+        "back": "Global variables are accessible outside the function scope; persistent variables are not."
+    },
+    {
+        "front": "<b>Q52. How is the random seed for MATLAB's random number generator first initializedin a MATLAB Session?</b>\n- Seed is undefined until it is initialized by the user.\n- Seed is set to a value based on the current time when user first calls rand()\n- Seed is set to a value based on the current time on startup.\n- Seed is set to a static default value on startup.",
+        "back": "Seed is set to a static default value on startup.\n\n[Reference](https://ch.mathworks.com/help/matlab/math/why-do-random-numbers-repeat-after-startup.html)"
+    },
+    {
+        "front": "<b>Q53. At what will MATLAB look first for a called function?</b>\n- functions on the path\n- built-in functions\n- functions within the current file\n- functions within the current directory",
+        "back": "functions within the current directory\n\n[Reference](https://www.mathworks.com/help/matlab/matlab_env/files-and-folders-that-matlab-accesses.html)"
+    },
+    {
+        "front": "<b>Q54. Which choice is the correct syntax for declaring a function that returns the input value as the output?</b>\n- :\n```\nfunction mystery_func(a) :\n    return a\n```\n- :\n```\nfunction b = mystery_func(a)\n    b = a;\nend\n```\n- :\n```\ndef b = mystery_func(a)\n    b = a;\nend\n```\n- :\n```\nfunction mystery_func(a)\n    b = a;\n    return b;\nend\n```",
+        "back": ":\n```\nfunction b = mystery_func(a)\n    b = a;\nend\n```\n\n[Reference](https://mathworks.com/help/matlab/ref/function.html)"
+    },
+    {
+        "front": "<b>Q55. What is the state of a at the end of this code?</b>\n```\na = [1 2; 3 4];\nb = a(:,2);\nc = b + 3;\na(1:2,1) = c;\n```\n- :\n```\na =\n    6   3\n    7   4\n```\n- :\n```\na =\n    5   2\n    7   4\n```\n- :\n```\na =\n    5\n    7\n```\n- :\n```\na =\n    6\n    7\n```",
+        "back": ":\n```\na =\n    5   2\n    7   4\n```\n\n[Reference](https://mathworks.com/company/newsletters/articles/matrix-indexing-in-matlab.html)"
+    },
+    {
+        "front": "<b>Q56. You've just plotted some data and want to change the color behind the lines you've plotted to black. Which code block will accomplish this?</b>\n- `h_f = figure; set(h_f,'Color', [0 0 0]);`\n- `h_a = gca; set(h_a,'Color', [0 0 0]);`\n- `h_a = axes; set(h_a,'Color', [0 0 0]);`\n- `h_f = gcf; set(h_a,'Color', [0 0 0]);`",
+        "back": "`h_a = gca; set(h_a,'Color', [0 0 0]);`"
+    },
+    {
+        "front": "<b>Q57. Which statement will return all the odd numbers from 1 to 9?</b>\n- `2*[1:5]+1`\n- `1:2:9`\n- `isodd(1:9)`\n- `1:odd:9`",
+        "back": "`1:2:9`"
+    },
+    {
+        "front": "<b>Q58. In MATLAB, the `imfilter` command performs a convolution operation between an image and a matrix. Suppose you have an image loaded in MATLAB into the variable `img` and you apply the following code. The original image appears slightly blurred because the convolution smoothed out the image (removed noise). Why do you think this happened?</b>\n```\nh = ones(5,5)/25;\nimshow(imfilter(img,h));\n```\n- `h` is a Gaussian filter that adds to 1. Its intended effect is to highlight image edges.\n- `h` is an averaging filter uniformly distributed that adds to 1. Its intended effect is to smooth out images (remove noise).\n- `h` is a Laplacian filter that adds up to 0. Its intended effect is to smooth out images (remove noise).\n- `imfilter` is a function that always blurs the images.",
+        "back": "`h` is an averaging filter uniformly distributed that adds to 1. Its intended effect is to smooth out images (remove noise)."
+    },
+    {
+        "front": "<b>Q59. What is the size of `b`?</b>\n```\na = [1 2 3];\nb = repmat(a,2,3);\n```\n- 1x3\n- 3x2\n- 2x3\n- 2x9",
+        "back": "2x9"
+    },
+    {
+        "front": "<b>Q60. Which statement reverses vector `a`?</b>\n```\na = [ 1 2 3 4];\n```\n- reverse(a)\n- a(end:- 1:1)\n- rev(a)\n- a(::-1)",
+        "back": "a(end:- 1:1)"
+    },
+    {
+        "front": "<b>Q61. Which command will create a column vector with the values 7, 8, and 9?</b>\n- `c = [7,8,9]`\n- `c = [7: 8: 9]`\n- `c = [7; 8; 9]`\n- `c = [7 8 9]`",
+        "back": "`c = [7; 8; 9]`"
+    },
+    {
+        "front": "<b>Q62. What do you call in the **command** window to see all the variables in the workspace and their classes?</b>\n- `who`\n- `vars`\n- `whos`\n- `who all`",
+        "back": "`whos`"
+    },
+    {
+        "front": "<b>Q63. You wrote a new function named `snap` in an m-file and when you call it, you're not getting the output you expect. You previously wrote a different function named `snap`, which you think might also be on the search path. Which command can you use to see if the old `snap` function is being called?</b>\n- which\n- who\n- lookfor\n- what",
+        "back": "which"
+    },
+    {
+        "front": "<b>Q64. What is a reason to save a MAT-file using the `-v7.3` flag?</b>\n- to ensure backward compatibility\n- to avoid HDF5 overhead in MAT-file\n- to include a variable greater that 2GB\n- to use compression by default",
+        "back": "to include a variable greater that 2GB"
+    },
+    {
+        "front": "<b>Q65. Which choice cannot add a directory to the search path?</b>\n- the **path** function\n- the **savepath** function\n- using **Set Path** in the **Environment** menu\n- the **addpath** function",
+        "back": "the **savepath** function\n\n[Reference](https://www.mathworks.com/help/matlab/ref/savepath.html)"
+    },
+    {
+        "front": "<b>Q66. Which is not a function to plot three-dimensional data?</b>\n- mesh\n- surf\n- contour\n- grid",
+        "back": "grid\n\n[Reference](https://www.mathworks.com/help/matlab/ref/grid.html)"
+    },
+    {
+        "front": "<b>Q67. What is the reason to save a MAT-file using the v-7.3 flag?</b>\n- to use compression by default\n- to ensure backward compatibility\n- to include a variable greater than 2GB\n- to avoid HDF5 overhead in MAT-file",
+        "back": "to include a variable greater than 2GB\n\n[Reference](https://www.mathworks.com/matlabcentral/answers/169755-saving-variable-with-v7-3-flag-check)"
+    },
+    {
+        "front": "<b>Q68. This graph could be the result of which block of code?</b>\n<img src=\"matlab-quiz_matlab_Q41.png\">\n- `a = randn(1,1000); histogram(a) ylabel('counts')`\n- `a = rand(1,1000); histogram(a) ylabel('counts')`\n- `a = randi(1,1000); histogram(a) ylabel('counts')`\n- `a = rng(1,1000); histogram(a) ylabel('counts')`",
+        "back": "`a = randn(1,1000); histogram(a) ylabel('counts')`"
+    },
+    {
+        "front": "<b>Q69. What is a key difference between && and &?</b>\n- && is a logical operator and & is not.\n- && is always slower than &\n- && employs short-circuiting behavior and & does not.\n- && is a bitwise operator and & is not.",
+        "back": "&& employs short-circuiting behavior and & does not.\n\n[Reference](https://stackoverflow.com/questions/1379415/whats-the-difference-between-and-in-matlab)"
+    },
+    {
+        "front": "<b>Q70. What is the result of this code?</b>\n```\ns=\"abcd\"; s(3)='x'\n```\n- \"abxd\"\n- abxd\n- a 1x 3 string array\n- a run-time error",
+        "back": "a 1x 3 string array"
+    },
+    {
+        "front": "<b>Q71. In which case would you use varargin in a function you write?</b>\n- You want to count the number of input arguments.\n- You want to include optional input arguments.\n- You want the workspace variable names of the input arguments.\n- You want the data types of the input arguments.",
+        "back": "You want to include optional input arguments."
+    },
+    {
+        "front": "<b>Q72. What does e contain?</b>\n```\nc = [9 8 0];\nd = [0 0 1];\ne = union(c,d);\n```\n- `e = [0 0 1 9 8 0]`\n- `e = [9 8 0 0 0 1]`\n- `e = [0 1 8 9]`\n- `e = [1 8 9]`",
+        "back": "`e = [0 1 8 9]`"
+    },
+    {
+        "front": "<b>Q73. What does this function print?</b>\n```\na = 1;\nfor i_loop = 1:6\n    disp(a);\nend\n```\n- nothing will print",
+        "back": "nothing will print"
+    },
+    {
+        "front": "<b>Q74. You are debugging a function and have set a breaipoint on the line before the error occurs. You look at the variable values and suspect the cause of the error is that a is 9 but should be 10. The next statement after the breakpoint will use a. Wigh action would help you test if a=10 solves the problem?</b>\n- type \"a=10;\" into the function file, before the statement that's throwing an error. Then click the Run button in the debugger window.\n- Type \"a=10; continue;\" into the command window\n- Type \"a=10;\" into the command window. Then click the Run button in the debugger window\n- Type \"a=10;\" into the function file, before the statement that's throwing an error. Then type \"return;\" into the command window",
+        "back": "type \"a=10;\" into the function file, before the statement that's throwing an error. Then click the Run button in the debugger window."
+    },
+    {
+        "front": "<b>Q75. Which statement returns the character array 'alone'?</b>\n```\nb = ['stand' 'alone'];\n```\n- b(7:11)\n- b(2)\n- b(6:end)\n- b(1,2)",
+        "back": "b(6:end)"
+    },
+    {
+        "front": "<b>Q76. Which statement returns the character array 'alone'?</b>\n```\nc = {rand(20,10) rand(23,2) rand(14,5)}\n```\n- A\n```\n  b = cellfun(@(m) mean(m(:)), C\n```\n- B\n```\nb = zeros(1, size(C,1);\n    for i_C = 1:size(C,1)\n        b(1_C) = mean(C{i_C}(:));\n    end\n```\n- C\n```\nb = cellfun(@mean, C)\n```\n- D\n```\nb = zeros(1, size(C,2);\n    for i_C = 1:size(C,2)\n        b(1_C) = mean(C(i_C));\n    end\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q77. Which choice uses the proper syntax for an `if else` statement?</b>\n- A\n```\nif (a > 1):\n    b = 2;\nelse:\n    b = 3;\n```\n- B\n```\nif (a > 1){\n    b = 2;\n} else{\n    b = 3;\n}\n```\n- C\n```\nif (a > 1)\n    b = 2;\nelse\n    b = 3;\nend\n```\n- D\n```\nif (a > 1)\n    b = 2;\nelse\n    b = 3;\n```",
+        "back": "C\n```\nif (a > 1)\n    b = 2;\nelse\n    b = 3;\nend\n```\n\n[Reference](https://www.mathworks.com/help/matlab/ref/if.html)"
+    },
+    {
+        "front": "<b>Q78. What does b contain?</b>\n```\na = [9 8 8 19 6 1 9 6 6 19];\nb = unique(a);\n```\n- `b = [1 6 8 9 19]`\n- `b = [1 6 8 9]`\n- `b = [1 6 6 6 8 8 9 9 19 19]`\n- `b = [1 6 6 8 8 9]`",
+        "back": "`b = [1 6 8 9 19]`"
+    }
+]

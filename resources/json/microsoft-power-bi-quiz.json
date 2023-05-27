@@ -1,0 +1,390 @@
+[
+    {
+        "front": "<b>Q1. A dataset that includes \\_ can be used to create a map visualization. (Select all that apply.)</b>\nA. house numbers, street names\nB. geospatial data\nC. city names, country names\nD. longitude, latitude\n- A, B, C, D\n- A, C, D\n- B, C, D\n- D",
+        "back": "A, B, C, D"
+    },
+    {
+        "front": "<b>Q2. How do you create a chart visual in Power BI Desktop Report view? (Select all that apply.)</b>\n    A. Click New Visual on the Home tab.\n    B. Select a chart visual in the Visualizations pane.\n    C. Click New Visual on the Data Tools tab.\n    D. Select a field that contains values.\n- A, B, or D\n- B or D\n- B orC\n- A or B",
+        "back": "A or B"
+    },
+    {
+        "front": "<b>Q3. What daily sales number does this DAX measure formula calculate?</b>\n`CALCULATE(SUM([Sales]) ,DATESMTD([Date] ))`\n- running total sales in each month that starts over each month\n- total sales for the entire month\n- running total in entire year for the entire month\n- rolling average over 12 months of sales",
+        "back": "running total sales in each month that starts over each month"
+    },
+    {
+        "front": "<b>Q4. You are creating a report in Power BI Desktop and want to restrict the data to records where Country=\"Canada\". To accomplish this, what do you need to create?</b>\n- a directive\n- a custom column\n- an indexed column\n- a parameter",
+        "back": "a directive"
+    },
+    {
+        "front": "<b>Q5. What is the primary benefit of using visualizations such as line charts, bar charts, and column charts?</b>\n- They are easier to create than other visualizations.\n- They require fewer resources than more complex visualizations.\n- They are also used in Excel, so they feel familiar to users.\n- They are free to use.",
+        "back": "They require fewer resources than more complex visualizations."
+    },
+    {
+        "front": "<b>Q6. In Power BI service, deleted pages are available after deletion until</b>\n- midnight of the day on which they are deleted\n- the next billing cycle\n- you empty the Recycle Bin\n- the report has been saved",
+        "back": "the report has been saved"
+    },
+    {
+        "front": "<b>Q7. You need to add a required color to a bar chart. How can you add an exact color value to an existing bar chart?</b>\n- Click the color in the visual (e.g., the bars) and right-click to select the color.\n- You cannot select custom colors in a bar chart or related visual.\n- Select the value closest to this color from the color formatting options.\n- Enter the hex value into the color formatting options.",
+        "back": "Click the color in the visual (e.g., the bars) and right-click to select the color."
+    },
+    {
+        "front": "<b>Q8. The Excel function IF is nearly the same as which DAX function?</b>\n- SWITCH\n- IF\n- IFX\n- IFS",
+        "back": "IFX"
+    },
+    {
+        "front": "<b>Q9. Consider the Power BI extract, transform, and load process (ETL). During this process, data is read and then</b>\n- stored in SQL Server\n- written to an OLAP cube\n- assigned a data type\n- sorted by primary key",
+        "back": "stored in SQL Server\n\n[Reference](https://www.scaler.com/topics/sql-server/)"
+    },
+    {
+        "front": "<b>Q10. Power BI's Publish to Web option allows you to embed visualizations within **\\_**. (Select all that apply.)</b>\n    A. blog posts\n    B. email messages\n    C. web sites\n    D. text messages\n- A,C\n- C\n- A, B, C\n- A, B, C, D",
+        "back": "A, B, C, D"
+    },
+    {
+        "front": "<b>Q11. What can you do within the Power BI Desktop Query Settings pane? (Select all that apply.)</b>\n    A. Rename a query step.\n    B. Delete a query step.\n    C. Delete from one query step to the end.\n    D. Reorder the steps.\n- B, C, D\n- A, B, C, D\n- A, B, D\n- A, B, C\n[proof link](https://docs.microsoft.com/en-us/power-bi/transform-model/desktop-query-overview)",
+        "back": "A, B, C, D"
+    },
+    {
+        "front": "<b>Q12. After you enter text in the Q&A box or O&A visual, Power BI will `\\_` your data to create a list of appropriate visualizations.</b>\n- filter and group\n- sort and filter\n- sort, filter, and group\n- sort and group",
+        "back": "sort and group"
+    },
+    {
+        "front": "<b>Q13. You just deleted a dashboard in the Power BI service and want to get it back. What should you do?</b>\n- Press Ctrl+Z.\n- Select Undo from the toolbar.\n- You cannot undo the deletion of a dashboard.\n- Recover it from the Recycle Bin.\n1. [proof link1](https://docs.microsoft.com/en-us/power-bi/visuals/service-tips-and-tricks-for-color-formatting)\n2. [link2](https://www.edureka.co/community/26060/how-do-i-undo-something-in-power-bi)",
+        "back": "Press Ctrl+Z."
+    },
+    {
+        "front": "<b>Q14. You have a sales data source and want to relate the tables. The table that contains sales transactions is a **\\_** table that contains product information is a \\_ table .</b>\n- dimension; fact\n- lookup; data\n- data; lookup\n- data; supporting",
+        "back": "data; lookup"
+    },
+    {
+        "front": "<b>Q15. When you are creating a formula in the Power Query Editor, what does IntelliSense provide a list of? (Select all that apply.)</b>\n    A. columns\n    B. tables\n    C. functions\n    D. data sources\n- B,C\n- A, C, D\n- C,D\n- A, B, C",
+        "back": "A, B, C"
+    },
+    {
+        "front": "<b>Q16. You want to delete a dataset but the Power BI service will not let you. What is the most likely cause?</b>\n- A tile on your dashboard contains data from that dataset.\n- The dataset is already being used in a published app.\n- A report contains data from that dataset.\n- The dataset is in your workspace.",
+        "back": "The dataset is already being used in a published app."
+    },
+    {
+        "front": "<b>Q17. One of your data columns includes the city, state, and postal code line of a mailing address. You need to separate the fields so you can access the geospatial elements for a map visualization. What transformation should you apply?</b>\n- Replace values\n- Split column\n- Modify data type\n- Best fit geospatial",
+        "back": "Split column"
+    },
+    {
+        "front": "<b>Q18. Formatting options within a visualization depend on what?</b>\n- the visualization you are formatting\n- the editor you use\n- the visualization group\n- your permissions\n[proof link](https://docs.microsoft.com/en-us/power-bi/visuals/service-getting-started-with-color-formatting-and-axis-properties)",
+        "back": "the visualization you are formatting"
+    },
+    {
+        "front": "<b>Q19. What tool can you use in Power BI Desktop to reduce data?</b>\n- report editor\n- Power Query Editor\n- dashboard\n- data modeler",
+        "back": "data modeler"
+    },
+    {
+        "front": "<b>Q20. What is NOT a valid data connection type for Power BI Desktop?</b>\n- Azure data\n- file data\n- relationships data\n- database data",
+        "back": "relationships data"
+    },
+    {
+        "front": "<b>Q21. Which data type can be uploaded directly to powerbi.com?</b>\n- Excel files\n- comma-separated value (CSV) files\n- Power BI Desktop files\n- all of these answers",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q22. What does Power BI Premium provide?</b>\n- Power BI Report Server\n- report sharing without a per-user licens\n- all of these answers\n- dedicated capacity for your company",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q23. You have a report in Power BI service and want to save the state of a report page for easy access. What feature helps you do this?</b>\n- views\n- filters\n- bookmarks\n- slicers",
+        "back": "views"
+    },
+    {
+        "front": "<b>Q24. What should you do to increase the readability of a report?</b>\n- all of these answers\n- Remove unnecessary field labels.\n- Select the most appropriate visualization.\n- Use borders.",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q25. Which feature in the Power BI service is most useful when you need to create pages that present the same visualizations for different territories, salespeople, or teams?</b>\n- landscape mode\n- none of these answers\n- Shrink to Fit\n- templates",
+        "back": "templates"
+    },
+    {
+        "front": "<b>Q26. What should you use to highlight a specific visualization in a report?</b>\n- Spotlight\n- Highlight\n- Magnify\n- None of the answers",
+        "back": "Spotlight"
+    },
+    {
+        "front": "<b>Q27. What does My Workspace on powerbi.com include?</b>\n- Visualizations and a fields list\n- Toolbars and preferences\n- Workbooks and visualizations\n- Dashboards and reports",
+        "back": "Dashboards and reports"
+    },
+    {
+        "front": "<b>Q28. You want to access the underlying data for a specific data point in a visualization. What should you choose?</b>\n- Drill up\n- Drill down\n- Expand to next level\n- Collapse",
+        "back": "Expand to next level"
+    },
+    {
+        "front": "<b>Q29. You have a treemap visualization that groups by sales territory. To allow users to further analyze data for a specific territory, what filter should you apply?</b>\n- Visual level\n- Page level\n- Drillthrough\n- Expand down",
+        "back": "Drillthrough"
+    },
+    {
+        "front": "<b>Q30. Facebook, Twilio, GitHub, and MailChimp are all examples of Power BI **\\_**.</b>\n- online services\n- Wiki data sources\n- database data sources\n- File data sources",
+        "back": "online services"
+    },
+    {
+        "front": "<b>Q31. When you use Publish to Web in the Power BI service, who can view your published content?</b>\n- everyone in your environment\n- anyone on the internet\n- everyone in your organization\n- only you",
+        "back": "everyone in your organization"
+    },
+    {
+        "front": "<b>Q32. The iterator functions SUMX and AVERAGEX are used to perform calculations **\\_**.</b>\n- for Power BI mobile apps\n- in Power BI service rather than Power BI desktop\n- in the context of a record\n- for very large datasets",
+        "back": "in the context of a record"
+    },
+    {
+        "front": "<b>Q33. In Power BI Desktop Model view, what type of join will yield all results from Table 1 and any matching results from Table 2?</b>\n- Right Outer Join\n- Left Outer Join\n- Left Inner Join\n- Right Inner Join",
+        "back": "Left Inner Join"
+    },
+    {
+        "front": "<b>Q34. What is NOT a built-in Power BI visual?</b>\n- Power KPI\n- funnel chart\n- waterfall chart\n- ArcGIS map",
+        "back": "Power KPI"
+    },
+    {
+        "front": "<b>Q35. You want to combine several CSV files into a single data file after you connect a folder. What must be true about these CSV data files? (Select all that apply.)</b>\n    A. They must be stored in the same folder.\n    B. They must have the same schema.\n    C. They must have the same file type.\n    D. They must have no duplicate data rows.\n- B, C\n- A, B, C\n- A, B, D\n- B, C, D",
+        "back": "A, B, C"
+    },
+    {
+        "front": "<b>Q36. If you delete a dateset in the Power BI service, what happens to the dashboards and reports supported by the dataset?</b>\n- They will be stored as static dashboards and reports.\n- They will be deleted.\n- They will be converted to image files.\n- Nothing\u2014they will be unchanged.",
+        "back": "They will be deleted."
+    },
+    {
+        "front": "<b>Q37. Which DAX function compares a column of values in Table A with a similar column in Table B, and returns the values the are not found in Table B?</b>\n- COMPARE\n- FINDUNIQUE\n- EXCEPT\n- SWITCH",
+        "back": "EXCEPT"
+    },
+    {
+        "front": "<b>Q38. Your data model includes two related tables, Customers and Orders. To determine the number of customers that have placed orders, create a measure on the **\\_** table using the **\\_** function.</b>\n- Orders; DISTINCTCOUNT\n- Customers; COUNT\n- Orders; COUNT\n- Customers; DISTINCTCOUNT",
+        "back": "Orders; DISTINCTCOUNT"
+    },
+    {
+        "front": "<b>Q39. Power BI works best with tables that are **\\_**,</b>\n- short and wide\n- long and skinny\n- short and skinny\n- long and wide",
+        "back": "long and skinny"
+    },
+    {
+        "front": "<b>Q40. You have two columns of numerical data and want to create a visual to help determine if there is a relationship between them. What kind of chart is designed to do this?</b>\n- bar chart\n- bubble chart\n- line chart\n- scatter chart",
+        "back": "scatter chart\n\n**Explanation:** As both of the columns have numeric data, we will use a scatter chart and apply them in X-axis and Y-axis"
+    },
+    {
+        "front": "<b>Q41. In the report editor, which task can you NOT accomplish using drag and drop?</b>\n- Add more information to a visualization.\n- All of these tasks can be done with drag and drop.\n- Create a new visualization.\n- Rearrange and resize visualizations.",
+        "back": "All of these tasks can be done with drag and drop."
+    },
+    {
+        "front": "<b>Q42. In general, what is the best way to shape your data for Power BI?</b>\n- User a star schema.\n- Load all tables from the data source.\n- all of these answers\n- Include multiple objects in each data table.",
+        "back": "User a star schema."
+    },
+    {
+        "front": "<b>Q43. You can optionally include a filter in which DAX function?</b>\n- CALCULATE\n- SUM\n- PICARD\n- COMPARE",
+        "back": "CALCULATE"
+    },
+    {
+        "front": "<b>Q44. Which feature is `not` in the Power BI Admin portal?</b>\n- usage metrics\n- organization visuals\n- Dashboard Manager\n- audit logs",
+        "back": "Dashboard Manager"
+    },
+    {
+        "front": "<b>Q45. You want to count the number of products in the Products data table. Which DAX function works best?</b>\n- RECOUNT\n- COUNTUNIQUE\n- COUNTX\n- COUNTROWS",
+        "back": "COUNTX"
+    },
+    {
+        "front": "<b>Q46. You have just pinned a visualization to a new dashboard. Before you can add another visualization, what must you do?</b>\n- Save it.\n- Name it.\n- Refresh it.\n- Publish it.",
+        "back": "Name it."
+    },
+    {
+        "front": "<b>Q47. You can create a live connection to \\_ .</b>\n- Dynamics 365\n- SharePoint\n- all of these answers\n- SQL Server Analysis Services",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q48. What is the purpose of this code?</b>\n`ProductCount = COUNT(Products[ProductID])`\n- It is part of the documentation\n- It creates and formats a measure called ProductCount\n- It creates a measure called ProductCount\n- It calculates the value for an existing measure named ProductCount",
+        "back": "It is part of the documentation"
+    },
+    {
+        "front": "<b>Q49. Your computer rental dataset includes columns for StartTime, EndTime, and PerHourRate. What two DAX functions could you use to calculate the total earned for rentals?</b>\n- DATEDIFF and SUM\n- DATEDIFF and SUMX\n- TIMEDIFF and SUM\n- TIMEDIFF and SUMX",
+        "back": "DATEDIFF and SUMX"
+    },
+    {
+        "front": "<b>Q50. Which Q&A feature helps you ask questions and refine your visualization?</b>\n- error dialogs\n- autocomplete\n- all of these answers\n- tooltips",
+        "back": "autocomplete"
+    },
+    {
+        "front": "<b>Q51. What does Power BI Desktop do when it cannot create a standard map visualization with the available data?</b>\n- It sends the data to the Power BI service\n- It returns an error\n- It sends the data to Bing\n- It substitutes a column chart",
+        "back": "It sends the data to Bing"
+    },
+    {
+        "front": "<b>Q52. Bookmarks capture the state of a page. What does this capture state include?</b>\n    A. sorting\n    B. filtering\n    C. current selection\n    D. properties of visuals\n- A, B\n- A, B, C\n- A, B, C, D\n- A, B, D",
+        "back": "A, B, C, D"
+    },
+    {
+        "front": "<b>Q53. Your company's national maintenance team is divided into 12 regions, and the Issues report they use is filtered by the user's region. What report modification would help technicians while using the mobile app on the road? (Select all that apply.)</b>\n    A. Add a geographic filter to City.\n    B. Add a geographic filter to State.\n    C. Add a geographic filter to Street Address.\n    D. Add a geographic filter to Country.\n- A, B, D\n- A, B, C, D\n- A, B, C\n- A, B",
+        "back": "A, B, C"
+    },
+    {
+        "front": "<b>Q54. What does the usage metric \"Most Consumed Dashboards by Users\" include? (Select all that apply.)</b>\n    A. the person who built the dashboard\n    B. other people who share the dashboard\n    C. users who consume the dashboard in a content pack\n    D. individual user downloads of the dashboard\n- A, B, C, D\n- A, B, C\n- A, D\n- B, C, D",
+        "back": "A, B, C"
+    },
+    {
+        "front": "<b>Q55. How can you allow users to filter an entire report to display information for the last week, last two weeks, or last month?</b>\n- Add a date field to the report filter area and set filtering to Relative date filtering.\n- all of these answers\n- Add a date field to the page filter area, set filtering to Relative date filtering and click Extend.\n- Add a slicer for a date field to the report. Click the upper right corner and select Relative.",
+        "back": "Add a date field to the report filter area and set filtering to Relative date filtering."
+    },
+    {
+        "front": "<b>Q56. A group admin for an app workspace cannot **\\_** in their workspace.</b>\n- remove users from the group\n- manage group membership\n- add users to the group\n- remove users from Power BI",
+        "back": "remove users from Power BI"
+    },
+    {
+        "front": "<b>Q57. In general, you should not add DAX calculated columns to your data moder if you are able to do what?</b>\n- all of these answers\n- Create the columns in Power Query during data load\n- Create a measure instead\n- Have it added to the data source",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q58. In the Power BI service, accessing a dataset for an uploaded Power BI file allows you what capabilities?</b>\n- the ability to see all of the dataset only in Power BI cloud services, but not in Power BI Desktop\n- front-end access to all data queries within this source without the ability to make back-end changes\n- connections to all the data queries and the ability to make ETL modifications to existing data\n- the option to select a single query from within the dataset and build new ETL processes form it",
+        "back": "front-end access to all data queries within this source without the ability to make back-end changes"
+    },
+    {
+        "front": "<b>Q59. What is the recommended level of security for data extensions?</b>\n- Prompt the user before load\n- Allow any extension to load without warning\n- Allow only certified extensions to load\n- Load certified extensions and prompt the user for noncertified extensions",
+        "back": "Allow only certified extensions to load"
+    },
+    {
+        "front": "<b>Q60. Your data model includes a Members data table and ten other tables, including these the lookup tables with unique IDs: City, State, and Country. How can you improve your data model for Power BI?</b>\n    A. Combine City, State, and Country into one lookup table\n    B. Move City, State, and Country to the Member table\n    C. Combine City and State into one lookup table and remove the Country table\n    D. Leave the model as it is.\n- A or C\n- A\n- D\n- A or B",
+        "back": "A"
+    },
+    {
+        "front": "<b>Q61. Before you can use a custom visualization from the Power BI Marketplace, you need to **\\_\\_\\_\\_** in, then **\\_\\_** it to your Power BI account.</b>\n- download; upload\n- purchase; import\n- purchase; upload\n- upload; download",
+        "back": "purchase; import"
+    },
+    {
+        "front": "<b>Q62. You have two Excel spreadsheets with data from separate reporting units. Both spreadsheets have the same column names. What Power Query Editor feature can you use to create a unified dataset?</b>\n- Unify\n- Append\n- Merge\n- Group",
+        "back": "Append"
+    },
+    {
+        "front": "<b>Q63. Power BI Q&A chooses the best visualization based on data type - for example, a ** chart for date data and a ** for state/province data.</b>\n- column; map\n- line; map\n- timeline; map\n- line; column",
+        "back": "timeline; map"
+    },
+    {
+        "front": "<b>Q64. In Power BI, what is the most important difference between tables related in a star schema and in a snowflake schema?</b>\n- A snowflake schema cannot be modeled in Power BI.\n- A snowflake schema can be modeled only in Power BI service.\n- A snowflake schema is much less efficient for Power BI.\n- A snowflake schema has more levels of lookup tables.",
+        "back": "A snowflake schema is much less efficient for Power BI."
+    },
+    {
+        "front": "<b>Q65. What are benefits of modifying your Excel data source in the Power Query Editor rather than in Excel?</b>\n    A. You can track the changes you make.\n    B. It is less error prone than manual editing.\n    C. It will not affect other users of the spreadsheet.\n    D. It \"locks down\" the spreadsheet columns in Excel.\n- A, B, C\n- A, B, C, D\n- A, C, D\n- B, D",
+        "back": "A, B, C"
+    },
+    {
+        "front": "<b>Q66. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-lever filter?</b>\n    A. A slicer makes it easier for users to filter\n    B. Users should be able to see both filtered and nonfiltered values.\n    C. ????????\n- A and B\n- B and C\n- A and C\n- There is no reason to use a slicer rather than a report-level filter.",
+        "back": "A and B"
+    },
+    {
+        "front": "<b>Q67. Within Power BI, how can a report be created?</b>\n- directly from a dataset\n- starting with an existing report and editing it\n- using an existing report\n- all of these answers",
+        "back": "using an existing report"
+    },
+    {
+        "front": "<b>Q68. In the Power BI service, filters are applied in what view?</b>\n- Filter\n- Editing\n- Reading\n- Query",
+        "back": "Editing"
+    },
+    {
+        "front": "<b>Q69. What are the first steps you take to connect to an Access database data source in Power BI?</b>\n- You cannot to an Access database from Power BI.\n- Click **Reports > Database > Connect** in Power BI Desktop\n- Click **Get Data > Database > Access Database > Connect** in Power BI Service\n- Click **Get Data > Database > Access Database > Connect** in Power BI Desktop",
+        "back": ""
+    },
+    {
+        "front": "<b>Q70. What can you use Power BI for?</b>\n- all of these answers\n- to create visualizations\n- to model data\n- to generate reports",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q71. What is the primary purpose of the Relationship view in Power BI Desktop?</b>\n- to transform data\n- to add members to your team or group\n- to grant permission to view a specific table\n- to relate tables",
+        "back": "to relate tables"
+    },
+    {
+        "front": "<b>Q72. What do you call a visualization that has the single purpose of filtering other visuals in the view?</b>\n- waterfall\n- none of these answers\n- ArcGIS visual\n- slicer",
+        "back": "slicer"
+    },
+    {
+        "front": "<b>Q73. To share a dashboard and your comments from a mobile device, \\_ the dashboard.</b>\n- comment and share\n- annotate and share\n- publish\n- team share",
+        "back": "comment and share"
+    },
+    {
+        "front": "<b>Q74. In the Power Query Editor, you have selected multiple columns. How do you set them all to the Whole Number data type?</b>\n- Click **Data Type Any** and select **Whole Number**.\n- Select **Group By** and select **Whole Number**.\n- Right-click the primary key and select **Whole Number**.\n- Right-click any column and select **Format Data**",
+        "back": "Click **Data Type Any** and select **Whole Number**."
+    },
+    {
+        "front": "<b>Q75. When will links to a web-published report stop working?</b>\n- approximately one hour after the report is deleted\n- approximately one month after the report is deleted\n- never\n- approximately one week after the report is deleted",
+        "back": "approximately one hour after the report is deleted"
+    },
+    {
+        "front": "<b>Q76. What are the first steps to connect to a data table on Wikipedia from Power BI Desktop?</b>\n- **Get Data > OData feed > Web URL**\n- **Get Data > Web > Enter Web URL**\n- **Get Data > Web Table > Enter Web URL**\n- **Get Data > Data Source > Enter Web URL**",
+        "back": "**Get Data > Web > Enter Web URL**"
+    },
+    {
+        "front": "<b>Q77. In the Power Query Editor, what command do you use to remove a symbol `-` for example, a `#` that appears in every data now of the selected column?</b>\n- **Transform > Replace Values**\n- **Transform > Remove Text**\n- **Transform > Remove Values**\n- **Transform > Replace Errors**",
+        "back": "**Transform > Remove Text**"
+    },
+    {
+        "front": "<b>Q78. Which type of visualization is best when you want to compare proportions in a large volume of data with multiple categories and subcategories?</b>\n- donut chart\n- gauge chart\n- treemap\n- waterfall",
+        "back": "treemap"
+    },
+    {
+        "front": "<b>Q79. Of the Power BI tools, only Power BI Desktop allows you to do what?</b>\n- all of these answers.\n- Work offline.\n- Create data models.\n- Add DAX calculations.",
+        "back": "all of these answers."
+    },
+    {
+        "front": "<b>Q80. What does the Power BI Advanced Editor allow you to do? (Select all that apply.)</b>\n    A. Access the advanced editing commands.\n    B. View the M code created by the Power Query Editor.\n    C. Enter M code to shape your data.\n    D. Edit the M code created by the Power Query Editor.\n- A, B\n- A,B,C,D\n- B,C,D\n- A,B,C",
+        "back": "B,C,D"
+    },
+    {
+        "front": "<b>Q81. Why might you use the DAX DIVIDE function rather than a forward slash (/) when creating a measure? (Select all that apply.)</b>\n    A. DIVIDE does not raise an error when the denominator is zero.\n    B. DIVIDE is faster.\n    C. A forward slash does not work with text columns.\n    D. DIVIDE stores the numerator and denominator locally.\n- A,B,C,D\n- A,B\n- B,C\n- A",
+        "back": "A"
+    },
+    {
+        "front": "<b>Q82. when creating a new relationship between the Continents and Countries tables, this error is returned: \"One of the columns must have unique values.\" How can you fix this? (Select all that apply.)</b>\n    A. Add another table with unique keys\n    B. Remove duplicate rows so the Countries table has a column with unique IDs\n    C. Remove duplicate rows so the Continents table has a column with unique IDs.\n    D. Correct the cardinality of the relationship\n- A, C, D\n- B, C\n- A, B\n- B, C, D\n[Proof link](https://docs.microsoft.com/en-us/archive/blogs/cansql/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message)",
+        "back": "A, B"
+    },
+    {
+        "front": "<b>Q83. Your report is based on imported data from Excel. What is a valid reason to use a slicer rather than a report-level filter?</b>\n    A. A slicer makes it easier for users to filter.\n    B. Users should be able to see both filtered and unfiltered values.\n    C. Query speed is critical.\n- B and C\n- A and B\n- There is no reason to use a slicer rather than a report-level filter.\n- A and C",
+        "back": "A and B"
+    },
+    {
+        "front": "<b>Q84. You have pinned a bar chart visualization to a dashboard. If you then modify the bar chart in the underlying report, what will the dashboard display?</b>\n- It will display nothing. You will need to re-pin the bar chart to the dashboard.\n- It will display the bar chart as it appears in the report now.\n- It will display an error message where the bar chart had been pinned.\n- It will display the bar chart as it appeared when it was pinned.",
+        "back": "It will display the bar chart as it appears in the report now."
+    },
+    {
+        "front": "<b>Q85. In the Power Query Editor, how do you add an index column to an existing dataset?</b>\n- On the Transform tab, click Add Column > Index.\n- On the Add Column tab, click Add Index Column.\n- none of these answers\n- On the Home tab, click Add Index Column.",
+        "back": "On the Add Column tab, click Add Index Column."
+    },
+    {
+        "front": "<b>Q86. Power BI desktop has a **\\_** tool, found under the View tab, which can be used to record the time taken for each of the processes required to render a report to complete.</b>\n- Simulation\n- Performance Analyzer\n- Reporting Analytics\n- DAX Studio",
+        "back": "Performance Analyzer"
+    },
+    {
+        "front": "<b>Q87. When you are looking for outliers, Z-scores above **\\_** are a good starting point.</b>\n- 30\n- 3\n- 10\n- 100",
+        "back": "3"
+    },
+    {
+        "front": "<b>Q88. In DAX, a semi-additive measure can accumulate values over some dimension, but typically not **\\_**.</b>\n- calculations\n- time\n- magnitude\n- rate",
+        "back": "time"
+    },
+    {
+        "front": "<b>Q89. In Power BI's Power Query Editor, a field data type shown as **\\_** means the money data type.</b>\n- a pile of coins icon\n- Money\n- $\n- a stack of bills icon",
+        "back": "$"
+    },
+    {
+        "front": "<b>Q90. Which of the following choices is not a viewing option in the view selector of Power BI Desktop?</b>\n- report view\n- model view\n- query view\n- data view",
+        "back": "query view"
+    },
+    {
+        "front": "<b>Q91. Which value for the type parameter in the DAX function PATHITEM indicates integer?</b>\n- 0\n- \"Integer\"\n- TRUE\n- 1",
+        "back": "1"
+    },
+    {
+        "front": "<b>Q92. Which type of chart in Power BI is beneficial for helping you visualize data over time?</b>\n- pie charts\n- stacked column charts\n- tree maps\n- line charts",
+        "back": "line charts"
+    },
+    {
+        "front": "<b>Q93. To combine multiple tables into a single table in Power BI, use the **\\_** tool in the query editor.</b>\n- Append\n- Combine\n- Query\n- Report",
+        "back": "Append"
+    },
+    {
+        "front": "<b>Q94. Which time intelligence function in DAX can be used for seeing month-on-month data?</b>\n- ParallelPeriod\n- TotalYTD\n- SamePeriodLastYear\n- MonthOnMonth",
+        "back": "ParallelPeriod"
+    },
+    {
+        "front": "<b>Q95. Which part of Microsoft's data gateway's configuration allows you to switch between TCP and HTTPS modes?</b>\n- Diagnostics\n- Service settings\n- Connectors\n- Network",
+        "back": "Network"
+    },
+    {
+        "front": "<b>Q96. You pinned an Excel pivot table to a dashboard. What will other users be allowed to do with this visualization?</b>\n- View the pivot table.\n- all of these answers\n- Rearrange pivot table fields.\n- Drill down in the pivot table.",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q97. You pinned an Excel pivot table to a dashboard. What will other users be allowed to do with this visualization?</b>\n-[ ] drill down in the pivot table.\n-[ ] Rearrange pivot table fields.\n-[ ] view the pivot table\n-[x] all of these answers ",
+        "back": ""
+    }
+]

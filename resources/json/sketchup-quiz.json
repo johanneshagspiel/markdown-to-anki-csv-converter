@@ -1,0 +1,70 @@
+[
+    {
+        "front": "<b>Q1. Which of these will NOT stretch geometry if you click it with the Move tool and move your cursor outward?</b>\n- a group\n- and edge\n- an endpoint\n- a face",
+        "back": "a group"
+    },
+    {
+        "front": "<b>Q2. What is needed to use the Follow Me tool?</b>\n- a continuous path of edges\n- a correctly oriented face\n- the Push/Pull tool\n- the Offset and Move tools",
+        "back": "a continuous path of edges"
+    },
+    {
+        "front": "<b>Q3. What does dragging a selection windows arround entities from left to right do?</b>\n- It deselect any preselect items.\n- It causes selected entities to turn from blue to yellow.\n- It selects entities that are entirely contained in the selection box.\n- It selects anything the selection touch box.",
+        "back": "It selects entities that are entirely contained in the selection box."
+    },
+    {
+        "front": "<b>Q4. What do layers control?</b>\n- Visibility\n- Grouping\n- Stacking groups\n- Separating entities.",
+        "back": "Visibility"
+    },
+    {
+        "front": "<b>Q5. What action is demonstrated in this image?</b>\n- inference\n- push\n- pull\n- offset",
+        "back": "inference"
+    },
+    {
+        "front": "<b>6. Which action keeps two edges from \"Stacking\" together?</b>\n- grouping\n- intersection\n- avoiding edges touch\n- drawing perpendicular",
+        "back": "grouping"
+    },
+    {
+        "front": "<b>Q7. In LayOut, how can you set the default lenght of dimension leader lines?</b>\n- [ ]\n- [ ]\n- [ ]\n- 1.Create a dimension and click and drag each leader line to your desire length with the select-tool. 2. Right-click the leader line and select Copy. 3. Continue to draw subsequence dimension with the new leader line length applied.",
+        "back": "1.Create a dimension and click and drag each leader line to your desire length with the select-tool. 2. Right-click the leader line and select Copy. 3. Continue to draw subsequence dimension with the new leader line length applied."
+    },
+    {
+        "front": "<b>Q8. Which tool allows you to scale an edge to a new size that you specify by the typing in the desired measurement?</b>\n- Right-Click\n- Protractor\n- Type measurement\n- Scale",
+        "back": "Scale"
+    },
+    {
+        "front": "<b>Q9. How do you round off and trim a corner with only a 2 Point arc tool?</b>\n- 2.Double click and adjacent edge where it says tangent to edge while inference color is magenta.\n- 2.Right click and select trim.\n- you cannot do this only with 2 point arc tool\n- [ ]",
+        "back": "2.Double click and adjacent edge where it says tangent to edge while inference color is magenta."
+    },
+    {
+        "front": "<b>Q10. What is the best way to click in the measurement box?</b>\n- to start a new measurement\n- when you would like to edit a measurement\n- there is never\n- to delete a measurement",
+        "back": "to start a new measurement"
+    },
+    {
+        "front": "<b>Q11. You have created a 3D model and are concerned that some of the edges that are intended to be aligned with the axis and not. How can you check this?</b>\n- Click Camera > Standar View > By Axis\n- [ ]\n- [ ]\n- [ ]",
+        "back": "Click Camera > Standar View > By Axis\n- [ ]\n- [ ]\n- [ ]"
+    },
+    {
+        "front": "<b>Q12. The drawing on the left has hidden line style...</b>\n- [ ]\n- [ ]\n- [ ]\n- In the Style Window, select the edit tab, click The Edges icon and select the back edge option.",
+        "back": "In the Style Window, select the edit tab, click The Edges icon and select the back edge option."
+    },
+    {
+        "front": "<b>Q13. Which arrow key allows you to toggle between parallel and perpendicular (magenta) inference direction?</b>\n- Left\n- Down Arrow\n- Right\n- Up",
+        "back": "Down Arrow"
+    },
+    {
+        "front": "<b>Q14. How can you check the lenght of an edge?</b>\n- Use the selct tool\n- Righr click on an edge\n- Use the tape measurement tool to click...\n- Use the tape measurement tool to hover over...",
+        "back": "Use the tape measurement tool to hover over..."
+    },
+    {
+        "front": "<b>Q15. Where can you quickly find helpful hints and trick while using tools?</b>\n- measurement box\n- ywllow dialog box\n- help menu\n- status bar",
+        "back": "help menu"
+    },
+    {
+        "front": "<b>Q16. The image below shows The label and auto</b>\n- 1.2.3.4.5\n- 1.2.\n- 1.2\n- 1.2.3",
+        "back": "1.2.3.4.5"
+    },
+    {
+        "front": "<b>Q17. Which method creates a perpendicular view of a selection cut?</b>\n- Orbit\n- Righ-Click\n- Righ-Click\n- Click view > Selection Plane Direct",
+        "back": "Click view > Selection Plane Direct"
+    }
+]

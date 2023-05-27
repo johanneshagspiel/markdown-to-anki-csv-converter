@@ -1,0 +1,446 @@
+[
+    {
+        "front": "<b>Q1. How can you open a file selected in Lightroom CC for retouching in Photoshop CC?</b>\n- Double-click the file\n- Choose File > Edit in Photoshop\n- Choose File > Save to Photoshop\n- Press Cmd/Ctrl+E",
+        "back": "Choose File > Edit in Photoshop\n\n[Reference](https://helpx.adobe.com/lightroom-cc/how-to/lightroom-photoshop-edit-photos.html#choose_a_photo_from_lightroom)"
+    },
+    {
+        "front": "<b>Q2. How can you undo one or more changes just made to an image?</b>\n- Use the keyboard shortcut Cmd/Ctrl+Z\n- Click a state in the history panel\n- Choose File > Undo\n- Press Cmd/Ctrl+U",
+        "back": "Click a state in the history panel\n\n[Reference](https://helpx.adobe.com/uk/photoshop/using/undo-history.html#using_the_history_panel)"
+    },
+    {
+        "front": "<b>Q3. How can you select a specific layer? (find all that apply)</b>\n- Click the eye icon in the layers panel\n- Use the Move tool with auto-select enabled\n- Right-click the image and select layer\n- Press Cmd/Ctrl and click the layer",
+        "back": "Use the Move tool with auto-select enabled\n\n[Reference](https://helpx.adobe.com/uk/photoshop/using/selecting-grouping-linking-layers.html#select_layers_in_the_document_window)"
+    },
+    {
+        "front": "<b>Q4. How can you avoid having transparent edges along the edge of a panoramic photo while retaining the largest image size?</b>\n<img src=\"adobe-photoshop-quiz_007.png\">\n- Choose the Cylindrical method.\n- Choose the Perspective method.\n- Adjust the Boundary Warp slider.\n- Select Auto Crop.",
+        "back": "Select Auto Crop.\n\n[Reference](https://helpx.adobe.com/uk/lightroom-classic/help/panorama.html)"
+    },
+    {
+        "front": "<b>Q5. How do you crop a document without permanently discarding pixels along the edge?</b>\n- Clear the Delete Cropped Pixels box.\n- Select the Delete Cropped Pixels box.\n- Use the Smart Crop tool.\n- Hold the Alt (Windows) or Option (Mac) key.",
+        "back": "Use the Smart Crop tool."
+    },
+    {
+        "front": "<b>Q6. What feature should you use to simulate the in-camera development recipes applied by manufacturers with your own raw files?</b>\n- presets\n- Camera Matching profiles\n- calibration\n- snapshots",
+        "back": "Camera Matching profiles"
+    },
+    {
+        "front": "<b>Q7. When working in an RGB document, which option is **NOT** a method for the Select Color Range command?</b>\n- Sampled Colors\n- Skin Tones\n- Key (Blacks)\n- Out of Gamut",
+        "back": "Key (Blacks)"
+    },
+    {
+        "front": "<b>Q8. How do you access the Auto Color Correction Options dialog box?</b>\n- Select Image > Auto Tone.\n- Select Image > Auto Color.\n- Alt-click (Option-click) the Auto button in the Properties panel when you have a Levels or Curves adjustment layer targeted in the Layers panel.\n- Hold down the Alt (Option) key and select Image > Auto Color.",
+        "back": "Select Image > Auto Color."
+    },
+    {
+        "front": "<b>Q9. Which options are available when using the Free Transform command on a Smart Object?</b>\n```markdown\nA. Content-Aware Scale\nB. Scale\nC. Warp\nD. Distort\nE. Perspective Warp\n```\n- C,D\n- D,E\n- B,C\n- C,E",
+        "back": "B,C\n\n[Reference](https://helpx.adobe.com/photoshop/using/free-transformations-images-shapes-paths.html#:~:text=The%20Free%20Transform%20command%20lets,to%20switch%20between%20transformation%20types)"
+    },
+    {
+        "front": "<b>Q10. What is considered the minimum DPI for photographic-quality inkjet printing?</b>\n- 300\n- 100\n- 1,000\n- 72",
+        "back": "300"
+    },
+    {
+        "front": "<b>Q11. Which scanner type is capable of producing the highest resolution scans?</b>\n- flatbed scanner\n- slide scanner\n- all-in-one unit\n- drum scanner",
+        "back": "flatbed scanner"
+    },
+    {
+        "front": "<b>Q12. Which format does NOT support an alpha channel?</b>\n- PSD\n- PNG\n- TIFF\n- BMP",
+        "back": "PNG"
+    },
+    {
+        "front": "<b>Q13. What is the best way to save multiple full-size images into a single PDF?</b>\n- Use the PDF Presentation command.\n- Click **File > Export > Export Layers to Files**.\n- Check to see if you have Acrobat DC installed.\n- Save each PDF separately first and then combine them.",
+        "back": "Use the PDF Presentation command."
+    },
+    {
+        "front": "<b>Q14. What option cannot be adjusted with the Print command directly in the Print window?</b>\n- size of the image\n- position on the page\n- paper quality\n- color management policies",
+        "back": "paper quality"
+    },
+    {
+        "front": "<b>Q15. Which statement best describes the Quick Mask feature?</b>\n- It allows you to use the Pen tool to edit a selection\n- It allows you to use the Brush tool to create or refine a selection\n- It allows you to duplicate a mask quickly.\n- It allows you to convert a vector mask to a layer mask.",
+        "back": "It allows you to use the Brush tool to create or refine a selection"
+    },
+    {
+        "front": "<b>Q16. What Photoshop feature was used to convert this image to black and white?</b>\n<img src=\"adobe-photoshop-quiz_008.png\">\n- Black and White adjustment layer\n- Posterize\n- Threshold\n- Image > Mode > Grayscale",
+        "back": "Threshold"
+    },
+    {
+        "front": "<b>Q17. In the image shown, why is Sharpen Edges grayed out?</b>\n<img src=\"adobe-photoshop-quiz_009.png\">\n- The filter doesn't work on a 16-bit image.\n- The filer is not correctly installed.\n- The filter doesn't work on a 32-bit image.\n- The filter requires a selection to be made first.",
+        "back": "The filter requires a selection to be made first."
+    },
+    {
+        "front": "<b>Q18. In the image shown, which Camera Raw feature was used to restrict the graduated filter to avoid the statue?</b>\n<img src=\"adobe-photoshop-quiz_010.png\">\n- Adjustment Brush\n- Depth Range Mask\n- Luminance Range Mask\n- Color Range Mask",
+        "back": "Adjustment Brush"
+    },
+    {
+        "front": "<b>Q19. What can you use to save a common crop size?</b>\n- tool sets\n- preferences\n- modifier keys\n- tool presets",
+        "back": "tool presets"
+    },
+    {
+        "front": "<b>Q20. Which Camera Raw Transform method is being used in the example shown?</b>\n<img src=\"adobe-photoshop-quiz_011.png\">\n- Guided\n- Vertical\n- Level\n- Full",
+        "back": "Guided"
+    },
+    {
+        "front": "<b>Q21. To reduce the file size of a PDF, what should you do?</b>\n- Upsample large images\n- Convert 8-bit images to 16-bit\n- Apply compression to the document\n- all of these answers",
+        "back": "Apply compression to the document"
+    },
+    {
+        "front": "<b>Q22. Which image adjustment is **not** available as an adjustment layer?</b>\n- Levels\n- Shadows/Highlights\n- Curves\n- Hue/Saturation",
+        "back": "Shadows/Highlights"
+    },
+    {
+        "front": "<b>Q23. With default Essentials settings, where would you find the Red Eye tool?</b>\n- grouped with the Eyedropper tool\n- Image > Mode > Red Eye\n- Edit > Red Eye\n- grouped with the Spot Healing Brush tool",
+        "back": "grouped with the Spot Healing Brush tool"
+    },
+    {
+        "front": "<b>Q24. Which option was **not** selected in the Magic Wand tool to create a selection like the one shown below?</b>\n<img src=\"adobe-photoshop-quiz_012.png\">\n- Contiguous\n- Anti-alias\n- Auto-Enhance\n- Sample All Layers",
+        "back": "Contiguous"
+    },
+    {
+        "front": "<b>Q25. Where should you click to open a dialog box in which you can then choose to open a raw file as a Smart Object?</b>\n<img src=\"adobe-photoshop-quiz_013.png\">\n- A\n- B\n- C\n- D",
+        "back": "C"
+    },
+    {
+        "front": "<b>Q26. Which option would you use to clone while respecting perspective planes?</b>\n- Patch\n- Vanishing Point\n- Clone Stamp\n- Healing Brush",
+        "back": "Vanishing Point"
+    },
+    {
+        "front": "<b>Q27. In order to run a filter on an entire video file, what must you do first?</b>\n- Convert the video file to an image sequence.\n- Convert the video file to a Smart Object.\n- Actually, you cannot use filters on video files.\n- Convert the video file to an animated gif.",
+        "back": "Convert the video file to a Smart Object."
+    },
+    {
+        "front": "<b>Q28. Which file format does not support layers?</b>\n- Photoshop EPS\n- Photoshop PDF\n- Large Document Format\n- Photoshop PSD",
+        "back": "Photoshop EPS"
+    },
+    {
+        "front": "<b>Q29. Of these formats, which supports 16-bit images?</b>\n- JPEG\n- GIF\n- PNG\n- Photoshop EPS",
+        "back": "PNG"
+    },
+    {
+        "front": "<b>Q30. What does the small black triangle in the lower-right corner of a tool indicate?</b>\n- that the tool is currently deselected\n- tool options\n- that the tool is currently selected\n- grouped or hidden tools",
+        "back": "grouped or hidden tools"
+    },
+    {
+        "front": "<b>Q31. Which command makes it easier to adjust selected areas of color in two images in order to make them similar?</b>\n- Match Color\n- Replace Color\n- Hue/Saturation\n- Levels",
+        "back": "Match Color"
+    },
+    {
+        "front": "<b>Q32. If you scan a film or slide negative, which command turns it into a positive?</b>\n- Reverse\n- Threshold\n- Invert\n- Inverse",
+        "back": "Invert"
+    },
+    {
+        "front": "<b>Q33. A filter recipe can be saved as an action and set to your desktop for drag-and-drop usage by converting the filter recipe into a `___`.</b>\n- droplet\n- batch\n- scriptlet\n- image process",
+        "back": "droplet"
+    },
+    {
+        "front": "<b>Q34. Which tool is not found in the Select and Mask workspace?</b>\n- Refine Edge\n- Quick Select\n- Magic Wand\n- Lasso",
+        "back": "Magic Wand\n\n[Reference](https://helpx.adobe.com/photoshop/using/select-mask.html#tools)"
+    },
+    {
+        "front": "<b>Q35. To use blending modes with a filter, choose the `___` command.</b>\n- Mix\n- Fade\n- Smooth\n- Blend",
+        "back": "Blend"
+    },
+    {
+        "front": "<b>Q36. Which image adjustment is optimized for 32-bit images?</b>\n- Exposure\n- Color Lookup\n- Brightness/Contrast\n- Curves",
+        "back": "Color Lookup"
+    },
+    {
+        "front": "<b>Q37. To hide the white borders around pixels that are viewed at a high magnification, which option do you disable?</b>\n<img src=\"adobe-photoshop-quiz_005.png\">\n- Window > Workspace > Grid\n- View > Show > Slices\n- View > Show > Selection Edges\n- View > Show > Pixel Grid",
+        "back": "View > Show > Pixel Grid"
+    },
+    {
+        "front": "<b>Q38. what should you create to save a panel layout arrangement?</b>\n- A tool set\n- A layer set\n- A keyboard shortcut\n- A workspace",
+        "back": "A workspace"
+    },
+    {
+        "front": "<b>Q39. Which filter should you use to create photorealistic blurs?</b>\n- Gaussian Blur\n- Lens Blur\n- Shape Blur\n- Surface Blur",
+        "back": "Lens Blur"
+    },
+    {
+        "front": "<b>Q40. When using the Type tool, what do you call the space between lines?</b>\n- Vertical scale\n- Kerning\n- Leading\n- Tracking",
+        "back": "Vertical scale"
+    },
+    {
+        "front": "<b>Q41. If you want the most control over color when inkjet printing, which option should you select?</b>\n- Color Handling: Photoshop Manages Colors\n- Separations\n- Color Handling: Printer Manages Colors\n- Hard Proofing",
+        "back": "Color Handling: Photoshop Manages Colors"
+    },
+    {
+        "front": "<b>Q42. You have an RGB image that you want to convert to a duotone, but in the image > Mode menu, the Duotone option in grayed out. Why is this happening?</b>\n- You must add a spot color channel first\n- You must remove all existing color by Image > Adjustments > Desaturate first\n- Duotones require a single channel, so you must convert to grayscale first\n- Duotones require two channels, so you must delete one of RGB channels in the Channels panel first",
+        "back": "Duotones require a single channel, so you must convert to grayscale first"
+    },
+    {
+        "front": "<b>Q43. For smoother, curved edges on a selection, be sure to enable the `___` option.</b>\n- anti-alias\n- fade\n- blend\n- curve",
+        "back": "anti-alias"
+    },
+    {
+        "front": "<b>Q44. Which web-ready format supports transparency and is optimized for continuous tone images such as photos?</b>\n- GIF\n- PNG-8\n- PNG-24\n- JPEG",
+        "back": "PNG-24\n\n[Reference](https://helpx.adobe.com/photoshop-elements/using/optimizing-images-png-24-format.html)"
+    },
+    {
+        "front": "<b>Q45. You're trying to use the Healing Brush tool, but don't see results. What is the problem?</b>\n<img src=\"adobe-photoshop-quiz_006.png\">\n- You forgot to Shift-click to set the source point for the tool\n- You forgot to Alt-click (Windows) or Option-click (Mac) to set the source point for the tool\n- You forgot to double-click to set the source point for the tool\n- You forgot to Ctrl-click (Windows) or Command-click (Mac) to set the source point for the tool",
+        "back": "You forgot to Shift-click to set the source point for the tool"
+    },
+    {
+        "front": "<b>Q46. Which color space is best for web graphics?</b>\n- Adobe RGB\n- ProPhoto RGB\n- RGB\n- sRGB",
+        "back": "sRGB\n\n[Reference](https://helpx.adobe.com/ca/photoshop/using/color-settings.html#:~:text=sRGB%20is%20recommended%20when%20you,as%20their%20default%20color%20space.)"
+    },
+    {
+        "front": "<b>Q47. Which option do you use with the Dodge and Burn tools to prevent unwanted color changes like those shown in the image?</b>\n<img src=\"adobe-photoshop-quiz_001.png\">\n- Sample All Layers\n- Protect Tones\n- Use Pressure for Size\n- Protect Colors",
+        "back": "Protect Tones\n\n[Reference](https://helpx.adobe.com/photoshop/using/dodge-burn-image-areas.html)"
+    },
+    {
+        "front": "<b>Q48. Which command in the **Smart Objects** submenu would you see to save the original file for the selected layer?</b>\n<img src=\"adobe-photoshop-quiz_002.png\">\n- Edit Contents\n- Replace Contents\n- Relink to File\n- Export Contents",
+        "back": "Export Contents"
+    },
+    {
+        "front": "<b>Q49. In the image shown, which Blur method is being used to control focus with a series of pins?</b>\n<img src=\"adobe-photoshop-quiz_003.png\">\n- Path Blur\n- Tilt-Shift Blur\n- Iris Blur\n- Field Blur",
+        "back": "Field Blur"
+    },
+    {
+        "front": "<b>Q50. In the image shown, what do the blue areas represent?</b>\n<img src=\"adobe-photoshop-quiz_004.png\">\n- Color cast\n- Clipped shadow detail\n- Overexposed details\n- Clipped highlight detail",
+        "back": "Overexposed details"
+    },
+    {
+        "front": "<b>Q51. What does the grayscale image in this figure show?</b>\n<img src=\"adobe-photoshop-quiz_014.png\">\n- the edges affected by the Sharpen command as refined by the Masking slider\n- the edges affected by the Sharpen command as refined by the Radius slider\n- the edges affected by the Sharpen command as refined by the Detail slider\n- the edges affected by the Sharpen command as refined by the Amount slider",
+        "back": "the edges affected by the Sharpen command as refined by the Masking slider"
+    },
+    {
+        "front": "<b>Q52. Where do you click to adjust the blending mode for a Smart Filter?</b>\n<img src=\"adobe-photoshop-quiz_015.png\">\n- A\n- C\n- D\n- B",
+        "back": "D"
+    },
+    {
+        "front": "<b>Q53. Where do you find natural media brushes?</b>\n- Photoshop does not have natural media brushes.\n- In the Brushes panel, select a brush and then select Convert to natural media.\n- In the Brushes panel, select Legacy Brushes.\n- in the Tool Presents panel.",
+        "back": "In the Brushes panel, select Legacy Brushes."
+    },
+    {
+        "front": "<b>Q54. The option bar, which is normally above the canvas, is not visible. Where would you go to reopen it?</b>\n- View > Show > Show Extra Options\n- Window > Tool Presets\n- Window > Options\n- Edit > Toolbar",
+        "back": "View > Show > Show Extra Options"
+    },
+    {
+        "front": "<b>Q55. What would you use to create a vector path for the purpose of altering a letter or shape?</b>\n- Pencil tool\n- Vanishing Point\n- Pen tool\n- Trace Contour filter",
+        "back": "Pen tool"
+    },
+    {
+        "front": "<b>Q56. How do you browse images on your hard drive using the companion application that is included with the Adobe Creative Cloud plans?</b>\n- Click `File > Browse in Bridge`\n- Click `File > Browse in Lightroom Classic CC.`\n- Use the Creative Cloud application.\n- Click `File > Browse in Lightroom CC`.",
+        "back": "Click `File > Browse in Bridge`"
+    },
+    {
+        "front": "<b>Q57. Which command allows you to combine multiple channels into a new selection channel?</b>\n- Flatten\n- Calculations\n- Multiply\n- Merge\n[Answer found at:](https://helpx.adobe.com/photoshop/using/channel-calculations.html)",
+        "back": "Calculations"
+    },
+    {
+        "front": "<b>Q58. How do you nondestructively crop an image without permanently discarding pixels?</b>\n- Make a selection and click **Image > Crop**.\n- Clear the **Deleted Cropped Pixels** check box.\n- Click **Image > Trim** and select **Transparent Pixels**.\n- Select the **Delete Cropped Pixels** check box.",
+        "back": "Clear the **Deleted Cropped Pixels** check box."
+    },
+    {
+        "front": "<b>Q59. Which step is the most effective at making one image show through another to emulate a traditional double-exposure from film photography effect?</b>\n- Apply the Multiply blend mode to the bottom image.\n- Apply the Screen blend mode to the top image.\n- Apply the Hue blend mode to the top imagee.\n- Apply the Saturation blend mode to the top image.",
+        "back": "Apply the Screen blend mode to the top image."
+    },
+    {
+        "front": "<b>Q60. Which special layer type applies nondestructive color corrections to all of the layers below it?</b>\n- layer company\n- fill layer\n- adjustment Layer\n- layer Mask",
+        "back": "adjustment Layer"
+    },
+    {
+        "front": "<b>Q61. Why can you nondestructively scale a smart object?</b>\n- It converts the image from a raster image to a vector infographics\n- It uses Adobe Sensei technology to reconstruct pixels that have been interpolated.\n- It references an image in a separate file that retains its resolutions.\n- It uses a layer mask for nondestructive editing.",
+        "back": "It references an image in a separate file that retains its resolutions."
+    },
+    {
+        "front": "<b>Q62. Which **Select and Mask** workspace tool allows you to select fine hairs?</b>\n- Brush\n- Object Selection\n- Refine Edge\n- Quick selection",
+        "back": "Refine Edge"
+    },
+    {
+        "front": "<b>Q63. What is the difference between the Lasso tool and the Polygonal Lasso tool?</b>\n- You can draw a free-form selection with the Lasso tool, but you must make Bezier curves with the Polygonal Lasso tool.\n- The Lasso tool makes free-form selections. The Polygonal Lasso tool makes a selection with a series of connected line segments.\n- You can draw a free-form selection with the Lasso tool. You click and drag with the Polygonal Lasso tool to create Rectangular Marquee selections.\n- The Lass tool can select anything, including enclosed portions of raster images or shapes, but the Polygonal Lasso tool can select only shapes.",
+        "back": "The Lasso tool makes free-form selections. The Polygonal Lasso tool makes a selection with a series of connected line segments."
+    },
+    {
+        "front": "<b>Q64. What is the outcome if you make a selection and then add an adjustment layer?</b>\n- The adjustment layer contains a vector mask that applies the adjustment only to the unselected pixels.\n- The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.\n- The adjustment layer contains a layer mask that applies the adjustment only to the unselected pixels.\n- The adjustment layer contains a vector mask that applies the adjustment only to the selected pixels.",
+        "back": "The adjustment layer contains a layer mask that applies the adjustment only to the selected pixels.\n\n[Reference under section titled 'Create and confine adjustment and fill layers'](https://helpx.adobe.com/photoshop/using/adjustment-fill-layers.html)"
+    },
+    {
+        "front": "<b>Q65. Which filter is useful for removing lens distortion from JPEG photos based on lens-specific settings?</b>\n- Adaptive Wide Angle\n- Lens Blur\n- Lens Correction\n- Spherize",
+        "back": "Lens Correction"
+    },
+    {
+        "front": "<b>Q66. What image mode do professional offset printers usually use?</b>\n- RGB\n- Bitmap\n- CMYK\n- Lab Color",
+        "back": "CMYK"
+    },
+    {
+        "front": "<b>Q67. How can you remove a single ruler guide while leaving others in place?</b>\n- Click the guide with the Selection tool, then select **Edit > Clear**.\n- Select **View > Clear Guides**.\n- Double-click the point where the guide touches the ruler.\n- Drag the guide back to the ruler.",
+        "back": "Drag the guide back to the ruler."
+    },
+    {
+        "front": "<b>Q68. If you want to change the resolution of an image using the **Pixels per Inch setting**, which command do you use?</b>\n- Calculations\n- Image Size\n- Canvas Size\n- Apply Image",
+        "back": "Image Size"
+    },
+    {
+        "front": "<b>Q69. Which tool can you use to manually darken an area of an image</b>\n- Burn\n- Sharpen\n- Blur\n- Dodge",
+        "back": "Burn"
+    },
+    {
+        "front": "<b>Q70. How many layer masks can be added to an image?</b>\n- up to 8000\n- [] up to 2000\n- [] infinite\n- [] 0",
+        "back": "up to 8000\n- [] up to 2000\n- [] infinite\n- [] 0"
+    },
+    {
+        "front": "<b>Q71. Which method is a high-quality scaling algorithm for enlarging image?</b>\n- Bicubic Sharper\n- Bilinear\n- Preserve Details 2.0\n- Nearest Neighbor",
+        "back": "Bicubic Sharper"
+    },
+    {
+        "front": "<b>Q72. How can you make the magic wand tool select fewer variations of a color?</b>\n- clear the contiguous checkbox\n- decrease the tolerance\n- increase the tolerance\n- increase the simple size",
+        "back": "clear the contiguous checkbox"
+    },
+    {
+        "front": "<b>Q73. For curved smoother-looking edges on a selection, what selection should you pick?</b>\n- anti-aliasing\n- [ ]\n- [ ]\n- [ ]",
+        "back": "anti-aliasing\n- [ ]\n- [ ]\n- [ ]"
+    },
+    {
+        "front": "<b>Q74. Which tool is _not_ found in the **Select and Mask** workspace ?</b>\n- Magic Wand\n- Refine Edge\n- Quick Select\n- Lasso",
+        "back": "Refine Edge"
+    },
+    {
+        "front": "<b>Q75. Which sets of tool has a content-aware mode ?</b>\n- Perspective Corp\n- Marquee\n- Lasso\n- Patch",
+        "back": "Patch"
+    },
+    {
+        "front": "<b>Q76. Which Photoshpop panel containes project elements that can be shared across Adobe applications ro between collaborators?</b>\n- Libraries\n- Files\n- Layer Comps\n- Glyphs",
+        "back": "Libraries"
+    },
+    {
+        "front": "<b>Q77. What should you create in order to save a panel layout arrangement?</b>\n- a layer set\n- a tool set\n- a keyboard shortcut\n- a workspace",
+        "back": "a tool set"
+    },
+    {
+        "front": "<b>Q78. You are retouching a photo by using the Spot Healing Brush tool on a transparent layer aboce the image, but you cannot see any visible changes when you click. What is likely the problem?</b>\n- You need to convert the image to a Smart Object before using this tool.\n- You must first change the blending mode to Screen\n- The Spot Healing Brush tool cannot be used on a transparent layer\n- The Sample all layers check box on the toolbar is not selected",
+        "back": "The Sample all layers check box on the toolbar is not selected"
+    },
+    {
+        "front": "<b>Q79. Which blend mode is useful for dropping out the darkest areas o the top layer and effectively adding up the image details, like multiple slides being projected on top of each other?</b>\n- Multiply\n- Screen\n- Color\n- Hard Light",
+        "back": "Color"
+    },
+    {
+        "front": "<b>Q80. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer effect?</b>\n- B, C, and D\n- B\n- B and C\n- A",
+        "back": "B and C"
+    },
+    {
+        "front": "<b>Q81. What is the difference between the Healing Brush Tool and the Spot Healing Brush tool?</b>\n- The spot healing brush tool needs a source point, but the healing brush automatically samples pixels nearby.\n- The healing brush tool needs a source point, but the spot healing brush automatically samples pixels nearby.\n- The spot healing brush tool does not match texture, lifghting, shading or trasparency of the sampled pixels, but the healing brush tool blends texture, light, shading and trasparency of pixel nearby.\n- The healing brush tool does not match texture, lighting, shading or trasparency of the sampled pixels, but the spot healing brush tool blends texture, light, shading and trasparency of pixel nearby.",
+        "back": "The healing brush tool needs a source point, but the spot healing brush automatically samples pixels nearby."
+    },
+    {
+        "front": "<b>Q82. Which tool is _not_ found in the _Select and Mask_ workspace?</b>\n- Quick select\n- Magic wand\n- Lasso\n- Refine Edge",
+        "back": "Refine Edge"
+    },
+    {
+        "front": "<b>Q83. Which Select and Mask workspace tool allows you to select fine hairs?</b>\n- Object Selection\n- Brush\n- Quick Selection\n- Refine Edge",
+        "back": "Refine Edge"
+    },
+    {
+        "front": "<b>Q84. Which option is found in the Path Operations drop-down menu?</b>\n- Divide\n- Combine Shapes\n- Minus Back\n- Outline",
+        "back": "Minus Back"
+    },
+    {
+        "front": "<b>Q85. Which file formats does the Save for Web command support? (Select all that apply.) A. SVG B. JPEG C. PNG D. GIF E. MP4</b>\n- A, B, C\n- B, C, D\n- B, D, E\n- A, C, E",
+        "back": "A, B, C"
+    },
+    {
+        "front": "<b>Q86. Which method was used to soften the edges of this selection?</b>\n<img src=\"adobe-photoshop-quiz_image01.jpeg\">\n- Expand\n- Smooth\n- Feather\n- Frow",
+        "back": "Feather"
+    },
+    {
+        "front": "<b>Q87. What can be said about the Curves adjustment shown here?</b>\n<img src=\"adobe-photoshop-quiz_image02.jpeg\">\n- It will prevent shadows from pluhhing up.\n- It will increase the midtone contrast.\n- It will decrease the overall saturation.\n- It will prevent highlights from being blown out.",
+        "back": "It will increase the midtone contrast."
+    },
+    {
+        "front": "<b>Q88. Why is the Sycamore Leaf 1 layer underlined, as shown?</b>\n<img src=\"adobe-photoshop-quiz_image03.jpeg\">\n- The Sycamore Leaf 1 layer is the base layer of a clipping mask.\n- The Sycamore Leaf 1 layer is linked layer.\n- The Sycamore Leaf 1 layer is Smart Object.\n- The Sycamore Leaf 1 layer is selected.",
+        "back": "The Sycamore Leaf 1 layer is Smart Object."
+    },
+    {
+        "front": "<b>Q89. Which layer(s) does the depicted Hue/Saturation 1 adjustment layer affect?</b>\n<img src=\"adobe-photoshop-quiz_image04.png\">\n- A\n- B, C and D\n- B\n- B and C",
+        "back": "B and C"
+    },
+    {
+        "front": "<b>Q90. What special layer type applies nondestructive color correction to all of the layers below it ?</b>\n- layer comp\n- adjustment layer\n- layer mask\n- fill layer",
+        "back": "adjustment layer"
+    },
+    {
+        "front": "<b>Q91. Which command would permanently join two layers into one?</b>\n- Group\n- Merge\n- Combine\n- Link",
+        "back": "Group"
+    },
+    {
+        "front": "<b>Q92. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \\_ .</b>\n- Midtones\n- Shadows\n- Highlights\n- Global",
+        "back": "Midtones\n\n[Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)"
+    },
+    {
+        "front": "<b>Q93. Which menu contains the duplicate layer option in photoshop?</b>\n- Layer\n- Filter\n- Image\n- Select",
+        "back": "Layer\n\n[Reference](https://helpx.adobe.com/in/photoshop-elements/using/copying-arranging-layers.html)"
+    },
+    {
+        "front": "<b>Q94. When a Hue/Saturation adjustment layer is selected in the Layers panel, what do you do in the Properties panel to decrease the saturation for only a selected color range?</b>\n- Click the On-image adjustment tool, hover over the image with what has become an eyedropper cursor, and drag to the left.\n- Change the preset to Old Style. Then, enable the On-image adjustment tool and select the hue you would like from the image.\n- Enable the On-image adjustment tool, select the hue you would like from the image, and then adjust the slider that appears below Colorize\n- Click the On-image adiustment tool, hover over the image with what has become an evedropper cursor, and drag to the right.",
+        "back": "Change the preset to Old Style. Then, enable the On-image adjustment tool and select the hue you would like from the image."
+    },
+    {
+        "front": "<b>Q95. You need to preserve layers in your file. Which file format do you use?</b>\n- GIF\n- PSD\n- JPEG\n- PNG",
+        "back": "PSD"
+    },
+    {
+        "front": "<b>Q96. Which RGB control do you click to add a single control point to the Curves adjustment?</b>\n<img src=\"adobe-photoshop-quiz_Q95.png\">\n- A (on-image adjustment tool)\n- B (sample in image to set black point)\n- C (sample in image to set white point)\n- D (sample in image to set gray point)",
+        "back": ""
+    },
+    {
+        "front": "<b>Q97. What is the easiest way to export all layers in a document as individual files?</b>\n- Click **File > Scripts > Image Processor**.\n- Click **File > Export > Export Layer Comps to Files**.\n- Click **File > Export > Layers to Files**.\n- Click **File > Scripts > Load files into stack**.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q98. Which options bar icon subtracts from a selection?</b>\n<img src=\"adobe-photoshop-quiz_Q97.png\">\n- A\n- B\n- C\n- D",
+        "back": ""
+    },
+    {
+        "front": "<b>Q99. Which tool samples a group of pixels and brushes them into a new area without modifying them first?</b>\n- Pattern Stamp Tool\n- History Brush Tool\n- Clone Stamp Tool\n- Eraser Tool",
+        "back": "Clone Stamp Tool"
+    },
+    {
+        "front": "<b>Q100. A Filter name or menu item followed by an elipsis (...) means that the filter or menu item \\_?</b>\n- works in 16-bit mode\n- is optimize for multiple processors\n- has an interface\n- has no interface",
+        "back": "is optimize for multiple processors"
+    },
+    {
+        "front": "<b>Q101. The Background of your image is white. There is a red solid color adjustment layer mask that is black with a white circle, as shown. With nothing else selected, what happens to the image when you select the layer mask and then select Image > Adjustment > Invert?</b>\n- The red circle changes to cyan, but the color outside the circle remains red although it is still transparent. You can see the cyan only in the thumbnail in the Layes panel.\n- The circle changes from red to cyan\n- The red circle with white around it changes to a white circle with red around it.\n- The circle disappears",
+        "back": "The red circle with white around it changes to a white circle with red around it."
+    },
+    {
+        "front": "<b>Q102. Which features allow you to push pixels from their original location to modify an image?</b>\nA. Dodge\nB. Droplet\nC. Smudge\nD. Sponge\nE. Liquify\n- B, E\n- A, C, D, E\n- B, D, E\n- C, E",
+        "back": "B, D, E"
+    },
+    {
+        "front": "<b>Q103. How can you edit an Illustrator AI file that you placed as a Smart Object?</b>\n- Select the Direct Selection tool and click the edge of the graphic.\n- Click Layer > Smart Object > Reset Transform.\n- Double-click the selected graphic on the canvas.\n- Double-click the graphic's thumbnails in the Layers panel.",
+        "back": "Click Layer > Smart Object > Reset Transform."
+    },
+    {
+        "front": "<b>Q104. How many layer masks can a single layer have applied without using groups or Smart Objects?</b>\n- 2\n- 1\n- 8000\n- infinite",
+        "back": "8000"
+    },
+    {
+        "front": "<b>Q105. What is the difference between the Healing Brush tool and the Spot Healing Brush tool?</b>\n- The Spot Healing Brush tool does not match texture, lighting,shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading and transparency of pixels nearby.\n- The spot Healing Brush tool needs a source point, but the Healing Brush automatically samples pixel nearby.\n- The Healing Brush tool does not match texture, lighting, shading, or transparency of the sampled pixels, but the Healing Brush tool blends texture, light, shading and transparency of pixels nearby.\n- The Healing Brush tool needs a source point, but the Spot Healing Brush automatically samples pixels nearby.",
+        "back": "The spot Healing Brush tool needs a source point, but the Healing Brush automatically samples pixel nearby."
+    },
+    {
+        "front": "<b>Q106. The options bar, which is normally above the canvas, is not visible. Where would you go to reopen it?</b>\n- Window > Options\n- View > Show > Show extra options\n- Window > Tool Presets\n- Edit > Toolbar",
+        "back": "View > Show > Show extra options"
+    },
+    {
+        "front": "<b>Q107. What i the best way to save multiple full-size images into a single PDF?</b>\n- Use the PDF Presentation command\n- Check to see if you have Acrobat DC Installed\n- Save each PDF separately first and the combine them\n- Click File > Export > Export Layers to Files",
+        "back": "Use the PDF Presentation command"
+    },
+    {
+        "front": "<b>Q108. Which panel allow you to record commands for future playback on another image?</b>\n- Actions\n- Inspector\n- Scripts\n- Layers",
+        "back": "Actions"
+    },
+    {
+        "front": "<b>Q109. How do you nondestructively use the Clone Stamp tool on a rasterized layer?</b>\n- Create a new layer above it and set the Clone Stamp tool's Sample setting to Current & below\n- Add a Photo Filter adjustment layer above the layer. Then use the Clone Stamp Toool.\n- Convert it ot a Smart Object. Then use the Clone Stampa Tool\n- While the layer selected, set the Clone Stamp tool's Sample setting to Current & Below.",
+        "back": "Create a new layer above it and set the Clone Stamp tool's Sample setting to Current & below"
+    },
+    {
+        "front": "<b>Q110. What must you do to use Version History?</b>\n- Go to the Timeline\n- From the History panel flyout menu, select Version History\n- Click File > Version History to enable it\n- Save as a cloud document",
+        "back": "Save as a cloud document"
+    },
+    {
+        "front": "<b>Q111. Which set of tools has a content-aware mode?</b>\n- Perspective Crop\n- Patch\n- Marquee\n- Lasso",
+        "back": "Patch"
+    }
+]

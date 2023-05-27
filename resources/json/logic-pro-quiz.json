@@ -1,0 +1,78 @@
+[
+    {
+        "front": "<b>Q1. You recorded a MIDI bassline on a software instrument track containing an ES2 synth. It is not perfectly in tie. What can you use to alter the timing of your part?</b>\n- Arpeggiator\n- the Flex tool\n- beat mapping\n- quantization\n[Source](https://macprovideo.com/article/audio-software/quantizing-in-logic-the-essentials)",
+        "back": "quantization\n[Source](https://macprovideo.com/article/audio-software/quantizing-in-logic-the-essentials)"
+    },
+    {
+        "front": "<b>Q2. Which button open the left window panes in the Arrange window?</b>\n- Library and Inspector\n- Step Input Keyboard\n- Smart Controls\n- Loop Browser\n[Source](https://www.youtube.com/watch?v=IBIxewqcMiM&ab_channel=MusicTechExplained)",
+        "back": "Smart Controls"
+    },
+    {
+        "front": "<b>Q3. When you drag and drop an audio file from the Finder to the empty space in the main window, what happens?</b>\n- You software instrument tracks auto-mute\n- A new audio track is created named after that file\n- A warning dialog box asks where you want to save this file\n- Logic will not allow you to do this\n[source](https://support.apple.com/it-it/guide/logicpro/lgcpd1e675e5/mac)",
+        "back": "A new audio track is created named after that file"
+    },
+    {
+        "front": "<b>Q4. You are using a lot of plug-ins and are running out of processing power in your mix, Besides printing the audio of the track, how can you preserve processing power on tracks wit plug-ins that do not need to be automated?</b>\n- Restart your computer\n- Save more often\n- Select Track header components > show freeze and freeze any tack on which you do not need to automate plug-ins\n- lower the sample rate and bit depth of your project, and upsample when you are done mixing",
+        "back": "Select Track header components > show freeze and freeze any tack on which you do not need to automate plug-ins"
+    },
+    {
+        "front": "<b>Q5. What is an indicator that your show advanced tools check vox is not selected, resulting in beginner mode?</b>\n- The sides of the main windows resemble wood panels\n- The toolbar is a light shade of green\n- The main windows is a light shade of green\n- The project name contains the extra extension .beg\nSource: This is in practice mode",
+        "back": "The sides of the main windows resemble wood panels"
+    },
+    {
+        "front": "<b>Q6.You would like to use your cycle range to skip over a section instead of looping it. How do you do this?</b>\n- This is possible only from the Event List\n- Go to Edit > Trim > Outside Locators\n- Press Command + Shift + S\n- Control + Click the cycle range and select Swap Left and Right Locators\n[Source](https://support.apple.com/it-it/guide/logicpro/lgcp9b92f74c/mac)",
+        "back": "Control + Click the cycle range and select Swap Left and Right Locators\n[Source](https://support.apple.com/it-it/guide/logicpro/lgcp9b92f74c/mac)"
+    },
+    {
+        "front": "<b>Q7.Why would you create an external MIDI track?</b>\n- to initiate an advanced surround sound mix\n- to communicate with another studio outside your current Wi-Fi network\n- to play an attached hardware sampler instrument from a MIDI sequence on your track\n- to enable higher sample rate audio recording\n[source](https://www.blipinteractive.co.uk/nanostudio2/user-manual/ExtMIDIInstrument.html)",
+        "back": "to play an attached hardware sampler instrument from a MIDI sequence on your track"
+    },
+    {
+        "front": "<b>Q8. What does this image show?</b>\n![img](./img/1.jpg)\n- Drummer track\n- External MIDI track\n- Audio track\n- software instrument track",
+        "back": "External MIDI track"
+    },
+    {
+        "front": "<b>Q9. You are ready to bounce your two-hour movie mix, but you want to bounce the audio as a WAV and an MP3 at the same time. Can this be done?</b>\n- Yes, choose PCM and MP3 destination in the File > bounce > project or section\n- No, this cannot be done\n- Yes, set up two separate output faders with the different destinations set in the output\n- You have to bounce a second time to make a separate file\n[Source](https://support.apple.com/it-it/guide/logicpro/lgcp785a41c3/mac)",
+        "back": "Yes, choose PCM and MP3 destination in the File > bounce > project or section"
+    },
+    {
+        "front": "<b>Q10. Why is important to save your project before recording audio?</b>\n- to have access to advanced recording modes\n- to make sure that the Record button can be enabled\n- so that the recorded files go into a project folder associated with your project\n- to engage cycle mode more easily",
+        "back": "so that the recorded files go into a project folder associated with your project"
+    },
+    {
+        "front": "<b>Q11. Is this image, what order dows the signal flow through the plug-ins?</b>\n![img](./img/2.jpg)\n- first the reverb, then the auxiliary\n- first the compressor, then the EQ\n- it depends on how you set up your audio settings in Project Settings\n- first the EQ, then the compressor",
+        "back": "first the compressor, then the EQ"
+    },
+    {
+        "front": "<b>Q12. What is the default region length when you open a Drummer track into an empty project?</b>\n- Drummer dows not populate its track with any regions by default\n- the default is the length of your timeline until the end marker\n- The default is eight bars\n- It changes depending on the Drummer personality\n[Source](https://support.apple.com/guide/logicpro/drummer-lgcpa4324884/mac#:~:text=Add%20a%20Drummer%20track,-In%20the%20Logic&text=A%20Drummer%20track%20is%20added,is%20loaded%20to%20the%20track.)",
+        "back": "The default is eight bars"
+    },
+    {
+        "front": "<b>Q13. What happens when you create a send on an available bus?</b>\n- That audio leaves your interface to an outboard piece of gear\n- You get an automatic reverb send\n- An aux tack with its input set to that bus is automatically created\n- You get an automatic delay send\n[Source](https://musictech.com/tutorials/logic-pro/using-bus-sends-and-aux-channels-in-logic-pro-x/#:~:text=If%20you%20intend%20to%20have,all%20the%20respective%20bus%20sends.)",
+        "back": "An aux tack with its input set to that bus is automatically created"
+    },
+    {
+        "front": "<b>Q14. When you load up a patch, what happens?</b>\n- The session automatically saves\n- The channel strip is loaded with any of the following: plug-ins, aux sends, MIDI FX, and/or software instruments\n- The main window is saved as a screenset\n- The environment window opens\n[Source](https://support.apple.com/en-us/HT202738)",
+        "back": "The channel strip is loaded with any of the following: plug-ins, aux sends, MIDI FX, and/or software instruments"
+    },
+    {
+        "front": "<b>Q15. You want to set a range of playback in the main windows and have the playhead stop. What tool can you make a selection with to make this happen?</b>\n- The pointer tool\n- The marquee tool\n- The flex tool\n- The pencil tool\n[Source](https://www.shortcutfoo.com/app/dojos/logic-pro-x-mac/cheatsheet)",
+        "back": "The marquee tool"
+    },
+    {
+        "front": "<b>Q16. What dows this image show?</b>\n![img](./img/3.jpg)\n- low-end booster\n- audio track\n- external MIDI track\n- software instrument track",
+        "back": "low-end booster"
+    },
+    {
+        "front": "<b>Q17. When opening Logic Pro X, you are presented by default with the Choose a project dialog box, how do you change this default behavior?</b>\n- Click Window > Open Project Audio\n- Press Shift+Command+4\n- Click File > Project Settings > General and select Song Startup Action\n- Click Preference > General > Project Handling > Startup Action and select the action of you choice\n[Source](https://support.apple.com/guide/logicpro/project-handling-preferences-lgcp43defb63/mac)",
+        "back": "Click Preference > General > Project Handling > Startup Action and select the action of you choice\n[Source](https://support.apple.com/guide/logicpro/project-handling-preferences-lgcp43defb63/mac)"
+    },
+    {
+        "front": "<b>Q18. When you open and work in a stock project template, such as Electronic what happens when you click Save?</b>\n- You will lose your changes\n- You are focred to use a new project name, since you cannot save over a template.\n- You can save over the template\n- You create a new template\n[Source](https://support.apple.com/guide/logicpro/save-projects-lgcpce128e82/mac)",
+        "back": "You can save over the template"
+    },
+    {
+        "front": "<b>Q19. How do you split a region in the location where your play head is?</b>\n- Press Command+T\n- Select Window > Split Region\n- Press Command+R\n- all of these answers\n[Source](https://logicpro.skydocu.com/en/create-a-song-arrangement/arrange-regions-in-the-tracks-area/split-regions/)",
+        "back": "Select Window > Split Region"
+    }
+]

@@ -1,0 +1,418 @@
+[
+    {
+        "front": "<b>Q1. What does this code output?</b>\n`echo 76 <=> '76 trombones';`\n- 1\n- -1\n- a parser error\n- 0\n**_Both sides of the \"spaceship\" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**\n**_For php 8.0 and forward the answer is [x] -1, for previous versions the answer is [x] 0._**\n[PHP 8 changed the way non-strict comparison between numbers and non-numeric strings work.](https://www.php.net/manual/en/migration80.incompatible.php#migration80.incompatible.core.string-number-comparision)",
+        "back": "0\n**_Both sides of the \"spaceship\" are equal, so the answer is 0. PHP will convert '76 trombones' to 76 in this context, as the string starts with '76'. Try it!_**\n**_For php 8.0 and forward the answer is [x] -1, for previous versions the answer is [x] 0._**\n[PHP 8 changed the way non-strict comparison between numbers and non-numeric strings work.](https://www.php.net/manual/en/migration80.incompatible.php#migration80.incompatible.core.string-number-comparision)"
+    },
+    {
+        "front": "<b>Q2. Which is the most secure way to avoid storing a password in clear text in database?</b>\n- `$encrypted = shal($password);`\n- `$encrypted = crypt($password, \\$salt);`\n- `$encrypted = md5($password);`\n- `$encrypted = password_hash($password, PASSWORD_DEFAULT);`",
+        "back": "`$encrypted = password_hash($password, PASSWORD_DEFAULT);`"
+    },
+    {
+        "front": "<b>Q3. What does this script do?</b>\n```php\n$email = filter_input(INPUT_POST, 'email', FILTER_VALIDATE_EMAIL);\nif ($email === false) {\n    $emailErr = \"Please re-enter valid email\";\n}\n```\n- It makes sure the email address is a good and functioning address\n- It makes an email safe to input into a database\n- It assigns an email to a variable and then removes all illegal characters from the \\$email variable\n- It verifies that an email address is well formed.",
+        "back": "It verifies that an email address is well formed."
+    },
+    {
+        "front": "<b>Q4. In the following script, which line(s) will cause an error(s)?</b>\n```php\n1 <?php\n2       $count = 0;\n3       $_xval = 5;\n4       $_yval = 1.0;\n5       $some_string = \"Hello there!\";\n6       $some_string = \"How are you?\";\n7       $will i work = 6;\n8       $3blindmice = 3;\n9 ?>\n```\n- Line 6 will cause an error because you can't reassign a new value to a variable that has already been set.\n- Line 7 and 8 will cause an error. Line 7 has whitespace in $will i work and should be $will_i_work. Line 8 cannot start with a number befcause it is a variable.\n- Line 5 will cause an error because some_string should be someString.\n- Line 3 and 4 will cause an error because a variable cannot start with an underscore(\\_).",
+        "back": "Line 7 and 8 will cause an error. Line 7 has whitespace in $will i work and should be $will_i_work. Line 8 cannot start with a number befcause it is a variable."
+    },
+    {
+        "front": "<b>Q5. In a conditional statement, you want to execute the code only if both value are true. Which comparison operator should you use?</b>\n- ||\n- &\n- <=>\n- &&",
+        "back": "&&"
+    },
+    {
+        "front": "<b>Q6. All variables in PHP start with which symbol?</b>\n- &\n- %\n- \\_\n- $",
+        "back": "$"
+    },
+    {
+        "front": "<b>Q7. What is a key difference between GET and POST?</b>\n- GET is used with the HTTP protocol. POST is used with HTTPS.\n- GET displays the submitted data as part of the URL. During POST, this information is not shown, as it's encoded in the request body.\n- GET is intended for changing the server state and it carries more data than POST.\n- GET is more secure than POST and should be used for sensitive information.",
+        "back": "GET displays the submitted data as part of the URL. During POST, this information is not shown, as it's encoded in the request body."
+    },
+    {
+        "front": "<b>Q8. The **operator is useful for sorting operations. It compares two values and returns an integer less than, equal to, or greater than 0 depending on whether the value on the** is less than, equal to, or greater than the other</b>\n- greater-than; right\n- spaceship; left\n- equality; right\n- comparison; left",
+        "back": "spaceship; left"
+    },
+    {
+        "front": "<b>Q9. Which are valid PHP error handling keywords?</b>\n- try, throw, catch, callable\n- try, yield, catch, finally\n- yield, throw, catch, finally\n- try, throw, catch, finally",
+        "back": "try, throw, catch, finally"
+    },
+    {
+        "front": "<b>Q10. Which value equates to true?</b>\n- 0\n- NULL\n- ''\n- -1",
+        "back": "-1"
+    },
+    {
+        "front": "<b>Q11. What is missing from this code, which is supposed to create a test cookies?</b>\n```php\n1 $string_name = \"testcookie\";\n2 $string_value = \"This is a test cookie\";\n3 $expiry_info = info()+259200;\n4 $string_domain = \"localhost.localdomain\";\n```\n- The `$_REQUEST` is missing.\n- The `$_COOKIES` array is missing.\n- The cookie session is missing.\n- The call to `setcookie()` is missing.",
+        "back": "The call to `setcookie()` is missing."
+    },
+    {
+        "front": "<b>Q12. What is the value of \\$total in this calculation?</b>\n`$total = 2 + 5 * 20 - 6 / 3`\n- 44\n- 138\n- 126\n- 100",
+        "back": "100"
+    },
+    {
+        "front": "<b>Q13. What is the purpose of adding a lowercase \"u\" as a modifier after the final delimiter in a Perl-compatible regular expression?</b>\n- It makes the dot metacharacter match anything, including newline characters.\n- It makes the pattern match uppercase letters.\n- Both the pattern and subject string are treated as UTF-8.\n- It inverts the greediness of the quantifiers in the pattern so they are not greedy by default.",
+        "back": "Both the pattern and subject string are treated as UTF-8."
+    },
+    {
+        "front": "<b>Q14. Which code snippet uses the correct syntax for creating an instance of the Pet class?</b>\n- `$dog = new Pet;`\n- all of these answers\n- `$horse = (new Pet);`\n- `$cat = new Pet();`",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q15. What is the best way to explain what this script does?</b>\n```php\n1 if (!$_SESSION['myusername'])\n2 {\n3   header('locaton: /login.php');\n4   exit;\n5 }\n```\n- This script times out the session for myusername.\n- Cookies are starting to be stored as a result of this script.\n- This script validates the username and password.\n- This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session.",
+        "back": "This script is on a page that requires the user to be logged in. It checks to see if the user has a valid session."
+    },
+    {
+        "front": "<b>Q16. Which is the correct format for adding a comment to a PHP script?</b>\n- all of these answers\n- #This is a comment\n- `/* This is a comment */`\n- // This is a comment",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q17. PHP supports multiple types of loops. If you wanted to loop through a block of code if and as long a specified condition is true, which type of loop would you use?</b>\n- for\n- do-while\n- while\n- foreach",
+        "back": "while"
+    },
+    {
+        "front": "<b>Q18. The `ignore_user_abort( )` function sets whether a client disconnect should abort a script execution. In what scenario would you, as a web developer, use this function?</b>\n- You would use it to stop a user from clicking the back button if they decide not to view as a result of a click.\n- You would use this function if you have some important processing to do and you do not want to stop it, even if your users click Cancel.\n- You would use this function if you wanted to abort the script for all logged-in users, not just the one who disconnected.\n- You would use this function if you want a PHP script to run forever.",
+        "back": "You would use this function if you have some important processing to do and you do not want to stop it, even if your users click Cancel."
+    },
+    {
+        "front": "<b>Q19. The PHP function array_reduce() takes a callback function that accepts a value carried over each iteration and the current item in the array, and reduces an array to a single value. Which code sample will sum and output the values in the provided array?</b>\n- [ ]\n```php\n  1 <?php\n  2 echo array_reduce([1, 2, 5, 10, 11], function ($item, $carry) {\n  3     $carry = $carry + $item;\n  4 });\n  5?>\n```\n- [ ]\n```php\n  1 <?php\n  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {\n  3     return $carry = $item + $item;\n  4 });\n  5?>\n```\n- [ ]\n```php\n  1 <?php\n  2 array_reduce([11 2, 5, 10, 11], function ($item, $carry) {\n  3     echo $carry + $item;\n  4 });\n  5?>\n```\n- [x]\n```php\n  1 <?php\n  2 echo array_reduce([1, 2, 5, 10, 11], function ($carry, $item) {\n  3     return $carry += $item;\n  4 });\n  5?>\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q20. Which PHP script uses a constructor to display the string \"Winter is almost over!\"?</b>\n- [x]\n```php\n  1 class MyClass {\n  2 public function _construct()\n  3 {\n  4 echo 'Winter is almost over!'.\"\\n\";\n  5 }\n  6 }\n  7 $userclass = new MyClass;\n```\n- [ ]\n```php\n  1 class MyClass {\n  2 public function _construct()\n  3 {\n  4 echo 'Winter is almost over!..\"\\n\";\n  5 }\n  6 }\n  7 $userclass = new MyClass;\n```\n- [ ]\n```php\n  1 class MyClass {\n  2 public function _construct()\n  3 {\n  4 echo 'Winter is almost over!..\"\\n\";\n  5 }\n  6 }\n  7 $userclass = new MyClass;\n```\n- [ ]\n```php\n  1 class MyClass {\n  2 public function _construct()\n  3 {\n  4 echo 'Winter is almost over!'.\"n\";\n  5 }\n  6 }\n  7 $userclass = MyClass;\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q21. How might you troubleshoot a \"call to undefined function\" error?</b>\n- Make sure you have imported the file containing the function.\n- Make sure you have spelled the function name correctly.\n- all of these answers\n- Make sure the function declaration is at an earlier point in the code than the function call.",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q22. Which line could you NOT use to comment out \"Space: the final frontier\"?</b>\n- `/* Space: the final frontier */`\n- `*/ Space: the final frontier /*`\n- `#Space: the final frontier`\n- `// Space: the final frontier`",
+        "back": "`*/ Space: the final frontier /*`"
+    },
+    {
+        "front": "<b>Q23. What displays in a browser when the following code is written? `<?php echo \"How much are the bananas?\"?>`</b>\n- The browser would display nothing due to a syntax error.\n- The browser would display an error, since there are no parentheses around the string.\n- The browser would display `How much are the bananas?`\n- The browser would display an error, since there is no semicolon at the end of the echo command.",
+        "back": "The browser would display `How much are the bananas?`"
+    },
+    {
+        "front": "<b>Q24. Which operator would you use to find the remainder after division?</b>\n- /\n- %\n- //\n- DIV",
+        "back": "%"
+    },
+    {
+        "front": "<b>Q25. What is the significance of the three dots in this function signature?</b>\n```php\nfunction process(...$vals) {\n    // do some processing\n}\n```\n- It makes the function variadic, allowing it to accept as an argument an array containing an arbitrary number of values.\n- It makes the function variadic, allowing it to accept an arbitrary number of arguments that are converted into an array inside the function.\n- It temporarily disables the function while debugging other parts of the script.\n- It's a placeholder like a TO DO reminder that automatically triggers a notice when you run a script before completing the function definition.",
+        "back": "It makes the function variadic, allowing it to accept an arbitrary number of arguments that are converted into an array inside the function."
+    },
+    {
+        "front": "<b>Q26. Assuming the `Horse` class exists, which is a valid example of inheritance in PHP?</b>\n- `class Pegasus extends Horse {}`\n- `class Alicorn imports Pegasus, Unicorn {}`\n- `class Unicorn implements Horse {}`\n- `class Horse inherits Unicorn {}`",
+        "back": "`class Pegasus extends Horse {}`"
+    },
+    {
+        "front": "<b>Q27. Both triple === and double == can be used to **variables in php. If you want to hear that string \"33\" and the number 33 are equal, you would use** . If you want to check if an array contains a particular string value at a particular index, you would use \\_</b>\n- compare; doubles; triples\n- compare; triples; doubles\n- assign; triples; doubles\n- assign; doubles; triples",
+        "back": "compare; doubles; triples"
+    },
+    {
+        "front": "<b>Q28. Your php page is unexpectedly rendering as totally blank. Which step will shed light on the problem?</b>\n- Add this code to the top of your script: `ini_set('display_errors',1);`\n- check the server error logged\n- all of these answers\n- make sure you are not missing any semicolons",
+        "back": "all of these answers"
+    },
+    {
+        "front": "<b>Q29. Which is the way to create an array of \"seasons\"?</b>\n- [ ]\n```php\nseasons=array(\n    1=>'spring',\n    2=>'summer',\n    3=>'autumn',\n    4=>'winter',\n);\n```\n- `$seasons=array(spring,summer,autumn,winter);`\n- `$seasons=('spring','summer','autumn','winter');`\n- `$seasons=['spring','summer','autumn','winter'];`",
+        "back": "`$seasons=['spring','summer','autumn','winter'];`"
+    },
+    {
+        "front": "<b>Q30. Both `self` and `this` are keywords that can be used to refer to member variables of an enclosing class. The difference is that `$this->member` should be used for **members and `self::$member` should be used for** members</b>\n- private, public\n- object,primitive\n- non-static,static\n- concrete,abstract",
+        "back": "non-static,static"
+    },
+    {
+        "front": "<b>Q31. What will this code print?</b>\n```php\n$mathe=array('archi','euler','pythagoras');\narray_push($mathe,'hypatia');\narray_push($mathe,'fibonacci');\narray_pop($mathe);\necho array_pop($mathe);\necho sizeof($mathe);\n```\n- euler3\n- hypatia5\n- hypatia3\n- fibonacci4",
+        "back": "hypatia3"
+    },
+    {
+        "front": "<b>Q32. You are using the following code to find a users band, but it is returning false. Which step(s) would solve the problem?</b>\n`isset ($_GET['fav_band'])`\n- check if `fav_band` is included in the query string at the top of your browser\n- all of the answers\n- view the source of form and make sure there is an input field with the name 'fav_band'\n- print everything that has been transmitted in the request: `print_r($_REQUEST);`",
+        "back": "all of the answers"
+    },
+    {
+        "front": "<b>Q33. Which code would you use to print all the elements in an array called `$cupcakes`?</b>\n- all of the answers\n- `print_r($cupcakes);`\n- `var_dump($cupcakes);`\n- `foreach($cupcakes as &$cupcake) echo $cupcake;`",
+        "back": "all of the answers"
+    },
+    {
+        "front": "<b>Q34. What is the cause of 'Cannot modify header information - headers already sent'?</b>\n- You are trying to modify a private value\n- Semicolon missing\n- Using a key on an array that does not exists\n- Some html is being sent before a `header()` command that you are using for a redirect",
+        "back": "Some html is being sent before a `header()` command that you are using for a redirect"
+    },
+    {
+        "front": "<b>Q35. Which php control structure is used inside a loop to skip the rest of the current loops code and go back to the start of the loop for the next iteration</b>\n- `else`\n- `break`\n- `return`\n- `continue`",
+        "back": "`continue`"
+    },
+    {
+        "front": "<b>Q36. The php not operator is !. Given the snippet, is there an out put and what is it?</b>\n- there is an output '2 is an even number\n- output '21 is an odd number'\n- no output. Syntax error do to missing semicolon at the end\n- no output due to % in \\$num%2!=0",
+        "back": "output '21 is an odd number'"
+    },
+    {
+        "front": "<b>Q37. You want to list the modules available in your PHP installation. What command should you run?</b>\n- `php -h`\n- `php info`\n- `php -v`\n- `php -m`",
+        "back": "`php -m`"
+    },
+    {
+        "front": "<b>Q38. For the HTML form below, what is the correct functioning script that checks the input \"mail\" to be sure it is filled before proceeding?</b>\n```php\nif (!empty($_POST[\"mail\"])) {\necho \"Yes, mail is set\";\n} else {\necho \"No, mail is not set\";\n} (correct)\n```\n- ...",
+        "back": ""
+    },
+    {
+        "front": "<b>Q39. What is the value of `$result` in this calculation?</b>\n`$result = 25 % 6;`\n- 4.167\n- 1.5\n- 4\n- 1",
+        "back": "1"
+    },
+    {
+        "front": "<b>Q40. What is the job of the controller as a component in MVC?</b>\n- The controller handles data passed to it by the view, and also passes data to the view. It interprets data sent by the view and disperses that data to the approrpiate models awaiting results to pass back to the view.\n- The controller is a mechanism that allows you to create reusable code in languages such as PHP, where multiple inheritance is not supported.\n- The controller presents content through the user interface, after communicating directly with the database.\n- The controller handles specific tasks related to a specific area of functionality, handles business logic related to the results, and communicates directly with the database.",
+        "back": "The controller handles data passed to it by the view, and also passes data to the view. It interprets data sent by the view and disperses that data to the approrpiate models awaiting results to pass back to the view."
+    },
+    {
+        "front": "<b>Q41. Why does this code trigger an error?</b>\n`$string = 'Shylock in a Shakespeare's \"Merchant of Venice\" demands his pound of flesh.';`\n- Strings should always be wrapped in double quotes; and double quotes inside a string should be escaped by backslashes.\n- All single and double quotes inside a string need to be escaped by backslashes to prevent a parse error.\n- The opening and closing single quotes should be replaced by double quotes; and the apostrophe should be escaped by a backslash.\n- The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote.",
+        "back": "The apostrophe needs to be escaped by a backslash to prevent it from being treated as the closing quote."
+    },
+    {
+        "front": "<b>Q42. A PDO object called `$db` has been set up to use for database operations, including user authentication. All user-related properties are set. The script line `public function __construct(&$db)` shows a constructor that initializes all user-related properties to \\_ if no user has logged in. These parameters will be properly set by the login functions when a user logs in</b>\n- NULL\n- TRUE\n- FALSE\n- 0",
+        "back": "NULL"
+    },
+    {
+        "front": "<b>Q43. Assuming that `$first_name` and `$family_name` are valid strings, which statement is invalid?</b>\n- `echo $first_name. ' '. $family_name;`\n- `print $first_name, ' ', $family_name;`\n- `print $first_name. ' '. $family_name;`\n- `echo $first_name, ' ', $family_name;`",
+        "back": "`print $first_name, ' ', $family_name;`"
+    },
+    {
+        "front": "<b>Q44. Which code snippet demonstrates encapsulation?</b>\n- [ ]\n```php\n  class Cow extends Animal {\n      private $milk;\n  }\n```\n- [ ]\n```php\n  class Cow {\n      public $milk;\n  }\n  $daisy = new Cow();\n  $daisy->milk = \"creamy\";\n```\n- [ ]\n```php\n  class Cow {\n      public $milk;\n      function getMilk() {`\n          return $this->milk;\n      }\n  }\n```\n- [x]\n```php\n  class Cow {\n      private $milk;\n      public function getMilk() {\n          return $this->milk;\n      }\n  }\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q45. The following XML document is in books.xml. Which code will output \"Historical\"?</b>\n```xml\n<books>\n    <book>\n        <title>A Tale of Two Cities</title>\n        <author>Charles Dickens</author>\n        <categories>\n            <category>Classics</category>\n            <category>Historical</category>\n        </categories>\n    </book>\n    <book>\n        <title>Then There Were None</title>\n        <author>Agatha Christies</author>\n        <categories>\n            <category>Mystery</category>\n        </categories>\n    </book>\n</books>\n```\n- [ ]\n```php\n  $books = simplexml_load_string('books.xml');\n  echo $books->book[0]->categories->category[1];\n```\n- [x]\n```php\n  $books = simplexml_load_file('books.xml');\n  echo $books->book[0]->categories->category[1];\n```\n- [ ]\n```php\n  $books = SimpleXMLElement('books.xml');\n  echo $books->book[0]->categories->category[1];\n```\n- [ ]\n```php\n  $books = SimpleXML('books.xml');\n  echo $books->book[0]->categories->category[1];\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q46. When it comes to the value of a variable, what is the difference between NULL and empty?</b>\n- NULL is a blank value; empty is the lack of a value.\n- A NULL value has an allocated address in memory; empty does not.\n- NULL referes to the lack of a value for an integer; empty refers to the lack of a value for a string.\n- NULL is the lack of a value; empty is a blank value.",
+        "back": "NULL is the lack of a value; empty is a blank value."
+    },
+    {
+        "front": "<b>Q47. What would be a good name for this function?</b>\n```php\nfunction doStuff($haystack, $needle) {\n      $length = strlen($needle)\n      if (substr($haystack, 0, $length) == $needle)\n        return true;\n      else\n        return false;\n}\n```\n- `equals`\n- `endsWith`\n- `startsWith`\n- `contains`",
+        "back": "`startsWith`"
+    },
+    {
+        "front": "<b>Q48. If you want to pass a formfield to another page when a button is clicked, you should use the **. If you want to store information across multiple pages, you should use the** ?</b>\n- request; response\n- response; request\n- session; request\n- request; session",
+        "back": "request; session"
+    },
+    {
+        "front": "<b>Q49. You are using the following code to decide if a button is clicked, but it is never returning true. Which step is most likely to shed light on the problem?</b>\n```php\nisset($_POST['submit'])\n```\n- Make sure the input field displaying the button is named 'submit'\n- Make sure you are not missing any semicolons\n- Print everything in the session `print_r($_SESSION);`\n- Look in the query string at the top of your browser to see if submit is assigned a value",
+        "back": "Make sure the input field displaying the button is named 'submit'"
+    },
+    {
+        "front": "<b>Q50. Why should you follow a PSR standard?</b>\n- because coding standards often vary between developers and companies\n- because coding standards are monitored for compliance across developers and companies\n- because there are mandatory coding standards among developers and companies\n- if using certain platforms, because the PSR's apply to those platforms only",
+        "back": "because coding standards often vary between developers and companies"
+    },
+    {
+        "front": "<b>Q51. What are getters and setters?</b>\n- Getters and setters ensure that if a data member is declared private, then it can be accessed only within the same function, not by an outside class\n- Getters and setters are utility functions within PHP that allow loading from, and saving to, a database\n- Getters and setters encapsulate the fields of a class by making them acccessible only through its private methods, and keep the values themselves public\n- Getters and setters are methods used to declare or obtain the values of variables, usually private ones",
+        "back": "Getters and setters are methods used to declare or obtain the values of variables, usually private ones"
+    },
+    {
+        "front": "<b>Q52. What are the recommended settings in the PHP configuration file, php.ini, for a testing environment?</b>\n- [ ]\n```php\n  report_errors = E_ALL\n  display_errors = On\n```\n- [x]\n```php\n  error_reporting = E_ALL\n  display_errors = On\n```\n- [ ]\n```php\n  error_reporting = E_ALL & ~E_NOTICE\n  display_errors = Off\n```\n- [ ]\n```php\n  error_reporting = E_ALL & ~E_NOTICE\n  display_errors = On\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q53. Which PHP variable name is invalid?</b>\n- `$Double`\n- `$double`\n- `$_2times`\n- `$2times`",
+        "back": "`$2times`"
+    },
+    {
+        "front": "<b>Q54. Which command will extract the domain suffix (\"com\") from the string `$string = \"https://cat-bounce.com\";`?</b>\n- `sub($string, -3)`\n- `substr($string, -3)`\n- `substr($string, 3)`\n- `$string.substr(-3)`",
+        "back": "`substr($string, -3)`"
+    },
+    {
+        "front": "<b>Q55. Where is PHP code executed?</b>\n- in the client's browser\n- in the virtual machine\n- in the memory of the computer viewing the webpage\n- on a web server",
+        "back": "on a web server"
+    },
+    {
+        "front": "<b>Q56. Which is not a valid magic constant?</b>\n- `__RESOURCE__`\n- `__FUNCTION__`\n- `__CLASS__`\n- `__TRAIT__`",
+        "back": "`__RESOURCE__`\n\n[Reference](https://www.php.net/manual/en/language.constants.magic.php)"
+    },
+    {
+        "front": "<b>Q57. What below script will print?</b>\n```php\n  if( 1 == true){\n        echo \"1\";\n  }\n  if( 1 === true){\n      echo \"2\";\n  }\n  if(\"php\" == true){\n      echo \"3\";\n  }\n  if(\"php\" === false){\n      echo \"4\";\n  }\n```\n- 134\n- 13\n- 1\n- 123",
+        "back": "13"
+    },
+    {
+        "front": "<b>Q58. When should this php script be used?</b>\n```php\n$secret_word = 'if i ate spinach';\nsetcookie('login', $_REQUEST['username']. ','. md5($_REQUEST['username'].$secret_word));\n```\n- when a user goes to pay for an item online\n- when items are placed in a cart\n- at first registration\n- at every login, for security",
+        "back": "at every login, for security"
+    },
+    {
+        "front": "<b>Q59. A PHP \"variable variable\" takes the value of a variable and treats that as the name of a variable. For example, if `$var` is a variable then `$$var` is a variable variable whose name is the value of `$var`. Which script produces the output below, using variable variables?</b>\n```plaintext\nCat\nDog\nDog\n```\n- :\n```php\n  $name = \"Cat\";\n  $name = \"Dog\";\n  echo $name . \"<br/>\";\n  echo $$name . \"<br/>\";\n  echo $Dog;\n```\n- :\n```php\n  $name = \"Cat\";\n  $$name = \"Dog\";\n  echo $name . \"<br/>\";\n  echo $$name . \"<br/>\";\n  echo $Dog;\n```\n- :\n```php\n  $name = \"Cat\";\n  $$name = \"Dog\";\n  echo $name . \"<br/>\";\n  echo $$name . \"<br/>\";\n  echo $Cat;\n```\n- :\n```php\n  $name = \"Cat\";\n  $$name = \"Dog\";\n  echo $name . \"<br/>\";\n  echo $name . \"<br/>\";\n  echo $Cat;\n```",
+        "back": ":\n```php\n  $name = \"Cat\";\n  $$name = \"Dog\";\n  echo $name . \"<br/>\";\n  echo $$name . \"<br/>\";\n  echo $Cat;\n```"
+    },
+    {
+        "front": "<b>Q60. Imagine a web application, built following a MVC architecture, that contains a quiz and a button to score it, When the user presses the Score button, which component should handle the request?</b>\n- router\n- controller\n- model\n- view",
+        "back": "controller"
+    },
+    {
+        "front": "<b>Q61. Which script might be used to continue a user's search for music, across different webpages?</b>\n- :\n```php\n  <?php\n      start_session();\n      $music = $_SESSION['music'];\n  ?>\n```\n- :\n```php\n  <?php\n      session_start();\n      $music = $SESSION['music'];\n  ?>\n```\n- :\n```php\n  <?php\n      start_session();\n      $music =$session['music'];\n  ?>\n```\n- :\n```php\n  <?php\n      session_start();\n      $music = $_SESSION['music'];\n  ?>\n```",
+        "back": ":\n```php\n  <?php\n      session_start();\n      $music = $_SESSION['music'];\n  ?>\n```"
+    },
+    {
+        "front": "<b>Q62. Which PHP script finds the earliest and latest dates from an array?</b>\n- :\n```php\n  <?php\n  $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\n  echo \"Latest Date: \". max($dates).\"\\n\";\n  echo \"Earliest Date: \". min($dates).\"\\n\";\n  ?>\n```\n- :\n```php\n  <?php\n  $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\n  echo \"Latest Date: \". min($dates).\"\\n\";\n  echo \"Earliest Date: \". max($dates).\"\\n\";\n  ?>\n```\n- :\n```php\n  <?php\n  $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\n  echo \"Latest Date: \". ($dates).\"\\n\";\n  echo \"Earliest Date: \". ($dates).\"\\n\";\n  ?>\n```\n- :\n```php\n  <?php\n  $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\n  echo \"Latest Date: \" max($dates).\"\\n\";\n  echo \"Earliest Date: \" min($dates).\"\\n\";\n  ?>\n```",
+        "back": ":\n```php\n  <?php\n  $dates = array('2018-02-01', '2017-02-02', '2015-02-03');\n  echo \"Latest Date: \". max($dates).\"\\n\";\n  echo \"Earliest Date: \". min($dates).\"\\n\";\n  ?>\n```"
+    },
+    {
+        "front": "<b>Q63. What is the resulting output of this for statement?</b>\n```php\n$kilometers = 1;\nfor (;;) {\n    if ($kilometers > 5) break;\n       echo \"$kilometers kilometers = \".$kilometers*0.62140. \" miles. <br />\";\n    $kilometers++;\n}\n```\n- :\n```\n  kilometers = 0.6214 miles.\n  kilometers = 1.2428 miles.\n  kilometers = 1.8642 miles.\n  kilometers = 2.4856 miles.\n  kilometers = 3.107 miles.\n```\n- :\n```\n  kilometers = 0.6214 miles.\n  kilometers = 1.2428 miles.\n  kilometers = 1.8642 miles\n  kilometers = 2.4856 miles.\n  kilometers = 3.107 miles.\n  kilometers = 3.7284 miles.\n```\n- :\n```\n  kilometers = 1.2428 miles.\n  kilometers = 1.8642 miles.\n  kilometers = 2.4856 miles.\n  kilometers = 3.107 miles.\n```\n- FATAL ERROR syntax error, unexpected ')', expecting ';' on line number 2",
+        "back": ":\n```\n  kilometers = 0.6214 miles.\n  kilometers = 1.2428 miles.\n  kilometers = 1.8642 miles.\n  kilometers = 2.4856 miles.\n  kilometers = 3.107 miles.\n```"
+    },
+    {
+        "front": "<b>Q64. In PHP 7, What is the correct way to import multiple classes from namespace in a single declaration ?</b>\n- use myApp\\myNamespace\\{ClassA, ClassB, ClassC};\n- use myApp\\myNamespace\\ClassA, ClassB, ClassC;\n- use myApp\\myNamespace\\[ClassA, ClassB, ClassC];\n- use myApp\\myNamespace\\(ClassA, ClassB, ClassC);",
+        "back": "use myApp\\myNamespace\\{ClassA, ClassB, ClassC};"
+    },
+    {
+        "front": "<b>Q65. Which is the most complete list of data types that PHP supports?</b>\n- string, integer, float, boolean, array, object, NULL, resource\n- string, integer, boolean, array, object, NULL, resource\n- string, integer, float, array, object, NULL, resource\n- string, integer, float, boolean, array, object, NULL",
+        "back": "string, integer, float, boolean, array, object, NULL, resource\n\n[reference](https://www.w3schools.com/php/php_datatypes.asp)"
+    },
+    {
+        "front": "<b>Q66. What type of computer language is PHP?</b>\n- server-side scripting language\n- compiled language\n- machine language\n- algorithmic language",
+        "back": "server-side scripting language\n\n[reference](https://www.quora.com/Which-programming-language-is-used-to-create-PHP)"
+    },
+    {
+        "front": "<b>Q67. Which superglobal variable holds information about headers, paths, and script locations?</b>\n- `$_SERVER`\n- `$SERVER_VARIABLES`\n- `$_ENV`\n- `$GLOBALS`",
+        "back": "`$_SERVER`\n\n[reference](http://www-db.deis.unibo.it/courses/TW/DOCS/w3schools/php/php_superglobals.asp.html)"
+    },
+    {
+        "front": "<b>Q68. Describe what happens if you run this code in a testing environment</b>\n```php\n$capitals = ['UK' => 'London', 'France' => 'Paris'];\necho \"$capitals['france'] is the capital of France.\";\n```\n- It displays: \"Paris is the capital of France.\"\n- It displays: \" is the capital of France.\"\n- It triggers a syntax error because the array keys on line 1 are in quotes.\n- It triggers a syntax error because the array key on line 2 is in quotes.\n**_Also, 'france' key must be capitalized!_**",
+        "back": "It triggers a syntax error because the array key on line 2 is in quotes.\n**_Also, 'france' key must be capitalized!_**"
+    },
+    {
+        "front": "<b>Q69. DRY (Don't Repeat Yourself) is a principle of software development aimed at reducing repetition of software patterns. Which choice is not a way to write DRYer code with PHP?</b>\n- inheritance\n- classes\n- namespacing\n- dependency injection",
+        "back": "namespacing"
+    },
+    {
+        "front": "<b>Q70. Which code will return the IP address of the client?</b>\n- `$HTTP_SERVER_VARS(\"REMOTE_IP\")`\n- `$_SESSION[\"REMOTE_ADDR\"];`\n- `$_SERVER[\"HTTP_X_FORWARDED_FOR\"]`\n- `getenv(\"REMOTE_ADDR\")`\n**_Both 2 and 4 are correct!_**",
+        "back": "`$_SESSION[\"REMOTE_ADDR\"];`\n`getenv(\"REMOTE_ADDR\")`\n**_Both 2 and 4 are correct!_**"
+    },
+    {
+        "front": "<b>Q71. Your site must allow uploading of large files. What might you need to do?</b>\n- Make sure the user has the proper permissions.\n- Keep a count of upload file sizes and log them.\n- Change the `upload_max_filesize` configuration parameter.\n- Be sure to use chunked transfer encoding.",
+        "back": "Change the `upload_max_filesize` configuration parameter."
+    },
+    {
+        "front": "<b>Q72. What is the output of this script?</b>\n```php\n$my_text = 'The quick grey [squirrel].';\npreg_match('#\\[(.*?)\\]#', $my_text, $match);\nprint $match[1].\"\\n\";\n```\n- squirrel\n- The quick grey [squirrel].\n- [squirrel]\n- The quick grey squirrel.",
+        "back": "squirrel"
+    },
+    {
+        "front": "<b>Q73. What is the output of this script?</b>\n`$fruits = ['apple', 'orange', 'pear', 'mango', 'papaya'];`\n`$i = 0;`\n`echo $fruits[$i+=3];`\n- mango\n- apple\n- a parse error\n- pear",
+        "back": "mango"
+    },
+    {
+        "front": "<b>Q74. What are some of the main types of errors in PHP?</b>\n- notices, warnings, fatal\n- runtime, logical, compile\n- semantic, logical, syntax\n- warnings, syntax, compile",
+        "back": "notices, warnings, fatal"
+    },
+    {
+        "front": "<b>Q75. What is the correct way to include the file gravy.php in the middle of HTML code?</b>\n- `<!-- include file=\"gravy.php\"; -->`\n- `<?php include gravy.php; ?>`\n- `<?php include \"gravy.php\"; ?>`\n- `<?php include file=\"gravy.php\"; ?>`",
+        "back": "`<?php include \"gravy.php\"; ?>`"
+    },
+    {
+        "front": "<b>Q76. Which two functions can sanitize text and validate text formats?</b>\n- `session_start()` and `filter_input()`\n- `filter_var()` and `filter_input()`\n- `preg_match()` and `strstr()`",
+        "back": "`filter_var()` and `filter_input()`"
+    },
+    {
+        "front": "<b>Q77. Why is it not recommended to make all of a class's variables public?</b>\n- Doing so makes your code tightly coupled.\n- The attribute may be accessed only by the class that defines the member.\n- You will have no control over which values the attribute can take. Any external code will be able to change it without any constraint.\n- You can then access the attribute only within the class itself, and by inheriting and parent classes.",
+        "back": "You will have no control over which values the attribute can take. Any external code will be able to change it without any constraint."
+    },
+    {
+        "front": "<b>Q78. You want to use wildcard characters when searching for records in a MySQL/MariaDB database using a PDO prepared statement. Which code should you use?</b>\n- `$statement->bindValue(':name', '%' . $_GET['name'] . '%');`\n- `$statement->bindValue('%' . $_GET['name'] . '%', ':name');`\n- `$statement->bindParam(':name', '%' . $_GET['name'] . '%');`\n- `$statement->bindParam('%' . $_GET['name'] . '%', ':name');`",
+        "back": "`$statement->bindValue(':name', '%' . $_GET['name'] . '%');`"
+    },
+    {
+        "front": "<b>Q79. Create an associative array using `$array1` as the keys and `$array2` as the values</b>\n`$array1 = ['country', 'capital', 'language'];`\n`$array2 = ['France', 'Paris', 'French'];`\n- `$array3 = array_merge($array1, $array2);`\n- `$array3 = array_union($array1, $array2);`\n- `$array3 = array_keys($array1, $array2);`\n- `$array3 = array_combine($array1, $array2);`",
+        "back": "`$array3 = array_combine($array1, $array2);`"
+    },
+    {
+        "front": "<b>Q80. Assume that `$r` is 255, and `$g` and `$b` are both 0. What is the correct code to output `\"#ff0000\"`?</b>\n- `printf('#%2x%2x%2x', 255, 0, 0);`\n- `printf('#%2X%2X%2X', $r, 0, 0);`\n- `printf('#%x%x%x', 255, 0, 0);`\n- `printf('#%02x%02x%02x', 255, 0, 0);`",
+        "back": "`printf('#%02x%02x%02x', 255, 0, 0);`"
+    },
+    {
+        "front": "<b>Q81. You want to find out what day Twelfth Night falls on after Christmas 2018. Which code should you use?</b>\n- `$xmas = new DateTime('Dec 25, 2018');`\n      `$twelfth_night = $xmas->add(new DateInterval('P12D'));`\n      `echo $twelfth_night->format('l');`\n- `$twelfth_night = strtotime('December 25, 2018 + 12 days');`\n      `echo date('d', $twelfth_night);`\n- `$twelfth_night = strtotime('December 25, 2018 + 12 days');`\n      `echo strftime('%d', $twelfth_night);`\n- `$xmas = new DateTime('Dec 25, 2018');`\n      `$twelfth_night = $xmas->add(strtotime('12 days'));`\n      `echo $twelfth_night->format('D');`\n**_1 seems correct, but the question asks for \"day\", not day of the week. Twelfth Night is the \"06\" day of January, 2019._**",
+        "back": "`$twelfth_night = strtotime('December 25, 2018 + 12 days');`\n      `echo strftime('%d', $twelfth_night);`"
+    },
+    {
+        "front": "<b>Q82. Which loop displays all numbers from 1 to 10 inclusive?</b>\n- `$i = 1;`\n      `while ($i < 10) {`\n      `echo $i++ . '<br/>';`\n      `}`\n- `$i = 0;`\n      `while ($i <= 10) {`\n      `echo $i++ . '<br/>';`\n      `}`\n- `while ($i &lt;= 10) {`\n      `echo ++$i . '<br/>';`\n      `}`\n- `$i = 0;`\n      `while ($i < 10) {`\n      `echo ++$i . '<br/>';`\n      `}`",
+        "back": "`$i = 0;`\n      `while ($i < 10) {`\n      `echo ++$i . '<br/>';`\n      `}`"
+    },
+    {
+        "front": "<b>Q83. Which are types of control structures in PHP?</b>\n- `break`, `continue`, `do-while`, `exception`, `for`, `foreach`, `if`, `switch`, `throw`, `while`\n- `values`, `operators`, `expressions`, `keywords`, `comments`\n- `for`, `foreach`, `if`, `else`, `else if`, `switch`, `tries`, `throws`, `while`\n- `if-then-else`, `do-while`, `for-each`, `go-to`, `stop-when`",
+        "back": "`break`, `continue`, `do-while`, `exception`, `for`, `foreach`, `if`, `switch`, `throw`, `while`\n\n[reference](https://www.php.net/manual/en/language.control-structures.php)"
+    },
+    {
+        "front": "<b>Q84. Which function can you use in error handling to stop the execution of a script and is equivalent to exit()?</b>\n- `die`\n- `return`\n- `throw`\n- `break`",
+        "back": "`die`"
+    },
+    {
+        "front": "<b>Q85. Is the output of this code in descending order, shown vertically, and with spaces between numbers? And what is the output?</b>\n```php\n$numbers = array(4,6,2,22,11);\nsort($numbers);\n$arrlength = count($numbers);\nfor($x = 0; $x < $arrlength; $x++){\n    echo $numbers[$x];\n    echo \"<br />\";\n    }\n```\n- This does not meet all the criteria because the resulting numbers will be \"2461122\", which is in no particular order.\n- This meets the criteria because the <br /> is present and sort() lists in descending order\n- This does not meet all the criteria because the sort() function sorts an indexed array in ascending order. Thus this code will display \"2 4 6 11 22\" shown vertically, but the numbers are spaced.\n- does not meet all the criteria because the echo simply result in showing the array numbers in the order shown within the $numbers array, which is ascending",
+        "back": "This does not meet all the criteria because the sort() function sorts an indexed array in ascending order. Thus this code will display \"2 4 6 11 22\" shown vertically, but the numbers are spaced."
+    },
+    {
+        "front": "<b>Q86. Which is not true of the `toString()` in PHP?</b>\n- It saves a lot of work of using setters methods to access the values of objects.\n- It saves a lot of work of using getters methods to access the values of objects.\n- It allows you to call an object and see its components as a string.\n- It is automatically called when you use echo or print.",
+        "back": "It allows you to call an object and see its components as a string."
+    },
+    {
+        "front": "<b>Q87. What is a generator and how is it used in PHP?</b>\n- A generator is a function that produces a series of random values for unit testing code.\n- A generator is a simple iterator capable of producing a series of results. It has the same syntax as a function, except it uses \"next\" instead of \"return\".\n- A generator is a simple iterator capable of producing a series of results. It has the same syntax as a function, except it uses \"yield\" instead of \"return\".\n- A generator is a function capable of producing a series of results. At the end of the series, it automatically starts from the first one again.",
+        "back": "A generator is a simple iterator capable of producing a series of results. It has the same syntax as a function, except it uses \"yield\" instead of \"return\"."
+    },
+    {
+        "front": "<b>Q88. What is the best description of what this script is/does?</b>\n```php\nif( isset($user_info['url']) ) {\n  $_SESSION[\"loggedIn\"] = true;\n  $_SESSION[\"username\"] = $myusername;\n  header('Location: ' . $user_info['url']); //Redirects to the supplied url from the DB\n} else {\n  header(\"Location: error.htm\");\n}\n```\n- It directs all users to the same page when they log in.\n- It is a login script for a user portal on a website.\n- It keeps the user logged in across different browsers.\n- It sends the user to an error page if they enter the wrong URL",
+        "back": "It is a login script for a user portal on a website."
+    },
+    {
+        "front": "<b>Q89. What is the output of this code?</b>\n`echo 5 % 0.75;`\n- 0\n- 0.6666666666667\n- 1\n- fatal error (division by zero)",
+        "back": "fatal error (division by zero)"
+    },
+    {
+        "front": "<b>Q90. Can you extend a final defined class?</b>\n- No, because a final class or method declaration prevents child class or method overriding.\n- Specialized versions of built-in classes can be extended by calling the parent's constructor.\n- Yes, if a final class is defined as private in parent class.\n- Yes, a final defined class can be used to declare constants.",
+        "back": "No, because a final class or method declaration prevents child class or method overriding."
+    },
+    {
+        "front": "<b>Q91. How can you test if a checkbox is set?</b>\n- Use `!empty($_GET['test'])`\n- Use `isset($_GET['test'])`\n- Use `$_GET['test'] == ''`\n- all other answers\n`Actually both are correct, option 3 is actually testing if a checkbox is not set`",
+        "back": "Use `!empty($_GET['test'])`\nUse `isset($_GET['test'])`"
+    },
+    {
+        "front": "<b>Q92. A form to subscrive to a newsletter is submitted using the POST method. The form has only one field: an input text field named \"email\". How would you check if the field is empty and, if it is, print \"The email cannot be empty\"?</b>\n- :\n```php\nif(empty($_POST['email'])) {\n    echo \"The email cannot be empty\";\n}\n```\n- :\n```php\nif(empty($_GET['email'])) {\n    echo \"The email cannot be empty\";\n}\n```\n- :\n```php\nif(empty($_POST('email'))) {\n    echo \"The email cannot be empty\";\n}\n```\n- :\n```php\nif(isset($email)) {\n    echo \"The email cannot be empty\";\n}\n```",
+        "back": ":\n```php\nif(empty($_POST['email'])) {\n    echo \"The email cannot be empty\";\n}\n```"
+    },
+    {
+        "front": "<b>Q93. What is the PHP fatal error type?</b>\n- This type of error causes a termination of the script execution when it occurs.\n- This type of error's causes are not detected by compiler and causes incorrect results.\n- This type of error causes erroneous results or may cause termination of program.\n- This type of error causes termination after showing the list of errors and the line number where the errors have occured.\n1. [reference1](https://www.geeksforgeeks.org/php-types-of-errors/#:~:text=an%20error%20message.-,Fatal%20Error,-%3A%20It%20is)\n2. [reference2](https://www.c-sharpcorner.com/UploadFile/051e29/types-of-error-in-php/#:~:text=2.-,Fatal%20Errors,-Fatal%20errors%20are)",
+        "back": "This type of error causes termination after showing the list of errors and the line number where the errors have occured.\n1. [reference1](https://www.geeksforgeeks.org/php-types-of-errors/#:~:text=an%20error%20message.-,Fatal%20Error,-%3A%20It%20is)\n2. [reference2](https://www.c-sharpcorner.com/UploadFile/051e29/types-of-error-in-php/#:~:text=2.-,Fatal%20Errors,-Fatal%20errors%20are)"
+    },
+    {
+        "front": "<b>Q94. Which script properly validates the IP address given?</b>\n- :\n```php\n$valid = ip2long($ip) !== false;\n```\n- :\n```php\n$ip_address = \"164.12.2540.1\";\nif(filter_var($ip_address, FILTER_VALIDATE_IP)){\n  echo \"$ip_address is a valid IP address\";\n} else {\n  echo \"$ip_address is not a valid IP address\";\n}\n```\n- :\n```php\n$ip_address = \"164.12.2540.1\";\nif(validate_ip($ip_address)){\n  echo \"$ip_address is a valid IP address\";\n} else {\n  echo \"$ip_address is not a valid IP address\";\n}\n```\n- :\n```php\n$ip_address = \"164.12.2540.1\"\necho is_valid($ip_address, VALIDATE_IP);\n```",
+        "back": ":\n```php\n$ip_address = \"164.12.2540.1\";\nif(filter_var($ip_address, FILTER_VALIDATE_IP)){\n  echo \"$ip_address is a valid IP address\";\n} else {\n  echo \"$ip_address is not a valid IP address\";\n}\n```"
+    },
+    {
+        "front": "<b>Q95. What is the output of this code?</b>\n```php\n    $i = 0;\n    while($i < 6) {\n    if($i++ == 3) break;\n    }\n    echo \"loop stopped at $i by break statement\";\n```\n- loop stopped at 3 by break statement\n- loop stopped at 4 by break statement\n- loop stopped at 6 by break statement\n- loop stopped at 2 by break statement",
+        "back": "loop stopped at 4 by break statement"
+    },
+    {
+        "front": "<b>Q96. After creating your objects, you can call member functions related to that object, such as setting the names and prices for three \"Pet\" objects. What is the likely output of this code snippet?</b>\n```php\n    $dof->setTitle(\"Spot\");\n    $cat->setTitle(\"Mimi\");\n    $horse-?setTitle(\"Trigger\");\n    $dog->setPrice(10);\n    $cat->setPrice(15);\n    $horse->setPrice(7);\n    print_r($cat);\n```\n- Pet Object ( [title]=> Spot[price]=>10)\n- Pet Object ( [title]=> Mimi [price]=>15 )\n- Pet Object ( [title]=> Mimi[price]=>10 )\n- Pet Object ( [title]=> Trigger [price]=> 7)",
+        "back": "Pet Object ( [title]=> Mimi [price]=>15 )"
+    },
+    {
+        "front": "<b>Q97. Given the associative array below, wich PHP code determines wich element(s) of the array is/are apple?</b>\n```php\n$array = array(\n'fruit1' => 'apple',\n'fruit2' => 'orange',\n'fruit3' => 'grape',\n'fruit4' => 'apple',\n'fruit5' => 'apple');\n```\n- :\n```php\nwhile ($fruit_name = current($array)) {\n    if ($fruit_name == 'apple') {\n        echo key($array).'<br />';\n    }\n    next($array);\n}\n```\n- :\n```php\nwhile ($fruit_name = current($array)) {\n    if ($fruitname == 'apple') {\n        echo key($array).'<br />';\n    }\n    next($array);\n}\n```\n- :\n```php\nwhile ($fruit_name = current($array)) {\n    if ($fruit_name == 'apple')\n        echo key($array).'<br />';\n    }\n    next($array);\n}\n```\n- :\n```php\nwhile ($fruit_name = current($array)) {\n    if ($fruit_name == 'apple') {\n        echo key($array).'<br />';\n    }\n```",
+        "back": ":\n```php\nwhile ($fruit_name = current($array)) {\n    if ($fruit_name == 'apple') {\n        echo key($array).'<br />';\n    }\n    next($array);\n}\n```"
+    },
+    {
+        "front": "<b>Q98. What does this code return?</b>",
+        "back": ""
+    },
+    {
+        "front": "<b>Q98. What does this code print?</b>\n```php\nclass Smurf {\n  public $name = \"Papa Smurf\";\n  public function __construct($name) {\n    $this->name = $name;\n  }\n  public function set_name($name) {\n    $name = $name;\n  }\n}\n$smurf = new Smurf(\"Smurfette\");\n$smurf->set_name(\"Handy Smurf\");\necho $smurf->name;\n```\n- nothing\n- Handy Smurf\n- Smurfette\n- Papa Smurf",
+        "back": "Smurfette"
+    },
+    {
+        "front": "<b>Q99. You have an online form with a file input field called \"image\" for uploading files. Assuming the path to the upload directory is $path, which code should you use to make sure the file is uploaded from your form to the correct location?</b>\n- :\n```php\n1 if ($_FILES['image'][error'] == 0) {\n2       move_uploaded_file($_FILES)['image']['temp_name'],\n3           $path . $_FILES['image']['name']);\n4  )\n```\n- [maybe] :\n```php\n1 if ($_FILES['image'][error'] === false) {\n2       move_uploaded_file($_FILES)['image']['temp_name'],\n3           $path . $_FILES['image']['name']);\n4  )\n```\n- :\n```php\n1 if ($_FILES['image'][error'] == 0) {\n2       copy($_FILES)['image']['temp_name'],\n3           $path . $_FILES['image']['name']);\n4  )\n```\n- :\n```php\n1 if ($_FILES['image'][error'] === false) {\n2       upload_file($_FILES)['image']['temp_name'],\n3           $path . $_FILES['image']['name']);\n4  )\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q100. Which super global variable holds information about headers, paths, and script locations?</b>\n- `$_GET`\n- `$GLOBALS`\n- `$_SESSION`\n- `$_SERVER`",
+        "back": "`$_SERVER`"
+    },
+    {
+        "front": "<b>Q101. Using a for loop, how would you write PHP code to count backward from 10 to 1, in that order?</b>\n- [ ]\n```php\n<?\nfor ($i=1; $i <= 10; $i++) {\n    echo $i;\n}\n?>\n```\n- [ ]\n```php\n<?\n$i = 10;\nwhile($i>=0) {\n    echo $i;\n    $i--;\n}\n?>\n```\n- [ ]\n```php\n<?\n    for($i = 10; $i > 0; $i++) {\n        print \"$i <br />\\n\";\n    } // end for loop '''\n?>\n```\n- [x]\n```php\n<?\n    for($i = 10; $i > 0; $i--) {\n        print \"$i <br />\\n\";\n    } // end for loop\n?>\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q102. What is the output of this code?</b>\n```php\n1 function knights(){\n2 return \"a shrubbery\";\n3 }\n4 if (knights())\n5 printf \"you are just and fair\";\n6 else\n7 printf \"NI!\";       \n```\n- NI!\n- a syntax error\n- a shrubbery\n- [X] you are just and fair",
+        "back": ""
+    },
+    {
+        "front": "<b>Q103. Which script defines the United States of America as a constant and prints this code?</b>\n**Our country is United States of America**\n**Our country has a total of 50 states**\n- [ ]\n```php\n1 define('country',\"United States of America\");\n2 define('states',50);\n3 echo \"Our country is \"country\"<br>\";\n4 echo \"Our country has a total of \".states.\" states\";\n```\n- [X]\n```php\n1 define('country',\"United States of America\");\n2 define('states',50);\n3 echo \"Our country is \".country.\"<br>\";\n4 echo \"Our country has a total of \".states.\" states\";\n```\n- [ ]\n```php\n1 define(country,\"United States of America\");\n2 define('states',50);\n3 echo \"Our country is \".country.\"<br>\";\n4 echo \"Our country has a total of \".states.\" states\";\n```\n- [ ]\n```php\n1 define('country',\"United States of America\");\n2 define('states','fifty');\n3 $K = 'strval'; echo \"Our {$K(Country)} has {$K(FIFTY)} states.\";\n```",
+        "back": ""
+    }
+]

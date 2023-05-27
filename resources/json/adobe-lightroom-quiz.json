@@ -1,0 +1,82 @@
+[
+    {
+        "front": "<b>Q1. Suppose you see a color fringe around the edges of your subject. Which control is best for removing the fringe?</b>\n- Color Noise Reduction\n- Remove Chromatic Aberration\n- Split Toning\n- Enable Profile Corrections",
+        "back": "Remove Chromatic Aberration"
+    },
+    {
+        "front": "<b>Q2. If you want to apply the same editing from one image to another, what should you use?</b>\n- metadata\n- Image settings\n- Edit settings\n- Develop settings\nNote: I just use synchronization. After digging into settings I was able only to discover Settings -> Copy settings.",
+        "back": "Develop settings\nNote: I just use synchronization. After digging into settings I was able only to discover Settings -> Copy settings."
+    },
+    {
+        "front": "<b>Q3. Which module helps you create a printed photo album?</b>\n- Web\n- Book\n- Print\n- Library",
+        "back": "Book"
+    },
+    {
+        "front": "<b>Q4. Review the image shown. What does the exclamation point adjacent to the thumbnail imply?</b>\n<img src=\"adobe-lightroom-quiz_Q4.png\">\n- The image has been edited in Photoshop.\n- The photo is marked as picked.\n- The photo needs at least one keyword.\n- A photo is missing and needs to be relocated.",
+        "back": "A photo is missing and needs to be relocated.\n\n[Reference (adobe.com)](https://helpx.adobe.com/in/lightroom-classic/help/locate-missing-photos.html)"
+    },
+    {
+        "front": "<b>Q5. Adjusting the exposure of a raw file by -1 is the equivalent of doing what in the camera?</b>\n- opening the aperture one f-stop\n- closing the aperture one f-stop\n- adjusting the ISO by +400\n- adjusting the ISO by -400",
+        "back": "closing the aperture one f-stop"
+    },
+    {
+        "front": "<b>Q6. Review the image below. Which option lets you manually straighten a photo by drawing a vertical or horizontal line?</b>\n<img src=\"adobe-lightroom-quiz_Q6.png\">\n- A\n- B\n- C\n- D",
+        "back": "B"
+    },
+    {
+        "front": "<b>Q7. Suppose you want to migrate a selection of images to another machine. How can you create a new catalog that contains a copy of all the images?</b>\n- Use the Export as Catalog command.\n- When you back up the catalog, the images are backed up as well.\n- Use the Export command.\n- Use the Import from Another Catalog command.",
+        "back": "Use the Export as Catalog command.\n\n[Reference (adobe.com)](https://helpx.adobe.com/lightroom-classic/help/create-catalogs.html)"
+    },
+    {
+        "front": "<b>Q8. Which Spot Healing Brush mode replaces an imperfection with an exact copy of pixels from another area?</b>\n- Patch mode\n- Screen mode\n- Healing mode\n- Clone mode",
+        "back": "Clone mode"
+    },
+    {
+        "front": "<b>Q9. When reviewing images, what task can be accomplished using the number keys?</b>\n- finding images\n- printing images\n- selecting images\n- applying ratings",
+        "back": "applying ratings"
+    },
+    {
+        "front": "<b>Q10. What's the easiest way to reuse your most recent custom export settings?</b>\n- Click File > Export with Previous.\n- Click File > Export with Preset.\n- Click File > Export as Catalog.\n- Click File > Export Again.",
+        "back": "Click File > Export with Previous."
+    },
+    {
+        "front": "<b>Q11. In the image shown, what do the blue areas indicate?</b>\n<img src=\"adobe-lightroom-quiz_Q11.png\">\n- crushed details in the shadows\n- a special effect applied to the image\n- too little saturation in the image\n- crushed details in the highlights",
+        "back": "crushed details in the shadows"
+    },
+    {
+        "front": "<b>Q12. When exporting an image, which sharpening method is best for use on displays?</b>\n- Glossy Paper\n- Screen\n- Internet\n- Matte Paper",
+        "back": "Screen\n\n[Reference (digitalphotomentor.com)](https://www.digitalphotomentor.com/the-guide-to-image-sharpening-in-lightroom/)"
+    },
+    {
+        "front": "<b>Q13. Which Develop module panel lets you adjust an image based on a color range?</b>\n- HSL/Color\n- Split Toning\n- Calibration\n- Basic",
+        "back": "HSL/Color"
+    },
+    {
+        "front": "<b>Q14. Which file type will work with the Enhance Details command?</b>\n- raw files\n- PSD\n- JPEG\n- TIFF",
+        "back": "raw files"
+    },
+    {
+        "front": "<b>Q15. Suppose that while using the Post Crop Vignetting tool, the Highlights slider is grayed out. What is the most likely cause?</b>\n- You are using the Paint Overlay style.\n- You are editing a raw file.\n- You are using the Color Priority style.\n- You are using the Highlight Priority style.",
+        "back": "You are using the Paint Overlay style."
+    },
+    {
+        "front": "<b>Q16. In the image shown, what is the icon circled in yellow?</b>\n<img src=\"adobe-lightroom-quiz_Q16.png\">\n- Virtual copy\n- Synced with Lightroom\n- Metadata conflict warning\n- Missing photo",
+        "back": "Metadata conflict warning"
+    },
+    {
+        "front": "<b>Q17. Which criteria CANNOT be used with a smart collection?</b>\n- Export Date\n- Capture Date\n- Rating\n- Camera Serial Number",
+        "back": "Export Date"
+    },
+    {
+        "front": "<b>Q18. Which of these is not present as an option when exporting a photobook?</b>\n- Post to Blurb\n- Export as PDF\n- Export to Print\n- Export as JPEG",
+        "back": "Export to Print\n\n[Reference](https://helpx.adobe.com/in/lightroom-classic/help/create-photo-book.html)"
+    },
+    {
+        "front": "<b>Q19. Saturation and Vibrance both strengthen the intensity of the color in your image, however Vibrance is more specific to \\_\\_ .</b>\n- Midtones\n- Shadows\n- Highlights\n- Global",
+        "back": "Midtones\n\n[Reference](https://www.slrlounge.com/vibrance-vs-saturation-what-is-the-difference/)"
+    },
+    {
+        "front": "<b>Q20. At the time of sharing a lightroom preset, which format is used to export the image having the desired preset.</b>\n- JPG\n- DNG\n- TIF\n- Raw",
+        "back": "DNG\n\n[Reference](https://www.bwillcreative.com/how-to-share-lightroom-mobile-presets/)"
+    }
+]

@@ -1,0 +1,346 @@
+[
+    {
+        "front": "<b>Q1. Which image matches the flex layout defined in this style rule?</b>\n```css\n.container {\n  display: flex;\n}\n.container div:last-child {\n  margin-left: auto;\n}\n```\n- <img src=\"front-end-development-quiz_Q1-A.jpg\">\n- <img src=\"front-end-development-quiz_Q1-B.jpg\">\n- <img src=\"front-end-development-quiz_Q1-C.jpg\">\n- <img src=\"front-end-development-quiz_Q1-D.jpg\">\n[Sample](https://jsfiddle.net/mrvahid/zohd8k2n/)",
+        "back": "<img src=\"front-end-development-quiz_Q1-B.jpg\">"
+    },
+    {
+        "front": "<b>Q2. Variables declared with the let keyword have what type of scope?</b>\n- function scope\n- block scope\n- inline scope\n- global scope",
+        "back": "block scope"
+    },
+    {
+        "front": "<b>Q3. Why would you surround a piece of text with `<h1></h1>` tags?</b>\n- to indicate that this text is the main heading on the page\n- to make the text bold\n- to ensure that search engines treat the keywords as being important for this page\n- to demonstrate to screen readers that this text is important",
+        "back": "to indicate that this text is the main heading on the page"
+    },
+    {
+        "front": "<b>Q4. When might an empty alt attribute be the correct value?</b>\n- when you cannot think of useful alt text\n- when you don't think it would be interesting to someone who cannot see it\n- when the image has come from a CMS\n- when the image is purely decorative",
+        "back": "when the image is purely decorative"
+    },
+    {
+        "front": "<b>Q5. Which attribute must have a unique value each time it is used in an HTML document?</b>\n- title\n- class\n- style\n- id",
+        "back": "id"
+    },
+    {
+        "front": "<b>Q6. Which CSS property will not trigger layout recalculation?</b>\n- top\n- opacity\n- width\n- height",
+        "back": "opacity"
+    },
+    {
+        "front": "<b>Q7. What will be the value of selected?</b>\n```javascript\nlet pocket = ['turnip', 'stone', 'log', 'apple'];\nlet selected = pocket[1];\n```\n- log\n- apple\n- stone\n- turnip",
+        "back": "stone"
+    },
+    {
+        "front": "<b>Q8. What does the `===` comparison operator do?</b>\n- It sets one variable equal to another in both value and type\n- It tests for equality of type only\n- It tests for equality of value only\n- It tests for equality of value and type",
+        "back": "It tests for equality of value and type"
+    },
+    {
+        "front": "<b>Q9. In the following code, the variable `fruit` has been assigned a value of apple. How would you change the value to plum?</b>\n```javascript\nlet fruit = 'apple';\n```\n- `let fruit = 'plum'`\n- `var fruit = 'plum'`\n- `const fruit = 'plum'`\n- `fruit = 'plum'`",
+        "back": "`fruit = 'plum'`"
+    },
+    {
+        "front": "<b>Q10. What is the `<label>` element used for?</b>\n- to identify the difference parts of a figure\n- to explain what needs to be entered into a form field\n- as a caption for images\n- as a heading for tables",
+        "back": "to explain what needs to be entered into a form field"
+    },
+    {
+        "front": "<b>Q11. The browser finds some CSS that it does not understand. What is likely happen?</b>\n- The page will not display\n- An error message will be displayed\n- The browser will not load the stylesheet\n- The browser will ignore the unknown CSS",
+        "back": "The browser will ignore the unknown CSS"
+    },
+    {
+        "front": "<b>Q12. In this code, what is the term for the h1?</b>\n```css\nh1 {\n  color: red;\n  font-size: 5em;\n}\n```\n- selector\n- combinator\n- declarator\n- markup",
+        "back": "selector"
+    },
+    {
+        "front": "<b>Q13. Which HTML will result in text being highlighted in yellow?</b>\n```css\n.highlight {\n  background-color: yellow;\n}\n```\n- `<span class=\"highlight\">#BLM</span>`\n- `<span style=\"highlight\">#BLM</span>`\n- `<highlight\">#BLM</span>`\n- `<div id=\"highlight\">#BLM</span>`",
+        "back": "`<span class=\"highlight\">#BLM</span>`"
+    },
+    {
+        "front": "<b>Q14. Which choice is not a value of the type attribute of the `<input>` element?</b>\n- range\n- address\n- date\n- password",
+        "back": "address"
+    },
+    {
+        "front": "<b>Q15. You have used `display: none` in your stylesheet. Which users will be able to see or hear this content?</b>\n- all users\n- users who can see the content on screen\n- no users\n- screen reader users",
+        "back": "no users"
+    },
+    {
+        "front": "<b>Q16. Which choice is not part of CSS box model?</b>\n- margin\n- border\n- padding\n- paragraph",
+        "back": "paragraph"
+    },
+    {
+        "front": "<b>Q17. Which part of the URL `https://app.uniswap.org/pool` specifies the domain name?</b>\n- https\n- org\n- uniswap.org\n- app.uniswap",
+        "back": "uniswap.org"
+    },
+    {
+        "front": "<b>Q18. Which HTML element is not considered a landmark element?</b>\n- `<form>`\n- `<ul>`\n- `<main>`\n- `<nav>`\n[Source: ARIA landmarks in HTML5](https://www.w3.org/TR/2017/NOTE-wai-aria-practices-1.1-20171214/examples/landmarks/HTML5.html)",
+        "back": "`<ul>`"
+    },
+    {
+        "front": "<b>Q19. Which statement is true when an HTML tag has been deprecated?</b>\n- It employs code that can be viewed only on a desktop computer\n- It is obsolete and is not recommended for use in marking web content\n- It employs code that will require users to update their browsers\n- It employs incorrect syntax that will cause the browser to crash",
+        "back": "It is obsolete and is not recommended for use in marking web content"
+    },
+    {
+        "front": "<b>Q20. How does the rem unit represent a font size?</b>\n- Font sizes are expressed relative to the font size of the containing div element\n- Font sizes are expressed relative to the font size of the parent elements\n- Font sizes are relative to the base font size of the operating system.\n- Font sizes are relative to the root em unit used in the HTML element.\n[Source: CSS units](https://www.w3schools.com/cssref/css_units.asp)",
+        "back": "Font sizes are relative to the root em unit used in the HTML element.\n[Source: CSS units](https://www.w3schools.com/cssref/css_units.asp)"
+    },
+    {
+        "front": "<b>Q21. Which HTML element represents either a scalar value within a known range OR a fractional value?</b>\n- `<meter>`\n- `<range>`\n- `<datalist>`\n- `<optgroup>`",
+        "back": "`<meter>`"
+    },
+    {
+        "front": "<b>Q22. What is Webpack primarily used for?</b>\n- sharing JavaScript code with other people\n- making JavaScript-reliant sites accessible to users who do not have JavaScript turned on\n- bundling individual JavaScript files for use in your website\n- source control",
+        "back": "bundling individual JavaScript files for use in your website"
+    },
+    {
+        "front": "<b>Q23. How many columns will there be, given this code?</b>\n```css\n.container {\n  width: 600px;\n  column-width: 200px;\n  column-gap: 50px;\n}\n```\n- one\n- three\n- four\n- two",
+        "back": "two"
+    },
+    {
+        "front": "<b>Q24. Which style will change the color of the text?</b>\n```html\n<cite>Noam Chomsky</cite>\n```\n- A\n```css\ncite {\n  text-color: cyan;\n}\n```\n- B\n```css\ncite {\n  font-color: cyan;\n}\n```\n- C\n```css\ncite {\n  color: cyan;\n}\n```\n- D\n```css\ncite {\n  text: cyan;\n}\n```",
+        "back": "C\n```css\ncite {\n  color: cyan;\n}\n```"
+    },
+    {
+        "front": "<b>Q25. You find this code in a stylesheet. What is it being used for?</b>\n```css\n.cf::after {\n  content: '';\n  display: block;\n  clear: both;\n}\n```\n- inserting content that cannot be seen by screen readers\n- fixing an Internet Explorer 11 bug\n- clearing floats in float-based layouts\n- creating a new block formatting context",
+        "back": "clearing floats in float-based layouts"
+    },
+    {
+        "front": "<b>Q26. What is the correct way to initialize an array of galaxies in JavaScript?</b>\n- `String[] galaxies = new Array(\"Milky Way\", \"Whirlpool\", \"Andromeda\");`\n- `let galaxies = {Milky Way, Whirlpool, Andromeda};`\n- `galaxies = [\"Milky Way\", \"Whirlpool\", \"Andromeda\"];`\n- `var galaxies = {\"Milky Way\", \"Whirlpool\", \"Andromeda\"};`",
+        "back": "`galaxies = [\"Milky Way\", \"Whirlpool\", \"Andromeda\"];`"
+    },
+    {
+        "front": "<b>Q27. Which description correctly describes the initial values of flex items if the only thing you have done is apply `display: flex` to their parent?</b>\n- Items display in a row, lined up at the start, and do not stretch to fill the container\n- Items display in a column, lined up at the start, and do not stretch to fill the container\n- Items stay in a column until you add some flex properties.\n- Items display in a row, lined up at the start, and stretch to fill the container",
+        "back": "Items display in a row, lined up at the start, and do not stretch to fill the container"
+    },
+    {
+        "front": "<b>Q28. Which line of code, if applied to all flex items in a flex container, would cause each flex item to take up an equal share of the total width of the container? For example, if there are four items, they would get 25% of each.</b>\n- `flex: 1 0 0;`\n- `flex: initial;`\n- `flex: 1 1 auto;`\n- `flex: 1 0 auto;`",
+        "back": "`flex: 1 1 auto;`"
+    },
+    {
+        "front": "<b>Q29. A video on your webpage does not display and the console shows an error about mixed content. What is happening?</b>\n- The webapge is using a DOCTYPE, which renders it incapable of displayed video in addition to other web content.\n- Your browser does not support HTML5 video.\n- The video is from a source that cannot be displayed in your location for legal reasons.\n- The page is loaded via HTTPS, but the video is being served insecurely as HTTP and the browser is blocking it.",
+        "back": "The page is loaded via HTTPS, but the video is being served insecurely as HTTP and the browser is blocking it."
+    },
+    {
+        "front": "<b>Q30. What will this loop print?</b>\n```\nlet max = 3;\nfor (i = 0; i > max; i++) {\n  document.write(\"skrt \");\n}\n```\n- skrt skrt skrt\n- skrt skrt\n- skrt skrt skrt skrt\n- nothing",
+        "back": "nothing"
+    },
+    {
+        "front": "<b>Q31. You have placed an image in a directory named images and want to reference it from a page located in the root of your site. Which choice would correctly display the image on the page?</b>\n- < img src=\"image.jpg\">\n- < a href=\"images/image.jpg\"></a>\n- < img src=\"images/image.jpg\">\n- < img href=\"image.jpg\">",
+        "back": "< img src=\"images/image.jpg\">"
+    },
+    {
+        "front": "<b>Q32. Which choice is a correct use of the parseInt() function in Javascript that parses a string and return an integer?</b>\n- parseInt(\"six\");\n- parse_int('6');\n- parseInt(\"6\");\n- parseint(\"6\");",
+        "back": "parseInt(\"6\");"
+    },
+    {
+        "front": "<b>Q33. How can you rewrite this function using arrow function syntax?</b>\n- let product => (x,y) { <br /> x \\* y; <br />}\n- let product = (x,y) => x\\*y;\n- let product => x\\*y;\n- let product = (x,y) -> x\\*y;",
+        "back": "let product = (x,y) => x\\*y;"
+    },
+    {
+        "front": "<b>Q34. Lighthouse is a tool for auditing your website. Which choice is not a category of report offered by Lighthouse?</b>\n- performance\n- UX design\n- accessibility\n- SEO",
+        "back": "UX design"
+    },
+    {
+        "front": "<b>Q35. In the context of this code, how would you describe user?</b>\n```\nconst user = {\n  given_name: 'Joe',\n  family_name: 'Bloggs',\n  age: 40,\n}\n```\n- function\n- array\n- variable\n- object",
+        "back": "object"
+    },
+    {
+        "front": "<b>Q36. A webpage has `rel=\"preconnect\"` added to a link resource. What will this do?</b>\n```html\n<link rel=\"preconnect\" href=\"https://example.com\" />\n```\n- It will tell the browser that this link is a site belonging to the current domain.\n- It will do nothing a because this is a deprecated attribute that browsers do not support.\n- It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible.\n- It will tell the browser that a resource is needed, and that it should start getting fetched as soon as possible.\n[Source: web.dev](https://web.dev/preconnect-and-dns-prefetch/)",
+        "back": "It will tell the browser that a connection will be made to another origin and to start getting ready as soon as possible."
+    },
+    {
+        "front": "<b>Q37. Which choice is _not_ a render blocking resource?</b>\n- images\n- HTML\n- CSS\n- JavaScript\n[blog.logrocket](https://blog.logrocket.com/5-tricks-to-eliminate-render-blocking-resources/)",
+        "back": "images"
+    },
+    {
+        "front": "<b>Q38. Which choice does _not_ provide information on browser support for a particular CSS property?</b>\n- the \"Can I Use\" website\n- the Web Platform Tests Suite\n- the CSS specification\n- MDN property pages\n[Source: Web platform tests site](https://web-platform-tests.org/)",
+        "back": "the Web Platform Tests Suite"
+    },
+    {
+        "front": "<b>Q39. You have a set of images that are slightly different sizes and aspect ratios. You don't mind if you crop off some of the image, but you want each image to completely fill a square box without being distorted. Which property and value would achieve this?</b>\n- object-fit: contain\n- object-fit: stretch\n- object-fit: all\n- object-fit: cover",
+        "back": "object-fit: cover"
+    },
+    {
+        "front": "<b>Q40. what does the CSS selector a[href$=\"org\"] select?</b>\n- all \\<a> tags whose href attribute begins with \"org\"\n- all \\<a> tags whose href attribute equals \"org\"\n- all \\<a> tags whose href attribute ends with \"org\"\n- all \\<a> tags whose href attribute contains \"org\"",
+        "back": "all \\<a> tags whose href attribute ends with \"org\""
+    },
+    {
+        "front": "<b>Q41. Which choice <em>is not a result</em> of invoking strict mode in JavaScript?</b>\n- it eliminates some JavaScript silent errors by changing them to throw errors.\n- it prohibits some syntax likely to be defined in future versions of ECMAScript.\n- it forces the writing of valid HTML and CSS.\n- it fixes mistakes that make it difficult for JavaScript engines to perform optimizations.\n[Source: MDN docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode)",
+        "back": "it forces the writing of valid HTML and CSS."
+    },
+    {
+        "front": "<b>Q42. In normal flow, some elements display as block elements default and others inline. which choice contains only block-level by default elements?\\*\\*</b>\n- ul, li, a\n- p, b, h3\n- div, p, em\n- div, main, h1",
+        "back": "div, main, h1"
+    },
+    {
+        "front": "<b>Q43. Which line would you add to this code to add \"Cosmos\" to the list of currencies using JavaScript?</b>\n```javascript\nvar currencies = ['Bitcoin', 'Ethereum'];\n/* Missing line */\nconsole.log(currencies);\n```\n- `currencies.push(\"Cosmos\");`\n- `Array.append(\"Cosmos\", currencies);`\n- `currencies.add(\"Cosmos\");`\n- `currencies(2) = \"Cosmos\";`",
+        "back": "`currencies.push(\"Cosmos\");`"
+    },
+    {
+        "front": "<b>Q44. How would you change this code to make Vanilla selected by default?</b>\n```javascript\n<input type=\"radio\" value=\"strawberry\">Strawberry\n<input type=\"radio\" value=\"vanilla\">Vanilla\n<input type=\"radio\" value=\"chocolate\">Chocolate\n```\n- `<input type=\"radio\" value=\"vanilla\" checked>`\n- `<input type=\"radio\" value=\"vanilla\" check>`\n- `<input type=\"radio\" value=\"vanilla\" selected>`\n- `<input type=\"radio\" value=\"vanilla\" on>`",
+        "back": "`<input type=\"radio\" value=\"vanilla\" checked>`"
+    },
+    {
+        "front": "<b>Q45. **\\_** moves an element completely out of the page's normal layout flow, like it is sitting on its own separate layer. From there, you can fix it in a position relative to the edges of the page's `<html>` element (or its nearest positioned ancestor element)?</b>\n- Sticky positioning\n- Absolute positioning\n- Relative positioning\n- Fixed positioning\n[Source: W3Schools](https://www.w3schools.com/css/css_positioning.asp)\n**position: absolute;**\n`An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed). However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.`",
+        "back": "Absolute positioning"
+    },
+    {
+        "front": "<b>Q46. You have created a box that has a height set with CSS. Which line of CSS would add scroll bars if the content is taller than the box, but leave no visible scroll bars if the content fits into the box?</b>\n- .box { overflow: scroll; }\n- .box { overflow: scroll-x; }\n- .box { overflow: auto; }\n- .box { overflow: none; }",
+        "back": ".box { overflow: auto; }"
+    },
+    {
+        "front": "<b>Q47. Which array method should you apply to run a function for every item within an array, returning an array of all items for which the function is true?</b>\n- every()\n- map()\n- forEach()\n- filter()",
+        "back": "filter()"
+    },
+    {
+        "front": "<b>Q48. The image below has float: left applied. Text wraps the float on the right and bottom. How would you force the second paragraph to start underneath the float, leaving a gap after the preceding paragraph?</b>\n<img src=\"front-end-development-quiz_Q48.png\">\n- Apply `float: left` to the second paragraph.\n- Apply `clear: right` to the floated item.\n- Apply `clear: left` to the second paragraph.\n- Apply `clear: left` to the floated item.\n[Source: W3Schools](https://www.w3schools.com/css/css_float_clear.asp)\n**clear: left;**\n`When we use the float property, and we want the next element below (not on right or left), we will have to use the clear property. When clearing floats, you should match the clear to the float: If an element is floated to the left, then you should clear to the left. Your floated element will continue to float, but the cleared element will appear below it on the web page.`",
+        "back": "Apply `clear: left` to the second paragraph."
+    },
+    {
+        "front": "<b>Q49. You want to create striped table rows using CSS without adding a class to any element. Which CSS would correctly apply the background color to every odd row in your table?</b>\n- `tr:nth-child(2) { background-color: #ccc; }`\n- `tr:nth-child(2n+1) { background-color: #ccc; }`\n- `tr:nth-child(2+1) { background-color: #ccc; }`\n- `tr:nth-child(2n) { background-color: #ccc; }`\n[Source: W3Schools](https://www.w3schools.com/cssref/sel_nth-child.asp)",
+        "back": "`tr:nth-child(2n+1) { background-color: #ccc; }`"
+    },
+    {
+        "front": "<b>Q50. You are designing a site and creating a navigation bar linking to the main sections. Which HTML element should you use to indicate that this is the main navigation?</b>\n- `<nav>`\n- `<navigation>`\n- `<main>`\n- `<ul>`\n[Source: W3Schools](https://www.w3schools.com/tags/tag_nav.asp)",
+        "back": "`<nav>`"
+    },
+    {
+        "front": "<b>Q51. You discover that CSS is being loaded on a website using the following code. Why might a web developer have done this?</b>\n`<link rel=\"preload\" href=\"styles.css\" as=\"style\" onload=\"this.onload=null;this.rel='stylesheet'\"><noscript><link rel=\"stylesheet\" href=\"style.css\"></noscript>`\n- The CSS is being loaded asynchronously in order to prevent render blocking.\n- This will stop the CSS being loaded for old browsers that do not support the techniques in use.\n- This is part of a stylesheet-switching script to load different themes for the site.\n- This will stop the CCS being loaded on slow data connections.\n[Source: StackOverflow](https://stackoverflow.com/a/46750893)",
+        "back": "The CSS is being loaded asynchronously in order to prevent render blocking."
+    },
+    {
+        "front": "<b>Q52. The flex property is often applied to flex items with a value of 1. Using flex: 1 is a shorthand - what does it unpack to?</b>\n- flex: 0 0 100;\n- flex: 1 0 0;\n- flex: 0 0 auto;\n- flex: 1 1 auto;\n[Source: stackoverflow](https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)",
+        "back": "flex: 1 1 auto;\n[Source: stackoverflow](https://stackoverflow.com/questions/37386244/what-does-flex-1-mean)"
+    },
+    {
+        "front": "<b>Q53. What does the term \"tree shaking\" mean with regard to JavaScript performance?</b>\n- only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers\n- removing unused code from the JavaScript files\n- splitting code into various bundles so that decisions can be made on loading priority\n- allowing the browser to ignore code it believes will perform badly\n[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Glossary/Tree_shaking)",
+        "back": "removing unused code from the JavaScript files"
+    },
+    {
+        "front": "<b>Q54. What is WebP?</b>\n- a method of auditing performance that gives your site a score, which is then used for Google ranking\n- a next-generation image format offering a smaller file size than equivalent PNG or JPEG images\n- a new font format that allows a single font to display at different styles and weights\n- a next-generation PDF format that offers a smaller file size and better accessibility than standard PDF documents\n[Source: Google Developers](https://developers.google.com/speed/webp)",
+        "back": "a next-generation image format offering a smaller file size than equivalent PNG or JPEG images"
+    },
+    {
+        "front": "<b>Q55. Your website uses CSS Grid Layout extensively, and a visitor who navigates using the keyboard tells you that they seem to jump erratically all over the screen when navigating. What is the most likely problem?</b>\n- The visitor's browser does not have full support for CSS Grid Layout.\n- Items have been positioned in such a way that they are in a different order to the source.\n- The browser has a keyboard navigation bug.\n- You need to add the tabindex attribute to elements.\n[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/CSS_Grid_Layout_and_Accessibility)",
+        "back": "Items have been positioned in such a way that they are in a different order to the source."
+    },
+    {
+        "front": "<b>Q56. What is the definition of the phrase \"Time to Interactive\"?</b>\n- when the browser displays the first bit of content from the DOM\n- when the user can consistently interact with all of the page elements\n- when HTML has loaded, but not necessarily JavaScript, CSS, or images\n- when the user can see the webpage on the screen\n[Source: Web.dev](https://web.dev/interactive/)",
+        "back": "when the user can consistently interact with all of the page elements"
+    },
+    {
+        "front": "<b>Q57. What is yarn?</b>\n- a JavaScript framework that is leaner than React\n- a JavaScript bundler\n- a testing framework\n- a JavaScript package manager\n[Source: Yarn Docs](https://yarnpkg.com/)",
+        "back": "a JavaScript package manager\n[Source: Yarn Docs](https://yarnpkg.com/)"
+    },
+    {
+        "front": "<b>Q58. What is the name of the event that occurs when the mouse pointer hovers over an element?</b>\n- load\n- mouseover\n- hover\n- focus\n[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/API/Element/mouseover_event)",
+        "back": "mouseover"
+    },
+    {
+        "front": "<b>Q59. What is meant by the term \"polyfill\" when used in web development?</b>\n- It is a piece of code that provides modern functionality in browsers that do not support it.\n- It is a piece of code that hides broken content from old browsers.\n- It is a term for languages such as Saas that compliles to CSS.\n- It is a script that runs to add vendor prefixes to modern CSS.\n[Source: Polyfill](https://developer.mozilla.org/en-US/docs/Glossary/Polyfill)",
+        "back": "It is a piece of code that provides modern functionality in browsers that do not support it."
+    },
+    {
+        "front": "<b>Q60. Which choice is _not_ a JavaScript framework?</b>\n- Angular\n- Laravel\n- Vue\n- React\n[Source: Laravel](https://laravel.com/)",
+        "back": "Laravel"
+    },
+    {
+        "front": "<b>Q61. What does setting `aria-live=polite` on a live region achieve?</b>\n- The screen reader will not notify the user of changes to live regions.\n- The screen reader will wait until there is a pause to announce changes.\n- The screen reader will announce all changes immediately.\n- The screen reader will use a polite voice when announcing changes.\n[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-live)",
+        "back": "The screen reader will wait until there is a pause to announce changes."
+    },
+    {
+        "front": "<b>Q62. Review the CSS below. What color would you expect the background color of the element with a class of .box to be?</b>\n```css\n.box {\n  background-color: blue;\n  background: url(images/star.png?raw=png) no-repeat left top;\n}\n```\n- black\n- blue\n- transparent\n- white",
+        "back": "transparent"
+    },
+    {
+        "front": "<b>Q63. Which CSS property and value would correctly remove the bullets from a list item?</b>\n- `list-tem: none`\n- `bullets: hidden`\n- `list-style-type: none`\n- `list-bullet: none`",
+        "back": "`list-style-type: none`"
+    },
+    {
+        "front": "<b>Q64. Which code example would center `.box` inside `.container`?</b>\n```html\n<div class=\"container\">\n  <div class=\"box\">what a lovely box, very centered</div>\n</div>\n```\n- A\n```css\n.container {\n  display: flex;\n  align-items: center;\n}\n```\n- B\n```css\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n```\n- C\n```css\n.box {\n  align-items: center;\n  justify-content: center;\n}\n```\n- D\n```css\n.container {\n  display: flex;\n  align: center;\n}\n```",
+        "back": "B\n```css\n.container {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n```"
+    },
+    {
+        "front": "<b>Q65. CSS Logical Properties and Values now have wide-ranging support in browsers. If you wanted to use the logical version of `width`, which property name would you choose?</b>\n- `block-width`\n- `inline-size`\n- `inline-width`\n- `block-size`\n[Source: MDN Docs](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Logical_Properties/Sizing)",
+        "back": "`inline-size`"
+    },
+    {
+        "front": "<b>Q66. Which color value will create a background color that is semitransparent?</b>\n- `rgb(18, 138, 125)`\n- `#128a7d`\n- `rgba(18, 138, 125,.5)`\n- `hsl(174, 77%, 31%)`",
+        "back": "`rgba(18, 138, 125,.5)`"
+    },
+    {
+        "front": "<b>Q67. In a grid layout, which property will create gaps between the rows in the grid?</b>\n- `row-gap`\n- `rowgap`\n- `gutter`\n- `row-gutter`",
+        "back": "`row-gap`"
+    },
+    {
+        "front": "<b>Q68. You are creating a responsive design, but when you view your site on a smaller screen, you notice that images are causing a horizontal scroll bar. How can you solve this problem without stretching any images out of shape?</b>\n- Set `object-fit: contain` on the images.\n- Set `max-width: 100%` on the images.\n- Set `width: 100%` on the images.\n- Set `resize: true` on the images.",
+        "back": "Set `max-width: 100%` on the images."
+    },
+    {
+        "front": "<b>Q69. The CSS box model describes how the parts of a CSS box fit together and the size of the box. What is the actual width of the following box's visible part under the standard box model?</b>\n```css\nbox {\n  width: 200px;\n  padding: 10px;\n  margin: 0 15px;\n  border: 2px 5px;\n}\n```\n- 230px\n- 220px\n- 200px\n- 260px",
+        "back": "220px"
+    },
+    {
+        "front": "<b>Q70. How would you round the value 11.354 to the nearest full integer?</b>\n- round(11.354);\n- Math.round(11.354);\n- Math.rnd(11.354);\n- Maths.round(11.354);",
+        "back": "Math.round(11.354);"
+    },
+    {
+        "front": "<b>Q70. What is the JavaScript compiler Babel used for?</b>\n- converts ECMAScript 2015+ code into backward compatible version of JS to support older browsers\n- used to bundle individual JS files for use in your website\n- convert older JS code into modern ECMAScript 2015+ code\n- it is a SSR library that can enhance SEO and accessibility of your site",
+        "back": "converts ECMAScript 2015+ code into backward compatible version of JS to support older browsers"
+    },
+    {
+        "front": "<b>Q71. What is the correct way to link to an external stylesheet from the head of an HTML document?</b>\n- `<link rel=\"stylesheet\" href=\"styles.css\">`\n- `<script type=\"text/css\" href=\"styles.css\"></script>`\n- `<script type=\"text/css\" src=\"styles.css\">`\n- `<link rel=\"css\" href=\"styles.css\">`",
+        "back": "`<link rel=\"stylesheet\" href=\"styles.css\">`"
+    },
+    {
+        "front": "<b>Q72. Which href attribute creates a link to the telephone number 1-(704) 555-1151?</b>\n- href = \"tel:+17045551151\"\n- href=\"17045551151\"\n- href=\"phone:+1704551151\"\n- href=\"call:+17045551151\"",
+        "back": "href = \"tel:+17045551151\""
+    },
+    {
+        "front": "<b>Q73. In the color value hsl(38, 90%, 60%), what does 38 represent?</b>\n- the tint of the color matching 38 degrade on the color wheel\n- the opacity of the color indicating 38% of fully opacity\n- the brightness of the color matching a brightness of 38%\n- the intensity of the color matching an intensity of 38%\n[Source: W3 Schools](<[https://www.w3schools.com/accessibility/accessibility_skip_links.php](https://www.w3schools.com/colors/colors_hsl.asp)>)",
+        "back": "the tint of the color matching 38 degrade on the color wheel"
+    },
+    {
+        "front": "<b>Q74. What is a skiplink?</b>\n- a replacement for inaccessible navigation\n- a method of allowing a screen-reader user to skip between headings\n- a link placed early in the <body> to allow the user to skip to the main content\n- a link to allow users to skip video that automatically plays on a website\n[Source: W3 Schools](https://www.w3schools.com/accessibility/accessibility_skip_links.php)",
+        "back": "a link placed early in the <body> to allow the user to skip to the main content"
+    },
+    {
+        "front": "<b>Q75. On a page with many images, what would be the effect of adding loading=\"lazy\" to the <img> tag?</b>\n- it will speed up loading of the image when used with a JavaScript library\n- in supporting browsers, images will be higly compressed, therefore loading more quickly\n- In supporting browsers, images will load only when they are in or near the visible viewport\n- In supporting browsers, images will not oad unless the user explicitly requests image loading",
+        "back": "In supporting browsers, images will load only when they are in or near the visible viewport"
+    },
+    {
+        "front": "<b>Q76. What is GraphQL?</b>\n- a React library for storing data\n- a Vue.js library for storing and manipulating data\n- a query language for fetching data from APIs\n- a new database format designed to replace MySQL\n[Source: GraphQL official website](https://graphql.org/)",
+        "back": "a query language for fetching data from APIs"
+    },
+    {
+        "front": "<b>Q77. Which choice will place a multiline text input field on the page?</b>\n- `<multiline></multiline>`\n- `<textarea></textarea>`\n- `<input type=\"multiline\">`\n- `<input type=\"textarea\">`",
+        "back": "`<textarea></textarea>`"
+    },
+    {
+        "front": "<b>Q78. Which browser is not based on Chromium?</b>\n- Firefox\n- Opera\n- Chrome\n- Edge",
+        "back": "Firefox"
+    },
+    {
+        "front": "<b>Q79. In supporting browsers, what would be the effect of using font-display: swap, as in example?</b>\n```css\n@font-face {\n  font-family: Helvetica;\n  font-display: swap;\n}\n```\n- The browser will show no content until the web font loads.\n- The browser will ignore the web font.\n- The browser will ignore the web font in a situation where the user has indicated they are saving data.\n- The browser will load a system font while waiting for the web font to load.",
+        "back": "The browser will load a system font while waiting for the web font to load."
+    },
+    {
+        "front": "<b>Q80. What does the term \"code splitting\" mean with regard to JavasScript performance?</b>\n- allowing the browser to ignore code that it believes will perform badly\n- splitting code into various bundles so that decisions can be made on loading priority\n- removing unused code from JavaScript files\n- only using code that is supported by the newest browsers, and serving the site without JavaScript to old browsers",
+        "back": "splitting code into various bundles so that decisions can be made on loading priority"
+    },
+    {
+        "front": "<b>Q81. The vertical-align property works only on certain elements, or on those that have a certain CSS applied. Which element by default will allow vertical-align to be used?</b>\n- div\n- td\n- figure\n- p",
+        "back": "td"
+    },
+    {
+        "front": "<b>Q82. Which attribute is uses to add text to an image that will be displayed if the image does not load and read out to screen reader users?</b>\n- title\n- data\n- src\n- alt",
+        "back": "alt"
+    },
+    {
+        "front": "<b>Q83.Which pseudo-class allows you to selectively show a focus ring on elements only if keyboard navigation is detected?</b>\n- focus-show\n- :focus-visible\n- :focus-ring\n- focus-keyboard",
+        "back": ":focus-visible\n\n[Reference](https://www.freecodecamp.org/news/focus-rings-for-keyboard-interactions-only/)"
+    },
+    {
+        "front": "<b>Q84. To create a collection of radio buttons associated with the same field, each <input> tag must \\_\\_\\_\\_.</b>\n- have the same value of the id attribute\n- have the same value of the name attribute\n- belong to the same field set\n- have the same value of the class attribute",
+        "back": "have the same value of the name attribute"
+    },
+    {
+        "front": "<b>Q85. Which statement about HTML syntax is _false_?</b>\n- The value of a class attribute should be unique in an HTML document.\n- The `<img>` element does not have a closing `</img>` tag.\n- The `<h1>` element is the most important heading on the page.\n- The value of an id attribute should be unique in an HTML document.",
+        "back": "The value of a class attribute should be unique in an HTML document."
+    }
+]

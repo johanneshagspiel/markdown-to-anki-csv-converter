@@ -1,0 +1,458 @@
+[
+    {
+        "front": "<b>Q1. You are part of a data science team that is working for a national fast-food chain. You create a simple report that shows trend: Customers who visit the store more often and buy smaller meals spend more than customers who visit less frequently and buy larger meals. What is the most likely diagram that your team created?</b>\n- multiclass classification diagram\n- linear regression and scatter plots\n- pivot table\n- K-means cluster diagram",
+        "back": "linear regression and scatter plots"
+    },
+    {
+        "front": "<b>Q2. You work for an organization that sells a spam filtering service to large companies. Your organization wants to transition its product to use machine learning. It currently a list Of 250,00 keywords. If a message contains more than few of these keywords, then it is identified as spam. What would be one advantage of transitioning to machine learning?</b>\n- The product would look for new patterns in spam messages.\n- The product could go through the keyword list much more quickly.\n- The product could have a much longer keyword list.\n- The product could find spam messages using far fewer keywords.",
+        "back": "The product could find spam messages using far fewer keywords."
+    },
+    {
+        "front": "<b>Q3. You work for a music streaming service and want to use supervised machine learning to classify music into different genres. Your service has collected thousands of songs in each genre, and you used this as your training data. Now you pull out a small random subset of all the songs in your service. What is this subset called?</b>\n- data cluster\n- Supervised set\n- big data\n- test data",
+        "back": "test data"
+    },
+    {
+        "front": "<b>Q4. In traditional computer programming, you input commands. What do you input with machine learning?</b>\n- patterns\n- programs\n- rules\n- data",
+        "back": "data"
+    },
+    {
+        "front": "<b>Q5. Your company wants to predict whether existing automotive insurance customers are more likely to buy homeowners insurance. It created a model to better predict the best customers contact about homeowners insurance, and the model had a low variance but high bias. What does that say about the data model?</b>\n- It was consistently wrong.\n- It was inconsistently wrong.\n- It was consistently right.\n- It was equally right end wrong.",
+        "back": "It was consistently wrong.\n\n[Reference](https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86)"
+    },
+    {
+        "front": "<b>Q6. You want to identify global weather patterns that may have been affected by climate change. To do so, you want to use machine learning algorithms to find patterns that would otherwise be imperceptible to a human meteorologist. What is the place to start?</b>\n- Find labeled data of sunny days so that the machine will learn to identify bad weather.\n- Use unsupervised learning have the machine look for anomalies in a massive weather database.\n- Create a training set of unusual patterns and ask the machine learning algorithms to classify them.\n- Create a training set of normal weather and have the machine look for similar patterns.",
+        "back": "Create a training set of normal weather and have the machine look for similar patterns."
+    },
+    {
+        "front": "<b>Q7. You work in a data science team that wants to improve the accuracy of its K-nearest neighbor result by running on top of a naive Bayes result. What is this an example of?</b>\n- regression\n- boosting\n- bagging\n- stacking",
+        "back": "stacking"
+    },
+    {
+        "front": "<b>Q8. `____` looks at the relationship between predictors and your outcome.</b>\n- Regression analysis\n- K-means clustering\n- Big data\n- Unsupervised learning",
+        "back": "Regression analysis"
+    },
+    {
+        "front": "<b>Q9. What is an example of a commercial application for a machine learning system?</b>\n- a data entry system\n- a data warehouse system\n- a massive data repository\n- a product recommendation system",
+        "back": "a product recommendation system"
+    },
+    {
+        "front": "<b>Q10. What does this image illustrate?</b>\n<img src=\"machine-learning-quiz_machine-learning_Q10.jpg\">\n- a decision tree\n- reinforcement learning\n- K-nearest neighbor\n- a clear trendline",
+        "back": "a decision tree"
+    },
+    {
+        "front": "<b>Q11. You work for a power company that owns hundreds of thousands of electric meters. These meters are connected to the internet and transmit energy usage data in real-time. Your supervisor asks you to direct project to use machine learning to analyze this usage data. Why are machine learning algorithms ideal in this scenario?</b>\n- The algorithms would help the meters access the internet.\n- The algorithms will improve the wireless connectivity.\n- The algorithms would help your organization see patterns of the data.\n- By using machine learning algorithms, you are creating an IoT device.",
+        "back": "The algorithms would help your organization see patterns of the data."
+    },
+    {
+        "front": "<b>Q12. To predict a quantity value. use `___`.</b>\n- regression\n- clustering\n- classification\n- dimensionality reduction",
+        "back": "regression"
+    },
+    {
+        "front": "<b>Q13. Why is naive Bayes called naive?</b>\n- It naively assumes that you will have no data.\n- It does not even try to create accurate predictions.\n- It naively assumes that the predictors are independent from one another.\n- It naively assumes that all the predictors depend on one another.",
+        "back": "It naively assumes that the predictors are independent from one another."
+    },
+    {
+        "front": "<b>Q14. You work for an ice cream shop and created the chart below, which shows the relationship between the outside temperature and ice cream sales. What is the best description of this chart?</b>\n<img src=\"machine-learning-quiz_machine-learning_Q14.jpg\">\n- It is a linear regression chart.\n- It is a supervised trendline chart.\n- It is a decision tree.\n- It is a clustering trend chart.",
+        "back": "It is a linear regression chart."
+    },
+    {
+        "front": "<b>Q15. How is machine learning related to artificial intelligence?</b>\n- Artificial intelligence focuses on classification, while machine learning is about clustering data.\n- Machine learning is a type of artificial intelligence that relies on learning through data.\n- Artificial intelligence is form of unsupervised machine learning.\n- Machine learning and artificial intelligence are the same thing.",
+        "back": "Machine learning is a type of artificial intelligence that relies on learning through data."
+    },
+    {
+        "front": "<b>Q16. How do machine learning algorithms make more precise predictions?</b>\n- The algorithms are typically run more powerful servers.\n- The algorithms are better at seeing patterns in the data.\n- Machine learning servers can host larger databases.\n- The algorithms can run on unstructured data.",
+        "back": "The algorithms are better at seeing patterns in the data."
+    },
+    {
+        "front": "<b>Q17. You work for an insurance company. Which machine learning project would add the most value for the company!</b>\n- Create an artificial neural network that would host the company directory.\n- Use machine learning to better predict risk.\n- Create an algorithm that consolidates all of your Excel spreadsheets into one data lake.\n- Use machine learning and big data to research salary requirements.",
+        "back": "Use machine learning to better predict risk."
+    },
+    {
+        "front": "<b>Q18. What is the missing information in this diagram?</b>\n<img src=\"machine-learning-quiz_machine-learning_Q18.jpg\">\n- Training Set\n- Unsupervised Data\n- Supervised Learning\n- Binary Classification",
+        "back": "Supervised Learning"
+    },
+    {
+        "front": "<b>Q19. What is one reason not to use the same data for both your training set and your testing set?</b>\n- You will almost certainly underfit the model.\n- You will pick the wrong algorithm.\n- You might not have enough data for both.\n- You will almost certainly overfit the model.",
+        "back": "You will almost certainly overfit the model."
+    },
+    {
+        "front": "<b>Q20. Your university wants to use machine learning algorithms to help sort through incoming student applications. An administrator asks if the admissions decisions might be biased against any particular group, such as women. What would be the best answer?</b>\n- Machine learning algorithms are based on math and statistics, and so by definition will be unbiased.\n- There is no way to identify bias in the data.\n- Machine learning algorithms are powerful enough to eliminate bias from the data.\n- All human-created data is biased, and data scientists need to account for that.",
+        "back": "All human-created data is biased, and data scientists need to account for that.\n\n**Explanation**: While machine learning algorithms don't have bias, the data can have them."
+    },
+    {
+        "front": "<b>Q21. What is stacking?</b>\n- The predictions of one model become the inputs another.\n- You use different versions of machine learning algorithms.\n- You use several machine learning algorithms to boost your results.\n- You stack your training set and testing set together.",
+        "back": "The predictions of one model become the inputs another."
+    },
+    {
+        "front": "<b>Q22. You want to create a supervised machine learning system that identifies pictures of kittens on social media. To do this, you have collected more than 100,000 images of kittens. What is this collection of images called?</b>\n- training data\n- linear regression\n- big data\n- test data",
+        "back": "training data"
+    },
+    {
+        "front": "<b>Q23. You are working on a project that involves clustering together images of different dogs. You take image and identify it as your centroid image. What type machine learning algorithm are you using?</b>\n- centroid reinforcement\n- K-nearest neighbor\n- binary classification\n- K-means clustering",
+        "back": "K-means clustering\n\n**Explanation**: The problem explicitly states \"clustering\"."
+    },
+    {
+        "front": "<b>Q24. Your company wants you to build an internal email text prediction model to speed up the time that employees spend writing emails. What should you do?</b>\n- Include training email data from all employees.\n- Include training email data from new employees.\n- Include training email data from seasoned employees.\n- Include training email data from employees who write the majority of internal emails.",
+        "back": "Include training email data from all employees."
+    },
+    {
+        "front": "<b>Q25. Your organization allows people to create online professional profiles. A key feature is the ability to create clusters of people who are professionally connected to one another. What type of machine learning method is used to create these clusters?</b>\n- unsupervised machine learning\n- binary classification\n- supervised machine learning\n- reinforcement learning",
+        "back": "unsupervised machine learning"
+    },
+    {
+        "front": "<b>Q26. What is this diagram a good example of?</b>\n<img src=\"machine-learning-quiz_machine-learning_Q26.jpg\">\n- K-nearest neighbor\n- a decision tree\n- a linear regression\n- a K-means cluster\nNote: there are centres of clusters (C0, C1, C2).",
+        "back": "a K-means cluster\nNote: there are centres of clusters (C0, C1, C2)."
+    },
+    {
+        "front": "<b>Q27. Random forest is modified and improved version of which earlier technique?</b>\n- aggregated trees\n- boosted trees\n- bagged trees\n- stacked trees",
+        "back": "bagged trees"
+    },
+    {
+        "front": "<b>Q28. Self-organizing maps are specialized neural network for which type of machine learning?</b>\n- semi-supervised learning\n- supervised learning\n- reinforcement learning\n- unsupervised learning",
+        "back": "semi-supervised learning"
+    },
+    {
+        "front": "<b>Q29. Which statement about K-means clustering is true?</b>\n- In K-means clustering, the initial centroids are sometimes randomly selected.\n- K-means clustering is often used in supervised machine learning.\n- The number of clusters are always randomly selected.\n- To be accurate, you want your centroids outside of the cluster.",
+        "back": "In K-means clustering, the initial centroids are sometimes randomly selected."
+    },
+    {
+        "front": "<b>Q30. You created machine learning system that interacts with its environment and responds to errors and rewards. What type of machine learning system is it?</b>\n- supervised learning\n- semi-supervised learning\n- reinforcement learning\n- unsupervised learning",
+        "back": "reinforcement learning"
+    },
+    {
+        "front": "<b>Q31. Your data science team must build a binary classifier, and the number one criterion is the fastest possible scoring at deployment. It may even be deployed in real time. Which technique will produce a model that will likely be fastest for the deployment team use to new cases?</b>\n- random forest\n- logistic regression\n- KNN\n- deep neural network",
+        "back": "logistic regression"
+    },
+    {
+        "front": "<b>Q32. Your data science team wants to use the K-nearest neighbor classification algorithm. Someone on your team wants to use a K of 25. What are the challenges of this approach?</b>\n- Higher K values will produce noisy data.\n- Higher K values lower the bias but increase the variance.\n- Higher K values need a larger training set.\n- Higher K values lower the variance but increase the bias.",
+        "back": "Higher K values lower the variance but increase the bias."
+    },
+    {
+        "front": "<b>Q33. Your machine learning system is attempting to describe a hidden structure from unlabeled data. How would you describe this machine learning method?</b>\n- supervised learning\n- unsupervised learning\n- reinforcement learning\n- semi-unsupervised learning",
+        "back": "unsupervised learning"
+    },
+    {
+        "front": "<b>Q34. You work for a large credit card processing company that wants to create targeted promotions for its customers. The data science team created a machine learning system that groups together customers who made similar purchases, and divides those customers based on customer loyalty. How would you describe this machine learning approach?</b>\n- It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers.\n- It uses only unsupervised machine learning.\n- It uses supervised learning to create clusters and unsupervised learning for classification.\n- It uses reinforcement learning to classify the customers.",
+        "back": "It uses unsupervised learning to cluster together transactions and unsupervised learning to classify the customers."
+    },
+    {
+        "front": "<b>Q35. You are using K-nearest neighbor and you have a K of 1. What are you likely to see when you train the model?</b>\n- high variance and low bias\n- low bias and low variance\n- low variance and high bias\n- high bias and high variance",
+        "back": "high variance and low bias"
+    },
+    {
+        "front": "<b>Q36. Are data model bias and variance a challenge with unsupervised learning?</b>\n- No, data model bias and variance are only a challenge with reinforcement learning.\n- Yes, data model bias is a challenge when the machine creates clusters.\n- Yes, data model variance trains the unsupervised machine learning algorithm.\n- No, data model bias and variance involve supervised learning.",
+        "back": "Yes, data model bias is a challenge when the machine creates clusters."
+    },
+    {
+        "front": "<b>Q37. Which choice is best for binary classification?</b>\n- K-means\n- Logistic regression\n- Linear regression\n- Principal Component Analysis (PCA)",
+        "back": "Logistic regression\n\n**Explanation:** Logistic regression is far better than linear regression at binary classification since it biases the result toward one extreme or the other. K-means clustering can be used for classification but is not as accurate in most scenarios.\n[Source:](https://www.kaggle.com/minc33/k-means-clustering-vs-logistic-regression)"
+    },
+    {
+        "front": "<b>Q38. With traditional programming, the programmer typically inputs commands. With machine learning, the programmer inputs</b>\n- supervised learning\n- data\n- unsupervised learning\n- algorithms",
+        "back": "data\n\n**Explanation**: This one is pretty straight forward and a fundamental concept.\n[Source:](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)"
+    },
+    {
+        "front": "<b>Q39. Why is it important for machine learning algorithms to have access to high-quality data?</b>\n- It will take too long for programmers to scrub poor data.\n- If the data is high quality, the algorithms will be easier to develop.\n- Low-quality data requires much more processing power than high-quality data.\n- If the data is low quality, you will get inaccurate results.",
+        "back": "If the data is low quality, you will get inaccurate results."
+    },
+    {
+        "front": "<b>Q40. In K-nearest neighbor, the closer you are to neighbor, the more likely you are to</b>\n- share common characteristics\n- be part of the root node\n- have a Euclidean connection\n- be part of the same cluster",
+        "back": "share common characteristics"
+    },
+    {
+        "front": "<b>Q41. In the HBO show Silicon Valley, one of the characters creates a mobile application called Not Hot Dog. It works by having the user take a photograph of food with their mobile device. Then the app says whether the food is a hot dog. To create the app, the software developer uploaded hundreds of thousands of pictures of hot dogs. How would you describe this type of machine learning?</b>\n- Reinforcement machine learning\n- unsupervised machine learning\n- supervised machine learning\n- semi-supervised machine learning",
+        "back": "supervised machine learning"
+    },
+    {
+        "front": "<b>Q42. You work for a large pharmaceutical company whose data science team wants to use unsupervised learning machine algorithms to help discover new drugs. What is an advantage to this approach?</b>\n- You will be able to prioritize different classes of drugs, such as antibiotics.\n- You can create a training set of drugs you would like to discover.\n- The algorithms will cluster together drugs that have similar traits.\n- Human experts can create classes of drugs to help guide discovery.",
+        "back": "The algorithms will cluster together drugs that have similar traits.\n\n**Explanation**: This one is similar to an example talked about in the Stanford Machine Learning course.\n[Source:](https://www.coursera.org/learn/machine-learning/home/welcome)"
+    },
+    {
+        "front": "<b>Q43. In 2015, Google created a machine learning system that could beat a human in the game of Go. This extremely complex game is thought to have more gameplay possibilities than there are atoms of the universe. The first version of the system won by observing hundreds of thousands of hours of human gameplay; the second version learned how to play by getting rewards while playing against itself. How would you describe this transition to different machine learning approaches?</b>\n- The system went from supervised learning to reinforcement learning.\n- The system evolved from supervised learning to unsupervised learning.\n- The system evolved from unsupervised learnin9 to supervised learning.\n- The system evolved from reinforcement learning to unsupervised learning.",
+        "back": "The system went from supervised learning to reinforcement learning."
+    },
+    {
+        "front": "<b>Q44. The security company you work for is thinking about adding machine learning algorithms to their computer network threat detection appliance. What is one advantage of using machine learning?</b>\n- It could better protect against undiscovered threats.\n- It would very likely lower the hardware requirements.\n- It would substantially shorten your development time.\n- It would increase the speed of the appliance.",
+        "back": "It could better protect against undiscovered threats."
+    },
+    {
+        "front": "<b>Q45. You work for a hospital that is tracking the community spread of a virus. The hospital created a smartwatch application that uploads body temperature data from hundreds of thousands of participants. What is the best technique to analyze the data?</b>\n- Use reinforcement learning to reward the system when a new person participates.\n- Use unsupervised machine learning to cluster together people based on patterns the machine discovers.\n- Use Supervised machine learning to sort people by demographic data.\n- Use Supervised machine learning to classify people by body temperature.",
+        "back": "Use Supervised machine learning to classify people by body temperature."
+    },
+    {
+        "front": "<b>Q46. Many of the advances in machine learning have come from improved `___`.</b>\n- statistics\n- structured data\n- availability\n- algorithms",
+        "back": "algorithms"
+    },
+    {
+        "front": "<b>Q47. What is this diagram a good example of?</b>\n<img src=\"machine-learning-quiz_machine-learning_Q45.jpg\">\n- unsupervised learning\n- complex cluster\n- multiclass classification\n- k-nearest neighbour",
+        "back": "k-nearest neighbour"
+    },
+    {
+        "front": "<b>Q48. Naive Bayes looks at each **\\_** predictor and creates a probability that belongs in each class.</b>\n- conditional\n- multiclass\n- independent\n- binary",
+        "back": "independent\n\n[Reference](https://towardsdatascience.com/all-about-naive-bayes-8e13cef044cf)"
+    },
+    {
+        "front": "<b>Q49. Someone on your data science team recommends that you use decision trees, naive Bayes and K-nearest neighbor, all at the same time, on the same training data, and then average the results. What is this an example of?</b>\n- regression analysis\n- unsupervised learning\n- high -variance modeling\n- ensemble modeling",
+        "back": "ensemble modeling"
+    },
+    {
+        "front": "<b>Q50. Your data science team wants to use machine learning to better filter out spam messages. The team has gathered a database of 100,000 messages that have been identified as spam or not spam. If you are using supervised machine learning, what would you call this data set?</b>\n- machine learning algorithm\n- training set\n- big data test set\n- data cluster",
+        "back": "training set"
+    },
+    {
+        "front": "<b>Q51. You work for a website that enables customers see all images of themselves on the internet by uploading one self-photo. Your data model uses 5 characteristics to match people to their foto: color, eye, gender, eyeglasses and facial hair. Your customers have been complaining that get tens of thousands of photos without them. What is the problem?</b>\n- You are overfitting the model to the data\n- You need a smaller training set\n- You are underfitting the model to the data\n- You need a larger training set",
+        "back": "You are underfitting the model to the data"
+    },
+    {
+        "front": "<b>Q52. Your supervisor asks you to create a machine learning system that will help your human resources department classify jobs applicants into well-defined groups. What type of system are you more likely to recommend?</b>\n- an unsupervised machine learning system that clusters together the best candidates.\n- you would not recommend a machine learning system for this type of project.\n- a deep learning artificial neural network that relies on petabytes of employment data.\n- a supervised machine learning system that classifies applicants into existing groups.",
+        "back": "a supervised machine learning system that classifies applicants into existing groups."
+    },
+    {
+        "front": "<b>Q53. You and your data science team have 1 TB of example data. What do you typically do with that data?</b>\n- you use it as your training set.\n- You label it big data.\n- You split it into a training set and test set.\n- You use it as your test set.",
+        "back": "You label it big data."
+    },
+    {
+        "front": "<b>Q54. Your data science team is working on a machine learning product that can act as an artificial opponent in video games. The team is using a machine learning algorithm that focuses on rewards: If the machine does some things well, then it improves the quality of the outcome. How would you describe this type of machine learning algorithm?</b>\n- semi-supervised machine learning\n- supervised machine learning\n- unsupervised machine learning\n- reinforcement learning",
+        "back": "reinforcement learning"
+    },
+    {
+        "front": "<b>Q55. The model will be trained with data in one single batch is known as ?</b>\n- Batch learning\n- Offline learning\n- Both A and B\n- None of the above",
+        "back": "Both A and B"
+    },
+    {
+        "front": "<b>Q56. Which of the following is NOT supervised learning?</b>\n- Decision Tree\n- Linear Regression\n- PCA\n- Naive Bayesian",
+        "back": "PCA"
+    },
+    {
+        "front": "<b>Q57. Suppose we would like to perform clustering on spatial data such as the geometrical locations of houses. We wish to produce clusters of many different sizes and shapes. Which of the following methods is the most appropriate?</b>\n- Decision Trees\n- K-means clustering\n- Density-based clustering\n- Model-based clustering",
+        "back": "Density-based clustering"
+    },
+    {
+        "front": "<b>Q58. The error function most suited for gradient descent using logistic regression is</b>\n- The entropy function.\n- The squared error.\n- The cross-entropy function.\n- The number of mistakes.",
+        "back": "The cross-entropy function."
+    },
+    {
+        "front": "<b>Q59. Compared to the variance of the Maximum Likelihood Estimate (MLE), the variance of the Maximum A Posteriori (MAP) estimate is `___`</b>\n- Higher\n- same\n- Lower\n- it could be any of the above",
+        "back": "Lower"
+    },
+    {
+        "front": "<b>Q60. `___` refers to a model that can neither model the training data nor generalize to new data.</b>\n- good fitting\n- overfitting\n- underfitting\n- all of the above",
+        "back": "underfitting"
+    },
+    {
+        "front": "<b>Q61. How would you describe this type of classification challenge?</b>\n<img src=\"machine-learning-quiz_machine-learning_Q58.jpg\">\n- This is a multiclass classification challenge.\n- This is a multi-binary classification challenge.\n- This is a binary classification challenge.\n- This is a reinforcement classification challenge.\n  **Explanation**: Shows data being classified into more than two categories or classes. Thus, this is a multi-class classification challenge.",
+        "back": "This is a multiclass classification challenge."
+    },
+    {
+        "front": "<b>Q62. What does it mean to underfit your data model?</b>\n- There is too little data in your training set.\n- There is too much data in your training set.\n- There is not a lot of variance but there is a high bias.\n- Your model has low bias but high variance.",
+        "back": "There is not a lot of variance but there is a high bias.\n\n**Explanation**: Underfitted data models usually have high bias and low variance. Overfitted data models have low bias and high variance."
+    },
+    {
+        "front": "<b>Q63. Asian user complains that your company's facial recognition model does not properly identify their facial expressions. What should you do?</b>\n- Include Asian faces in your test data and retrain your model.\n- Retrain your model with updated hyperparameter values.\n- Retrain your model with smaller batch sizes.\n- Include Asian faces in your training data and retrain your model.",
+        "back": "Include Asian faces in your training data and retrain your model.\n\n**Explanation**: The answer is self-explanatory: if Asian users are the only group of people making the complaint, then the training data should have more Asian faces."
+    },
+    {
+        "front": "<b>Q64. You work for a website that helps match people up for lunch dates. The website boasts that it uses more than 500 predictors to find customers the perfect date, but many costumers complain that they get very few matches. What is a likely problem with your model?</b>\n- Your training set is too large.\n- You are underfitting the model to the data.\n- You are overfitting the model to the data.\n- Your machine is creating inaccurate clusters.",
+        "back": "You are overfitting the model to the data.\n\n**Explanation**: // This question is very similar to Q49 but involves a polar opposite scenario.\n`that answer somewhat vague and unsettled. Small number of matchings does not necessarily implies that the model overfits, especially given 500 (!) independent variables. To me, it sounds more reasonable that the threshold (matching) criterion might be too tight, thus allowing only a small number of matching to occur. So a solution can be either softening the threshold criterion or increasing the number of candidates.`"
+    },
+    {
+        "front": "<b>Q65. (Mostly) whenever we see kernel visualizations online (or some other reference) we are actually seeing:</b>\n- What kernels extract\n- Feature Maps\n- How kernels Look",
+        "back": "What kernels extract"
+    },
+    {
+        "front": "<b>Q66. The activations for class A, B and C before softmax were 10,8 and 3. The different in softmax values for class A and class B would be :</b>\n- 76%\n- 88%\n- 12%\n- 0.0008%\n<img src=\"machine-learning-quiz_machine-learning_Q62.png\">",
+        "back": "76%"
+    },
+    {
+        "front": "<b>Q67. The new dataset you have just scraped seems to exhibit lots of missing values. What action will help you minimizing that problem?</b>\n- Wise fill-in of controlled random values\n- Replace missing values with averaging across all samples\n- Remove defective samples\n- Imputation",
+        "back": "Imputation"
+    },
+    {
+        "front": "<b>Q68. Which of the following methods can use either as an unsupervised learning or as a dimensionality reduction technique?</b>\n- SVM\n- PCA\n- LDA\n- TSNE",
+        "back": "PCA"
+    },
+    {
+        "front": "<b>Q69. What is the main motivation for using activation functions in ANN?</b>\n- Capturing complex non-linear patterns\n- Transforming continuous values into \"ON\" (1) or \"OFF\" (0) values\n- Help avoiding the vanishing/exploding gradient problem\n- Their ability to activate each neurons individually.",
+        "back": "Capturing complex non-linear patterns"
+    },
+    {
+        "front": "<b>Q70. Which loss function would fit best in a categorical (discrete) supervised learning ?</b>\n- kullback-leibler (KL) loss\n- Binary Crossentropy\n- Mean Squared Error (MSE)\n- Any L2 loss",
+        "back": "Binary Crossentropy"
+    },
+    {
+        "front": "<b>Q71. What is the correct option?</b>\n<img src=\"machine-learning-quiz_machine-learning_Q67.png\">\n| no.    | Red              | Blue             | Green            |\n| ------ | ---------------- | ---------------- | ---------------- |\n| **1.** | Validation error | Training error   | Test error       |\n| **2.** | Training error   | Test error       | Validation error |\n| **3.** | Optimal error    | Validation error | Test error       |\n| **4.** | Validation error | Training error   | Optimal error    |\n- 1\n- 2\n- 3\n- 4",
+        "back": "4"
+    },
+    {
+        "front": "<b>Q72. You create a decision tree to show whether someone decides to go to the beach. There are three factors in this decision: rainy, overcast, and sunny. What are these three factors called?</b>\n- tree nodes\n- predictors\n- root nodes\n- deciders\n`// these nodes decide whether the someone decides to go to beach or not, for example if its rainy people will mostly refrain from going to beach`",
+        "back": "predictors"
+    },
+    {
+        "front": "<b>Q73. You need to quickly label thousands of images to train a model. What should you do?</b>\n- Set up a cluster of machines to label the images\n- Create a subset of the images and label then yourself\n- Use naive Bayes to automatically generate labels.\n- Hire people to manually label the images",
+        "back": "Use naive Bayes to automatically generate labels."
+    },
+    {
+        "front": "<b>Q74. The fit line and data in the figure exhibits which pattern?</b>\n<img src=\"machine-learning-quiz_machine-learning_Q70.png\">\n- low bias, high variance\n- high bias, low variance\n- high bias, high variance\n- low bias, low variance\n  `// since the data is accurately classified and is neither overfitting or underfitting the dataset`",
+        "back": "low bias, low variance\n  `// since the data is accurately classified and is neither overfitting or underfitting the dataset`"
+    },
+    {
+        "front": "<b>Q75. You need to select a machine learning process to run a distributed neural network on a mobile application. Which would you choose?</b>\n- Scikit-learn\n- PyTorch\n- Tensowflow Lite\n- Tensorflow",
+        "back": "Tensowflow Lite"
+    },
+    {
+        "front": "<b>Q76. Which choice is the best example of labeled data?</b>\n- a spreadsheet\n- 20,000 recorded voicemail messages\n- 100,000 images of automobiles\n- hundreds of gigabytes of audio files",
+        "back": "a spreadsheet"
+    },
+    {
+        "front": "<b>Q77. In statistics, what is defined as the probability of a hypothesis test of finding an effect - if there is an effect to be found?</b>\n- confidence\n- alpha\n- power\n- significance",
+        "back": "power"
+    },
+    {
+        "front": "<b>Q78. You want to create a machine learning algorithm to identify food recipes on the web. To do this, you create an algorithm that looks at different conditional probabilities. So if the post includes the word **flour**, it has a slightly stronger probability of being a recipe. If it contains both **flour** and _sugar_, it even more likely a recipe. What type of algorithm are you using?</b>\n- naive Bayes classifier\n- K-nearest neighbor\n- multiclass classification\n- decision tree",
+        "back": "naive Bayes classifier"
+    },
+    {
+        "front": "<b>Q79. What is lazy learning?</b>\n- when the machine learning algorithms do most of the programming\n- when you don't do any data scrubbing\n- when the learning happens continuously\n- when you run your computation in one big instance at the beginning",
+        "back": "when the learning happens continuously"
+    },
+    {
+        "front": "<b>Q80. What is Q-learning reinforcement learning?</b>\n- supervised machine learning with rewards\n- a type of unsupervised learning that relies heavily on a well-established model\n- a type of reinforcement learning where accuracy degrades over time\n- a type of reinforcement learning that focuses on rewards",
+        "back": "a type of reinforcement learning that focuses on rewards\n\n[Reference](<https://towardsdatascience.com/a-beginners-guide-to-q-learning-c3e2a30a653c#:~:text=Q%2Dlearning%20is%20a%20model,equation(particularly%20Bellman%20equation).&text=Means%20it%20learns%20the%20value,independently%20of%20the%20agent's%20actions>) **Explanation**:Q-learning is a model-free reinforcement learning algorithm.Q-learning is a values-based learning algorithm. Value based algorithms updates the value function based on an equation(particularly Bellman equation)."
+    },
+    {
+        "front": "<b>Q81. The data in your model has low bias and low variance. How would you expect the data points to be grouped together on the diagram?</b>\n- They would be grouped tightly together in the predicted outcome.\n- They would be grouped tightly together but far from the predicted.\n- They would be scattered around the predict outcome.\n- They would be scattered far away from the predicted outcome.",
+        "back": "They would be grouped tightly together in the predicted outcome.\n\n[Reference](https://medium.com/30-days-of-machine-learning/day-3-k-nearest-neighbors-and-bias-variance-tradeoff-75f84d515bdb)"
+    },
+    {
+        "front": "<b>Q82. Your machine learning system is using labeled examples to try to predict future data, compare that data to the predicted result, and then the model. What is the best description of this machine learning method?</b>\n- unsupervised learning\n- semi-supervised learning\n- supervised learning\n- semi-reinforcement learning",
+        "back": "supervised learning\n\n[Reference](https://www.expert.ai/blog/machine-learning-definition/)"
+    },
+    {
+        "front": "<b>Q83. In the 1983 movie WarGames, the computer learns how to master the game of chess by playing against itself. What machine learning method was the computer using?</b>\n- binary learning\n- supervised learning\n- unsupervised learning\n- reinforcement learning",
+        "back": "reinforcement learning\n\n[Reference](https://venturebeat.com/2016/03/16/heres-what-alphagos-historic-win-means-for-the-enterprise/)"
+    },
+    {
+        "front": "<b>Q84. You are working with your machine learning algorithm on something called class predictor probability. What algorithm are you most likely using?</b>\n- multiclass binary classification\n- naive Bayes\n- unsupervised classification\n- decision tree analysis",
+        "back": "naive Bayes\n\n**Explanation**: You could use a na\u00efve Bayes algorithm, to differentiate three classes of dog breeds \u2014 terrier, hound, and sport dogs. Each class has three predictors \u2014 hair length, height, and weight. The algorithm does something called class predictor probability.\n\n[Reference](https://www.linkedin.com/pulse/machine-learning-algorithms-doug-rose/)"
+    },
+    {
+        "front": "<b>Q85. What is one of the most effective way to correct for underfitting your model to the data?</b>\n- Create training clusters\n- Remove predictors\n- Use reinforcement learning\n- Add more predictors",
+        "back": "Add more predictors"
+    },
+    {
+        "front": "<b>Q86. Your data science team is often criticized for creating reports that are boring or too obvious. What could you do to help improve the team?</b>\n- Suggest that the team is probably underfitting the model to the data.\n- Suggest that unsupervised learning will lead to more interesting results.\n- Make sure that they are picking the correct machine learning algorithms.\n- Encourage the team to ask more interesting questions.",
+        "back": "Encourage the team to ask more interesting questions."
+    },
+    {
+        "front": "<b>Q87. What is the difference between unstructured and structured data?</b>\n- Unstructured data is always text.\n- Unstructured data is much easier to store.\n- Structured data has clearly defined data types.\n- Structured data is much more popular.",
+        "back": "Structured data has clearly defined data types."
+    },
+    {
+        "front": "<b>Q88. You work for a startup that is trying to develop a software tool that will scan the internet for pictures of people using specific tools. The chief executive is very interested in using machine learning algorithms. What would you recommend as the best place to start?</b>\n- Using an unsupervised machine learning algorithm to cluster together all the photographs.\n- Crate a data lake with an unsupervised machine learning algorithm.\n- Use a combination of unsupervised and supervised machine learning to create machine-defined data clusters.\n- Use supervised machine learning to classify photographs based on a predetermined training set.",
+        "back": "Use supervised machine learning to classify photographs based on a predetermined training set."
+    },
+    {
+        "front": "<b>Q89. In supervised machine learning, data scientist often have the challenge of balancing between underfitting or overfitting their data model. They often have to adjust the training set to make better predictions. What is this balance called?</b>\n- the under/over challenge\n- balance between clustering classification\n- bias-variance trade-off\n- the multiclass training set challenge",
+        "back": "bias-variance trade-off"
+    },
+    {
+        "front": "<b>Q90. What is conditional probability?</b>\n- the probability that doing one thing has an impact on another thing\n- the probability that certain conditions are met\n- the probability that, based on certain conditions, something will always be incorrect\n- the probability of something being the correct answer",
+        "back": "the probability that doing one thing has an impact on another thing"
+    },
+    {
+        "front": "<b>Q91. K-means clustering is what type of machine learning algorithm?</b>\n- reinforcement\n- supervised\n- unsupervised\n- classification",
+        "back": "unsupervised"
+    },
+    {
+        "front": "<b>Q92. What is ensemble modeling?</b>\n- when you create an ensemble of your training and test data set\n- when you create an ensemble of different servers to run the algorithms\n- when you find the one best algorithm for your ensemble\n- when you use several ensembles of machine learning algorithms",
+        "back": "when you use several ensembles of machine learning algorithms"
+    },
+    {
+        "front": "<b>Q93. What is the best definition for bias in your data model?</b>\n- Bias is when your predicted values are scattered.\n- Bias is the gap between your predicted value and the outcome.\n- Bias is when your data is wrong for differnet reasons.\n- Bias is when your values are always off by the same percentage.",
+        "back": "Bias is the gap between your predicted value and the outcome."
+    },
+    {
+        "front": "<b>Q94. Which project might be best suited for supervised machine learning?</b>\n- data scrubbing\n- predicting a risk score\n- tax filing software\n- spreadsheet consolidation",
+        "back": "predicting a risk score"
+    },
+    {
+        "front": "<b>Q95. When is a decision tree most commonly used?</b>\n- with big data products\n- for supervised machine learning binary classification challenges\n- to find thd best data cluster\n- to determine \"Q\" in Q-learning reinforcement learning",
+        "back": "for supervised machine learning binary classification challenges"
+    },
+    {
+        "front": "<b>Q96. An organisation that owns dozens of shopping malls wants to create a machine learning product that will use facial recognition to identify customers. What is the main challenge of developing such a model?</b>\n- most machine learning models are not designed for video\n- it might be unethical for the business to identify people without their consent\n- it will be difficult to decide between supervised and unsupervised learning\n- the image in the video would not be high quality enough to identify individuals",
+        "back": "it might be unethical for the business to identify people without their consent"
+    },
+    {
+        "front": "<b>Q97. Which of the following machine learning algorithms is unsupervised?</b>\n- Random forest\n- k-nearest neighbors\n- Support-vector machines\n- K- means\nExplanation:\nDuring training, k-means partitions observations into k clusters. During inference, it assigns a given data point to the nearest cluster by distance. k-means is unsupervised, because it doesn't require labeled data to be trained.",
+        "back": "K- means\nExplanation:\nDuring training, k-means partitions observations into k clusters. During inference, it assigns a given data point to the nearest cluster by distance. k-means is unsupervised, because it doesn't require labeled data to be trained."
+    },
+    {
+        "front": "<b>Q98. Averaging the output of multiple decision trees helps to::</b>\n- Increase variance\n- Increase bias\n- Decrease variance\n- Decrease bias",
+        "back": "Decrease variance\n\n**Explanation**: Averaging models leads to higher stability and a lower variance than individual models. Mathematically, remember that $\\text{Var}(\\bar{X})=\\frac{\\text{Var}(X)}{N}$"
+    },
+    {
+        "front": "<b>Q99. To optimize your objective function, you are performing full batch gradient descent using the entire training set (not stochastic gradient descent). Is it required to shuffle your training set?</b>\n- Yes. If you don't, the optimization will oscillate around the minimum at the end of training.\n- Yes, in order to help the model generalize to the test dataset.\n- No, it is not necessary because the dataset can already be considered shuffled from the data collection process.\n- No, because each update passes through the entire dataset anyway and the order doesn't matter.",
+        "back": "No, because each update passes through the entire dataset anyway and the order doesn't matter.\n\n**Explanation**: At every iteration, full batch gradient descent uses the entire training set to compute a gradient. The order in which data is processed doesn't impact the gradient value.\nAt every iteration, full batch gradient descent uses the entire training set to compute a gradient. The order in which data is processed doesn't impact the gradient value."
+    },
+    {
+        "front": "<b>Q100. You've received 1,000,000 images and have split it in 96%/2%/2% between train, dev and test sets. You've trained your model, and analyzed the results. After working further on the problem, you\u2019ve decided to correct the incorrectly labeled data on the dev set.</b>\nWhich of these statements do you agree with?\n- You should also correct the incorrectly labeled data in the test set, so that the dev and test sets still come from the same distribution.\n- You should correct incorrectly labeled data in the training set as well so as to avoid your training set now being even more different from your dev set.\n- You should not correct the incorrectly labeled data in the test set, because the test set should reflect the data distribution of the real world.\n- If you want to correct incorrectly labeled data, you should do it on all three sets (train/dev/test) in order to maintain similar distributions.",
+        "back": "You should also correct the incorrectly labeled data in the test set, so that the dev and test sets still come from the same distribution.\n\n**Explanation**: It is important that your dev and test set have the closest possible distribution to \"real\" data."
+    },
+    {
+        "front": "<b>Q101. You're working on a binary classification task, to classify if an image contains a cat (\"1\") or doesn't contain a cat (\"0\"). What loss would you choose to minimize in order to train a model?</b>\n- L = y log y^ + (1\u2212y) log (1\u2212 y^)\n- L = - y log y^ - (1\u2212y) log (1\u2212 y^)\n- L = || y - y^ ||22\n- L = || y - y^ ||22 + constant",
+        "back": "L = - y log y^ - (1\u2212y) log (1\u2212 y^)\n\n**Explanation**: You are trying to minimize the binary cross entropy loss over the training set.."
+    },
+    {
+        "front": "<b>Q102. You want to create a machine learning algorithm that finds the top 100 people who have shared photographs of themselves on social media. What is the best machine learning method to use?</b>\n- reinforcement learning\n- binary classification\n- K-nearest neighbor\n- unsupervised learning",
+        "back": "binary classification"
+    },
+    {
+        "front": "<b>Q103. The famous data scientist Andrew Ng has been quoted as saying, \"Applied machine learning is basically feature engineering.\" What is feature engineering?</b>\n- scraping new features from web data\n- creating new variables by combining and modifying the original variables\n- designing innovative new user features to add to software\n- using deep learning to find features in the data",
+        "back": "creating new variables by combining and modifying the original variables"
+    },
+    {
+        "front": "<b>Q104. In the context of calculus, what is df/dx?</b>\n- the prediction function\n- the derivative of f of x\n- the derivative of x\n- equivalent to f divided by x",
+        "back": "the derivative of f of x"
+    },
+    {
+        "front": "<b>Q105. What is a well-designed/well-fitted model?</b>\n- one that has been trained and tested with the same data\n- one that has a high degree of accuracy and is able to accurately predict results\n- one that has been trained with labeled training data\n- one that has been trained with an exhaustive set of all conditions and permutations in the training data",
+        "back": "one that has a high degree of accuracy and is able to accurately predict results"
+    },
+    {
+        "front": "<b>Q106. **\\_**-based collaborative filtering occurs when a person is recommended an item similar to an item they have purchased.</b>\n- History\n- Item\n- Similarity\n- Purchase",
+        "back": "Item"
+    },
+    {
+        "front": "<b>Q107. Fill in the blanks: Two multivariate imputer techniques are the **\\_** imputer and the **\\_** imputer.</b>\n- supervised, unsupervised\n- iterative, KNN\n- similarity, regressive\n- normalized, scaled",
+        "back": "iterative, KNN"
+    },
+    {
+        "front": "<b>Q108. You are working on a regression model using the Keras library. What method on the Model class do you use to train the model?</b>\n- predict\n- compile\n- fit\n- get_weights",
+        "back": "fit"
+    },
+    {
+        "front": "<b>Q109. What is the goal of regularization in the K nearest neighbors algorithm?</b>\n- normalizing the data points so they can be compared with each other\n- using a straight line model to make predictions based on training data\n- finding the slope of the line that represents the model\n- making the decision boundaries more regular",
+        "back": "making the decision boundaries more regular"
+    },
+    {
+        "front": "<b>Q110. If there is no trend between two variables x and y, we say that there is a **\\_** connection between x and y.</b>\n- linear\n- exponential\n- non-random\n- random",
+        "back": "random"
+    },
+    {
+        "front": "<b>Q111. If you are thinking about using machine learning algorithms, the best thing you can do today is to ensure you have quality **\\_**.</b>\n- data\n- processors\n- networking\n- statistical techniques",
+        "back": "data\n\n**Explanation**: \"Ensuring you have good data quality prior to running machine learning algorithms is a crucial step within the overall data science and machine learning workflow.\" [Source](https://towardsdatascience.com/data-quality-considerations-for-machine-learning-models-dcbe9cab34cb)"
+    },
+    {
+        "front": "<b>Q112. Your organization's chief diversity officer is concerned that your engineering department lacks racial and gender diversity. You are asked to create a supervised machine learning system to help sort through hundreds of thousands of new employment applications. The human resources department insists on using internal hiring data. What are some of the dangers that you might run into?</b>\n- There will be too much data for your artificial neural network to process efficiently.\n- Machine learning systems cannot define diversity, so there is no way to use one to improve hiring.\n- Machine learning systems cannot be used with this type of data.\n- If the system uses internal data, then it may amplify any existing bias in hiring.",
+        "back": "If the system uses internal data, then it may amplify any existing bias in hiring.\n\n**Explanation**: \"If an AI is trained on a biased data set, it will naturally make biased decisions which can give calamitous results.\" [Source](https://www.linkedin.com/pulse/reducing-bias-ai-diversity-inclusion-shashwat-siddhant/)"
+    },
+    {
+        "front": "<b>Q113. In 2013, Google\u00b4s DeepMind project created a machine learning algorithm that could play an old-style Atari video game, Pong. The algorithm taught the machine how to play by creating a series of rewards. Each time the machine successfully returned the ball, the machine got a reward; each time the opponent missed the ball, the machine got a reward. How would you describe this type of machine learning algorithm?</b>\n- big data machine learning.\n- Good Old-Fashioned Artificial Intelligence (GOFAI).\n- reinforcement learning.\n- supervised learning.",
+        "back": "reinforcement learning.\n\n**Explanation**: Reinforcement learning is the branch of machine learning where the algorithm interacts with the enviroment and get rewards or penalizations [Source](https://www.deepmind.com/publications/playing-atari-with-deep-reinforcement-learning)"
+    },
+    {
+        "front": "<b>Q114. An organization that owns dozens of shopping malls want to create a machine learning product that will use facial recognition to identify customers. What is one of the main challenges with developing such a product?</b>\n- The images in the video would not be high-quality enough to identify individuals.\n- It would be difficult to decide between supervised and unsupervised learning.\n- It might be unethical for the business to identify people without their consent.\n- Most machine learning algorithms are not designed for video.",
+        "back": "It might be unethical for the business to identify people without their consent.\n\n**Explanation**: there are many ethical questions about consent and privacy in machine learning algorithms [Source](https://www.nature.com/articles/d41586-020-03187-3)"
+    }
+]

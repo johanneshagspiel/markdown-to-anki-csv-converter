@@ -1,0 +1,246 @@
+[
+    {
+        "front": "<b>Q1. Which two sets of values are printed by this function and sub?</b>\n```vb\nFunction GetVitals(ID As Long, Age As Long, Optional Weight As Long) As String\n    GetVitals=\"ID=\" & ID &\"Age=\" & Age & \"Weight=\" & Weight\nEnd Function\nSub ShowVitals()\n    Dim ID As Long, Age As Long,Weight as Long\n    Debug.Print GetVitals(ID:=5,Age:=20)\n    Debug.Print GetVitals(ID:=6,Age:=25,Weight:=130)\nEnd Sub\n```\n- :\n```\nID=5 Age = 20 Weight=\nID=6 Age = 25 Weight=130\n```\n- :\n```\nID=5 Age = 20 Weight=0\nID=6 Age = 25 Weight=130\n```\n- :\n```\nID=5 Age = 20 Weight=Null\nID=6 Age = 25 Weight=130\n```\n- :\n```\nID=5 Age = 20\nID=6 Age = 25 Weight=130\n```",
+        "back": ":\n```\nID=5 Age = 20 Weight=0\nID=6 Age = 25 Weight=130\n```"
+    },
+    {
+        "front": "<b>Q2. This code shows the first statement of CalledSub. Which calling statement will work properly?</b>\n`Sub CalledSub(Surname, Age)`\n- call Calledsub \"smith\",26\n- calledsub (surname=\"smith\", Age = 26)\n- calledsub (Surname:=\"Smith\", Age:=26)\n- calledsub \"smith\", 26",
+        "back": "calledsub \"smith\", 26"
+    },
+    {
+        "front": "<b>Q3. What is the principal difference between a class and an object?</b>\n- There is no meaningful difference. The terms are used interchangeably.\n- A class declares an object's properties. An object completes the declaration by defining events and methods.\n- An object is a template for a class.\n- A class describes the design of an object. An object is an instance of that design.",
+        "back": "A class describes the design of an object. An object is an instance of that design."
+    },
+    {
+        "front": "<b>Q4. What value does the MsgBox statement display?</b>\n```vb\nSub MySub(VarA As Long, ParamArray VarB() As Variant)\nMsgBox VarB(0)\nEnd Sub\nSub ShowValue()\nCall MySub(10, \"First arg\", 2, 3.1416)\nEnd Sub\n```\n- 2\n- 10\n- First arg\n- 3.1416",
+        "back": "First arg"
+    },
+    {
+        "front": "<b>Q5. What object is needed to put a userform module in a VBA project?</b>\n- associated standard code module\n- UserForm\n- associated class module\n- userForm class",
+        "back": ""
+    },
+    {
+        "front": "<b>Q6. What is the output?</b>\n```vb\nSub UseSum()\nDim TestArray() As Integer, Total As Integer\nReDim TestArray(1)\nTestArray(1) = 6\nReDim TestArray(2)\nTestArray(2) = 3\nTotal = WorksheetFunction.Sum(TestArray)\nEnd Sub\n```\n- 3\n- 0\n- 9\n- 6",
+        "back": "3"
+    },
+    {
+        "front": "<b>Q7. The Driver subroutine is declared by Sub Driver (Y). Which statement results in a compile error?</b>\n- Driver x\n- call Driver(x)\n- call Driver x\n- Driver (X)",
+        "back": ""
+    },
+    {
+        "front": "<b>Q8. You have several variables to display on a user form, and there are too many variables to display at once. Which control best enables the user to see all the variables?</b>\n- Frame\n- multipage\n- TabStrip\n- ListBox",
+        "back": "ListBox"
+    },
+    {
+        "front": "<b>Q9. Below is a function named SquareIt. Which version of the subroutine named Area results in a compile error?</b>\n```vb\nFunction SquareIt(ByRef Basis As Integer) As Long\nSquareIt = Basis ^ 2\nEnd Function\n```\n- sub Area()\n```vb\nDim Result As Long, Side As Integer\nSide = 5\nResult = Squarelt(Side)\nEnd Sub\n```\n- Sub Area()\n```vb\nDim Result As Long, Side\nSide = 5\nResult = SquareIt(Cint(Side))\nEnd Sub\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q10. EmailAddress() is an array. It is declared by Dim EmailAddress(10) As String, and option Base 1 is in effect. How many rows and columns are in EmailAddress()?</b>\n- 10 rows and 10 columns\n- 10 rows and 1 column\n- 10 rows and 0 columns\n- 1 row and 10 columns",
+        "back": "10 rows and 1 column"
+    },
+    {
+        "front": "<b>Q11. Which cell is selected if you run this code?</b>\n`Range(\"E3:312\").Range(\"B3\").Select`\n- F5\n- F3\n- B3\n- E3",
+        "back": "F3"
+    },
+    {
+        "front": "<b>Q12. Which variable name is valid in VBA?</b>\n- `_MyVar`\n- `My_Var`\n- `My-Var`\n- `1MyVar`",
+        "back": "`My_Var`\n\n[Reference link](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/visual-basic-naming-rules)\n`Use the following rules when you name procedures, constants, variables, and arguments in a Visual Basic module: You must use a letter as the first character. You can't use a space, period (.), exclamation mark (!), or the characters @, &, $, # in the name. Name can't exceed 255 characters in length.`"
+    },
+    {
+        "front": "<b>Q13. Which is a valid definition of a user-defined data type?</b>\n- :\n```vb\nType CBC\nName As String\nNext As String\nEnd Type\n```\n- :\n```vb\nType CBC\nName As String\n_Next As String\nEnd Type\n```\n- :\n```vb\nType CBC\nName As String\n@Option As String\nEnd Type\n```\n- :\n```vb\nType CBC\nName As String\n%For As String\nEnd Type\n```",
+        "back": ":\n```vb\nType CBC\nName As String\nNext As String\nEnd Type\n```"
+    },
+    {
+        "front": "<b>Q14. What is one way to duplicate a user form from one project into a different project?</b>\n- :\n1. Save and close the project with the existing user form.\n2. Click Insert > File.\n3. Browse to the location of the existing project.\n4. Right-click it and select the user-form you want to duplicate.\n- :\n1. Open the existing user form in Desing Mode.\n2. Right-click the form and select Copy.\n3. Switch to the other project.\n4. Right-click Module and select Paste.\n- :\n1. In the Project Explorer, right-click the user form and select Copy.\n2. Switch to the new project.\n3. Right-click UserForms and select Paste.\n- :\n1. Open the existing user form in Design Mode.\n2. Click File > Export File.\n3. Switch to the other project.\n4. Click File > Import File.",
+        "back": ":\n1. Open the existing user form in Design Mode.\n2. Click File > Export File.\n3. Switch to the other project.\n4. Click File > Import File."
+    },
+    {
+        "front": "<b>Q15. The recording of a macro in Word is likely to be an incomplete record of the user's actions. Why?</b>\n- Word's Macro Recorder does not record actions initiated by keyboard shortcuts.\n- Word's Macro Recorder does not support Find & Replace edits.\n- Word's Macro Recorder does not record actions initiated by clicking a button on the Ribbon's Developer tab.\n- Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer.",
+        "back": "Word's Macro Recorder does not record actions that inlove selection of text by pointing with the mouse pointer."
+    },
+    {
+        "front": "<b>Q16. Which statement should precede a subroutine's error handler?</b>\n- End\n- Return\n- Exit Sub\n- Stop",
+        "back": "Exit Sub"
+    },
+    {
+        "front": "<b>Q17. How many values can MyArray hold?</b>\n```\nOption Base 0\nSub BuildArray()\nDim MyArray(5) As Integer\n```\n- 0\n- 32,769\n- 5\n- 6",
+        "back": "6"
+    },
+    {
+        "front": "<b>Q18. Which statement is true?</b>\n- Set establishes a value in a class; Let returns a value from a class.\n- Let establishes a value in a class; Set returns a value from a class.\n- Let establishes a value in a class; Get returns a value from a class.\n- Get establishes a value in a class; Set returns a value from a class.",
+        "back": "Let establishes a value in a class; Get returns a value from a class."
+    },
+    {
+        "front": "<b>Q19. A declaration has scope, which has three levels. What are they?</b>\n- Module, Project and Automation\n- Procedure, Private Module and Public Module\n- Subroutine, Module and Project\n- Procedure, Project and Global",
+        "back": "Procedure, Private Module and Public Module"
+    },
+    {
+        "front": "<b>Q20. There are two references that must be selected in the Visual Basic Editor in order for any Visual Basic code to run in Excel. What are these two references?</b>\n- MS Excel object library and MS Office object library\n- VBA and MS Office object library\n- VBA and Excel object library\n- MS Excel object library and OLE automation",
+        "back": "VBA and Excel object library"
+    },
+    {
+        "front": "<b>Q21. Which action will cause your project to reset its variables?</b>\n- Edit the list of arguments of the current routine while in debug mode.\n- Click End in a run-time error dialog.\n- Add an ActiveXcontrol to a worksheet.\n- all of these answers",
+        "back": "Click End in a run-time error dialog."
+    },
+    {
+        "front": "<b>Q22. Which keyboard shortcut causes VBE to locate the declaration of a procedure?</b>\n- Shift+F3\n- Alt+F (Windows) or Option+F (Mac)\n- Shift+F2\n- Ctrl+F (Windows) or Command+F (Mac)",
+        "back": "Shift+F2"
+    },
+    {
+        "front": "<b>Q23. When you define a new class of object, where do you assign a name to it?</b>\n- in the class module's name\n- in the class module's code\n- in a standard module's code\n- in a standard module's Properties",
+        "back": "in a standard module's Properties"
+    },
+    {
+        "front": "<b>Q24. How does a class module indicate that it uses a particular interface?</b>\n- The interface itself is part of the class module.\n- by means of the Interface keyword and the name of the interface\n- by means of the Implements keyword and the name of the interface\n- The name of the interface is passed as a parameter.",
+        "back": "The name of the interface is passed as a parameter."
+    },
+    {
+        "front": "<b>Q25. What is needed for the contents of Module1 to be available to other modules in a VBA project, but not to any other VBA project?</b>\n- Set Option Global at the top of Module1\n- Declare module-level variables as Private\n- Set Module Level Scope at the top of Module1\n- Set Option Private Module at the top of Module1",
+        "back": "Set Option Private Module at the top of Module1"
+    },
+    {
+        "front": "<b>Q26. When used with an array named MyArray, what is the preferred way to set beginning and ending values of a loop control variable?</b>\n- For i = 0 To UBound(MyArray,1)\n- For i = 1 To UBound(MyArray,1)\n- For i = LBound(MyArray,1) To UBound(MyArray,1)\n- It depends on whether Option Base 0 or Option Base 1 is in use.",
+        "back": "For i = LBound(MyArray,1) To UBound(MyArray,1)"
+    },
+    {
+        "front": "<b>Q27. What is the value of Test3?</b>\n```vb\nEnum TestEnum\n    Test1\n    Test2\n    Test3\nEnd Enum\n```\n- 0\n- 1\n- 3\n- 2",
+        "back": "2"
+    },
+    {
+        "front": "<b>Q28. Which statement declares an array?</b>\n- Dim MyArray() As Integer\n- Dim MyArray() As Array\n- Dim MyArray As Integer\n- Dim MyArray As Array",
+        "back": "Dim MyArray() As Integer\n\n[reference](https://docs.microsoft.com/en-us/office/vba/language/concepts/getting-started/declaring-arrays)"
+    },
+    {
+        "front": "<b>Q29. To use VBA code to maintain a different VBA project, you can make use of VBA's extensibility. What is needed to enable extensibility?</b>\n- Set Macro Security to Trust Access to the VBA Project Object Model\n- The project's workbook should be protected in the Ribbon's Review tab\n- Include a reference to Microsoft VBA Extensibility 5.3\n- Include a reference to Microsoft VBA Extensibility 5.3 and set Macro Security to Trust Access to the VBA Project Object Model",
+        "back": "Include a reference to Microsoft VBA Extensibility 5.3"
+    },
+    {
+        "front": "<b>Q30. How do you add a user form to a VBA project?</b>\n- :\n1. Select the project in the Project window of the Visual Basic Editor\n2. Click the Design Mode button and select Insert Mode\n- :\n1. Select the project in the Project window of the Visual Basic Editor\n2. Click the Toolbox button and select UserForm\n- :\n1. Select the project in the Project window of the Visual Basic Editor\n2. Right-click the Run menu and select Customize\n- :\n1. Select the project in the Project window of the Visual Basic Editor\n2. Click Insert > UserForm",
+        "back": ":\n1. Select the project in the Project window of the Visual Basic Editor\n2. Click Insert > UserForm"
+    },
+    {
+        "front": "<b>Q31. Explicit variable declaration is required. MyVar is declared at both the module and the procedure level. What is the value of MyVar after first AAA() and then BBB() are run?</b>\n```vb\nDim MyVar As String\nSub AAA()\nDim MyVar As String\nMyVar = \"Procedure AAA Scope\"\nEnd Sub\nSub BBB()\nMyVar = \"Procedure BBB Scope\"\nEnd Sub\n```\n- MyVar equals \"Procedure AAA Scope\"\n- ISNULL(MyVar) is TRUE\n- MyVar equals \"Procedure BBB Scope\"\n- MyVar is NULL",
+        "back": "MyVar equals \"Procedure BBB Scope\""
+    },
+    {
+        "front": "<b>Q32. Which code block from class modules returns a compile error?</b>\n- :\n```vb\nPublic Property Get HDL() As Double\nHDL = pHDL\nEnd Property\nPublic Property Let HDL(Value As Double)\npHDL = Value\nEnd Property\n```\n- :\n```vb\nProperty Get HDL() As Double\nHDL = Value\nEnd Property\nProperty Let HDL(Value As Double)\npHDL = Value\nEnd Property\n```\n- :\n```vb\nPublic Property Get HDL() As Double\nHDL = Value\nEnd Property\nPublic Property Let HDL(Value As Double)\npHDL = Value\nEnd Property\n```\n- :\n```vb\nPublic Property Get HDL() As Single\nHDL = pHDL\nEnd Property\nPublic Property Let HDL(Value As Double)\npHDL = Value\nEnd Property\n```",
+        "back": ":\n```vb\nPublic Property Get HDL() As Single\nHDL = pHDL\nEnd Property\nPublic Property Let HDL(Value As Double)\npHDL = Value\nEnd Property\n```"
+    },
+    {
+        "front": "<b>Q33. If VBA code declares FileCount as a constant rather than a variable, the code tends to run faster. Why is this?</b>\n- The scope of constants is limited to the procedure that declares them\n- Constants are declared at compile time, but variables are declared at run time\n- Once declared in a project, the value of a constant cannot be changed. There is no need to look up the current value of FileCount when it is a constant.\n- The Const declaraton specifies the most efficient type given the constant's value",
+        "back": "The Const declaraton specifies the most efficient type given the constant's value"
+    },
+    {
+        "front": "<b>Q34. A VBA project must declare four classes. How many class modules are needed?</b>\n- two (one for the properties and one for the methods)\n- one (each class is declared in the same module)\n- four (one for each class)\n- as many as are required by the variable types that the objects return",
+        "back": "as many as are required by the variable types that the objects return"
+    },
+    {
+        "front": "<b>Q35. What does this code display?</b>\n```vb\nSub MakeErrors()\nDim Y As Variant, Z As Variant\nOn Error Resume Next\nY = 1 / 0\nMsgBox \"Y = \" & Y\nOn Error GoTo 0\nZ - (0 - 3) ^ 0.5\nMsgBox \"Z = \" & Z\nEnd Sub\n```\n- an error message\n- Y and Z\n- Z = in a message box and then a subsequent error message\n- Y = in a message box and then a subsequent error message",
+        "back": "Z = in a message box and then a subsequent error message"
+    },
+    {
+        "front": "<b>Q36. The VBA code block shown in the following four options runs when UserForm1's CommandButton1 button is clicked. Which block of code leaves UserForm1 loaded but not visible until the FoundErrors function has checked it, and then enables processing to continue if no errors are found?</b>\n- :\n```vb\nPrivate Sub CommandButton1_Click()\nIf FoundErrors(Me) Then _\nMe.Show\nEnd Sub\n```\n- :\n```vb\nPrivate Sub CommandButton1_Click()\nIf Not FoundErrors(UserForm1) Then _\nUnload UserForm1\nEnd Sub\n```\n- :\n```vb\nPrivate Sub CommandButton1_Click()\nMe.Hide\nDo While FoundErrors(Me)\nMe.Show\nLoop\nEnd Sub\n```\n- :\n```vb\nPrivate Sub CommandButton1_Click()\nDo While FoundErrors(UserForm1)\nUserForm1.show\nLoop\nEnd Sub\n```\n> The first requirement is to make UserForm1 loaded but not visible, therefore we need Me.Hide, **Me** in here referring to UserForm1",
+        "back": ":\n```vb\nPrivate Sub CommandButton1_Click()\nMe.Hide\nDo While FoundErrors(Me)\nMe.Show\nLoop\nEnd Sub\n```"
+    },
+    {
+        "front": "<b>Q37. Which is the correct way to structure a With block?</b>\n- :\n```vb\nWith Selection\n&TypeText Text:=\"8/24/2019\"\n&TypeParagraph\n&TypeText Text:=\"1161 Alamosa Drive\"\nEnd With\n```\n- :\n```vb\nWith Selection\n.TypeText Text:=\"8/24/2019\"\n.TypeParagraph\n.TypeText Text:=\"1161 Alamosa Drive\"\nEnd With\n```\n- :\n```vb\nWith Selection\nTypeText Text:=\"8/24/2019\"\nTypeParagraph\nTypeText Text:=\"1161 Alamosa Drive\"\nEnd With\n```\n- :\n```vb\nWith Selection:\n&TypeText Text:=\"8/24/2019\"\n&TypeParagraph\n&TypeText Text:=\"1161 Alamosa Drive\"\nEnd With\n```",
+        "back": ":\n```vb\nWith Selection\n.TypeText Text:=\"8/24/2019\"\n.TypeParagraph\n.TypeText Text:=\"1161 Alamosa Drive\"\nEnd With\n```\n\n[reference](https://docs.microsoft.com/en-us/office/vba/language/reference/user-interface-help/with-statement)"
+    },
+    {
+        "front": "<b>Q38. Why does this code generate a \"Subscript out of range\" error?</b>\n```vb\nSub Example()\n    Dim MyArr() As Variant\n    ReDim MyArr(3, 4)\n    'some code\n    ReDim Preserve MyArr(4, 4)\nEnd Sub\n```\n- Arrays cannot be resized more than once.\n- MyArr was originally declared with three \"rows\".\n- You can resize only the last dimension of an array when you specify `ReDim Preserve`.\n- The correct syntax is `ReDim Preserve MyArr(0 To 4, 0 To 4)`.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q39. Which subroutine declaration does not cause a compile error?</b>\n- `Sub Called(Salary As Long, ParamArray Vals() As Variant)`\n- `Sub Called(ParamArray Vals() As Variant, Salary As Long)`\n- `Sub Called(Optional Salary As Long, ParamArray Vals() As Variant)`\n- `Sub Called(Salary As Long, ParamArray Vals() As String)`",
+        "back": ""
+    },
+    {
+        "front": "<b>Q40. How can a user enter data on a worksheet or document, or switch windows, while UserForm1 is displayed on the screen?</b>\n- Show the form with this statement: `UserForm1.Show vbModal`\n- Include this statement in the code: `UserForm1.Hwnd = False.`\n- Set the user from's `SpecialEffect` property to `frmShowModal`\n- Set the user from's `ShowModal` property to False.",
+        "back": ""
+    },
+    {
+        "front": "<b>Q41. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?</b>\n- Declare SubB as Sub SubB(ByRef MyVar).\n- Declare SubB as Sub SubB(MyVar).\n- Declare SubB as Sub SubB(Static MyVar).\n- Declare SubB as Sub SubB(ByVal MyVar).",
+        "back": "Declare SubB as Sub SubB(ByVal MyVar)."
+    },
+    {
+        "front": "<b>Q42. Which procedure declaration is syntactically correct?</b>\n- :\n```vb\nSub MySub(VarA As String, Optional VarB _\nAs Variant, Optional VarC As Long)\n```\n- :\n```vb\nSub MySub(VarA As String, Optional VarB _\nAs Variant, VarC As Long)\n```\n- :\n```vb\nSub MySub(Optional VarA As String, Optional VarB _\nAs Variant, VarC as Long)\n```\n- :\n```vb\nSub MySub(OPtional VarA As String, VarB _\nAs Variant, Optional VarC as Long)\n```",
+        "back": ""
+    },
+    {
+        "front": "<b>Q43. What are the two principal kinds of procedure in VBA?</b>\n- Function and Event\n- Function and Scope\n- Subroutine and Event\n- Subroutine and Function",
+        "back": "Function and Event"
+    },
+    {
+        "front": "<b>Q44. Which code block compiles without error?</b>\n- `Sub Decs() Dim MyFixed As String * 0 MyFixed = \"A\" MsgBox MyFixed End Sub`\n- `Sub Decs() Dim MyInt% * 1 MyInt = 7 MsgBox MyInt End Sub`\n- `Sub Decs() Dim MyInt% As Integer * 1 MyInt = 5 MsgBox MyInt End Sub`\n- `Sub Decs() Dim MyInt, MyNum As Integer MyInt = \"A\" MsgBox MyInt End Sub`",
+        "back": ""
+    },
+    {
+        "front": "<b>Q45. What is used in the Immediate window to display the current value of the variable CountValues?</b>\n- `= CountValues= CountValues`\n- `| CountValues| CountValues`\n- `: CountValues: CountValues`\n- `? CountValues? CountValues`",
+        "back": "`? CountValues? CountValues`"
+    },
+    {
+        "front": "<b>Q46. At which level can you declare a variable in this way: Private TopSecret As String?</b>\n- function\n- module\n- subroutine\n- procedure",
+        "back": ""
+    },
+    {
+        "front": "<b>Q47. How can a user enter data on a worksheet or document, or switch windows, while UserForm1 is displayed on the screen?</b>\n- Show the form with this statement: UserForm1.Show vbModal.\n- Set the user form's SpecialEffect property to frmShowModal.\n- Include this statement in the code: `UserForm1.Hwnd = False.`\n- Set the user form's ShowModal property to False.",
+        "back": "Set the user form's ShowModal property to False."
+    },
+    {
+        "front": "<b>Q48. SubA passes MyVar to SubB. How can you ensure that MyVar has its original value when control returns to SubA?</b>\n- Declare SubB as Sub SubB(Static MyVar).\n- Declare SubB as Sub SubB(ByVal MyVar).\n- Declare SubB as Sub SubB(MyVar).\n- Declare SubB as Sub SubB(ByRef MyVar).",
+        "back": ""
+    },
+    {
+        "front": "<b>Q49. Arrays cannot be resized more than once.</b>\n```vb\nSub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim Preserve MyArr(4, 4)\nEnd Sub Sub Example() Dim MyArr() As Variant ReDim MyArr(3, 4) 'some code ReDim Preserve MyArr(4, 4) End Sub\n```\n- The correct syntax is ReDim Preserve MyArr(0 To 4, 0 To 4).\n- You can resize only the last dimension of an array when you specify ReDim Preserve.\n- MyArr was originally declared with three \"rows.\"\n- Declare SubB as Sub SubB(ByRef MyVar).",
+        "back": ""
+    },
+    {
+        "front": "<b>Q50. Which block of code ends with the variable i equal to 5 and the variable X equal to 10?</b>\n- :\n```vb\nDo\nX = X + 1\ni = i + 1\nLoop Until i < 5\nEnd Sub\n```\n- :\n```vb\nSub Loopi()\nDim X As Integer, i As Integer\nFor i = 1 To 5\nX = X + 1\nNext I\nEnd Sub\n```\n- :\n```vb\nSub Loopi()\nDim X As Integer, i As Integer\nDo Until i < 5\nX = X + 1\ni = i + 1\nLoop\nEnd Sub\n```\n- :\n```vb\nSub Loopi()\nDim X As Integer, i As Integer\nDo\nX = X + 1\ni = i + 1\nLoop While i < 5\nEnd Sub\n```",
+        "back": ":\n```vb\nSub Loopi()\nDim X As Integer, i As Integer\nDo Until i < 5\nX = X + 1\ni = i + 1\nLoop\nEnd Sub\n```"
+    },
+    {
+        "front": "<b>Q51. How does a class module indicate that it uses a particular interface?</b>\n- by means of the _Implemets_ keyword and the name of interface.\n- bymeans of the _Interface_ keyword and the name of the interface.\n- The name of the interface is passed as a parameter.\n- The interface itself is part of the class module.",
+        "back": "by means of the _Implemets_ keyword and the name of interface."
+    },
+    {
+        "front": "<b>Q52. Which part of the VBE can help you explore VBA syntax?</b>\n- Locals windows\n- object browser\n- project explorer\n- optional dialog",
+        "back": "project explorer"
+    },
+    {
+        "front": "<b>Q53. This code is trying to establish a new collection consisting of employee names and numbers. Assoc is a class. What statement is missing from the code?</b>\n```vb\nDim Associates As Collection, Assoc As CAssoc, i As Byte\nFor i = 1 To 200\n    Set Assoc = New CAssoc\n    Assoc.Name = Cells(i,1)\n    Assoc.Number = Cells(i,2)\n    Associates.Add Assoc\nNext i\n```\n- `Set Associates = New Collection`\n- `Set Associates = Collection`\n- `Redim(Associates(Associates.Count+1))`\n- `Redim(Associates _ (Unbound(Associates)+1))`",
+        "back": "`Set Associates = New Collection`"
+    },
+    {
+        "front": "<b>Q54. What is the standard term for a variable or value that is passed from one subroutine or function to another?</b>\n- reference\n- element\n- argument\n- attribute",
+        "back": "argument"
+    },
+    {
+        "front": "<b>Q55. What is the standard term for a variable or value that is passed from one subroutine or function to another?</b>\n- reference\n- element\n- argument\n- attribute",
+        "back": "argument"
+    },
+    {
+        "front": "<b>Q56. Where is the event procedure named Worksheet_Change found?</b>\n- in any standard code module\n- in the worksheet's object module\n- in the Worksheet_Change class module\n- in the workbook's code module",
+        "back": "in the workbook's code module"
+    },
+    {
+        "front": "<b>Q57. You are building an event procedure for a worksheet, and you edit the argument list in the event procedure's Sub statement. What happens when the event procedure runs?</b>\n- There's no difference compared to the results of a standard procedure.\n- The results are unpredictable.\n- The procedure won't compile.\n- The procedure throws a run-time error.",
+        "back": "The procedure won't compile."
+    },
+    {
+        "front": "<b>Q58. Based on this code, which procedure calls the subroutine SumCosts correctly?</b>\n```vb\nSub Sumosts(AcctName As String, Amount As Long)\n    Range(\"A1\") = AcctName\nEnd Sub\n```\n- call SumCosts \"Totalcosts\", 3\n- SumCosts \"Totalcosts\", 3\n- SumCosts(\"Totalcosts\", 3)\n- Call SumCosts\n[Source](https://learn.microsoft.com/en-us/office/vba/language/concepts/getting-started/calling-sub-and-function-procedures)",
+        "back": "SumCosts(\"Totalcosts\", 3)"
+    },
+    {
+        "front": "<b>Q59. You want to declare an object that describes cars, so that your VBA code can apply tests such as the following. What keyword do you use to declare Cars?</b>\n```vb\nIf Cars(1).Make=\"Ford\" And Cars (1).MPG > 20\n    Then Cars(1).Selected = True\n```\n- Dataframe\n- Type\n- object\n- Variant",
+        "back": "Type"
+    },
+    {
+        "front": "<b>Q60. What is the purpose of the .Range(\"A1:E5\").Select portion of this statement?</b>\n```vb\nActiveCell.Offset(3,4).Range(\"A1:E5\").Select\n```\n- If specifies the range that is to be selected after the offset is found\n- it specifies the range of cells in which the contents of the offset are to be written\n- It provides Resize information - in this case, the offset returns a reference of five rows and five columns\n- It specifies the range of cells at which the offset is to be based",
+        "back": "it specifies the range of cells in which the contents of the offset are to be written"
+    },
+    {
+        "front": "<b>Q61. In Excel, what is the effect of the two statements below?</b>\n```vb\nRange(\"b3:f5, c4:d9\").Select\n    \tRange(\"b3:f5\", \"c4:d9\").Select\n```\n- If specifies the range that is to be selected after the offset is found\n- it specifies the range of cells in which the contents of the offset are to be written\n- It provides Resize information - in this case, the offset returns a reference of five rows and five columns\n- It specifies the range of cells at which the offset is to be based",
+        "back": "it specifies the range of cells in which the contents of the offset are to be written"
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "front": "<b>Q1. Which types of indexes are available in CosmosDB?</b>\n- range and spatial\n- secondary and primary key\n- secondary and spatial\n- range and primary key",
+        "back": "range and spatial"
+    },
+    {
+        "front": "<b>Q2. You want to connect a DynamoDB stream to AWS Lambda function. Which one of these object do you create?</b>\n- DynamoDB table\n- DynamoDB trigger\n- DynamoDB item\n- DynamoDB index",
+        "back": "DynamoDB trigger"
+    },
+    {
+        "front": "<b>Q3. To index a field that holds an array value in MongoDB, which index type do you create?</b>\n- partial\n- sparse\n- compound\n- multikey",
+        "back": "multikey"
+    },
+    {
+        "front": "<b>Q4. You want to test HBASE on your laptop using the fewest number of steps. What do you do?</b>\n- Set up Hadoop in pseudo-distributed mode.\n- Set up HBASE in local mode.\n- Set up HBASE in pseudo-distributed mode.\n- Set up Hadoop in local mode.",
+        "back": "Set up HBASE in local mode."
+    },
+    {
+        "front": "<b>Q5. You need to create a document database that supports database triggers. Which NoSQL database should you use?</b>\n- DynamoDB\n- BigTable\n- Redis\n- MongoDB",
+        "back": "DynamoDB"
+    },
+    {
+        "front": "<b>Q6. What is recommended size for Redis keys?</b>\n- medium\n- short\n- single bit\n- long",
+        "back": "short"
+    },
+    {
+        "front": "<b>Q7. What does Redis use to sort the elements of a sorted set?</b>\n- Scores\n- Ids\n- Values\n- Keys",
+        "back": "Scores"
+    },
+    {
+        "front": "<b>Q8. You need to change the shard key of an existing MongoDB collection. What do you do?</b>\n- Dump the collection data, drop the collection, create a new collection and shard key, import the data.\n- Add second shard key and drop the first shard key.\n- Dump the collection data, drop the collection, presplit the data, create a new collection and shard key, import the data.\n- Drop and recreate the shard key.",
+        "back": "Dump the collection data, drop the collection, presplit the data, create a new collection and shard key, import the data."
+    },
+    {
+        "front": "<b>Q9. Polyglot storage means using multiple types of what in the same application?</b>\n- Security systems\n- Database systems\n- Storage systems\n- Query systems",
+        "back": "Storage systems"
+    },
+    {
+        "front": "<b>Q10. You need to implement the simplest possible scalable, in-memory cache for your AWS application. Which service do you select?</b>\n- Elasticache using Memcached.\n- DynamoDB.\n- DynamoDB Accelerator (DAX).\n- Elasticache using Redis.",
+        "back": "Elasticache using Redis."
+    },
+    {
+        "front": "<b>Q11. You are doing data modelling for Google BigTable. Which statement expresses if and when you should split entities across multiple rows?</b>\n- Keep all information for an entity in a single row. Store related entities in adjacent rows.\n- Keep all information for an entity in a single row.\n- Split entities across multiple rows if the entity data is over thousands of MBs, or if it does not need atomic updates and reads.\n- Split entities across multiple rows if the entity data is over hundreds of MBs, or if it does not need atomic updates and reads.",
+        "back": "Split entities across multiple rows if the entity data is over hundreds of MBs, or if it does not need atomic updates and reads."
+    },
+    {
+        "front": "<b>Q12. Which two characteristics define Amazon Quantum Ledger Database?</b>\n- Key-value data model; transactionally consistent with ACID semantics.\n- Document data model; transactionally consistent with ACID semantics.\n- Key-value data model; transactions with tunable consistency.\n- Document data model; transactions with tunable consistency.",
+        "back": "Document data model; transactionally consistent with ACID semantics."
+    },
+    {
+        "front": "<b>Q13. You need to design the primary key for DynamoDB based on three attributes. What do you do?</b>\n- Designate all three fields as the primary key.\n- Concatenate all three fields into one new field, then designate that new field as the primary key.\n- Designate two fields of the three fields as the primary key.\n- Concatenate two fields into one new field, then designate that new field and the remaining field as the primary key.",
+        "back": "Concatenate all three fields into one new field, then designate that new field as the primary key."
+    },
+    {
+        "front": "<b>Q14. Which of these data types should you avoid in designing a Google Bigtable row key?</b>\n- multi-valued identifiers\n- string identifiers\n- timestamps\n- frequently updated identifiers",
+        "back": "frequently updated identifiers"
+    },
+    {
+        "front": "<b>Q15. Your startup is building a prototype that has an evolving schema. Your data will be eventually consistent. Your application is hosted in AWS. Which database do you choose?</b>\n- Neptune\n- DocumentDB\n- DynamoDB\n- Amazon Aurora",
+        "back": "DynamoDB"
+    },
+    {
+        "front": "<b>Q16. You need to create a scalable database that allows you to share documents across authorized mobile clients in real time. What Google NoSQL database should you use?</b>\n- Memorystore\n- Datastore\n- Firebase\n- Bigtable",
+        "back": "Firebase"
+    },
+    {
+        "front": "<b>Q17. You need to design security for DynamoDB to allow users read-only access to certain items and attributes in a table. What do you do?</b>\n- Use IAM roles.\n- Use IAM policy conditions.\n- Use a VPC endpoint.\n- Use IAM policies.",
+        "back": "Use IAM policy conditions."
+    },
+    {
+        "front": "<b>Q18. Which statement is preferred Cypher code for Neo4j?</b>\n- MATCH (:Person)-->(:Card)-->(:Company) RETURN count(vehicle)\n- Match (:Person)-->(:Car):(vehicle:Car)-->(:Company) RETURN count(vehicle)\n- MATCH (:Person)-->(vehicle:Car)-->(:Company) RETURN count(vehicle)\n- MATCH (:Person)-->(:Card), (vehicle:Car)-->(:Company) RETURN count(vehicle)",
+        "back": "MATCH (:Person)-->(vehicle:Car)-->(:Company) RETURN count(vehicle)"
+    },
+    {
+        "front": "<b>Q19. You need multi-item ACID transactions with snapshot isolation within a partition for your cloud-based application. Which NoSQL databse do you choose?</b>\n- Bigtable\n- GraphDB\n- DynamoDB\n- Cosmos DB",
+        "back": "Cosmos DB"
+    },
+    {
+        "front": "<b>Q20. You need to control your application's batch updates destination for your Bigtable multinode cluster. Which action do you take?</b>\n- Create a custom app profile to route batch updates.\n- Create a custom app profile to route the batch update from that client.\n- Update the default app profile to route the natch update from that client.\n- Use the default app profile to route batch updates.",
+        "back": "Update the default app profile to route the natch update from that client."
+    },
+    {
+        "front": "<b>Q21. Your query to verify that your Redis key is configured to support expiring user information on a defined interval returns -2, What does this value indicate?</b>\n- The queried key value expired in the last two seconds.\n- The queried key value exists, but has no associated expire value.\n- The queried key value does not exist.\n- There are two expired keys with this value.",
+        "back": "The queried key value does not exist."
+    },
+    {
+        "front": "<b>Q22. You are designing a MongoDB schema to support queries that will include lookups. What should you do?</b>\n- Create an index on the key value used as the primary key.\n- Create an index on the key value used as the foreign key.\n- Create a multicolumn index on the key value used as the foreign key and the most unique column in the document.\n- Create a multicolumn index on the key value used as the primary and also the foreign key.",
+        "back": "Create a multicolumn index on the key value used as the foreign key and the most unique column in the document."
+    },
+    {
+        "front": "<b>Q23. What is the aggregation operator for a join concept in MongoDB?</b>\n- \\$group\n- \\$match\n- \\$lookup\n- \\$project",
+        "back": "\\$lookup"
+    },
+    {
+        "front": "<b>Q24. For your mobile application, you need to select a Google cloud database that can support compound, filtered document queries. Which do you choose?</b>\n- Cloud SQL\n- Cloud Spanner\n- Cloud Firestore\n- Cloud Firebase",
+        "back": "Cloud Firestore"
+    },
+    {
+        "front": "<b>Q25. To bulk load data into Amazon Neptune, what do you do?</b>\n- Upload data to S3 VPC endpoint, Use the Neptune loader to load from s3 into your Neptune instance\n- Ad data to a Kinesis stream, and use the Neptune loader to load from S# into your Neptune instance.\n- Add data to a Kinesis stream, and create a Kinesis stream VPC endpoint. Use the Neptune loader to load from S3 into your Neptune instance.\n- Upload data to S Use the Neptune loader to load from S3 into your Neptune instance.",
+        "back": "Upload data to S3 VPC endpoint, Use the Neptune loader to load from s3 into your Neptune instance"
+    },
+    {
+        "front": "<b>Q26. You need to create a pub/sub server. Which database do you use?</b>\n- Neo4j\n- Cassandra\n- Redis\n- MyS#### QL",
+        "back": "Redis"
+    },
+    {
+        "front": "<b>Q27. SQL databases and NoSQL are which types of scalable?</b>\n- horizontally, infinitely\n- vertically, horizontally\n- vertically, infinitely\n- horizontally, vertically",
+        "back": "vertically, horizontally"
+    },
+    {
+        "front": "<b>Q28. You need to create a scalable database that allows you to query data nodes and edges efficiently. What do you use?</b>\n- a relational database\n- a columnstore database\n- a document database\n- a graph database",
+        "back": "a graph database"
+    },
+    {
+        "front": "<b>Q29. You are developing a model for a graph database. Your data will be moved from a relational database into Neo4j. Which of these transformations apply?</b>\n- Rows become labels: bales become nodes.\n- Tables become labels: rows become nodes.\n- Tables become collections: rows become items.\n- Rows become collections: tables become items.",
+        "back": "Tables become labels: rows become nodes."
+    },
+    {
+        "front": "<b>Q30. You need to execute a command for MongoDB that does NOT load values from the `.mongorc.js` file. What do you do ?</b>\n- Delete the .monorc.js file and restart mongo shell.\n- Use the mongo shell to create a command with --norc option\n- Rem all lines in the .mongorc.js file ad restart mongo shell.\n- Use the mongo shell to create a command with --nodedefault option.",
+        "back": "Use the mongo shell to create a command with --nodedefault option."
+    },
+    {
+        "front": "<b>Q31. You need to store an unordered collection of name-value pairs with differing data types in DynamoDB. Which data type should you choose?</b>\n- map\n- set\n- list\n- stack",
+        "back": "map"
+    },
+    {
+        "front": "<b>Q32. Which statement retrieves an item from the MusicCollection table in DynamoDB?</b>\n- aws dynamodb query --table-name MusicCollection --key file://key.json\n- aws dynamodb get-item --table-name MusicCollection --key file://key.json\n- aws dynamodb select --table-name MusicCollection --key file://key.json\n- aws dynamodb put-item --table-name MusicCollection --key file://key.json",
+        "back": "aws dynamodb get-item --table-name MusicCollection --key file://key.json"
+    },
+    {
+        "front": "<b>Q33. Database availability is measured by which metric?</b>\n- the amount of service calls\n- the number of minutes\n- the amount of service costs\n- the number of nines",
+        "back": "the number of nines"
+    },
+    {
+        "front": "<b>Q34. You need to encrypt data at rest in DynamoDB. Which action do you take?</b>\n- You assign a default AWS encryption key to your table to encrypt data.\n- You create an AWS encryption key and assign it to your table to encrypt data.\n- None. Data is encrypted by default.\n- You create an AWS encryption key and assign it to your database to encrypt data.",
+        "back": "None. Data is encrypted by default."
+    },
+    {
+        "front": "<b>Q35. You need to generate a unique, sequential identifier for each value stored in a Redis cluster. What do you do?</b>\n- Implement a SortedSet object to generate a value.\n- Use the GUID keyword to generate a value.\n- Implement a List object to generate a value.\n- Use the INCR keyword to generate a value",
+        "back": "Use the INCR keyword to generate a value"
+    },
+    {
+        "front": "<b>Q36. You want to return a list of all elements in two Redis sets. Which keyword do you use?</b>\n- smembers\n- returnall\n- sunion\n- sismember",
+        "back": "smembers"
+    },
+    {
+        "front": "<b>Q37. Which method shows you whether MongoDB uses any indexes when running a query, and how the indexes are used?</b>\n- detailQueryExecution()\n- showPlan()\n- explain()\n- describe()",
+        "back": "explain()"
+    },
+    {
+        "front": "<b>Q38. Which statement accurately describes global secondary indexes in DynamoDB?</b>\n- The global secondary indexes in DynamoDB are consistent, and are not guaranteed to return correct results.\n- The global secondary indexes in DynamoDB are transactionally consistent, and are guaranteed to return correct results.\n- The global secondary indexes in DynamoDB are partially consistent, and are not guaranteed to return correct results.\n- The global secondary indexes in DynamoDB are eventually consistent, and are not guaranteed to return correct results.",
+        "back": "The global secondary indexes in DynamoDB are eventually consistent, and are not guaranteed to return correct results.\n\n[reference link:](https://stackoverflow.com/questions/35414372/dynamodb-consistent-reads-for-global-secondary-index)"
+    },
+    {
+        "front": "<b>Q39. Which command do you use to add a value to a Redis stream named mystream?</b>\n- ADD mystream \\* sensor-id 1234 temperature 19.8 1518951480106-1\n- UPDATE mystream \\* sensor-id 1234 temperature 19.8 1518951480106-3\n- XADD mystream \\* sensor-id 1234 temperature 9.8 1518951480106-0\n- INSERT mystream \\* sensor-d 1234 temperature 19.8 15181480106-2",
+        "back": "XADD mystream \\* sensor-id 1234 temperature 9.8 1518951480106-0"
+    },
+    {
+        "front": "<b>Q40. Which code example completes this statement and creates an index for a MongoDB object named restaurants, sorted ascending by the field name?</b>\n```\nvar indexCollection = function(db) {return co(function*() {...});};\n```\n- `const results = yield db.table('restaurants').createIndex({\"name\": 1}, null); return results;`\n- `const results = yield db.collection('restaurants').createIndex({\"name\": 0}, null); return results;`\n- `const results = yield db.collection('restaurants').createIndex({\"name\": 1}, null); return results;`\n- `const results = yield db.table('restaurants').createIndex({\"name\": 0}, null); return results;`",
+        "back": "`const results = yield db.collection('restaurants').createIndex({\"name\": 1}, null); return results;`"
+    },
+    {
+        "front": "<b>Q41. Which Cypher code executes the multiquery block?</b>\n- A\n```\nMATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p,\nMATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;\n```\n- B\n```\nMATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p,\nMATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type\n```\n- C\n```\nMATCH (c:Company {name: 'Neo4j'}) RETURN c AND MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p,\nAND MATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;\n```\n- D\n```\nMATCH (c:Company {name: 'Neo4j'}) RETURN c;MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p;\nMATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type;\n```",
+        "back": "B\n```\nMATCH (c:Company {name: 'Neo4j'}) RETURN c, MATCH (p:Person) WHERE p.name = 'Jennifer' RETURN p,\nMATCH (t:Technology)-[:LIKES]-(a:Person {name: 'Jennifer'}) RETURN t.type\n```\n\n[Explaination:]The correct Cypher code to execute a multiquery block would use commas to separate each query in a single statement. In this case, option B has all the queries separated by commas, making it the correct choice. Option A has the correct queries, but they are separated by \"RETURN\" which is not correct syntax for multiquery. Option C has an additional \"AND\" before the second query which is also not correct syntax. Option D has each query separated by semicolons, which would execute them as separate queries, not as a multiquery block."
+    },
+    {
+        "front": "<b>Q42. You need to create a scalable database that supports immutable writes. What do you use?</b>\n- A ledger database\n- A graph database\n- A key-value database\n- A columnstore database",
+        "back": "A ledger database"
+    },
+    {
+        "front": "<b>Q43. You need to create a data store for the catalog for your new ecommerce application. Your company is a startup, so the catalog schema may evolve. Which do you choose?</b>\n- Neo4j\n- Redis\n- MySQL\n- MongoDB",
+        "back": "MongoDB"
+    },
+    {
+        "front": "<b>Q44. You need to select a NoSQL database for heavy aggregate query workloads. Which type do you choose?</b>\n- graph\n- key-value\n- document\n- columnstore",
+        "back": "columnstore"
+    },
+    {
+        "front": "<b>Q45. You need to select a columnstore database that enforce built-in data types. You want to add indexes to improve performance for known workloads. Which do you choose?</b>\n- Cassandra\n- Bigtable\n- Redis\n- HBase",
+        "back": "Redis"
+    },
+    {
+        "front": "<b>Q46. In DynamoDB, the partition key and sort key are also known as which type of attributes?</b>\n- range, hash\n- primary, range\n- hash, range\n- range, secondary",
+        "back": "hash, range"
+    },
+    {
+        "front": "<b>Q47. What is a popular, open-source key-value store database?</b>\n- MongoDB\n- Redis\n- MySQL\n- Cassandra",
+        "back": "Redis"
+    },
+    {
+        "front": "<b>Q48. You need to create a scalable database to store and query JSON data. What do you use?</b>\n- a relational database\n- a document database\n- a graph database\n- a ledger database\n[store and query JSON](https://aws.amazon.com/nosql/document/#:~:text=The%20document%20database%20defined,use%20in%20their%20application%20code.)",
+        "back": "a document database"
+    }
+]

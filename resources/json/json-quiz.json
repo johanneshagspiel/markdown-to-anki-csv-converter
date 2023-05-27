@@ -1,0 +1,374 @@
+[
+    {
+        "front": "<b>Q1. By convention, what name is used for the first key in a JSON schema?</b>\n- schema\n- \\$schema\n- JsonSchema\n- JSONschema",
+        "back": "\\$schema"
+    },
+    {
+        "front": "<b>Q2. Which code is the closest JSON equivalent of the data shown?</b>\n```\n[\n    'red',\n    'blue',\n    'green'\n]\n```\n- A\n```json\n[\"red\", \"blue\", \"green\"]\n```\n- B\n```json\n[\"red\", \"blue\", \"green\"]\n```\n- C\n```json\n{\n  \"color\": \"red\",\n  \"color\": \"blue\",\n  \"color\": \"green\"\n}\n```\n- D\n```json\n{\n  \"red\": \"red\",\n  \"blue\": \"blue\"\n}\n```",
+        "back": "B\n```json\n[\"red\", \"blue\", \"green\"]\n```"
+    },
+    {
+        "front": "<b>Q3. Which JavaScript method converts a JavaScript value to Json?</b>\n- JSON.parse()\n- JSON.stringify()\n- JSON.toString()\n- JSON.objectify()",
+        "back": "JSON.stringify()"
+    },
+    {
+        "front": "<b>Q4. Which data type is NOT part of JSON standard?</b>\n- string\n- number\n- date\n- array",
+        "back": "date"
+    },
+    {
+        "front": "<b>Q5. Which term is commonly used to refer to converting data to JSON?</b>\n- unpacking\n- serialization\n- deserialization\n- parsing",
+        "back": "serialization"
+    },
+    {
+        "front": "<b>Q6. Which code uses the correct JSON syntax to encode the key/value pair shown?</b>\n`accountNum: '000605802'`\n- \"accountNum\": \"000605802\"\n- accountNum: \"000605802\"\n- \"accountNum\": 000605802\n- accountNum: 000605802",
+        "back": "\"accountNum\": \"000605802\""
+    },
+    {
+        "front": "<b>Q7. What character do you specify before a JSON control character when you want to use that control characters as a literal part of a string?</b>\n- `/`\n- `\\`\n- `:`\n- `{`",
+        "back": "`\\`"
+    },
+    {
+        "front": "<b>Q8. Which data type is part of the JSON standard?</b>\n- Boolean\n- map\n- promise\n- function",
+        "back": "Boolean"
+    },
+    {
+        "front": "<b>Q9. Which key name is used to specify properties that must be included for JSON to be valid?</b>\n- important\n- base\n- core\n- required",
+        "back": "required"
+    },
+    {
+        "front": "<b>Q10. Which is the valid JSON equivalent of the data shown?</b>\n```\n{\n\tphoto: {\n\twidth: 1600,\n\theight: 900,\n\tbinaries: {\n\turl: 'https://www.example.com/images/34097349843',\n\tthumbnail: 'https://www.example.com/images/thumbs/34097349843'\n\t},\n\tanimated: false,\n\ttags: [116, 943, 234, 38793],\n\t}\n}\n```\n- A\n```json\n{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": \"false\",\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n```\n- B\n```json\n{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": false,\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n```\n- C\n```json\n{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": false,\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n```\n- D\n```json\n{\n  \"photo\": {\n    \"width\": \"1600\",\n    \"height\": \"900\",\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": \"false\",\n    \"tags\": [\"116\", \"943\", \"234\", \"38793\"]\n  }\n}\n```",
+        "back": "C\n```json\n{\n  \"photo\": {\n    \"width\": 1600,\n    \"height\": 900,\n    \"binaries\": {\n      \"url\": \"https://www.example.com/images/34097349843\",\n      \"thumbnail\": \"https://www.example.com/images/thumbs/34097349843\"\n    },\n    \"animated\": false,\n    \"tags\": [116, 943, 234, 38793]\n  }\n}\n```"
+    },
+    {
+        "front": "<b>Q11. How do you store several paragraphs of text as a string in JSON?</b>\n- Escape all whitespaces expect space characters.\n- Escape line breaks.\n- Escape paragraphs.\n- Remove all whitespaces",
+        "back": "Escape line breaks."
+    },
+    {
+        "front": "<b>Q12. What data type is represented by the value of the key/value pair shown?</b>\n`loggedIn: true`\n- string\n- Boolean\n- number\n- object",
+        "back": "Boolean"
+    },
+    {
+        "front": "<b>Q13. If you need to store the loggedIn status of a user in JSON as a boolean, what is the correct syntax?</b>\n- \"loggedIn\": (true)\n- loggedIn: \"true\"\n- \"loggedIn\": true\n- loggedIn: {true}",
+        "back": "\"loggedIn\": true"
+    },
+    {
+        "front": "<b>Q14. What does JSON with padding (JSON-P) use to make a request?</b>\n- an `<origin>` element\n- a header request\n- the `<script>` element\n- the XMLHttpRequest object",
+        "back": "the `<script>` element"
+    },
+    {
+        "front": "<b>Q15. Which value is supported in the JSON specifications?</b>\n- undefined\n- infinity\n- NaN\n- null",
+        "back": "null"
+    },
+    {
+        "front": "<b>Q16. Which JavaScript method converts JSON to a JavaScript value?</b>\n- JSON.parse()\n- JSON.stringify()\n- JSON.toString()\n- JSON.objectify()",
+        "back": "JSON.parse()"
+    },
+    {
+        "front": "<b>Q17. Transferring JSON information from client to server and back again often includes HTTP requests. Match each method with the best choice describing its use.</b>\n    1.Sends data to specific server to create or update information.\n    2.Sends data to specific server to create or update information without the risk of creating the resource more than once.\n    3.Previews what the GET request response might be without the body of the text.\n    4.Learns the communication channels used by the target source.\n    5.Requests information from a specific source.\n    6.Removes information.\n- 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT\n- 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE\n- 1.POST 2.DELETE 3.OPTIONS 4.HEADER 5.GET 6.PUT\n- 1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE",
+        "back": "1.POST 2.PUT 3.HEADER 4.OPTIONS 5.GET 6.DELETE"
+    },
+    {
+        "front": "<b>Q18. Which code uses valid JSON syntax for the text \"Centennial Olympics?</b>\n- A\n```json\n{\n\"host\": \"Atlanta\",\n\"year\": 1996\n/_ Centennial Olympics _/\n}\n```\n- B\n```json\n{\n  \"host\": \"Atlanta\",\n  \"year\": 1996\n  // Centennial Olympics\n}\n```\n- C\n```json\n{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \"comment\": \"Centennial Olympics\"\n}\n```\n- D\n```json\n{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \\\"Centennial Olympics\\\"\n}\n```\n- E\n```json\n{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \"comment\": \"\\\"Centennial Olympics\"\n}\n```",
+        "back": "C\n```json\n{\n  \"host\": \"Atlanta\",\n  \"year\": 1996,\n  \"comment\": \"Centennial Olympics\"\n}\n```"
+    },
+    {
+        "front": "<b>Q19. Can trailing commas be used in objects and arrays?</b>\n- yes\n- only if there is more than one item\n- no\n- only when arrays and objects contain more than 10 items",
+        "back": "yes"
+    },
+    {
+        "front": "<b>Q20. Which whitespace characters should be escaped within a string?</b>\n- All whitespace is allowed.\n- double quotes, slashes new lines, and carriage returns\n- new lines and carriage returns only\n- double quotes only",
+        "back": "double quotes, slashes new lines, and carriage returns"
+    },
+    {
+        "front": "<b>Q21. Which is supported by YAML but not supported by JSON?</b>\n- nested\n- comments\n- arrays\n- null values",
+        "back": "comments"
+    },
+    {
+        "front": "<b>Q22. Which is an invalid JSON value?</b>\n- `\"'|=(_)(X 72(_)|\\/||\\*'\"`\n- `\"|=(_)(X 72(_)|\\/||\\*\"`\n- `\"|=(_)(X\\\" \\\"72(_)|\\/||\\*\"`\n- `\"\\s(_)(X 72(_)|\\/||\\*\"`",
+        "back": "`\"\\s(_)(X 72(_)|\\/||\\*\"`"
+    },
+    {
+        "front": "<b>Q23. How do you encode a date in JSON?</b>\n- Convert the date to UTC and enclose in quotes.\n- Encode the date as string using the ISO-8601 date format.\n- Wrap the date in double quotes.\n- Add a \"date\" key to your object and include the date as string.",
+        "back": "Encode the date as string using the ISO-8601 date format."
+    },
+    {
+        "front": "<b>Q24. What\u2019s wrong with this JavaScript?</b>\n`JSON.parse({\"first\": \"Sarah\", \"last\": \"Connor\"}) ;`\n- JSON should be wrapped with curly braces.\n- JSON.parse() is missing an argument.\n- The value supplied to JSON.parse() is not a string.\n- Nothing is wrong with it.",
+        "back": "The value supplied to JSON.parse() is not a string."
+    },
+    {
+        "front": "<b>Q25. What does this JavaScript code print?</b>\n```js\nprintNullness(JSON.parse('{ \"lemmings\": [] }'));\nprintNullness(JSON.parse('{ \"lemmings\": null }'));\nprintNullness(JSON.parse('{ \"lemmings\": \"null\" }'));\nfunction printNullness(testMe) {\n  if (testMe.lemmings == null) console.log('null');\n  else console.log('not null');\n}\n```\n- A\n```\nnot null\nnull\nnot null\n```\n- B\n```\nnull\nnull\nnot null\n```\n- C\n```\nnot null\nnull\nnull\n```\n- D\n```\nnull\nnull\nnull\n```",
+        "back": "A\n```\nnot null\nnull\nnot null\n```"
+    },
+    {
+        "front": "<b>Q26. What tool might you use to validate your JSON?</b>\n- JSONLint\n- ValidateJSON\n- JSONFiddle\n- TextEdit",
+        "back": "JSONLint"
+    },
+    {
+        "front": "<b>Q27. What characters denote strings in JSON?</b>\n- double quotes\n- smart (curly) quotes\n- single or double quotes\n- single quotes",
+        "back": "double quotes"
+    },
+    {
+        "front": "<b>Q28. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type? `constant: 6.022E23`</b>\n- `\"constant\": \"6.022E23\"`\n- `\"constant\": \"6\\.022\\E23\"`\n- `constant: 6.022E23`\n- `constant: \"6.022E23\"`",
+        "back": "`constant: 6.022E23`\n\n[Reference](https://json-schema.org/understanding-json-schema/reference/numeric.html) **Explanation**: Scientific Notation is a valid JSON number. You can use `e` or `E`."
+    },
+    {
+        "front": "<b>Q29. Which element is added to the DOM to create a JSON-P request?</b>\n- `<object>`\n- `<script>`\n- `<json>`\n- `<meta>`",
+        "back": "`<script>`"
+    },
+    {
+        "front": "<b>Q30. Why do so many APIs use JSON?</b>\n- Because it's object-based.\n- Because it's a simple and adaptable format for sharing data.\n- Because it's based on JavaScript.\n- Because it is derived from SGML.",
+        "back": "Because it's a simple and adaptable format for sharing data."
+    },
+    {
+        "front": "<b>Q31. You need to assemble a list of members, but your JSON is not parsing correctly. How do you change it?</b>\n```\n{\n  \"avengers\": [\n    \"iron man\",\n    \"hulk\",\n    \"thor\",\n    \"black widow\",\n    \"ant man\",\n    \"spider man'\n  ]\n}\n```\n- A\n```json\n{\n  \"avengers\": [\"iron man\", \"hulk\", \"thor\", \"black widow\", \"ant man\", \"spider man\"]\n}\n```\n- B\n```json\n{\n  'avengers': [\n  {'iron man',\n  'hulk',\n  'thor',\n  'black widow',\n  'ant man',\n  'spider man'}\n  ]\n}\n```\n- C\n```json\n{\n  \"avengers\": [\"iron man\", \"hulk\", \"thor\", \"black widow\", \"ant man\", \"spider man\"]\n}\n```\n- D\n```json\n{\n  \"avengers\": {[\n    \"iron man\",\n    \"hulk\",\n    \"thor\",\n    \"black widow\",\n    \"ant man\",\n    \"spider man\"\n  ]}\n}\n```",
+        "back": "A\n```json\n{\n  \"avengers\": [\"iron man\", \"hulk\", \"thor\", \"black widow\", \"ant man\", \"spider man\"]\n}\n```"
+    },
+    {
+        "front": "<b>Q32. When building dynamic web applications using AJAX, developers originally used the \\_ data format, which has since been replaced by JSON.</b>\n- XML\n- GRAPHQL\n- REST\n- SOAP",
+        "back": "XML"
+    },
+    {
+        "front": "<b>Q33. How is a true boolean value represented in JSON?</b>\n- TRUE\n- \"true\"\n- 1\n- true",
+        "back": "true"
+    },
+    {
+        "front": "<b>Q34. Which array is valid JSON?</b>\n- ['tatooine', 'hoth', 'dagobah']\n- [tatooine, hoth, dagobah]\n- [\"tatooine\", \"hoth\", \"dagobah\",]\n- [\"tatooine\", \"hoth\", \"dagobah\"]",
+        "back": "[\"tatooine\", \"hoth\", \"dagobah\"]"
+    },
+    {
+        "front": "<b>Q35. What data type is encoded in the outermost component of the JSON shown?</b>\n```json\n[\n  {\n    \"year\": 2024\n  },\n  {\n    \"location\": \"unknown\"\n  }\n]\n```\n- object\n- array\n- number\n- string",
+        "back": "array"
+    },
+    {
+        "front": "<b>Q36. Which is ignored by JSON but treated as significant by YAML?</b>\n- trailing commas\n- trailing decimals\n- whitespace\n- leading zeroes",
+        "back": "whitespace\n\n[Reference](https://www.geeksforgeeks.org/what-is-the-difference-between-yaml-and-json/)"
+    },
+    {
+        "front": "<b>Q37. When you need to set the value of a key in JSON to be blank, what is the correct syntax for the empty value?</b>\n- FALSE\n- 0\n- \"\"\n- null",
+        "back": "null"
+    },
+    {
+        "front": "<b>Q38. How do you assign a number value in JSON?</b>\n- Escape the number with a backslash.\n- Enclose the number in double quotes.\n- Enclose the number in single quotes.\n- Leave the number as is.",
+        "back": "Leave the number as is."
+    },
+    {
+        "front": "<b>Q39. Which code uses the correct JSON syntax for encoding a key/value pair with a null value?</b>\n- \"lastVisit\": \"null\"\n- lastVisit: null\n- \"lastVisit\": 0\n- \"lastVisit\": undefined\nNote: None of the above options appear to be correct. A correct answer would be `\"lastVisit\": null`",
+        "back": "\"lastVisit\": \"null\""
+    },
+    {
+        "front": "<b>Q40. Which reference to the Unicode character U+1F602 complies with the JSON standard?</b>\n- 128514\n- d83dde02\n- \\uD83D\\uDE02\n- \\&#128514;",
+        "back": "\\uD83D\\uDE02"
+    },
+    {
+        "front": "<b>Q41. Which code uses the correct JSON syntax for a key/Value pair containing a string?</b>\n- \"largest\": \"blue whale\"\n- largest: 'blue whale'\n- 'largest': 'blue whale'\n- largest: \"blue whale\"",
+        "back": "\"largest\": \"blue whale\""
+    },
+    {
+        "front": "<b>Q42. Which key name is used to specify data type in a JSON schema?</b>\n- data\n- schemadata\n- schematype\n- type",
+        "back": "type"
+    },
+    {
+        "front": "<b>Q43. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the original value?</b>\n- \"UPC\": \\043875\n- UPC: \"043875\"\n- \"UPC\": 043875\n- UPC: '043875'",
+        "back": "UPC: \"043875\""
+    },
+    {
+        "front": "<b>Q44. Which data format is a JSON schema written in?</b>\n- markdown\n- YAML\n- XML\n- JSON",
+        "back": "JSON"
+    },
+    {
+        "front": "<b>Q45. Which code is valid JSON equivalent of the key/value pair shown that also preserves the data type?</b>\n- \"variance\": \"-0.0823\"\n- variance: \"-0.0823\"\n- \"variance\": \"\\-0.0823\"\n- variance: -0.0823",
+        "back": "\"variance\": \"-0.0823\""
+    },
+    {
+        "front": "<b>Q46. With what character should key/value pairs be separated?</b>\n- colon\n- space\n- semicolon\n- comma",
+        "back": "colon"
+    },
+    {
+        "front": "<b>Q47. What character separates keys from values?</b>\n- :\n- ->\n- ::\n- .",
+        "back": ":"
+    },
+    {
+        "front": "<b>Q48. If a string contains line breaks, what should you do?</b>\n- Wrap line breaks in single quotation marks\n- Make no changes, because whitespace is allowed\n- Replace any line breaks with `\\r`\n- Replace any line breaks with `\\n`",
+        "back": "Replace any line breaks with `\\n`"
+    },
+    {
+        "front": "<b>Q49. Which number types are available in javascript but not supported in json?</b>\n- Fractional and Transcendental\n- Infinity or Rational\n- Rational and Irrational\n- Infinity or NaN",
+        "back": "Infinity or NaN"
+    },
+    {
+        "front": "<b>Q50. How should a date value be stored in JSON?</b>\n- As a string with quotes\n- As a string without quotes\n- As a string in ISO 8583 format\n- As a string in ISO 8601 format",
+        "back": "As a string in ISO 8601 format"
+    },
+    {
+        "front": "<b>Q51. Is the JSON code shown here valid?</b>\n![JSON object with key \"Vehicles\" containing an array of emojis](images/Q51/Q51.jpeg)\n- No, emojis must be escaped with a backslash.\n- No, JSON strings are not allowed to use emojis.\n- No, emojis should never be enclosed with double quotes.\n- Yes, emojis are valid characters because JSON strings are unicode.",
+        "back": "Yes, emojis are valid characters because JSON strings are unicode."
+    },
+    {
+        "front": "<b>Q52. What data structure do you use to encode ordered information?</b>\n- list\n- array\n- struct\n- indexed hash",
+        "back": "array"
+    },
+    {
+        "front": "<b>Q53. What are valid values in JSON?</b>\n- arrays, strings, numbers, true/false\n- hashes, arrays, strings, numbers, booleans, null\n- arrays, objects, lists, strings, numbers, booleans\n- objects, arrays, strings, numbers, booleans, null",
+        "back": "objects, arrays, strings, numbers, booleans, null"
+    },
+    {
+        "front": "<b>Q54. Which key format is valid JSON?</b>\n- key: \"value\"\n- \"key\": \"value\"\n- key, \"value\"\n- 'key': 'value'",
+        "back": "\"key\": \"value\""
+    },
+    {
+        "front": "<b>Q55. What data type is encoded in the outermost component of the JSON shown?</b>\n```json\n{\n  \"result\": [\n    {\n      \"year\": 2024\n    },\n    {\n      \"location\": \"unknown\"\n    }\n  ]\n}\n```\n- number\n- array\n- string\n- object",
+        "back": "object"
+    },
+    {
+        "front": "<b>Q56. What's wrong with this JSON object?</b>\n```json\n{\n  \"series\": \"Star Trek\",\n  \"episodes\": \"The Trouble with Tribbles\"\n}\n```\n- Key/value pairs should be separated by semicolons.\n- Keys should be enclosed with double quotes.\n- Key/value pairs should always have a trailing comma.\n- Keys and values should be enclosed with single quotes.",
+        "back": "Keys should be enclosed with double quotes."
+    },
+    {
+        "front": "<b>Q57. How should comments be formatted in JSON?</b>\n- Wrap the comments in single quotes and place it at the bottom of the file.\n- Wrap the comments in double parentheses.\n- Escape comments by placing two slashes at the start of the comment.\n- JSON does not support comments.",
+        "back": "JSON does not support comments."
+    },
+    {
+        "front": "<b>Q58. How would you make the following string valid in JSON?</b>\n```json\n\"name\": 'bb-8'\n```\n- name: \"bb-8\"\n- \"name\": \\'bb-8\\'\n- \"name\": \"bb-8\"\n- \"name\": bb-8",
+        "back": "\"name\": \"bb-8\""
+    },
+    {
+        "front": "<b>Q59. How are values separated in JSON?</b>\n- with brackets\n- with colons\n- with commas\n- with parentheses",
+        "back": "with commas"
+    },
+    {
+        "front": "<b>Q60. With which programming language is JSON best used?</b>\n- any language, as JSON is language agnostic.\n- Ruby\n- JavaScript\n- Python",
+        "back": "any language, as JSON is language agnostic."
+    },
+    {
+        "front": "<b>Q61. What values can arrays contain?</b>\n- only numbers\n- any valid JSON value\n- only strings and numbers\n- only strings",
+        "back": "any valid JSON value"
+    },
+    {
+        "front": "<b>Q62. What technique can be used to represent complex objects with JSON?</b>\n- reserialization\n- nesting\n- memorization\n- minimization",
+        "back": "nesting"
+    },
+    {
+        "front": "<b>Q63. What characters are used to enclose an array?</b>\n- `[]`\n- `{}`\n- `\"\"`\n- `()`",
+        "back": "`[]`"
+    },
+    {
+        "front": "<b>Q64. What is the official MIME type for JSON?</b>\n- text/json\n- text/javascript\n- application/json\n- data/json",
+        "back": "application/json"
+    },
+    {
+        "front": "<b>Q65. Which character cannot be part of string within JSON without additional formatting?</b>\n- /\n- \"\n- -\n- :",
+        "back": "\""
+    },
+    {
+        "front": "<b>Q66. What is the purpose of JSON?</b>\n- to provide a simple way to serialize and deserialize data between different sources\n- to provide a way to store data for machine learning\n- to provide an archival solution for data warehousing\n- to provide a way for JavaScript to run other languages",
+        "back": "to provide a simple way to serialize and deserialize data between different sources"
+    },
+    {
+        "front": "<b>Q67. Can you assume the order of keys in an object?</b>\n- No, but you can sort the keys with `JSON.sort()`.\n- Yes, object keys are always ordered alphabetically.\n- Yes, but only when the object is first parsed.\n- No, you can never assume object keys will be in order.",
+        "back": "No, you can never assume object keys will be in order."
+    },
+    {
+        "front": "<b>Q68. With what character should object keys be enclosed?</b>\n- `*`\n- `#`\n- `^`\n- `\"`",
+        "back": "`\"`"
+    },
+    {
+        "front": "<b>Q69. What is the maximum number of key/value pairs that JSON supports?</b>\n- 10,000\n- 1000\n- There is no defined limit.\n- 1 million",
+        "back": "There is no defined limit."
+    },
+    {
+        "front": "<b>Q70. What is the recommended term used to refer to multiple resources?</b>\n- a swarm\n- multiple resources\n- a collection\n- a group",
+        "back": "multiple resources"
+    },
+    {
+        "front": "<b>Q71. Does JSON support signed numbers?</b>\n- yes, but only if they are enclosed in quotes\n- only with integers\n- no\n- yes",
+        "back": "no"
+    },
+    {
+        "front": "<b>Q72. What two nonnumerical characters can numbers contain?</b>\n- dash and dot\n- dash and comma\n- comma and exclamation point\n- dot and comma",
+        "back": "dash and dot"
+    },
+    {
+        "front": "<b>Q73. What JavaScript method is used to load JSON data?</b>\n- JSON.ingest()\n- JSON.convert()\n- JSON.read()\n- JSON.parse()",
+        "back": "JSON.parse()"
+    },
+    {
+        "front": "<b>Q74. How are the values in an array separated?</b>\n- with right arrows\n- with colons\n- with semicolons\n- with commas",
+        "back": "with commas"
+    },
+    {
+        "front": "<b>Q75. What is the minimum number of values in an array?</b>\n- zero\n- one\n- two\n- three",
+        "back": "zero"
+    },
+    {
+        "front": "<b>Q76. In JSON, a set of brackets ([]) is used to denote **\\_**, whereas curly braces ({}) denote **\\_**.</b>\n- arrays; objects\n- objects; functions\n- arrays; functions\n- key/value pairs; arrays",
+        "back": "arrays; objects"
+    },
+    {
+        "front": "<b>Q77. How does JSON represent truth, falsity and nullness?</b>\n- true, false, null\n- true, false\n- TRUE, FALSE, NULL\n- true, false, null",
+        "back": "true, false, null"
+    },
+    {
+        "front": "<b>Q78. If an object key contains spaces, how can you access its value in JavaScript?</b>\n- Remove spaces from the key before accessing the value.\n- Use dot notation to access the value.\n- Use object key index to access the value.\n- Use bracket notation to access the value.",
+        "back": "Use bracket notation to access the value."
+    },
+    {
+        "front": "<b>Q79. When parsing JSON, \"caching\" is a method used to \\_.</b>\n- remove duplicate data from a server\n- temporarily store data for faster access\n- store excess information in chunks to be reviewed later\n- clog up a web browser with useless information",
+        "back": "temporarily store data for faster access"
+    },
+    {
+        "front": "<b>Q80. What is the only valid whitespace character within a string that does not require an escape character?</b>\n- line break\n- space\n- tab\n- return",
+        "back": "space"
+    },
+    {
+        "front": "<b>Q81. What technique can you use to safely encode very large numbers?</b>\n- Store the number as a string\n- Convert the number into an exponent.\n- Round the number to the nearest 10-digit number.\n- Split the number into smaller parts.",
+        "back": "Store the number as a string"
+    },
+    {
+        "front": "<b>Q82. Which code is a valid JSON equivalent of the key/value pair shown that also preserves the data type?</b>\n```json\nvariance: -0.0823\n```\n- variance: \"-0.0823\"\n- variance: -0.0823\n- \"variance\": \"-0.0823\"\n- \"variance\": \"\\-0.0823\"",
+        "back": "\"variance\": \"-0.0823\"\n\n[Reference data types in json](https://www.w3schools.com/js/js_json_datatypes.asp)"
+    },
+    {
+        "front": "<b>Q83. Based on the JSON object shown, which JavaScript code would you use to find out what is in this vehicle's glove box while assigning the glove box contents to a new variable?</b>\n```js\nmyVehicleContents = {\n  van: {\n    inside: {\n      'glove box': 'maps',\n      'passenger seat': 'crumbs',\n    },\n    exterior: {\n      trunk: 'jack',\n    },\n  },\n};\n```\n- A\n```js\nmyVehicleContents.van.inside['glove box'] = gloveBoxContents;\n```\n- B\n```js\nvar gloveBoxContents = myVehicleContents.van.inside['glove box'];\ngloveBoxContents;\n```\n- C\n```js\nvar gloveBoxContents = myVehicleContents.van.glove box.contents;\ngloveBoxContents;\n```\n- D\n```js\nmyVehicleContents.van.inside['inside'] = gloveBoxContents;\n```\n[Source](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects)",
+        "back": "B\n```js\nvar gloveBoxContents = myVehicleContents.van.inside['glove box'];\ngloveBoxContents;\n```"
+    },
+    {
+        "front": "<b>Q84. What characters are used to define an object?</b>\n- ||\n- {}\n- ()\n- []",
+        "back": "{}"
+    },
+    {
+        "front": "<b>Q85. The JSON structure features nested objects and arrays. Sometimes the data containing these features exists in relational databases. How is the relational structure different that JSON?</b>\n- It has a flat architecture.\n- It has a rewritable structure.\n- It has an array-only structure.\n- It has a table structure.",
+        "back": "It has an array-only structure."
+    },
+    {
+        "front": "<b>Q86. What is supported by YAML but not supported by JSON?</b>\n- arrays\n- null values\n- comments\n- nested\n`YAML supports # comments but not JSON`",
+        "back": "comments"
+    },
+    {
+        "front": "<b>Q87. Which is an invalid JSON value? (same as previous question, but different possible answers)</b>\n- `\"'|=(_)(X 72(_)|\\/||*'\"`\n- `\"\\s(_)(X 72(_)|\\/||*\"`\n- `\"|=(_)(X\\\" \\\"72(_)|\\/||*\"`\n- `\"|=(_)(X 72(_)|\\/||*\"`",
+        "back": "`\"\\s(_)(X 72(_)|\\/||*\"`"
+    },
+    {
+        "front": "<b>Q88. How can you change this array to make it valid?</b>\n`{\"rey\",'leia',\"ashoka\",}`\n- `['rey', 'leia', \"ashoka\",}`\n- `['rey', 'leia', 'ashoka',}`\n- `[\"rey\", \"leia\", \"ashoka\"]`\n- `{\"rey\", \"leia\", \"ashoka\"}`",
+        "back": "`[\"rey\", \"leia\", \"ashoka\"]`"
+    },
+    {
+        "front": "<b>Q89. If a non-zero number starts with a zero, what character should immediately follow the zero?</b>\n- zero or more digits\n- one or more digits\n- a period\n- a dollar sign",
+        "back": "a period"
+    },
+    {
+        "front": "<b>Q90. Who would you modify the array below to store additional attributes for each student?</b>\n```json\n{\n  \"students\": [\"Tess\", \"Erin\", \"June\"]\n}\n```\n- Convert each student to an object, then add key/value paris to each student object as needed.\n- Add additional name/value pairs, separated by commas, after \"students\".\n- Convert each student into an array and add extra elements to the array.\n- Wrap the existing \"students\" key with curly braces.",
+        "back": "Convert each student to an object, then add key/value paris to each student object as needed."
+    },
+    {
+        "front": "<b>Q91. Which is _not_ a valid JSON number</b>\n- `99999999999999999999`\n- `\"42\"`\n- `-32`\n- `1111.00.110011`",
+        "back": "`\"42\"`"
+    },
+    {
+        "front": "<b>Q92. What is the maximum string length in JSON?</b>\n- 512 characters\n- There is no defined limit.\n- 2,056 characters\n- 1,024 characters",
+        "back": "There is no defined limit."
+    },
+    {
+        "front": "<b>Q93. What method is used to export a JavaScript object into JSON notation?</b>\n- `JSON.convert()`\n- `JSON.stringify()`\n- `JSON.export()`\n- `JSON.string()`",
+        "back": "`JSON.stringify()`"
+    }
+]
